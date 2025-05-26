@@ -1,0 +1,31 @@
+\title{Hamel Basis}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+\p{A Hamel basis is a basis for a vector space over a field, where every element of the vector space can be expressed as a finite linear combination of elements from the basis.}
+\p{In other words, a Hamel basis is a set of vectors #{B} in a vector space #{V} such that every vector #{v \in V} can be uniquely expressed as:}
+
+
+##{v = \sum_{i=1}^n a_i e_i}
+
+\p{where #{e_i \in B} are the basis vectors, #{a_i} are scalars from the field over which the vector space is defined, and #{n} is a finite integer.}
+
+\p{Key properties of a Hamel basis include:}
+\ul{
+\li{Every vector space has a Hamel basis (this is guaranteed by the Axiom of Choice)}
+\li{A Hamel basis is always uncountable for infinite-dimensional vector spaces}
+\li{The elements of a Hamel basis are linearly independent, meaning no element can be expressed as a finite linear combination of the others}
+\li{A Hamel basis is not necessarily orthonormal or complete in the sense of functional analysis}
+\li{In finite-dimensional spaces, the Hamel basis coincides with the standard basis}
+\li{In infinite-dimensional spaces, a Hamel basis does not provide a useful framework for analysis, as it does not allow for infinite linear combinations or convergence}
+}
+\p{Examples of Hamel bases include:}
+\ul{
+\li{The standard basis #{\{e_1, e_2, \ldots, e_n\}} for #{\mathbb{R}^n} or #{\mathbb{C}^n}, where each #{e_i} is a vector with a 1 in the #{i}-th position and 0 elsewhere}
+\li{A Hamel basis for the space of polynomials over #{\mathbb{R}} can be the set of monomials #{\{1, x, x^2, \ldots\}}}
+\li{In infinite-dimensional spaces, such as the space of all real-valued functions on an interval, a Hamel basis can be constructed but is typically uncountable and not useful for practical analysis}
+}
+\p{Hamel bases are primarily of theoretical interest in linear algebra and set theory, as they provide a way to understand the structure of vector spaces without the need for convergence or continuity, which are essential in functional analysis.}
+\p{In summary, a Hamel basis is a foundational concept in linear algebra that allows for the representation of vectors in terms of a finite set of basis elements, but it is not typically used in the context of functional analysis or infinite-dimensional spaces due to its limitations regarding convergence and continuity.}
+\p{The concept of a Hamel basis is closely related to the Axiom of Choice, which asserts that every vector space has a basis, and it is often contrasted with other types of bases such as Schauder bases or orthonormal bases, which allow for infinite linear combinations and are more applicable in functional analysis.}
+\p{In conclusion, while Hamel bases are a fundamental concept in linear algebra, their practical applications are limited in the context of functional analysis, where other types of bases are preferred due to their properties related to convergence and continuity.}
