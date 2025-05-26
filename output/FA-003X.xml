@@ -7,7 +7,6 @@
     <fr:route>FA-003X.xml</fr:route>
     <fr:title text="Lebesgue Inner Measure">Lebesgue Inner Measure</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-003X.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -41,7 +40,6 @@
             <fr:route>FA-0041.xml</fr:route>
             <fr:title text="Elementary Set">Elementary Set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0041.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -64,7 +62,6 @@
             <fr:route>FA-003V.xml</fr:route>
             <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003V.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -88,7 +85,6 @@
             <fr:route>FA-003C.xml</fr:route>
             <fr:title text="Measurable Set">Measurable Set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -132,7 +128,6 @@
             <fr:route>FA-0041.xml</fr:route>
             <fr:title text="Elementary Set">Elementary Set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0041.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

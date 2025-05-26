@@ -7,7 +7,6 @@
     <fr:route>FA-002H.xml</fr:route>
     <fr:title text="Linear Operator">Linear Operator</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-002H.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -37,7 +36,6 @@
             <fr:route>FA-002G.xml</fr:route>
             <fr:title text="Bounded Linear Operator">Bounded Linear Operator</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -62,7 +60,6 @@
             <fr:route>FA-0033.xml</fr:route>
             <fr:title text="Orthogonal Projection">Orthogonal Projection</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0033.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -94,7 +91,6 @@
             <fr:route>FA-002O.xml</fr:route>
             <fr:title text="Projection Theorem">Projection Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002O.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -123,7 +119,6 @@
             <fr:route>FA-0034.xml</fr:route>
             <fr:title text="Projection">Projection</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0034.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

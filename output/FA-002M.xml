@@ -7,7 +7,6 @@
     <fr:route>FA-002M.xml</fr:route>
     <fr:title text="Inner Product">Inner Product</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-002M.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -39,7 +38,6 @@
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -66,7 +64,6 @@
             <fr:route>FA-002M.xml</fr:route>
             <fr:title text="Inner Product">Inner Product</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002M.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -102,7 +99,6 @@
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -129,7 +125,6 @@
             <fr:route>FA-002M.xml</fr:route>
             <fr:title text="Inner Product">Inner Product</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002M.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -156,7 +151,6 @@
             <fr:route>FA-002S.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

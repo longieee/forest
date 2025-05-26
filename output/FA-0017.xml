@@ -7,7 +7,6 @@
     <fr:route>FA-0017.xml</fr:route>
     <fr:title text="Normed vector space">Normed vector space</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-0017.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -43,7 +42,6 @@
             <fr:route>FA-000F.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000F.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -67,7 +65,6 @@
             <fr:route>FA-001C.xml</fr:route>
             <fr:title text="Space">Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -112,7 +109,6 @@
             <fr:route>FA-000F.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000F.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -136,7 +132,6 @@
             <fr:route>FA-000G.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -163,7 +158,6 @@
             <fr:route>FA-0018.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0018.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -195,7 +189,6 @@
             <fr:route>FA-000E.xml</fr:route>
             <fr:title text="Sup norm">Sup norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000E.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

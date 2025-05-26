@@ -7,7 +7,6 @@
     <fr:route>FA-0011.xml</fr:route>
     <fr:title text="Kronecker delta">Kronecker delta</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-0011.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -42,7 +41,6 @@
             <fr:route>FA-000T.xml</fr:route>
             <fr:title text="Orthonormal sequence">Orthonormal sequence</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000T.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -68,7 +66,6 @@
             <fr:route>FA-001H.xml</fr:route>
             <fr:title text="Orthonormal set">Orthonormal set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001H.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -99,7 +96,6 @@
             <fr:route>FA-0021.xml</fr:route>
             <fr:title text="Orthonormal">Orthonormal</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0021.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -129,7 +125,6 @@
             <fr:route>FA-000D.xml</fr:route>
             <fr:title text="Why Functional Analysis?">Why Functional Analysis?</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -166,7 +161,6 @@
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -190,7 +184,6 @@
             <fr:route>FA-001H.xml</fr:route>
             <fr:title text="Orthonormal set">Orthonormal set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001H.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

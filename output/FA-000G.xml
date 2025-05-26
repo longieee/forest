@@ -7,7 +7,6 @@
     <fr:route>FA-000G.xml</fr:route>
     <fr:title text="Metric Space">Metric Space</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-000G.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -39,7 +38,6 @@
             <fr:route>FA-000L.xml</fr:route>
             <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000L.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -63,7 +61,6 @@
             <fr:route>FA-0009.xml</fr:route>
             <fr:title text="Distance Measure">Distance Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0009.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -89,7 +86,6 @@
             <fr:route>FA-0018.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0018.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -121,7 +117,6 @@
             <fr:route>FA-0017.xml</fr:route>
             <fr:title text="Normed vector space">Normed vector space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0017.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -152,7 +147,6 @@
             <fr:route>FA-001C.xml</fr:route>
             <fr:title text="Space">Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -197,7 +191,6 @@
             <fr:route>FA-0009.xml</fr:route>
             <fr:title text="Distance Measure">Distance Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0009.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

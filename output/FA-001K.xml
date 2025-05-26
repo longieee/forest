@@ -7,7 +7,6 @@
     <fr:route>FA-001K.xml</fr:route>
     <fr:title text="Lebesgue outer measure">Lebesgue outer measure</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-001K.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -45,7 +44,6 @@
             <fr:route>FA-001J.xml</fr:route>
             <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -74,7 +72,6 @@
             <fr:route>FA-001B.xml</fr:route>
             <fr:title text="Measurable set">Measurable set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001B.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -107,7 +104,6 @@
             <fr:route>FA-001J.xml</fr:route>
             <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -136,7 +132,6 @@
             <fr:route>FA-001B.xml</fr:route>
             <fr:title text="Measurable set">Measurable set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001B.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

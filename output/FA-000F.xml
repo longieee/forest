@@ -7,7 +7,6 @@
     <fr:route>FA-000F.xml</fr:route>
     <fr:title text="Banach Space">Banach Space</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-000F.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -36,7 +35,6 @@
             <fr:route>FA-000N.xml</fr:route>
             <fr:title text="Complete">Complete</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000N.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -60,7 +58,6 @@
             <fr:route>FA-000Z.xml</fr:route>
             <fr:title text="Convergence in norm">Convergence in norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000Z.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -91,7 +88,6 @@
             <fr:route>FA-0029.xml</fr:route>
             <fr:title text="Essential supremum">Essential supremum</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0029.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -119,7 +115,6 @@
             <fr:route>FA-0017.xml</fr:route>
             <fr:title text="Normed vector space">Normed vector space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0017.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -150,7 +145,6 @@
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -176,7 +170,6 @@
             <fr:route>FA-0026.xml</fr:route>
             <fr:title text="Separable space">Separable space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0026.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -210,7 +203,6 @@
             <fr:route>FA-0006.xml</fr:route>
             <fr:title text="Space of Continuous Functions">Space of Continuous Functions</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0006.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -233,7 +225,6 @@
             <fr:route>FA-001C.xml</fr:route>
             <fr:title text="Space">Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -269,7 +260,6 @@
             <fr:route>FA-000E.xml</fr:route>
             <fr:title text="Sup norm">Sup norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000E.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -306,7 +296,6 @@
             <fr:route>FA-000X.xml</fr:route>
             <fr:title text="Cauchy sequence">Cauchy sequence</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000X.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -330,7 +319,6 @@
             <fr:route>FA-000N.xml</fr:route>
             <fr:title text="Complete">Complete</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000N.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -354,7 +342,6 @@
             <fr:route>FA-0018.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0018.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -386,7 +373,6 @@
             <fr:route>FA-0017.xml</fr:route>
             <fr:title text="Normed vector space">Normed vector space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0017.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -417,7 +403,6 @@
             <fr:route>FA-000E.xml</fr:route>
             <fr:title text="Sup norm">Sup norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000E.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

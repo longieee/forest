@@ -7,7 +7,6 @@
     <fr:route>FA-001Y.xml</fr:route>
     <fr:title text="Hölder inequality">Hölder inequality</fr:title>
     <fr:taxon>Theorem</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-001Y.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -41,7 +40,6 @@
             <fr:route>FA-001W.xml</fr:route>
             <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001W.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -74,7 +72,6 @@
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
-            <fr:source-path>/Users/longie/forest/trees/index.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -123,7 +120,6 @@
             <fr:route>FA-001Z.xml</fr:route>
             <fr:title text="Minkowski's inequality">Minkowski's inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Z.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -156,7 +152,6 @@
             <fr:route>FA-001W.xml</fr:route>
             <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001W.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -190,7 +185,6 @@
             <fr:route>FA-001L.xml</fr:route>
             <fr:title text="Measurable function">Measurable function</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001L.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -215,7 +209,6 @@
             <fr:route>FA-001X.xml</fr:route>
             <fr:title text="Young's Inequality">Young's Inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001X.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

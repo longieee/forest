@@ -7,7 +7,6 @@
     <fr:route>FA-001W.xml</fr:route>
     <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-001W.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -46,7 +45,6 @@
             <fr:route>FA-001Y.xml</fr:route>
             <fr:title text="Hölder inequality">Hölder inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Y.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -75,7 +73,6 @@
             <fr:route>FA-001X.xml</fr:route>
             <fr:title text="Young's Inequality">Young's Inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001X.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -107,7 +104,6 @@
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -138,7 +134,6 @@
             <fr:route>FA-001Y.xml</fr:route>
             <fr:title text="Hölder inequality">Hölder inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Y.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -167,7 +162,6 @@
             <fr:route>FA-001X.xml</fr:route>
             <fr:title text="Young's Inequality">Young's Inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001X.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

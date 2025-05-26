@@ -7,7 +7,6 @@
     <fr:route>FA-003V.xml</fr:route>
     <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-003V.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -35,7 +34,6 @@
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
-            <fr:source-path>/Users/longie/forest/trees/index.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -84,7 +82,6 @@
             <fr:route>FA-003C.xml</fr:route>
             <fr:title text="Measurable Set">Measurable Set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -119,7 +116,6 @@
             <fr:route>FA-003S.xml</fr:route>
             <fr:title text="A.e.">A.e.</fr:title>
             <fr:taxon>Notation</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -150,7 +146,6 @@
             <fr:route>FA-003W.xml</fr:route>
             <fr:title text="Lebesgue Outer Measure">Lebesgue Outer Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003W.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -182,7 +177,6 @@
             <fr:route>FA-003X.xml</fr:route>
             <fr:title text="Lebesgue Inner Measure">Lebesgue Inner Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003X.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -211,7 +205,6 @@
             <fr:route>FA-003C.xml</fr:route>
             <fr:title text="Measurable Set">Measurable Set</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

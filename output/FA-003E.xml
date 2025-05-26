@@ -7,7 +7,6 @@
     <fr:route>FA-003E.xml</fr:route>
     <fr:title text="Essential Supremum">Essential Supremum</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-003E.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -35,7 +34,6 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
             <fr:route>FA-003B.xml</fr:route>
             <fr:title text="Lp norm">Lp norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003B.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -68,7 +66,6 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
             <fr:route>FA-003G.xml</fr:route>
             <fr:title text="Sup Norm">Sup Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -105,7 +102,6 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
             <fr:route>FA-003Q.xml</fr:route>
             <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -129,7 +125,6 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
             <fr:route>FA-003P.xml</fr:route>
             <fr:title text="Essential Upper Bound">Essential Upper Bound</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003P.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

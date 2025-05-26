@@ -7,7 +7,6 @@
     <fr:route>FA-001B.xml</fr:route>
     <fr:title text="Measurable set">Measurable set</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-001B.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -36,7 +35,6 @@
             <fr:route>FA-001J.xml</fr:route>
             <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -65,7 +63,6 @@
             <fr:route>FA-001K.xml</fr:route>
             <fr:title text="Lebesgue outer measure">Lebesgue outer measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001K.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -98,7 +95,6 @@
             <fr:route>FA-002A.xml</fr:route>
             <fr:title text="Lp norm">Lp norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002A.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -125,7 +121,6 @@
             <fr:route>FA-002D.xml</fr:route>
             <fr:title text="Lp space">Lp space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -154,7 +149,6 @@
             <fr:route>FA-001F.xml</fr:route>
             <fr:title text="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001F.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -179,7 +173,6 @@
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -214,7 +207,6 @@
             <fr:route>FA-001J.xml</fr:route>
             <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -243,7 +235,6 @@
             <fr:route>FA-001K.xml</fr:route>
             <fr:title text="Lebesgue outer measure">Lebesgue outer measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001K.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

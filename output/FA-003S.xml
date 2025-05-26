@@ -7,7 +7,6 @@
     <fr:route>FA-003S.xml</fr:route>
     <fr:title text="A.e.">A.e.</fr:title>
     <fr:taxon>Notation</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-003S.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -34,7 +33,6 @@
             <fr:route>FA-003Q.xml</fr:route>
             <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -67,7 +65,6 @@
             <fr:route>FA-003Q.xml</fr:route>
             <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -91,7 +88,6 @@
             <fr:route>FA-003V.xml</fr:route>
             <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003V.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

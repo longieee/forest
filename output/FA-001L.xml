@@ -7,7 +7,6 @@
     <fr:route>FA-001L.xml</fr:route>
     <fr:title text="Measurable function">Measurable function</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-001L.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -37,7 +36,6 @@
             <fr:route>FA-001D.xml</fr:route>
             <fr:title text="Almost everywhere">Almost everywhere</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -62,7 +60,6 @@
             <fr:route>FA-0029.xml</fr:route>
             <fr:title text="Essential supremum">Essential supremum</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0029.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -90,7 +87,6 @@
             <fr:route>FA-001Y.xml</fr:route>
             <fr:title text="Hölder inequality">Hölder inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Y.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -119,7 +115,6 @@
             <fr:route>FA-001N.xml</fr:route>
             <fr:title text="Lebesgue integral">Lebesgue integral</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001N.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -149,7 +144,6 @@
             <fr:route>FA-001E.xml</fr:route>
             <fr:title text="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001E.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -175,7 +169,6 @@
             <fr:route>FA-002A.xml</fr:route>
             <fr:title text="Lp norm">Lp norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002A.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -202,7 +195,6 @@
             <fr:route>FA-001Z.xml</fr:route>
             <fr:title text="Minkowski's inequality">Minkowski's inequality</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Z.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -226,7 +218,6 @@
             <fr:route>FA-001F.xml</fr:route>
             <fr:title text="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001F.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -251,7 +242,6 @@
             <fr:route>FA-001O.xml</fr:route>
             <fr:title text="Simple function">Simple function</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001O.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -278,7 +268,6 @@
             <fr:route>FA-001M.xml</fr:route>
             <fr:title text="Summable">Summable</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001M.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

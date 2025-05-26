@@ -7,7 +7,6 @@
     <fr:route>FA-000Y.xml</fr:route>
     <fr:title text="Weak Convergence">Weak Convergence</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-000Y.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -48,7 +47,6 @@
             <fr:route>FA-001R.xml</fr:route>
             <fr:title text="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001R.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -77,7 +75,6 @@
             <fr:route>FA-000Z.xml</fr:route>
             <fr:title text="Convergence in norm">Convergence in norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000Z.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -108,7 +105,6 @@
             <fr:route>FA-000Q.xml</fr:route>
             <fr:title text="Convergent">Convergent</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -141,7 +137,6 @@
             <fr:route>FA-001R.xml</fr:route>
             <fr:title text="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001R.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -170,7 +165,6 @@
             <fr:route>FA-000Z.xml</fr:route>
             <fr:title text="Convergence in norm">Convergence in norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000Z.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -201,7 +195,6 @@
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -232,7 +225,6 @@
             <fr:route>FA-001P.xml</fr:route>
             <fr:title text="Linear Functional">Linear Functional</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001P.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

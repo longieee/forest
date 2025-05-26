@@ -7,7 +7,6 @@
     <fr:route>FA-0010.xml</fr:route>
     <fr:title text="Pointwise Convergence">Pointwise Convergence</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-0010.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -38,7 +37,6 @@
             <fr:route>FA-000Z.xml</fr:route>
             <fr:title text="Convergence in norm">Convergence in norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000Z.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -69,7 +67,6 @@
             <fr:route>FA-000Q.xml</fr:route>
             <fr:title text="Convergent">Convergent</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -93,7 +90,6 @@
             <fr:route>FA-001S.xml</fr:route>
             <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -122,7 +118,6 @@
             <fr:route>FA-000D.xml</fr:route>
             <fr:title text="Why Functional Analysis?">Why Functional Analysis?</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -159,7 +154,6 @@
             <fr:route>FA-001S.xml</fr:route>
             <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

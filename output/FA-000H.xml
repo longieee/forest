@@ -7,7 +7,6 @@
     <fr:route>FA-000H.xml</fr:route>
     <fr:title text="Compact">Compact</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-000H.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -36,7 +35,6 @@
             <fr:route>FA-000L.xml</fr:route>
             <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000L.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -60,7 +58,6 @@
             <fr:route>FA-000I.xml</fr:route>
             <fr:title text="Precompact">Precompact</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000I.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -93,7 +90,6 @@
             <fr:route>FA-000N.xml</fr:route>
             <fr:title text="Complete">Complete</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000N.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -117,7 +113,6 @@
             <fr:route>FA-000P.xml</fr:route>
             <fr:title text="Heine-Borel Theorem">Heine-Borel Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000P.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -139,7 +134,6 @@
             <fr:route>FA-000M.xml</fr:route>
             <fr:title text="Sequentially compact">Sequentially compact</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000M.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -163,7 +157,6 @@
             <fr:route>FA-000O.xml</fr:route>
             <fr:title text="Totally bounded">Totally bounded</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-000O.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

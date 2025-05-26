@@ -7,7 +7,6 @@
     <fr:route>FA-001T.xml</fr:route>
     <fr:title text="Hahn-Banach theorem">Hahn-Banach theorem</fr:title>
     <fr:taxon>Theorem</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-001T.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -41,7 +40,6 @@
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -81,7 +79,6 @@
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-001Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

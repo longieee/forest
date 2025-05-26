@@ -7,7 +7,6 @@
     <fr:route>FA-0016.xml</fr:route>
     <fr:title text="Conjugate">Conjugate</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-0016.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -44,7 +43,6 @@
             <fr:route>FA-0013.xml</fr:route>
             <fr:title text="Inner product">Inner product</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0013.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -79,7 +77,6 @@
             <fr:route>FA-0013.xml</fr:route>
             <fr:title text="Inner product">Inner product</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-0013.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

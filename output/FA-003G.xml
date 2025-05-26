@@ -7,7 +7,6 @@
     <fr:route>FA-003G.xml</fr:route>
     <fr:title text="Sup Norm">Sup Norm</fr:title>
     <fr:taxon>Definition</fr:taxon>
-    <fr:source-path>/Users/longie/forest/trees/FA-003G.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -40,7 +39,6 @@
             <fr:route>FA-002S.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -75,7 +73,6 @@
             <fr:route>FA-002I.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002I.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -98,7 +95,6 @@
             <fr:route>FA-003E.xml</fr:route>
             <fr:title text="Essential Supremum">Essential Supremum</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003E.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -121,7 +117,6 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
             <fr:route>FA-003D.xml</fr:route>
             <fr:title text="Measurable Function">Measurable Function</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-003D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -148,7 +143,6 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
             <fr:route>FA-002S.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
-            <fr:source-path>/Users/longie/forest/trees/FA-002S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
