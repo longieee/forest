@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1467</fr:anchor>
+    <fr:anchor>1473</fr:anchor>
     <fr:addr type="user">FA-003L</fr:addr>
     <fr:route>FA-003L.xml</fr:route>
     <fr:title text="Self-Adjoint">Self-Adjoint</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-003L.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -37,11 +38,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1469</fr:anchor>
+            <fr:anchor>1475</fr:anchor>
             <fr:addr type="user">FA-003K</fr:addr>
             <fr:route>FA-003K.xml</fr:route>
             <fr:title text="Adjoint Operator">Adjoint Operator</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-003K.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -68,11 +70,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1471</fr:anchor>
+            <fr:anchor>1477</fr:anchor>
             <fr:addr type="user">FA-003K</fr:addr>
             <fr:route>FA-003K.xml</fr:route>
             <fr:title text="Adjoint Operator">Adjoint Operator</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-003K.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -90,11 +93,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1473</fr:anchor>
+            <fr:anchor>1479</fr:anchor>
             <fr:addr type="user">FA-002G</fr:addr>
             <fr:route>FA-002G.xml</fr:route>
             <fr:title text="Bounded Linear Operator">Bounded Linear Operator</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-002G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -114,11 +118,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1475</fr:anchor>
+            <fr:anchor>1481</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-002J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

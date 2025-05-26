@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1611</fr:anchor>
+    <fr:anchor>1617</fr:anchor>
     <fr:addr type="user">FA-0001</fr:addr>
     <fr:route>FA-0001.xml</fr:route>
     <fr:title text="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:title>
     <fr:taxon>Theorem</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-0001.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -30,11 +31,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1613</fr:anchor>
+            <fr:anchor>1619</fr:anchor>
             <fr:addr type="user">FA-0004</fr:addr>
             <fr:route>FA-0004.xml</fr:route>
             <fr:title text="Bernstein polynomials">Bernstein polynomials</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0004.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -53,10 +55,11 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1615</fr:anchor>
+            <fr:anchor>1621</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:source-path>/Users/longie/forest/trees/index.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -109,11 +112,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1617</fr:anchor>
+            <fr:anchor>1623</fr:anchor>
             <fr:addr type="user">FA-0004</fr:addr>
             <fr:route>FA-0004.xml</fr:route>
             <fr:title text="Bernstein polynomials">Bernstein polynomials</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0004.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -132,11 +136,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1619</fr:anchor>
+            <fr:anchor>1625</fr:anchor>
             <fr:addr type="user">FA-0002</fr:addr>
             <fr:route>FA-0002.xml</fr:route>
             <fr:title text="Dense">Dense</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0002.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -154,11 +159,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1621</fr:anchor>
+            <fr:anchor>1627</fr:anchor>
             <fr:addr type="user">FA-0003</fr:addr>
             <fr:route>FA-0003.xml</fr:route>
             <fr:title text="Taylor polynomial">Taylor polynomial</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0003.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

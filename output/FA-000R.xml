@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1535</fr:anchor>
+    <fr:anchor>1541</fr:anchor>
     <fr:addr type="user">FA-000R</fr:addr>
     <fr:route>FA-000R.xml</fr:route>
     <fr:title text="Subsequence">Subsequence</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-000R.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -30,11 +31,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1537</fr:anchor>
+            <fr:anchor>1543</fr:anchor>
             <fr:addr type="user">FA-000S</fr:addr>
             <fr:route>FA-000S.xml</fr:route>
             <fr:title text="Bolzano-Weierstrass theorem">Bolzano-Weierstrass theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -51,11 +53,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1539</fr:anchor>
+            <fr:anchor>1545</fr:anchor>
             <fr:addr type="user">FA-001G</fr:addr>
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

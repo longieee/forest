@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>963</fr:anchor>
+    <fr:anchor>967</fr:anchor>
     <fr:addr type="user">FA-001E</fr:addr>
     <fr:route>FA-001E.xml</fr:route>
     <fr:title text="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:title>
     <fr:taxon>Theorem</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-001E.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -32,10 +33,11 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>965</fr:anchor>
+            <fr:anchor>969</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:source-path>/Users/longie/forest/trees/index.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -79,11 +81,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>967</fr:anchor>
+            <fr:anchor>971</fr:anchor>
             <fr:addr type="user">FA-001N</fr:addr>
             <fr:route>FA-001N.xml</fr:route>
             <fr:title text="Lebesgue integral">Lebesgue integral</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001N.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -108,11 +111,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>969</fr:anchor>
+            <fr:anchor>973</fr:anchor>
             <fr:addr type="user">FA-001G</fr:addr>
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -142,11 +146,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>971</fr:anchor>
+            <fr:anchor>975</fr:anchor>
             <fr:addr type="user">FA-001D</fr:addr>
             <fr:route>FA-001D.xml</fr:route>
             <fr:title text="Almost everywhere">Almost everywhere</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -166,11 +171,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>973</fr:anchor>
+            <fr:anchor>977</fr:anchor>
             <fr:addr type="user">FA-001L</fr:addr>
             <fr:route>FA-001L.xml</fr:route>
             <fr:title text="Measurable function">Measurable function</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001L.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -190,11 +196,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>975</fr:anchor>
+            <fr:anchor>979</fr:anchor>
             <fr:addr type="user">FA-001M</fr:addr>
             <fr:route>FA-001M.xml</fr:route>
             <fr:title text="Summable">Summable</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001M.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

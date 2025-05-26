@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1493</fr:anchor>
+    <fr:anchor>1499</fr:anchor>
     <fr:addr type="user">FA-000M</fr:addr>
     <fr:route>FA-000M.xml</fr:route>
     <fr:title text="Sequentially compact">Sequentially compact</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-000M.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -30,11 +31,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1495</fr:anchor>
+            <fr:anchor>1501</fr:anchor>
             <fr:addr type="user">FA-000H</fr:addr>
             <fr:route>FA-000H.xml</fr:route>
             <fr:title text="Compact">Compact</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000H.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -53,11 +55,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1497</fr:anchor>
+            <fr:anchor>1503</fr:anchor>
             <fr:addr type="user">FA-000P</fr:addr>
             <fr:route>FA-000P.xml</fr:route>
             <fr:title text="Heine-Borel Theorem">Heine-Borel Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000P.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -83,11 +86,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1499</fr:anchor>
+            <fr:anchor>1505</fr:anchor>
             <fr:addr type="user">FA-000P</fr:addr>
             <fr:route>FA-000P.xml</fr:route>
             <fr:title text="Heine-Borel Theorem">Heine-Borel Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000P.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

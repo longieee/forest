@@ -7,6 +7,7 @@
     <fr:route>FA-000X.xml</fr:route>
     <fr:title text="Cauchy sequence">Cauchy sequence</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-000X.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -35,6 +36,7 @@
             <fr:route>FA-000F.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000F.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -58,6 +60,7 @@
             <fr:route>FA-000N.xml</fr:route>
             <fr:title text="Complete">Complete</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000N.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -81,6 +84,7 @@
             <fr:route>FA-000Z.xml</fr:route>
             <fr:title text="Convergence in norm">Convergence in norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000Z.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -111,6 +115,7 @@
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -145,6 +150,7 @@
             <fr:route>FA-000N.xml</fr:route>
             <fr:title text="Complete">Complete</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000N.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

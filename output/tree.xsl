@@ -25,6 +25,8 @@
         </title>
       </head>
       <body>
+        <script type="module" src="forester.js"></script>
+        <script src="reload.js"></script>
         <ninja-keys placeholder="Start typing a note title or ID"></ninja-keys>
         <xsl:if test="not(/f:tree[@root = 'true'])">
           <header class="header">

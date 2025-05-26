@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1114</fr:anchor>
+    <fr:anchor>1118</fr:anchor>
     <fr:addr type="user">FA-000G</fr:addr>
     <fr:route>FA-000G.xml</fr:route>
     <fr:title text="Metric Space">Metric Space</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-000G.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -33,11 +34,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1116</fr:anchor>
+            <fr:anchor>1120</fr:anchor>
             <fr:addr type="user">FA-000L</fr:addr>
             <fr:route>FA-000L.xml</fr:route>
             <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000L.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -56,11 +58,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1118</fr:anchor>
+            <fr:anchor>1122</fr:anchor>
             <fr:addr type="user">FA-0009</fr:addr>
             <fr:route>FA-0009.xml</fr:route>
             <fr:title text="Distance Measure">Distance Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0009.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -81,11 +84,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1120</fr:anchor>
+            <fr:anchor>1124</fr:anchor>
             <fr:addr type="user">FA-0018</fr:addr>
             <fr:route>FA-0018.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0018.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -112,11 +116,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1122</fr:anchor>
+            <fr:anchor>1126</fr:anchor>
             <fr:addr type="user">FA-0017</fr:addr>
             <fr:route>FA-0017.xml</fr:route>
             <fr:title text="Normed vector space">Normed vector space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0017.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -142,11 +147,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1124</fr:anchor>
+            <fr:anchor>1128</fr:anchor>
             <fr:addr type="user">FA-001C</fr:addr>
             <fr:route>FA-001C.xml</fr:route>
             <fr:title text="Space">Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -186,11 +192,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1126</fr:anchor>
+            <fr:anchor>1130</fr:anchor>
             <fr:addr type="user">FA-0009</fr:addr>
             <fr:route>FA-0009.xml</fr:route>
             <fr:title text="Distance Measure">Distance Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0009.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

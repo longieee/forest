@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1033</fr:anchor>
+    <fr:anchor>1037</fr:anchor>
     <fr:addr type="user">FA-0024</fr:addr>
     <fr:route>FA-0024.xml</fr:route>
     <fr:title text="Maximal orthonormal set">Maximal orthonormal set</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-0024.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -34,11 +35,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1035</fr:anchor>
+            <fr:anchor>1039</fr:anchor>
             <fr:addr type="user">FA-0020</fr:addr>
             <fr:route>FA-0020.xml</fr:route>
             <fr:title text="Completeness of orthonormal set">Completeness of orthonormal set</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0020.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -67,11 +69,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1037</fr:anchor>
+            <fr:anchor>1041</fr:anchor>
             <fr:addr type="user">FA-0027</fr:addr>
             <fr:route>FA-0027.xml</fr:route>
             <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0027.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -104,11 +107,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1039</fr:anchor>
+            <fr:anchor>1043</fr:anchor>
             <fr:addr type="user">FA-0014</fr:addr>
             <fr:route>FA-0014.xml</fr:route>
             <fr:title text="Closed linear span">Closed linear span</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0014.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -135,11 +139,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1041</fr:anchor>
+            <fr:anchor>1045</fr:anchor>
             <fr:addr type="user">FA-0020</fr:addr>
             <fr:route>FA-0020.xml</fr:route>
             <fr:title text="Completeness of orthonormal set">Completeness of orthonormal set</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0020.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -168,11 +173,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1043</fr:anchor>
+            <fr:anchor>1047</fr:anchor>
             <fr:addr type="user">FA-000U</fr:addr>
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -191,11 +197,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1045</fr:anchor>
+            <fr:anchor>1049</fr:anchor>
             <fr:addr type="user">FA-0021</fr:addr>
             <fr:route>FA-0021.xml</fr:route>
             <fr:title text="Orthonormal">Orthonormal</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0021.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -220,11 +227,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1047</fr:anchor>
+            <fr:anchor>1051</fr:anchor>
             <fr:addr type="user">FA-001A</fr:addr>
             <fr:route>FA-001A.xml</fr:route>
             <fr:title text="Parseval's identity">Parseval's identity</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001A.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

@@ -7,6 +7,7 @@
     <fr:route>FA-002B.xml</fr:route>
     <fr:title text="Equivalence relation">Equivalence relation</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-002B.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -43,6 +44,7 @@
             <fr:route>FA-002D.xml</fr:route>
             <fr:title text="Lp space">Lp space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-002D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -80,6 +82,7 @@
             <fr:route>FA-001D.xml</fr:route>
             <fr:title text="Almost everywhere">Almost everywhere</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -104,6 +107,7 @@
             <fr:route>FA-002D.xml</fr:route>
             <fr:title text="Lp space">Lp space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-002D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

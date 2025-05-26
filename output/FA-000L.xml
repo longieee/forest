@@ -7,6 +7,7 @@
     <fr:route>FA-000L.xml</fr:route>
     <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
     <fr:taxon>Theorem</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-000L.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -34,6 +35,7 @@
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:source-path>/Users/longie/forest/trees/index.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -91,6 +93,7 @@
             <fr:route>FA-000J.xml</fr:route>
             <fr:title text="Bounded">Bounded</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -113,6 +116,7 @@
             <fr:route>FA-000H.xml</fr:route>
             <fr:title text="Compact">Compact</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000H.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -136,6 +140,7 @@
             <fr:route>FA-000K.xml</fr:route>
             <fr:title text="Equicontinuous">Equicontinuous</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000K.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -159,6 +164,7 @@
             <fr:route>FA-000G.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000G.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -185,6 +191,7 @@
             <fr:route>FA-000I.xml</fr:route>
             <fr:title text="Precompact">Precompact</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000I.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

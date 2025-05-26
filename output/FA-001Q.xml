@@ -7,6 +7,7 @@
     <fr:route>FA-001Q.xml</fr:route>
     <fr:title text="Dual space">Dual space</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-001Q.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -42,6 +43,7 @@
             <fr:route>FA-001R.xml</fr:route>
             <fr:title text="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001R.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -70,6 +72,7 @@
             <fr:route>FA-001W.xml</fr:route>
             <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001W.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -103,6 +106,7 @@
             <fr:route>FA-001T.xml</fr:route>
             <fr:title text="Hahn-Banach theorem">Hahn-Banach theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001T.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -131,6 +135,7 @@
             <fr:route>FA-001P.xml</fr:route>
             <fr:title text="Linear Functional">Linear Functional</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001P.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -160,6 +165,7 @@
             <fr:route>FA-001U.xml</fr:route>
             <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -189,6 +195,7 @@
             <fr:route>FA-0028.xml</fr:route>
             <fr:title text="Schauder basis">Schauder basis</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0028.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -221,6 +228,7 @@
             <fr:route>FA-000Y.xml</fr:route>
             <fr:title text="Weak Convergence">Weak Convergence</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000Y.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -265,6 +273,7 @@
             <fr:route>FA-001R.xml</fr:route>
             <fr:title text="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001R.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -293,6 +302,7 @@
             <fr:route>FA-001T.xml</fr:route>
             <fr:title text="Hahn-Banach theorem">Hahn-Banach theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001T.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -321,6 +331,7 @@
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -344,6 +355,7 @@
             <fr:route>FA-001P.xml</fr:route>
             <fr:title text="Linear Functional">Linear Functional</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001P.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -373,6 +385,7 @@
             <fr:route>FA-001U.xml</fr:route>
             <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

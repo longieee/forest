@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>929</fr:anchor>
+    <fr:anchor>933</fr:anchor>
     <fr:addr type="user">FA-003V</fr:addr>
     <fr:route>FA-003V.xml</fr:route>
     <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-003V.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -30,10 +31,11 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>931</fr:anchor>
+            <fr:anchor>935</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:source-path>/Users/longie/forest/trees/index.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -77,11 +79,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>933</fr:anchor>
+            <fr:anchor>937</fr:anchor>
             <fr:addr type="user">FA-003C</fr:addr>
             <fr:route>FA-003C.xml</fr:route>
             <fr:title text="Measurable Set">Measurable Set</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-003C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -111,11 +114,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>935</fr:anchor>
+            <fr:anchor>939</fr:anchor>
             <fr:addr type="user">FA-003S</fr:addr>
             <fr:route>FA-003S.xml</fr:route>
             <fr:title text="A.e.">A.e.</fr:title>
             <fr:taxon>Notation</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-003S.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -141,11 +145,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>937</fr:anchor>
+            <fr:anchor>941</fr:anchor>
             <fr:addr type="user">FA-003W</fr:addr>
             <fr:route>FA-003W.xml</fr:route>
             <fr:title text="Lebesgue Outer Measure">Lebesgue Outer Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-003W.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -172,11 +177,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>939</fr:anchor>
+            <fr:anchor>943</fr:anchor>
             <fr:addr type="user">FA-003X</fr:addr>
             <fr:route>FA-003X.xml</fr:route>
             <fr:title text="Lebesgue Inner Measure">Lebesgue Inner Measure</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-003X.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -200,11 +206,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>941</fr:anchor>
+            <fr:anchor>945</fr:anchor>
             <fr:addr type="user">FA-003C</fr:addr>
             <fr:route>FA-003C.xml</fr:route>
             <fr:title text="Measurable Set">Measurable Set</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-003C.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

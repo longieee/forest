@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1255</fr:anchor>
+    <fr:anchor>1259</fr:anchor>
     <fr:addr type="user">FA-0037</fr:addr>
     <fr:route>FA-0037.xml</fr:route>
     <fr:title text="Orthogonal Complement">Orthogonal Complement</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-0037.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -35,11 +36,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1257</fr:anchor>
+            <fr:anchor>1261</fr:anchor>
             <fr:addr type="user">FA-0033</fr:addr>
             <fr:route>FA-0033.xml</fr:route>
             <fr:title text="Orthogonal Projection">Orthogonal Projection</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0033.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -66,11 +68,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1259</fr:anchor>
+            <fr:anchor>1263</fr:anchor>
             <fr:addr type="user">FA-0034</fr:addr>
             <fr:route>FA-0034.xml</fr:route>
             <fr:title text="Projection">Projection</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0034.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -100,11 +103,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1261</fr:anchor>
+            <fr:anchor>1265</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-002J.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

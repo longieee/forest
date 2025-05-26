@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1583</fr:anchor>
+    <fr:anchor>1589</fr:anchor>
     <fr:addr type="user">FA-001S</fr:addr>
     <fr:route>FA-001S.xml</fr:route>
     <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-001S.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -35,11 +36,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1585</fr:anchor>
+            <fr:anchor>1591</fr:anchor>
             <fr:addr type="user">FA-0010</fr:addr>
             <fr:route>FA-0010.xml</fr:route>
             <fr:title text="Pointwise Convergence">Pointwise Convergence</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0010.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -60,11 +62,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1587</fr:anchor>
+            <fr:anchor>1593</fr:anchor>
             <fr:addr type="user">FA-001V</fr:addr>
             <fr:route>FA-001V.xml</fr:route>
             <fr:title text="Weierstrass M-test">Weierstrass M-test</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001V.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -98,11 +101,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1589</fr:anchor>
+            <fr:anchor>1595</fr:anchor>
             <fr:addr type="user">FA-0010</fr:addr>
             <fr:route>FA-0010.xml</fr:route>
             <fr:title text="Pointwise Convergence">Pointwise Convergence</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0010.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -123,11 +127,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1591</fr:anchor>
+            <fr:anchor>1597</fr:anchor>
             <fr:addr type="user">FA-001V</fr:addr>
             <fr:route>FA-001V.xml</fr:route>
             <fr:title text="Weierstrass M-test">Weierstrass M-test</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001V.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

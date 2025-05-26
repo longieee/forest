@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>837</fr:anchor>
+    <fr:anchor>841</fr:anchor>
     <fr:addr type="user">FA-0005</fr:addr>
     <fr:route>FA-0005.xml</fr:route>
     <fr:title text="Infinite Dimensions">Infinite Dimensions</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-0005.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -29,11 +30,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>839</fr:anchor>
+            <fr:anchor>843</fr:anchor>
             <fr:addr type="user">FA-0022</fr:addr>
             <fr:route>FA-0022.xml</fr:route>
             <fr:title text="Basis">Basis</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0022.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -56,11 +58,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>841</fr:anchor>
+            <fr:anchor>845</fr:anchor>
             <fr:addr type="user">FA-0027</fr:addr>
             <fr:route>FA-0027.xml</fr:route>
             <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0027.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -84,11 +87,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>843</fr:anchor>
+            <fr:anchor>847</fr:anchor>
             <fr:addr type="user">FA-000D</fr:addr>
             <fr:route>FA-000D.xml</fr:route>
             <fr:title text="Why Functional Analysis?">Why Functional Analysis?</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000D.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

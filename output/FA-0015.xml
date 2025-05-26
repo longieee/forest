@@ -7,6 +7,7 @@
     <fr:route>FA-0015.xml</fr:route>
     <fr:title text="Direct sum">Direct sum</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-0015.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -36,6 +37,7 @@
             <fr:route>FA-000V.xml</fr:route>
             <fr:title text="Orthogonal complement">Orthogonal complement</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000V.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -71,6 +73,7 @@
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -94,6 +97,7 @@
             <fr:route>FA-000V.xml</fr:route>
             <fr:title text="Orthogonal complement">Orthogonal complement</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000V.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

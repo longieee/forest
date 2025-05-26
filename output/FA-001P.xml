@@ -2,11 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>977</fr:anchor>
+    <fr:anchor>981</fr:anchor>
     <fr:addr type="user">FA-001P</fr:addr>
     <fr:route>FA-001P.xml</fr:route>
     <fr:title text="Linear Functional">Linear Functional</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-001P.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -36,11 +37,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>979</fr:anchor>
+            <fr:anchor>983</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -66,11 +68,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>981</fr:anchor>
+            <fr:anchor>985</fr:anchor>
             <fr:addr type="user">FA-001U</fr:addr>
             <fr:route>FA-001U.xml</fr:route>
             <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -95,11 +98,12 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>983</fr:anchor>
+            <fr:anchor>987</fr:anchor>
             <fr:addr type="user">FA-000Y</fr:addr>
             <fr:route>FA-000Y.xml</fr:route>
             <fr:title text="Weak Convergence">Weak Convergence</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000Y.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -139,11 +143,12 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>985</fr:anchor>
+            <fr:anchor>989</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001Q.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>

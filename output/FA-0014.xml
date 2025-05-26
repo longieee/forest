@@ -7,6 +7,7 @@
     <fr:route>FA-0014.xml</fr:route>
     <fr:title text="Closed linear span">Closed linear span</fr:title>
     <fr:taxon>Definition</fr:taxon>
+    <fr:source-path>/Users/longie/forest/trees/FA-0014.tree</fr:source-path>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>5</fr:month>
@@ -43,6 +44,7 @@
             <fr:route>FA-0022.xml</fr:route>
             <fr:title text="Basis">Basis</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0022.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -70,6 +72,7 @@
             <fr:route>FA-0020.xml</fr:route>
             <fr:title text="Completeness of orthonormal set">Completeness of orthonormal set</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0020.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -103,6 +106,7 @@
             <fr:route>FA-0024.xml</fr:route>
             <fr:title text="Maximal orthonormal set">Maximal orthonormal set</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0024.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -130,6 +134,7 @@
             <fr:route>FA-000V.xml</fr:route>
             <fr:title text="Orthogonal complement">Orthogonal complement</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000V.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -156,6 +161,7 @@
             <fr:route>FA-0019.xml</fr:route>
             <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-0019.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -193,6 +199,7 @@
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-000U.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
@@ -216,6 +223,7 @@
             <fr:route>FA-001H.xml</fr:route>
             <fr:title text="Orthonormal set">Orthonormal set</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:source-path>/Users/longie/forest/trees/FA-001H.tree</fr:source-path>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>5</fr:month>
