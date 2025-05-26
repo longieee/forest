@@ -1,0 +1,29 @@
+name: Deploy Static Page to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Change this to the branch you want to deploy from (e.g., master, development)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the workflow to write to the gh-pages branch
+      pages: write # Allows the workflow to deploy to GitHub Pages
+      id-token: write # Required for OIDC authentication
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './output' 
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
