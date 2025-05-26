@@ -1,0 +1,6 @@
+\title{a.e.}
+\date{2025-05-26}
+\taxon{Notation}
+\author{Long Nguyen}
+
+\p{We use the expression "a.e." as an abbreviation for [almost everywhere](FA-003Q), referring to a property that holds everywhere except on a set of zero [Lebesgue measure](FA-003V).}

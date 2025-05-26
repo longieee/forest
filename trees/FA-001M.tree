@@ -1,0 +1,12 @@
+\title{Summable}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A function #{f: X \to \mathbb{R}} (or #{\mathbb{C}}) defined on a measure space #{(X, \mathcal{A}, \mu)} is said to be summable if it is [measurable](FA-001L) and its [Lebesgue integral](FA-001N) is finite:}
+
+\p{#{\int_X |f(x)| d\mu(x) < \infty}}
+
+\p{In the context of the Lebesgue measure on #{\mathbb{R}^d}, a function is summable if it is in the space #{L^1(\mathbb{R}^d)}, i.e., if the integral of its absolute value over #{\mathbb{R}^d} is finite.}
+
+\p{Summable functions are precisely those functions for which the Lebesgue integral exists and is finite.}

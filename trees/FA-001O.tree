@@ -1,0 +1,12 @@
+\title{Simple function}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A simple function (or simple measurable function) is a [measurable function](FA-001L) that takes only a finite number of values. Specifically, a function #{s: X \to \mathbb{R}} (or #{\mathbb{C}}) defined on a measure space #{(X, \mathcal{A}, \mu)} is a simple function if it can be written as:}
+
+\p{#{s(x) = \sum_{i=1}^n a_i \chi_{E_i}(x)}}
+
+\p{where #{a_1, a_2, \ldots, a_n} are constants, #{E_1, E_2, \ldots, E_n} are measurable sets, and #{\chi_{E_i}} is the indicator function of the set #{E_i} (which equals 1 on #{E_i} and 0 elsewhere).}
+
+\p{Simple functions play a crucial role in the construction of the [Lebesgue integral](FA-001N), as they serve as the building blocks for more general measurable functions. Any non-negative measurable function can be approximated by an increasing sequence of simple functions.}

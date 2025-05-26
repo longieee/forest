@@ -1,0 +1,12 @@
+\title{Norm}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Important concepts:}
+\ul{
+  \li{[operator norm](FA-003F)}
+  \li{[sup norm](FA-003G)}
+  \li{[Lp norm](FA-003B)}
+  \li{[C1 norm](FA-0125), or in general #{C^p}-norm}
+}

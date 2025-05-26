@@ -1,0 +1,12 @@
+\title{Bounded Linear Operator}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Is a [Linear Operator](FA-002H)}
+
+\p{Important properties in:}
+\ul{
+  \li{[Banach Space](FA-002I)}
+  \li{[Hilbert Space](FA-002J)}
+}

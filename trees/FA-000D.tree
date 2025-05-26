@@ -1,0 +1,14 @@
+\title{Why Functional Analysis?}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Why Functional Analysis?}
+\ul{
+\li{Extension of Linear Algebra to [Infinite Dimensions](FA-0005)}
+\li{Deals with Functions ([Space of Continuous Functions](FA-0006)) as the primary objects/unknowns}
+\li{Merges [Analysis](FA-0007) and [Linear Algebra](FA-0008)}
+\li{Necessity for exploring different [Distance Measure](FA-0009)s in [infinite dimensions](FA-0010)}
+\li{Clarification, Rigorisation, and Unification of concepts}
+\li{Applications ([Differential Equations](FA-0011), Numerical Methods, [Calculus of Variations](FA-0012), Signal Processing, Integral Equations)}
+}

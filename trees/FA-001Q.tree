@@ -1,0 +1,19 @@
+\title{Dual space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The dual space of a vector space #{V}, denoted #{V^*}, is the vector space of all [linear functionals](FA-001P) on #{V} (i.e., linear maps from #{V} to the underlying field).}
+
+\p{For a normed vector space #{(X, ||\cdot||)}, the continuous dual space or topological dual space, often still denoted #{X^*}, consists of all bounded (or continuous) linear functionals on #{X}. A linear functional #{f} is bounded if there exists a constant #{M > 0} such that #{|f(x)| \leq M ||x||} for all #{x \in X}.}
+
+\p{The dual space plays a central role in functional analysis and helps establish important connections between a space and its "mirror image." The natural norm on the dual space #{X^*} is the operator norm:}
+
+\p{#{||f|| = \sup\{|f(x)| : x \in X, ||x|| \leq 1\}}}
+
+\p{Some important theorems related to dual spaces include:}
+\ul{
+\li{The [Hahn-Banach theorem](FA-001T), which guarantees the existence of continuous linear functionals with specific properties}
+\li{The [Banach-Alaoglu theorem](FA-001R), which states that the closed unit ball in the dual of a normed space is compact in the weak* topology}
+\li{For [Hilbert spaces](FA-000U) #{H}, there is a canonical isomorphism between #{H} and its dual #{H^*} via the [Riesz representation theorem](FA-001U)}
+}

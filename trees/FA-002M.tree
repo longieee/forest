@@ -1,0 +1,16 @@
+\title{Inner Product}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An inner product on a [vector space](FA-0099) #{X} over a field #{K} (either #{\ \mathbb{R}} or #{\ \mathbb{C}}) is a function #{\ \langle \cdot, \cdot \rangle: X \times X \rightarrow K} satisfying the following properties for all #{x, y, z \in X} and #{\ \alpha, \beta \in K}:}
+
+\ul{
+  \li{#{\ \langle \alpha x + \beta y, z \rangle = \alpha \langle x, z \rangle + \beta \langle y, z \rangle} (linearity in first argument)}
+  \li{#{\ \langle x, y \rangle = \overline{\langle y, x \rangle}} (conjugate symmetry)}
+  \li{#{\ \langle x, x \rangle \geq 0} and #{\ \langle x, x \rangle = 0} if and only if #{x = 0} (positive definiteness)}
+}
+
+\p{An inner product induces a [norm](FA-002S) via #{\ |x| = \sqrt{\langle x, x \rangle}}.}
+
+\p{Every [inner product space](FA-002M) can be completed to form a [Hilbert space](FA-002J).}

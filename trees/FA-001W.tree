@@ -1,0 +1,23 @@
+\title{Conjugate exponents}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{In the context of #{L^p} spaces and related inequalities, two exponents #{p, q \in [1, \infty]} are said to be conjugate (or Hölder conjugates) if they satisfy:}
+
+\p{#{\frac{1}{p} + \frac{1}{q} = 1}}
+
+\p{Given a value of #{p}, its conjugate #{q} can be calculated as #{q = \frac{p}{p-1}}. Some common pairs of conjugate exponents are:}
+\ul{
+\li{#{p = 1} and #{q = \infty}}
+\li{#{p = 2} and #{q = 2} (self-conjugate)}
+\li{#{p = 4/3} and #{q = 4}}
+\li{#{p = 3/2} and #{q = 3}}
+}
+
+\p{Conjugate exponents play a crucial role in many important inequalities in functional analysis and the theory of #{L^p} spaces, including:}
+\ul{
+\li{[Hölder's inequality](FA-001Y): #{||fg||_{1} \leq ||f||_{p} ||g||_{q}}}
+\li{The fact that the [dual space](FA-001Q) of #{L^p} is isomorphic to #{L^q} for #{1 \leq p < \infty}}
+\li{[Young's inequality](FA-001X) for products: #{ab \leq \frac{a^p}{p} + \frac{b^q}{q}} for #{a, b \geq 0}}
+}

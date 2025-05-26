@@ -1,0 +1,10 @@
+\title{Precompact}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A subset #{S} of a metric space #{(X,d)} is said to be precompact (or relatively compact) if its closure is [compact](FA-000H).}
+
+\p{Equivalently, a set is precompact if every sequence in the set has a convergent subsequence in #{X} (though the limit might not be in the original set).}
+
+\p{In a complete metric space, a set is precompact if and only if it is [totally bounded](FA-000O).}

@@ -1,0 +1,10 @@
+\title{Cauchy sequence}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A sequence #{(x_n)} in a metric space #{(X,d)} is called a Cauchy sequence if for every #{ε > 0}, there exists an integer #{N} such that #{d(x_m, x_n) < ε} for all #{m, n \geq N}.}
+
+\p{In other words, a sequence is Cauchy if its terms get arbitrarily close to each other as the sequence progresses.}
+
+\p{Every convergent sequence is a Cauchy sequence, but the converse is not true unless the metric space is [complete](FA-000N).}

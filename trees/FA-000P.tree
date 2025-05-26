@@ -1,0 +1,6 @@
+\title{Heine-Borel Theorem}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{A subset of #{\mathbb{R}^n} is [sequentially compact](FA-000M) \em{if and only if} it is closed and [bounded](FA-000J)}

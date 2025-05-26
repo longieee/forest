@@ -1,0 +1,12 @@
+\title{Parseval's identity}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{Suppose that #{U = \{u_n : n \in \mathbb{N}\}} is an [orthonormal basis](FA-0019) of a [Hilbert space](FA-000U) #{H}}
+\p{If #{x = \sum_{n \in \mathbb{N}} a_n u_n} and #{y = \sum_{n \in \mathbb{N}} b_n u_n}, where #{a_n = \langle u_n, x \rangle} and #{b_n = \langle u_n, y \rangle}, then}
+##{{\langle x, y \rangle = \sum_{n \in \mathbb{N}} a_n \bar{b}_n}}
+
+\p{\strong{Alternatively}: Let #{H} be a Hilbert Space and #{\{e_n\}} be a countable orthonormal basis of #{H}, then for all #{u \in H}}
+##{{\sum_n {|{\langle u, e_n \rangle}}|^2 = {||u||}^2}}
+\p{(In [Bessel's inequality](FA-000W), we only had an inequality #{\leq} in the expression above)}

@@ -1,0 +1,22 @@
+\title{Hamel basis}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A Hamel basis for a vector space #{V} is a subset #{\{e_i\}_{i \in I}} of #{V} such that:}
+
+\ul{
+\li{It is linearly independent: Any finite subset of #{\{e_i\}} is linearly independent}
+\li{It spans the space: Every vector #{v \in V} can be expressed as a \em{finite} linear combination of basis elements, i.e., #{v = \sum_{i \in J} a_i e_i} for some finite index set #{J \subset I} and scalars #{a_i}}
+}
+
+\p{The key distinction between a Hamel basis and other types of bases in functional analysis (such as an [orthonormal basis](FA-0027) or [Schauder basis](FA-0028)) is that the linear combinations in a Hamel basis must be \em{finite}.}
+
+\p{Some important facts about Hamel bases:}
+
+\ul{
+\li{Every vector space has a Hamel basis (by Zorn's lemma or the Axiom of Choice)}
+\li{For an infinite-dimensional Banach space, a Hamel basis is always uncountable}
+\li{A Hamel basis for an infinite-dimensional Banach space is not useful for analysis because the expansion coefficients don't have nice continuity properties, and the basis elements don't form a convergent series}
+\li{The standard basis #{\{e_i\}} for #{\mathbb{R}^n} or #{\mathbb{C}^n} is both a Hamel basis and an orthonormal basis}
+}

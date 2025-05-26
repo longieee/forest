@@ -1,0 +1,15 @@
+\title{Riesz-Fisher theorem}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{Let #{E \subset \mathbb{R}^d} be a [measurable set](FA-001B) and #{p \in [1, +\infty]}. Then the [space](FA-001C) #{L^p(E)} is [Banach space](FA-000F).}
+
+\p{Moreover, if #{p} is a positive integer, #{p < +\infty}, and #{\{f_n\}_{n \in \mathbb{N}}} is a [Cauchy sequence](FA-000X) in #{L^p(E)}, then there exist two functions #{f, h \in L^p(E)} and a [subsequence](FA-000R) #{f_{n_k}} of #{f_n} such that}
+
+\ol{
+\li{#{|f_{n_k}(x)| \leq h(x)} [almost everywhere](FA-001D) on #{E},}
+\li{#{f_{n_k} \to f} [almost everywhere](FA-001D) on #{E}.}
+}
+
+\p{\em{Note}: The proof uses [Lebesgue's Dominated Convergence Theorem](FA-001E), [Monotone Convergence Theorem](FA-001F)}

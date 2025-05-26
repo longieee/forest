@@ -1,0 +1,12 @@
+\title{Lebesgue Inner Measure}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{#{{m_* (E) = \sup \left\{ m(K): K \subset E \right\}}}}
+
+\p{where #{K \subset \mathbb{R}^n} is a [compact](FA-0147) set and:}
+
+\p{#{{m(K) = \inf \left\{ m(I): I \supset K \right\}}}}
+
+\p{where #{I} is an [elementary set](FA-0041).}

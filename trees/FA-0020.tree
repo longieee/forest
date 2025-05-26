@@ -1,0 +1,19 @@
+\title{Completeness of orthonormal set}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An [orthonormal set](FA-0021) #{U = \{x_n : n ∈ N\}} of a [Hilbert space](FA-000U) H is \em{complete (note that this is \strong{not} in the sense of a complete metric [space](FA-001C))}  if it satisfies \em{any} of the equivalent conditions (a)-(e) in \strong{Theorem}:}
+
+\p{If #{U = \{u_n : n \in \mathbb{N}\}} is an [orthonormal sequence](FA-000T) of a [Hilbert space](FA-000U) #{H}, then the following conditions are equivalent:}
+\p{\strong{(a)} #{\langle u_n, x \rangle = 0} for all #{n \in \mathbb{N}} implies #{x = 0}}
+\p{\strong{(b)} #{x = \sum_{n \in \mathbb{N}} \langle u_n, x \rangle u_n} for all #{x \in H}}
+\p{\strong{(c)} #{||x||^2 = \sum_{n \in \mathbb{N}} |\langle u_n, x \rangle|^2} for all #{x \in H}}
+\p{(This is the [Parseval's identity](FA-001A))}
+\p{\strong{(d)} #{[U] = H}}
+\p{\strong{(e)} #{U} is a [maximal](FA-0024) [orthonormal sequence](FA-000T)}
+
+\p{\strong{Informally}}
+\p{For an orthonormal set #{u_\alpha} in a Hilbert space #{H} to be a \strong{basis} (or complete), it means that the set is "\em{large enough}" to represent any vector in the space.}
+
+\p{An [orthonormal sequence](FA-000T) is \em{complete} if it's [closed linear span](FA-0014) is the whole space}

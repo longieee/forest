@@ -1,0 +1,8 @@
+\title{Infinite Dimensions}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A vector space is said to be infinite-dimensional if it cannot be spanned by a finite number of vectors. In other words, there is no finite basis for the space.}
+
+\p{Examples include function spaces like #{C([a,b])}, #{L^p} spaces, sequence spaces, and Hilbert spaces like #{l^2} and #{L^2}.}

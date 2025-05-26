@@ -1,0 +1,16 @@
+\title{Orthogonal Complement}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{For a subset #{S} of a [Hilbert space](FA-002J) #{H}, the orthogonal complement of #{S}, denoted #{S^\perp}, is defined as:}
+
+\p{#{{S^\perp = \{y \in H : \langle y, x \rangle = 0 \text{ for all } x \in S\}}}}
+
+\p{Key properties:}
+\ul{
+  \li{#{S^\perp} is always a closed [linear subspace](FA-0126) of #{H}}
+  \li{#{(S^\perp)^\perp = \overline{\text{span}(S)}}, where #{\ \overline{\text{span}(S)}} is the [closed linear span](FA-0127) of #{S}}
+  \li{If #{M} is a closed subspace of #{H}, then #{H = M \oplus M^\perp}} (direct sum decomposition)
+  }
+

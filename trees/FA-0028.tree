@@ -1,0 +1,22 @@
+\title{Schauder basis}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A Schauder basis for a Banach space #{X} is a sequence of vectors #{\{e_n\}_{n=1}^{\infty}} in #{X} such that for every vector #{x \in X}, there exists a unique sequence of scalars #{\{a_n\}_{n=1}^{\infty}} such that:}
+
+\p{#{x = \sum_{n=1}^{\infty} a_n e_n}}
+
+\p{where the series converges in the norm of #{X}.}
+
+\p{A Schauder basis differs from a [Hamel basis](FA-0025) in that it allows for infinite (but convergent) linear combinations of basis elements, making it more suitable for the study of infinite-dimensional Banach spaces.}
+
+\p{Every Schauder basis #{\{e_n\}} comes with a sequence of coordinate functionals #{\{e_n^*\}} in the [dual space](FA-001Q) #{X^*}, defined by #{e_n^*(x) = a_n}, where #{a_n} are the unique coefficients in the expansion #{x = \sum_{n} a_n e_n}.}
+
+\p{Important properties of Schauder bases:}
+\ul{
+\li{A Banach space with a Schauder basis is always [separable](FA-0026)}
+\li{Not every separable Banach space has a Schauder basis (as proven by Per Enflo for certain spaces)}
+\li{In a [Hilbert space](FA-000U), every [orthonormal basis](FA-0027) is a Schauder basis}
+\li{The standard examples of Schauder bases include the Haar system in #{L^p[0,1]} for #{1 \leq p < \infty} and the trigonometric system in #{L^2[0,2\pi]}}
+}

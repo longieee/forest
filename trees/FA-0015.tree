@@ -1,0 +1,12 @@
+\title{Direct sum}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The direct sum of two vector subspaces #{U} and #{V} of a vector space #{W}, denoted #{U \oplus V}, is the set of all vectors that can be uniquely expressed as the sum of a vector from #{U} and a vector from #{V}.}
+
+\p{Formally, #{U \oplus V = \{u + v : u \in U, v \in V\}} where the representation #{w = u + v} is unique for each #{w \in U \oplus V}.}
+
+\p{For the direct sum to exist, the subspaces must satisfy the condition #{U \cap V = \{0\}}, where #{\{0\}} is the zero vector. This ensures the uniqueness of the representation.}
+
+\p{In the context of a [Hilbert space](FA-000U) #{H}, if #{M} is a closed subspace, then #{H = M \oplus M^\perp}, where #{M^\perp} is the [orthogonal complement](FA-000V) of #{M}. This means every vector #{x \in H} can be uniquely written as #{x = m + n} with #{m \in M} and #{n \in M^\perp}.}

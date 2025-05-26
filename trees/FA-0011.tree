@@ -1,0 +1,18 @@
+\title{Kronecker delta}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The Kronecker delta, denoted #{\delta_{ij}}, is a function of two variables, usually integers, that is 1 if the variables are equal and 0 otherwise. Formally:}
+
+\p{#{\delta_{ij} = 
+\begin{cases} 
+1 & \text{if } i = j \\
+0 & \text{if } i \neq j
+\end{cases}}}
+
+\p{The Kronecker delta is widely used in many areas of mathematics, including linear algebra, tensor calculus, and functional analysis. In the context of [orthonormal sets](FA-001H) or bases in a [Hilbert space](FA-000U), the inner product of basis elements is given by the Kronecker delta:}
+
+\p{#{\langle e_i, e_j \rangle = \delta_{ij}}}
+
+\p{This expresses the fact that the basis elements are orthogonal to each other (#{\langle e_i, e_j \rangle = 0} for #{i \neq j}) and have unit norm (#{\langle e_i, e_i \rangle = 1}).}

@@ -1,0 +1,18 @@
+\title{Essential supremum}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{For a [measurable function](FA-001L) #{f} defined on a measure space #{(X, \Sigma, \mu)}, the essential supremum is the smallest value that bounds #{f} almost everywhere.}
+
+\p{Formally, the essential supremum of #{f}, denoted #{\operatorname{ess} \sup f} or #{||f||_{L^\infty}}, is defined as:}
+
+#{||f||_{L^\infty} = \inf\{M \in \mathbb{R} : |f(x)| \leq M \text{ for almost all } x \in X\}}
+
+\p{where "almost all" means "except possibly on a set of measure zero".}
+
+\p{The essential supremum differs from the regular supremum in that it ignores the values of #{f} on sets of measure zero. This is crucial in the theory of #{L^p} spaces, particularly #{L^\infty}, which consists of [measurable functions](FA-001L) that are bounded almost everywhere.}
+
+\p{For example, if we modify a function at a single point, this changes its supremum but not its essential supremum (since a single point has Lebesgue measure zero).}
+
+\p{The essential supremum is used to define the #{L^\infty} [norm](FA-0018), making #{L^\infty} a [Banach space](FA-000F).}

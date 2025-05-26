@@ -1,0 +1,18 @@
+\title{Lebesgue Outer Measure}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{#{{m^* (E) = \inf \left\{ m(A): A \supset E \right\}}}}
+
+\p{where #{A \subset \mathbb{R}^n} is a [bounded](FA-0131) set and:}
+
+\p{#{{m(A) = \sup \left\{ m(I): I \subset A \right\}}}}
+
+\p{where #{I} is an [elementary set](FA-0041).}
+
+\p{Properties:}
+\ul{
+  \li{Is monotone: #{E \subset F \implies m^*(E) \leq m^*(F)}}
+  \li{Is countably [sub-additive](FA-0146): #{m^* \left( \cup_{k=1}^{+\infty} {E_k} \right) \leq \sum_{k=1}^{+\infty} {m(E_k)}}}
+}

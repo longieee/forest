@@ -1,0 +1,19 @@
+\title{Uniform Convergence}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A sequence of functions #{\{f_n\}} defined on a common domain #{D} is said to converge uniformly to a function #{f} on #{D} if for every #{ε > 0}, there exists an integer #{N(ε)} (independent of #{x}) such that:}
+
+\p{#{|f_n(x) - f(x)| < ε} for all #{x \in D} and all #{n \geq N(ε)}}
+
+\p{In other words, the rate of convergence is uniform across all points in the domain. This is stronger than [pointwise convergence](FA-0010), where the rate of convergence can vary from point to point.}
+
+\p{Uniform convergence has several important properties:}
+\ul{
+\li{If each #{f_n} is continuous and the sequence converges uniformly to #{f}, then #{f} is also continuous}
+\li{If each #{f_n} is integrable and the sequence converges uniformly to #{f}, then #{\lim_{n \to \infty} \int_D f_n(x) dx = \int_D f(x) dx}}
+\li{If each #{f_n} is differentiable and the sequence of derivatives #{\{f'_n\}} converges uniformly, then the original sequence #{\{f_n\}} converges uniformly to a differentiable function #{f}, and #{f'(x) = \lim_{n \to \infty} f'_n(x)}}
+}
+
+\p{A common criterion for uniform convergence is the [Weierstrass M-test](FA-001V), which states that if #{\{f_n\}} is a sequence of functions satisfying #{|f_n(x)| \leq M_n} for all #{x \in D}, and if the series #{\sum_{n=1}^{\infty} M_n} converges, then the series #{\sum_{n=1}^{\infty} f_n(x)} converges uniformly on #{D}.}

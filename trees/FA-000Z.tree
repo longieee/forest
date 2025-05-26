@@ -1,0 +1,18 @@
+\title{Convergence in norm}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{In a normed vector space #{(X, ||\cdot||)}, a sequence #{\{x_n\}} is said to converge in norm to an element #{x \in X} if:}
+
+\p{#{\lim_{n \to \infty} ||x_n - x|| = 0}}
+
+\p{This is also called strong convergence to distinguish it from other types of convergence such as [weak convergence](FA-000Y) or [pointwise convergence](FA-0010).}
+
+\p{Convergence in norm has the following properties:}
+\ul{
+\li{The limit is unique}
+\li{If #{x_n \to x} and #{y_n \to y} in norm, then #{ax_n + by_n \to ax + by} in norm for any scalars #{a} and #{b}}
+\li{If #{x_n \to x} and #{y_n \to y} in norm, then #{||x_n|| \to ||x||} and #{||x_n - y_n|| \to ||x - y||}}
+\li{In a complete normed space ([Banach space](FA-000F)), every [Cauchy sequence](FA-000X) converges in norm to some element of the space}
+}

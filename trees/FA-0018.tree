@@ -1,0 +1,23 @@
+\title{Norm}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A norm on a vector space #{V} is a function #{||\cdot||: V \rightarrow \mathbb{R}} that assigns a non-negative real number to each vector in the space, satisfying the following axioms for all vectors #{u, v \in V} and scalars #{a}:}
+
+\ul{
+\li{\strong{Non-negativity:} #{||v|| \geq 0}, and #{||v|| = 0} if and only if #{v = 0}}
+\li{\strong{Absolute homogeneity:} #{||av|| = |a| \cdot ||v||}}
+\li{\strong{Triangle inequality:} #{||u + v|| \leq ||u|| + ||v||}}
+}
+
+\p{A norm generalizes the intuitive notion of length or magnitude to abstract vector spaces. It induces a metric #{d(u,v) = ||u-v||} on the vector space, making it a [metric space](FA-000G).}
+
+\p{Common examples of norms include:}
+\ul{
+\li{The Euclidean norm on #{\mathbb{R}^n}: #{||x||_2 = \sqrt{x_1^2 + x_2^2 + \cdots + x_n^2}}}
+\li{The #{p}-norm on #{\mathbb{R}^n}: #{||x||_p = \left( |x_1|^p + |x_2|^p + \cdots + |x_n|^p \right)^{1/p}} for #{p \geq 1}}
+\li{The maximum norm on #{\mathbb{R}^n}: #{||x||_\infty = \max\{|x_1|, |x_2|, \ldots, |x_n|\}}}
+\li{The [sup norm](FA-000E) on function spaces: #{||f||_\infty = \sup_{x} |f(x)|}}
+\li{The #{L^p} norm on function spaces: #{||f||_p = \left(\int |f(x)|^p dx\right)^{1/p}} for #{p \geq 1}}
+}

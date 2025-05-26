@@ -1,0 +1,20 @@
+\title{Lp space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Let #{E \subset \mathbb{R}^d} be a [measurable set](FA-001B) and #{p \in [1, +\infty]}. We call #{\mathcal{L}^p(E)} the set of [measurable](FA-001B) functions #{f: E \to \mathbb{R}} such that}
+
+#{||f||_{L^p} < +\infty}
+
+\p{Now, we set the following [equivalence relation](FA-002B) on #{\mathcal{L}^p(E)}. Let #{f,g \in \mathcal{L}^p(E)}. We say that #{f \sim g} if #{f(x) = g(x)} for [almost every](FA-001D) #{x \in E}. We set}
+
+#{L^p(E) = \mathcal{L}^p(E)/\sim}
+
+\p{i.e. #{L^p(E)} is the quotient (vector) [space](FA-001C) of #{\mathcal{L}^p(E)} through the relation #{\sim}}
+
+\p{For a given [equivalence class](FA-0084) #{[f] \in L^p(E)}, we define the [norm](FA-0018) of #{[f]} as #{||f||_{L^p(E)}} for an arbitrary representative #{f \in [f]}.}
+
+\p{From now on, by abuse of notation, we shall confuse #{[f]} and its representative #{f}. The [space](FA-001C) #{L^p(E)} is the #{L^p} [space](FA-001C) on #{E}.}
+
+\p{\strong{Note}: The elements of #{L^p} spaces are not individual functions in the strictest sense, but rather \strong{equivalence classes of functions}.}

@@ -1,0 +1,8 @@
+\title{Elementary Set}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An elementary set is a finite union of [rectangles](FA-0044).}
+
+\p{In measure theory, elementary sets serve as the building blocks for constructing more complex measurable sets. They are used in the definition of both [Lebesgue outer measure](FA-003W) and [Lebesgue inner measure](FA-003X).}

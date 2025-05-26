@@ -1,0 +1,16 @@
+\title{Projection Theorem}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{Let #{M} be a closed subspace of a [Hilbert space](FA-002J) #{H}. Then for any #{x \in H}, there exists a unique element #{m \in M} such that:}
+
+\p{#{\ |x - m| = \inf_{y \in M} |x - y|}}
+
+\p{Furthermore:}
+\ul{
+  \li{#{m} is the unique element in #{M} such that #{x - m} is [orthogonal](FA-0110) to every element in #{M}}
+  \li{The mapping #{P_M: H \rightarrow M} defined by #{P_M(x) = m} is a [linear operator](FA-002H) called the [orthogonal projection](FA-0033) onto #{M}}
+}
+
+\p{This theorem establishes the existence of a [projection](FA-0034) operator in Hilbert spaces, which has fundamental importance in functional analysis.}

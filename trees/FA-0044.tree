@@ -1,0 +1,8 @@
+\title{Rectangle}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{#{R \in \mathbb{R}^n} is a \strong{rectangle} if #{R} is the Cartesian product of #{n} intervals of the closed, open, or half-open form.}
+
+\p{In measure theory, rectangles are fundamental shapes used to define measures in Euclidean space. The volume of a rectangle is simply the product of the lengths of its sides.}

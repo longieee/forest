@@ -1,0 +1,19 @@
+\title{Hölder inequality}
+\date{2025-05-26}
+\taxon{Theorem}
+
+\p{Let #{f, g : E \to \mathbb{R}} be [measurable functions](FA-001L), and let #{p, q \in [1, +\infty]} be [conjugate](FA-001W). Then}
+##{||fg||_{L^1(E)} \leq ||f||_{L^p(E)} ||g||_{L^q(E)}}
+
+\p{The proof uses [Young's Inequality](FA-001X)}
+
+\p{\strong{Remark} Hölder inequality can be also rephrased as follows:}
+##{\int_E |f(x)|^\alpha |g(x)|^\beta dx \leq \left(\int_E |f(x)| dx\right)^\alpha \left(\int_E |g(x)| dx\right)^\beta}
+\p{provided #{\alpha + \beta = 1}}
+
+\p{\strong{Discrete case} Let}
+#{x = (x_1, \dots, x_n), y = (y_1, \dots, y_n) \in \mathbb{R}^n}
+
+\p{and let #{p, q \in {1,2,3 \dots}} with #{1/p + 1/q = 1}, then}
+
+##{\sum_{i=1}^n |x_i y_i| \leq \left(\sum_{i=1}^n |x_i|^p\right)^{1/p} \left(\sum_{i=1}^n |y_i|^q\right)^{1/q}}

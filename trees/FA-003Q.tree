@@ -1,0 +1,10 @@
+\title{Almost Everywhere}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{In measure theory, a property is said to hold "almost everywhere" (often abbreviated as [a.e.](FA-003S)) if the set of points where the property fails has [measure](FA-0137) zero.}
+
+\p{If a property #{P(x)} holds for all #{x \in X \setminus N}, where #{N} is a [measurable set](FA-003C) with #{\ \mu(N) = 0}, then #{P(x)} is said to hold almost everywhere on #{X}.}
+
+\p{This concept is essential in [Lebesgue integration](FA-0138) theory, as functions that differ only on a set of measure zero have the same Lebesgue integral.}

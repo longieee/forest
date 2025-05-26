@@ -1,0 +1,23 @@
+\title{Weak Convergence}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{In a Hilbert or Banach space, weak convergence is a generalization of the concept of convergence that is weaker than [convergence in norm](FA-000Z).}
+
+\p{A sequence #{\{x_n\}} in a Hilbert space #{H} is said to converge weakly to #{x \in H}, denoted #{x_n \rightharpoonup x}, if for all #{y \in H}:}
+
+\p{#{\lim_{n \to \infty} \langle x_n, y \rangle = \langle x, y \rangle}}
+
+\p{In a Banach space #{X}, a sequence #{\{x_n\}} converges weakly to #{x \in X} if for every [linear functional](FA-001P) #{f} in the [dual space](FA-001Q) #{X^*}:}
+
+\p{#{\lim_{n \to \infty} f(x_n) = f(x)}}
+
+\p{Weak convergence has several important properties:}
+\ul{
+\li{Every strongly convergent sequence (a sequence that converges in norm) is also weakly convergent, but the converse is not true in general}
+\li{In finite-dimensional spaces, weak convergence and strong convergence are equivalent}
+\li{The weak limit is unique}
+\li{A weakly convergent sequence is bounded in norm}
+\li{The unit ball in a Hilbert space is weakly compact by the [Banach-Alaoglu theorem](FA-001R)}
+}

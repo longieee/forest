@@ -1,0 +1,14 @@
+\title{Bessel's inequality}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{Let #{U = \{u_n : n \in \mathbb{N}\}} be an [orthonormal sequence](FA-000T) in a [Hilbert space](FA-000U) #{H} and #{x \in H}}
+
+\p{Then,}
+\p{\strong{(a)} #{\sum_{n \in \mathbb{N}} |\langle u_n, x \rangle|^2 \leq ||x||^2};}
+\p{(can be seen as an \em{infinite-dimensional Pythagorean theorem})}
+\p{\strong{(b)} #{x_U \stackrel{\text{def}}{=} \sum_{n=1}^{+\infty} \langle u_n, x \rangle u_n} is a [convergent](FA-000Q) sum;}
+
+\p{\strong{(c)} #{x - x_U \in U^\perp}}
+\p{(of course #{U^\perp} is the [orthogonal complement](FA-000V) of #{U})}

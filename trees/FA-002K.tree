@@ -1,0 +1,14 @@
+\title{Normed Space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A normed space is a [vector space](FA-0099) equipped with a [norm](FA-002S).}
+
+\p{Let #{X} be a vector space over the field #{K} (either #{\mathbb{R}} or #{\mathbb{C}}). A norm on #{X} is a function #{\ \left| \cdot \right|: X \rightarrow \mathbb{R}} satisfying the following properties for all #{x, y \in X} and #{\ \alpha \in K}:}
+\ul{
+  \li{#{\ \left| x \right| \geq 0} (non-negativity)}
+  \li{#{\ \left| x \right| = 0} if and only if #{x = 0} (positive definiteness)}
+  \li{#{\ \left| \alpha x \right| = |\alpha| \cdot |x|} (homogeneity)}
+  \li{#{\ \left| x + y \right| \leq |x| + |y|} (triangle inequality)}
+}

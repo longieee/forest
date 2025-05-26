@@ -1,0 +1,17 @@
+\title{Maximal orthonormal set}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An [orthonormal](FA-0021) set #{S} in a [Hilbert space](FA-000U) #{H} is called maximal if there is no orthonormal set that properly contains #{S}.}
+
+\p{In other words, an orthonormal set #{S} is maximal if adding any non-zero vector #{v \in H \setminus S} would destroy the orthonormality property. This means that for any #{v \in H} with #{||v|| = 1} that is not in #{S}, there exists some #{u \in S} such that #{\langle u, v \rangle \neq 0}.}
+
+\p{A key result in the theory of Hilbert spaces states that an orthonormal set is maximal if and only if it is [complete](FA-0020), meaning that its [closed linear span](FA-0014) equals the entire Hilbert space.}
+
+\p{Equivalently, an orthonormal set #{\{e_i\}} is maximal if and only if:}
+\ul{
+\li{#{\langle x, e_i \rangle = 0} for all #{i} implies #{x = 0}}
+\li{Every #{x \in H} can be expressed as #{x = \sum_i \langle x, e_i \rangle e_i}}
+\li{[Parseval's identity](FA-001A) holds: #{||x||^2 = \sum_i |\langle x, e_i \rangle|^2} for all #{x \in H}}
+}

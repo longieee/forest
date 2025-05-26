@@ -1,0 +1,10 @@
+\title{Subsequence}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A subsequence of a sequence #{(x_n)} is a new sequence #{(x_{n_k})} obtained by selecting some of the terms from the original sequence while preserving their order.}
+
+\p{Formally, if #{(x_n)} is a sequence, then a subsequence is a sequence of the form #{(x_{n_k})}, where #{(n_k)} is a strictly increasing sequence of positive integers.}
+
+\p{For example, #{(x_2, x_4, x_6, x_8, \ldots)} is a subsequence of #{(x_1, x_2, x_3, x_4, \ldots)}.}

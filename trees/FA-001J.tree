@@ -1,0 +1,18 @@
+\title{Lebesgue measure}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Lebesgue measure is the standard way of assigning a measure to subsets of #{\mathbb{R}^n}, generalizing the intuitive notions of length, area, and volume to more complex sets. It is named after Henri Lebesgue.}
+
+\p{For "nice" subsets of #{\mathbb{R}^n} (such as intervals in #{\mathbb{R}}, rectangles in #{\mathbb{R}^2}, or rectangular solids in #{\mathbb{R}^3}), the Lebesgue measure coincides with the standard notions of length, area, and volume. However, the Lebesgue measure can also be defined for a wide range of more complex and irregular sets.}
+
+\p{Lebesgue measure has several important properties:}
+\ul{
+\li{It is translation invariant: #{m(E + x) = m(E)} for any measurable set #{E} and any #{x \in \mathbb{R}^n}}
+\li{It is scale invariant: #{m(\lambda E) = |\lambda|^n m(E)} for any measurable set #{E} and any #{λ \in \mathbb{R}}}
+\li{It is countably additive: If #{\{E_i\}} is a countable collection of pairwise disjoint measurable sets, then #{m(\cup_i E_i) = \sum_i m(E_i)}}
+\li{It agrees with the standard notion of volume on "elementary sets" (e.g., rectangles)}
+}
+
+\p{The construction of Lebesgue measure typically involves defining the [Lebesgue outer measure](FA-001K) first and then restricting it to the σ-algebra of [Lebesgue measurable sets](FA-001B).}

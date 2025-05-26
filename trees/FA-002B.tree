@@ -1,0 +1,24 @@
+\title{Equivalence relation}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An equivalence relation on a set #{X} is a binary relation, often denoted by #{\sim}, that is:}
+
+\ul{
+\li{\strong{Reflexive}: #{x \sim x} for all #{x \in X}}
+\li{\strong{Symmetric}: If #{x \sim y}, then #{y \sim x} for all #{x, y \in X}}
+\li{\strong{Transitive}: If #{x \sim y} and #{y \sim z}, then #{x \sim z} for all #{x, y, z \in X}}
+}
+
+\p{An equivalence relation partitions a set into disjoint [equivalence classes](FA-0084), where each equivalence class consists of all elements that are equivalent to each other under the relation.}
+
+\p{In the context of [Lp spaces](FA-002D), an important equivalence relation is defined by declaring two functions equivalent if they are equal [almost everywhere](FA-001D) (i.e., they differ only on a set of measure zero). This allows us to treat functions that are essentially the same (from an integration perspective) as a single entity in #{L^p} spaces.}
+
+\p{Common examples of equivalence relations include:}
+\ul{
+\li{Equality (#{=}) on any set}
+\li{Congruence modulo #{n} on integers: #{a \equiv b \pmod{n}} if and only if #{a - b} is divisible by #{n}}
+\li{Similarity of matrices: Two matrices #{A} and #{B} are similar if there exists an invertible matrix #{P} such that #{B = P^{-1}AP}}
+\li{Equality [almost everywhere](FA-001D) for measurable functions}
+}

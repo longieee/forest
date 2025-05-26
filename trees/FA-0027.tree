@@ -1,0 +1,14 @@
+\title{Orthonormal Basis}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A complete (in the sense of [Completeness of orthonormal set](FA-0020)) [orthonormal](FA-0021) subset ([orthonormal sequence](FA-000T)) of H is also called an [orthonormal](FA-0021) [basis](FA-0022) of H}
+
+\p{\strong{Altenately}: An [orthonormal](FA-0021) [basis](FA-0022) of H is a [countable](FA-0023) [maximal](FA-0024) [orthonormal](FA-0021) subset #{\{e_n\}} of H.}
+
+\p{\strong{N.B.}: This notion of [basis](FA-0022) is \em{not quite the same} as in the \em{finite dimensional case} (although it is a legitimate extension of it).}
+\p{There are other, quite different, notions of a [basis](FA-0022) in [infinite dimensions](FA-0005). See for instance '[Hamel basis](FA-0025)' which arises in some settings}
+
+\p{\strong{Theorem:}}
+\p{Every [separable](FA-0026) [Hilbert space](FA-000U) has a [countable](FA-0023) orthonormal [basis](FA-0022).}

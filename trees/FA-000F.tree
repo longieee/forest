@@ -1,0 +1,10 @@
+\title{Banach Space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A Banach space is a [complete](FA-000N) [normed vector space](FA-0017). That is, a Banach space is a vector space #{V} with a [norm](FA-0018) #{||\cdot||} such that every [Cauchy sequence](FA-000X) in #{V} (with respect to the metric #{d(u, v) = ||u - v||}) converges to a vector in #{V}.}
+
+\p{Banach spaces are fundamental in functional analysis and named after Stefan Banach. They provide the right setting for many important results in analysis, including the Hahn-Banach theorem, the open mapping theorem, and the closed graph theorem.}
+
+\p{Examples include the spaces #{L^p} for #{p \geq 1}, the space #{C([a,b])} of continuous functions on #{[a,b]} with the [sup norm](FA-000E), and all finite-dimensional normed vector spaces.}

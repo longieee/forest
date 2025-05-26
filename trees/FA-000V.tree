@@ -1,0 +1,15 @@
+\title{Orthogonal complement}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Let #{S} be a subset of a [Hilbert space](FA-000U) #{H}. The orthogonal complement of #{S}, denoted #{S^\perp}, is the set of all vectors in #{H} that are orthogonal to every vector in #{S}.}
+
+\p{Formally, #{S^\perp = \{y \in H : \langle x, y \rangle = 0 \text{ for all } x \in S\}}.}
+
+\p{Some important properties:}
+\ul{
+\li{#{S^\perp} is a closed subspace of #{H}}
+\li{#{(S^\perp)^\perp = \overline{\text{span}(S)}}, where #{\overline{\text{span}(S)}} is the [closed linear span](FA-0014) of #{S}}
+\li{#{H = \overline{\text{span}(S)} \oplus S^\perp}}, where #{\oplus} represents the [direct sum](FA-0015) of subspaces
+}

@@ -1,0 +1,7 @@
+\title{Essential Supremum}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The essential supremum of #{|f|} is the \em{minimum} [essential upper bound](FA-003P) for #{|f|}, 
+namely the \em{minimum} #{\alpha} such that #{|f| \leq \alpha} [almost everywhere](FA-003Q).}

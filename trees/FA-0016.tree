@@ -1,0 +1,20 @@
+\title{Conjugate}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The complex conjugate of a complex number #{z = a + bi}, denoted as #{\bar{z}} or #{z^*}, is defined as:}
+
+\p{#{\bar{z} = a - bi}}
+
+\p{where #{a} is the real part and #{b} is the imaginary part of #{z}.}
+
+\p{Key properties of complex conjugates include:}
+\ul{
+\li{#{\overline{z_1 + z_2} = \bar{z}_1 + \bar{z}_2}}
+\li{#{\overline{z_1 \cdot z_2} = \bar{z}_1 \cdot \bar{z}_2}}
+\li{#{\overline{\bar{z}} = z}}
+\li{#{|z|^2 = z \cdot \bar{z} = a^2 + b^2}}
+}
+
+\p{In the context of [inner products](FA-0013) on complex vector spaces, the conjugate symmetry property states that #{\langle u, v \rangle = \overline{\langle v, u \rangle}} for all vectors #{u} and #{v}.}

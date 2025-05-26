@@ -1,0 +1,21 @@
+\title{Linear Functional}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A linear functional on a vector space #{V} over a field #{F} is a linear map #{f: V \rightarrow F} from the vector space to its underlying field.}
+
+\p{In other words, a linear functional is a function #{f} that satisfies:}
+\ul{
+\li{#{f(x + y) = f(x) + f(y)} for all #{x, y \in V} (additivity)}
+\li{#{f(\alpha x) = \alpha f(x)} for all #{x \in V} and #{α \in F} (homogeneity)}
+}
+
+\p{In the context of functional analysis, linear functionals are particularly important when they are also continuous (or bounded) on normed spaces. The collection of all bounded linear functionals on a normed space #{X} forms the [dual space](FA-001Q) #{X^*}.}
+
+\p{Examples of linear functionals include:}
+\ul{
+\li{Integration functionals: #{f(g) = \int_a^b g(x) dx} on appropriate function spaces}
+\li{Evaluation functionals: #{f(g) = g(x_0)} for some fixed point #{x_0}}
+\li{Inner products: For a fixed vector #{v} in a Hilbert space, #{f(x) = \langle x, v \rangle} defines a bounded linear functional}
+}

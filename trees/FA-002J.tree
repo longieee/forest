@@ -1,0 +1,15 @@
+\title{Hilbert Space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A Hilbert space is a complete [inner product space](FA-002M).}
+
+\p{Hilbert spaces extend the methods of vector algebra and calculus from 2D and 3D Euclidean spaces to spaces with any finite or infinite number of dimensions.}
+
+\p{Key properties include:}
+\ul{
+  \li{Every Hilbert space is a [Banach space](FA-002I), with the norm derived from the inner product}
+  \li{[Orthonormal basis](FA-002N) existence}
+  \li{[Projection theorem](FA-002O)}
+}

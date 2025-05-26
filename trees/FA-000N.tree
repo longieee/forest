@@ -1,0 +1,10 @@
+\title{Complete}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A metric space #{(X,d)} is said to be complete if every [Cauchy sequence](FA-000X) in #{X} converges to a point in #{X}.}
+
+\p{Intuitively, a metric space is complete if there are no "holes" or "missing points" in it. All the limit points of Cauchy sequences are already in the space.}
+
+\p{Examples of complete spaces include #{\mathbb{R}^n} with the Euclidean metric, [Banach spaces](FA-000F), and [Hilbert spaces](FA-000U).}

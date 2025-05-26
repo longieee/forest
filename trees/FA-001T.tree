@@ -1,0 +1,19 @@
+\title{Hahn-Banach theorem}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{The Hahn-Banach theorem is a fundamental result in functional analysis that guarantees the existence of continuous linear functionals on normed spaces with specific properties. It comes in several equivalent forms:}
+
+\p{\strong{Extension Form:} Let #{M} be a subspace of a real vector space #{X}, and let #{p} be a sublinear functional on #{X}. If #{f} is a linear functional on #{M} such that #{f(x) \leq p(x)} for all #{x \in M}, then there exists a linear functional #{F} on all of #{X} that extends #{f} (i.e., #{F(x) = f(x)} for all #{x \in M}) and satisfies #{F(x) \leq p(x)} for all #{x \in X}.}
+
+\p{\strong{Geometric Form:} Let #{X} be a normed space, #{M} a proper closed subspace of #{X}, and #{y_0} a point in #{X \setminus M}. Then there exists a continuous linear functional #{F} on #{X} such that #{F(M) = 0}, #{F(y_0) = 1}, and #{||F|| = 1/d(y_0, M)}, where #{d(y_0, M)} is the distance from #{y_0} to #{M}.}
+
+\p{\strong{Separation Form:} Let #{X} be a locally convex topological vector space and let #{A} and #{B} be disjoint, non-empty convex sets with #{A} open. Then there exists a continuous linear functional #{F} on #{X} and a real number #{c} such that #{F(a) < c \leq F(b)} for all #{a \in A} and #{b \in B}.}
+
+\p{The theorem has numerous applications, including:}
+\ul{
+\li{Guaranteeing the existence of enough functionals to separate points in a normed space}
+\li{Proving that the [dual space](FA-001Q) #{X^*} is rich enough to determine the norm of elements in #{X}}
+\li{Establishing the existence of linear functionals achieving various optimization criteria}
+}

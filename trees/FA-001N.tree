@@ -1,0 +1,21 @@
+\title{Lebesgue integral}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The Lebesgue integral is a generalization of the Riemann integral that allows for the integration of a broader class of functions. It is defined for [measurable functions](FA-001L) on a measure space #{(X, \mathcal{A}, \mu)}.}
+
+\p{The construction of the Lebesgue integral proceeds in several steps:}
+
+\ol{
+\li{First, define the integral for non-negative [simple functions](FA-001O) (finite linear combinations of indicator functions of measurable sets).}
+\li{Then, extend this definition to non-negative measurable functions using monotone approximation by simple functions.}
+\li{Finally, define the integral for general measurable functions by separately integrating their positive and negative parts.}
+}
+
+\p{The Lebesgue integral has many advantages over the Riemann integral:}
+\ul{
+\li{It allows for the integration of a larger class of functions}
+\li{It has better convergence properties, exemplified by the [Monotone Convergence Theorem](FA-001F) and [Lebesgue's Dominated Convergence Theorem](FA-001E)}
+\li{It provides a more natural setting for limiting operations and for the study of function spaces like #{L^p} spaces}
+}

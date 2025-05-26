@@ -1,0 +1,14 @@
+\title{Measurable Function}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{These are all equivalent definitions of \strong{measurable functions}:}
+
+\ul{
+  \li{For all #{\ \alpha \in \mathbb{R}}, the set #{\ \left\{ x \in \Omega: f(x) > \alpha \right\}} is Lebesgue measurable}
+  \li{For all #{\ \alpha \in \mathbb{R}}, the set #{\ \left\{ x \in \Omega: f(x) < \alpha \right\}} is Lebesgue measurable}
+  \li{For all #{\ \alpha \in \mathbb{R}}, the set #{\ \left\{ x \in \Omega: f(x) \geq \alpha \right\}} is Lebesgue measurable}
+  \li{For all #{\ \alpha \in \mathbb{R}}, the set #{\ \left\{ x \in \Omega: f(x) \leq \alpha \right\}} is Lebesgue measurable}
+  \li{For all #{U \subset \mathbb{R}}, the set #{\ \left\{ x \in \Omega: f(x) \in U \right\}} is Lebesgue measurable}
+}

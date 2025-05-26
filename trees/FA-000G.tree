@@ -1,0 +1,14 @@
+\title{Metric Space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A metric space is a set #{M} together with a [distance measure](FA-0009) (or metric) #{d} that defines a concept of distance between any two members of the set.}
+
+\p{The metric satisfies the following properties:}
+\ul{
+\li{Non-negativity: #{d(x,y) \geq 0}}
+\li{Identity of indiscernibles: #{d(x,y) = 0} if and only if #{x = y}}
+\li{Symmetry: #{d(x,y) = d(y,x)}}
+\li{Triangle inequality: #{d(x,z) \leq d(x,y) + d(y,z)}}
+}

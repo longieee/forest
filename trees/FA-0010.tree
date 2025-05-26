@@ -1,0 +1,14 @@
+\title{Pointwise Convergence}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A sequence of functions #{\{f_n\}} defined on a common domain #{D} is said to converge pointwise to a function #{f} on #{D} if for each #{x \in D}, the sequence of numbers #{\{f_n(x)\}} converges to #{f(x)}.}
+
+\p{Formally, #{\{f_n\}} converges pointwise to #{f} if for every #{x \in D} and every #{ε > 0}, there exists an integer #{N(x,ε)} such that:}
+
+\p{#{|f_n(x) - f(x)| < ε} for all #{n \geq N(x,ε)}}
+
+\p{Note that the integer #{N} may depend on both #{x} and #{ε}, which is a key distinction from [uniform convergence](FA-001S).}
+
+\p{Pointwise convergence is generally weaker than uniform convergence. A sequence of functions can converge pointwise without preserving many important properties of the functions, such as continuity, boundedness, or integrability.}

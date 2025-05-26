@@ -1,0 +1,23 @@
+\title{Normed vector space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A normed vector space is a vector space #{V} equipped with a [norm](FA-0018) #{||\cdot||: V \rightarrow \mathbb{R}}, which is a function that assigns a non-negative real number to each vector in the space, satisfying the following properties for all vectors #{u, v \in V} and scalars #{a}:}
+
+\ul{
+\li{\strong{Non-negativity:} #{||v|| \geq 0}, and #{||v|| = 0} if and only if #{v = 0}}
+\li{\strong{Absolute homogeneity:} #{||av|| = |a| \cdot ||v||}}
+\li{\strong{Triangle inequality:} #{||u + v|| \leq ||u|| + ||v||}}
+}
+
+\p{A norm induces a metric #{d(u,v) = ||u-v||} on the space, making it a [metric space](FA-000G).}
+
+\p{Common examples of norms include:}
+\ul{
+\li{The Euclidean norm on #{\mathbb{R}^n}: #{||x||_2 = \sqrt{x_1^2 + x_2^2 + \cdots + x_n^2}}}
+\li{The #{L^p} norms on function spaces: #{||f||_p = \left(\int |f(x)|^p dx\right)^{1/p}}}
+\li{The [sup norm](FA-000E) on spaces of bounded functions: #{||f||_\infty = \sup_{x} |f(x)|}}
+}
+
+\p{A [Banach space](FA-000F) is a complete normed vector space.}

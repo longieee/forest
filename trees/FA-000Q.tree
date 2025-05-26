@@ -1,0 +1,10 @@
+\title{Convergent}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A sequence #{(x_n)} in a metric space #{(X,d)} is said to converge to a point #{x \in X} if for every #{ε > 0}, there exists an integer #{N} such that #{d(x_n, x) < ε} for all #{n \geq N}.}
+
+\p{In this case, #{x} is called the limit of the sequence, and we write #{x_n \to x} as #{n \to \infty} or #{\lim_{n \to \infty} x_n = x}.}
+
+\p{In functional analysis, there are various notions of convergence depending on the space and the context, including [weak convergence](FA-000Y), [convergence in norm](FA-000Z), and [pointwise convergence](FA-0010).}

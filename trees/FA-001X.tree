@@ -1,0 +1,7 @@
+\title{Young's Inequality}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{Let #{p} be a positive integer, #{p < +\infty}, and let #{q} be its [conjugate](FA-001W). Let #{a, b \geq 0} be two positive numbers. Then,}
+##{ab \leq \frac{a^p}{p} + \frac{b^{q}}{q}}

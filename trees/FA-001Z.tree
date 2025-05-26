@@ -1,0 +1,9 @@
+\title{Minkowski's inequality}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{Let #{f, g : E \to \mathbb{R}} be [measurable functions](FA-001L). Let #{p \in [1, +\infty]}. Then,}
+##{||f+g||_{L^p(E)} \leq ||f||_{L^p(E)} + ||g||_{L^p(E)}}
+
+\p{Proof uses [Hölder inequality](FA-001Y)}

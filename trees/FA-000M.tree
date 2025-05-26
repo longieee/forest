@@ -1,0 +1,10 @@
+\title{Sequentially compact}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A subset #{S} of a topological space is sequentially compact if every sequence in #{S} has a convergent subsequence whose limit is in #{S}.}
+
+\p{In metric spaces, sequential compactness is equivalent to compactness.}
+
+\p{In #{\mathbb{R}^n}, a set is sequentially compact if and only if it is closed and bounded (the [Heine-Borel Theorem](FA-000P)).}

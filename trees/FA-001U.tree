@@ -1,0 +1,23 @@
+\title{Riesz representation theorem}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{The Riesz representation theorem has several forms, but the most common version for Hilbert spaces states:}
+
+\p{Let #{H} be a [Hilbert space](FA-000U) and let #{φ: H → \mathbb{C}} (or #{\mathbb{R}}) be a continuous [linear functional](FA-001P) on #{H}. Then there exists a unique vector #{y \in H} such that:}
+
+\p{#{φ(x) = \langle x, y \rangle} for all #{x \in H}}
+
+\p{Furthermore, #{||φ|| = ||y||}.}
+
+\p{This theorem establishes a canonical isomorphism between a Hilbert space #{H} and its [dual space](FA-001Q) #{H^*}. It means that every continuous linear functional on a Hilbert space can be represented as an inner product with a unique vector in the space.}
+
+\p{There are also Riesz representation theorems for other contexts:}
+
+\ul{
+\li{\strong{For measures:} For certain spaces of continuous functions #{C(X)}, every positive linear functional can be represented as integration against a measure}
+\li{\strong{For #{L^p} spaces:} For #{1 < p < \infty}, the dual of #{L^p} is isomorphic to #{L^q}, where #{\frac{1}{p} + \frac{1}{q} = 1}}
+}
+
+\p{The theorem is used extensively in various applications, including in quantum mechanics (where observables correspond to operators and states to vectors), and in solving partial differential equations using variational methods.}

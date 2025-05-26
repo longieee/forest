@@ -1,0 +1,10 @@
+\title{Totally bounded}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A subset #{S} of a metric space #{(X,d)} is said to be totally bounded if for every #{ε > 0}, there exists a finite cover of #{S} by balls of radius #{ε}.}
+
+\p{In other words, for any #{ε > 0}, there exist finitely many points #{x_1, x_2, \ldots, x_n \in X} such that #{S \subseteq \cup_{i=1}^n B(x_i, ε)}, where #{B(x_i, ε)} is the ball with center #{x_i} and radius #{ε}.}
+
+\p{In a complete metric space, a set is compact if and only if it is totally bounded and closed.}

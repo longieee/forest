@@ -1,0 +1,17 @@
+\title{Self-Adjoint}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A [bounded linear operator](FA-002G) #{A} on a [Hilbert space](FA-002J) is self-adjoint if #{A = A^*}, where #{A^*} is the [adjoint operator](FA-003K) of #{A}.}
+
+\p{Equivalently, #{A} is self-adjoint if:}
+\p{#{{\ \langle Ax,y\rangle = \langle x, Ay\rangle}}}
+\p{for all vectors #{x} and #{y} in the Hilbert space.}
+
+\p{Self-adjoint operators are fundamental in [spectral theory](FA-0130) and quantum mechanics. Key properties include:}
+\ul{
+  \li{The eigenvalues of a self-adjoint operator are always real}
+  \li{Eigenvectors corresponding to distinct eigenvalues are orthogonal}
+  \li{Every self-adjoint operator has a spectral decomposition}
+}

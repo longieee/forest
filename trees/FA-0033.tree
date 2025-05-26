@@ -1,0 +1,19 @@
+\title{Orthogonal Projection}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Let #{M} be a closed subspace of a [Hilbert space](FA-002J) #{H}. The orthogonal projection onto #{M}, denoted #{P_M}, is a [linear operator](FA-002H) that maps each point #{x \in H} to the unique point #{P_M x \in M} such that:}
+
+\p{#{{x - P_M x \in M^\perp}}}
+
+\p{Where #{M^\perp} is the [orthogonal complement](FA-0037) of #{M}.}
+
+\p{Properties of orthogonal projections:}
+\ul{
+  \li{#{P_M} is a [bounded linear operator](FA-002G) with #{\ |P_M| \leq 1}}
+  \li{#{P_M} is [self-adjoint](FA-003K): #{\ \langle P_M x, y \rangle = \langle x, P_M y \rangle}}
+  \li{#{P_M} is idempotent: #{P_M^2 = P_M}}
+  \li{#{I - P_M} is the orthogonal projection onto #{M^\perp}}
+  \li{For any #{x \in H}, #{\ |x|^2 = |P_M x|^2 + |x - P_M x|^2}} (Pythagorean theorem)
+}

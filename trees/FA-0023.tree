@@ -1,0 +1,29 @@
+\title{Countable}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A set #{S} is countable if its elements can be arranged in a sequence (i.e., if there exists a bijection between #{S} and the set of natural numbers #{\mathbb{N}}, or a subset of #{\mathbb{N}}).}
+
+\p{Formally, a set #{S} is countable if either:}
+\ul{
+\li{#{S} is finite (i.e., there exists a bijection between #{S} and #{\{1, 2, ..., n\}} for some #{n \in \mathbb{N}}), or}
+\li{#{S} is countably infinite (i.e., there exists a bijection between #{S} and #{\mathbb{N}})}
+}
+
+\p{Examples of countable sets include:}
+\ul{
+\li{The set of natural numbers #{\mathbb{N}}}
+\li{The set of integers #{\mathbb{Z}}}
+\li{The set of rational numbers #{\mathbb{Q}}}
+\li{The set of algebraic numbers}
+}
+
+\p{In contrast, the set of real numbers #{\mathbb{R}} is uncountable, as proven by Cantor's diagonal argument.}
+
+\p{In functional analysis, the concept of countability is important in several contexts:}
+\ul{
+\li{A [Hilbert space](FA-000U) is [separable](FA-0026) if and only if it has a countable [orthonormal basis](FA-0027)}
+\li{A [Schauder basis](FA-0028) in a Banach space is by definition countable}
+\li{The spectrum of a compact operator on a Hilbert space is either finite or countably infinite with 0 as the only possible accumulation point}
+}

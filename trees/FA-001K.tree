@@ -1,0 +1,22 @@
+\title{Lebesgue outer measure}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The Lebesgue outer measure is a function that assigns an extended real number to any subset of #{\mathbb{R}^n}, serving as a precursor to the [Lebesgue measure](FA-001J), which is defined only on [measurable sets](FA-001B).}
+
+\p{For a subset #{E} of #{\mathbb{R}^n}, the Lebesgue outer measure #{m^*(E)} is defined as:}
+
+\p{#{m^*(E) = \inf\{\sum_{i=1}^{\infty} |Q_i| : E \subseteq \cup_{i=1}^{\infty} Q_i\}}}
+
+\p{where the infimum is taken over all countable covers of #{E} by open rectangles #{Q_i}, and #{|Q_i|} denotes the volume (product of side lengths) of the rectangle #{Q_i}.}
+
+\p{Key properties of the Lebesgue outer measure include:}
+\ul{
+\li{It is monotone: If #{E \subseteq F}, then #{m^*(E) \leq m^*(F)}}
+\li{It is countably subadditive: #{m^*(\cup_{i=1}^{\infty} E_i) \leq \sum_{i=1}^{\infty} m^*(E_i)}}
+\li{It agrees with the standard notion of volume on rectangles}
+\li{It is translation invariant: #{m^*(E + x) = m^*(E)} for any set #{E} and any #{x \in \mathbb{R}^n}}
+}
+
+\p{The concept of [Lebesgue measurability](FA-001B) is defined in terms of the Lebesgue outer measure. A set #{E} is Lebesgue measurable if and only if for any set #{A}, #{m^*(A) = m^*(A \cap E) + m^*(A \setminus E)}.}

@@ -1,0 +1,10 @@
+\title{Compact}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A subset #{K} of a topological space is said to be compact if every open cover of #{K} has a finite subcover.}
+
+\p{In metric spaces, compactness is equivalent to being [sequentially compact](FA-000M) (every sequence has a convergent subsequence) and [complete](FA-000N) and [totally bounded](FA-000O).}
+
+\p{In #{\mathbb{R}^n}, a set is compact if and only if it is closed and bounded (the [Heine-Borel Theorem](FA-000P)).}

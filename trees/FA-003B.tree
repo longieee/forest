@@ -1,0 +1,16 @@
+\title{Lp norm}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{Let #{p} be a positive integer, #{p < +\infty}, and let #{\ \Omega \subset \mathbb{R}^n} be a Lebesgue [measurable set](FA-003C). For a [measurable function](FA-003D) #{f: \Omega \to \mathbb{R}} we define the #{L^p} norm of #{f} on #{\ \Omega} as the (finite or infinite) number:}
+
+\p{#{{||f||_{L^p(\Omega)} \stackrel{\text{def}}{=} \left(\int_{\Omega} |f(x)|^p dx\right)^{1/p}}}}
+
+\p{Moreover, we set:}
+
+\p{#{{C \stackrel{\text{def}}{=} \{\alpha \in \mathbb{R} : |f(x)| \leq \alpha \text{ almost everywhere on } \Omega\}.}}}
+
+\p{The #{L^\infty} norm of #{f} (also called the [essential supremum](FA-003E) of #{f}) is defined as:}
+
+\p{#{{||f||_{L^\infty(\Omega)} = \inf C}}}

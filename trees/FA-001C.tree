@@ -1,0 +1,29 @@
+\title{Space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{In functional analysis, a "space" typically refers to a vector space equipped with additional structure, such as a topology, norm, or inner product. These structures provide a framework for studying functions as vectors and for analyzing limiting operations.}
+
+\p{Common types of spaces in functional analysis include:}
+
+\ul{
+\li{\strong{Vector spaces:} Sets equipped with operations of vector addition and scalar multiplication that satisfy certain axioms}
+\li{\strong{[Metric spaces](FA-000G):} Sets equipped with a distance function (metric) that defines the concept of nearness between elements}
+\li{\strong{[Normed spaces](FA-0017):} Vector spaces equipped with a norm function that assigns a notion of length to vectors}
+\li{\strong{[Banach spaces](FA-000F):} Complete normed vector spaces, where every Cauchy sequence converges}
+\li{\strong{[Inner product spaces](FA-0012):} Vector spaces equipped with an inner product, which generalizes the dot product in Euclidean space}
+\li{\strong{[Hilbert spaces](FA-000U):} Complete inner product spaces, combining the structures of Banach spaces and inner product spaces}
+\li{\strong{Topological vector spaces:} Vector spaces equipped with a topology compatible with the vector operations}
+\li{\strong{Locally convex spaces:} Topological vector spaces where the topology is defined by a family of seminorms}
+}
+
+\p{Function spaces are particularly important in functional analysis. These are spaces whose elements are functions, such as:}
+
+\ul{
+\li{\strong{#{C(X)}:} The space of continuous functions on a topological space #{X}}
+\li{\strong{#{L^p}:} The spaces of measurable functions whose #{p}-th power is integrable}
+\li{\strong{#{H^k}:} Sobolev spaces of functions with weak derivatives up to order #{k}}
+}
+
+\p{The study of these spaces and the operators between them forms the core of functional analysis.}

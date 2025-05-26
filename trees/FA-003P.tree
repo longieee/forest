@@ -1,0 +1,8 @@
+\title{Essential Upper Bound}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An upper bound that holds [almost everywhere](FA-003Q).}
+
+\p{For a [measurable function](FA-003D) #{f} defined on a [measure space](FA-0135), a real number #{M} is an essential upper bound for #{f} if #{f(x) \leq M} for [almost every](FA-003Q) #{x} in the domain.}

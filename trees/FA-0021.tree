@@ -1,0 +1,22 @@
+\title{Orthonormal}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A set of vectors #{\{e_i\}} in an [inner product space](FA-0012) is said to be orthonormal if:}
+
+\ul{
+\li{Each vector has unit norm: #{||e_i|| = 1} for all #{i}}
+\li{Different vectors are orthogonal to each other: #{\langle e_i, e_j \rangle = 0} for all #{i \neq j}}
+}
+
+\p{Equivalently, a set of vectors #{\{e_i\}} is orthonormal if #{\langle e_i, e_j \rangle = \delta_{ij}}, where #{\delta_{ij}} is the [Kronecker delta](FA-0011).}
+
+\p{Orthonormal sets have several important properties:}
+\ul{
+\li{They are linearly independent}
+\li{They provide simple formulas for decomposing vectors: If #{\{e_i\}} is an orthonormal set and #{x} is a vector in the space, then the projection of #{x} onto the span of #{\{e_i\}} is #{P_{\text{span}\{e_i\}}(x) = \sum_i \langle x, e_i \rangle e_i}}
+\li{[Bessel's inequality](FA-000W) holds: For any vector #{x} and orthonormal set #{\{e_i\}}, #{\sum_i |\langle x, e_i \rangle|^2 \leq ||x||^2}}
+}
+
+\p{Orthonormal sets are fundamental in the study of [Hilbert spaces](FA-000U) and form the basis for many results in functional analysis, such as the theory of Fourier series and orthogonal polynomials.}

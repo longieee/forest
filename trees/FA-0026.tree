@@ -1,0 +1,27 @@
+\title{Separable space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A topological space is called separable if it contains a countable, dense subset. For a metric space, this means there exists a [countable](FA-0023) subset whose closure is the entire space.}
+
+\p{In the context of [Hilbert spaces](FA-000U), a Hilbert space #{H} is separable if and only if it has a countable [orthonormal basis](FA-0027). This is equivalent to saying that there exists a countable set #{\{x_n\}} such that the span of #{\{x_n\}} is dense in #{H}.}
+
+\p{For [Banach spaces](FA-000F), separability means there exists a countable subset whose linear span is dense in the space.}
+
+\p{Important examples of separable spaces include:}
+\ul{
+\li{The Euclidean spaces #{\mathbb{R}^n} and #{\mathbb{C}^n}}
+\li{The space #{L^p[a,b]} for #{1 \leq p < \infty}}
+\li{The space #{C[a,b]} of continuous functions on #{[a,b]}}
+\li{The sequence spaces #{l^p} for #{1 \leq p < \infty}}
+}
+
+\p{Important non-separable spaces include:}
+\ul{
+\li{The space #{L^\infty} of essentially bounded measurable functions}
+\li{The space #{l^\infty} of bounded sequences}
+\li{The space of all bounded linear operators on an infinite-dimensional Hilbert space}
+}
+
+\p{Separability is a useful property in functional analysis as it often allows for the application of results that require countable operations, such as diagonal arguments and the ability to work with sequences rather than nets.}

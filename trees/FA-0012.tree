@@ -1,0 +1,25 @@
+\title{Inner product space}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An inner product space is a vector space #{V} over the field of real or complex numbers, equipped with an [inner product](FA-0013) #{\langle \cdot,\cdot\rangle : V \times V \rightarrow \mathbb{F}}.}
+
+\p{The inner product satisfies the following axioms for all vectors #{u, v, w \in V} and all scalars #{a \in \mathbb{F}}:}
+
+\ul{
+\li{\strong{Linearity in the first argument:} #{\langle au + v, w\rangle  = a\langle u, w\rangle  + \langle v, w\rangle }}
+\li{\strong{Conjugate symmetry:} #{\langle u, v\rangle  = \overline{\langle v, u\rangle }}}
+\li{\strong{Positive definiteness:} #{\langle v, v\rangle  \geq 0}, and #{\langle v, v\rangle  = 0} if and only if #{v = 0}}
+}
+
+\p{From the inner product, we can define:}
+\ul{
+\li{A norm: #{||v|| = \sqrt{\langle v,v\rangle }}}
+\li{A metric: #{d(u,v) = ||u-v||}}
+\li{The concept of orthogonality: #{u} and #{v} are orthogonal if #{\langle u,v\rangle  = 0}}
+}
+
+\p{Common examples of inner product spaces include #{\mathbb{R}^n} with the dot product, the space #{C([a,b])} with the #{L^2}-inner product #{\langle f,g \rangle = \int_a^b f(x)\overline{g(x)}dx}, and the space of square-integrable functions #{L^2}.}
+
+\p{A [Hilbert space](FA-000U) is a complete inner product space.}

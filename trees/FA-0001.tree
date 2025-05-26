@@ -1,0 +1,10 @@
+\title{Weierstrass approximation theorem}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{The set of polynomials on #{[a, b]} is [dense](FA-0002) in #{C([a, b])}}
+
+\p{Differs from Taylor's theorem, which states that a function with sufficiently many derivaties can be approximated locally by its [Taylor polynomial](FA-0003).}
+
+\p{The Weierstrass appoximation theorem applied to a continuous function, which need not be differentiable, and states that there exists a global polynomial approximation of the function on the whole interval #{[a,b]} (The sequence of approximating polynomials is the [Bernstein polynomials](FA-0004))}

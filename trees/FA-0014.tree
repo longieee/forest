@@ -1,0 +1,18 @@
+\title{Closed linear span}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The closed linear span of a subset #{S} of a normed vector space #{V} is the closure of the linear span of #{S}.}
+
+\p{The linear span of #{S}, denoted #{span(S)}, is the set of all finite linear combinations of elements in #{S}:}
+
+\p{#{span(S) = \{\sum_{i=1}^n a_i v_i : n \in \mathbb{N}, a_i \in \mathbb{K}, v_i \in S\}}}
+
+\p{The closure of a set in a normed space is the set together with all its limit points. So the closed linear span of #{S}, often denoted by #{\overline{span(S)}}, consists of all vectors that can be approximated arbitrarily well by finite linear combinations of elements in #{S}.}
+
+\p{In the context of a [Hilbert space](FA-000U), if #{\{e_i\}} is an [orthonormal set](FA-001H), then a vector #{v} is in the closed linear span of #{\{e_i\}} if and only if:}
+
+\p{#{v = \sum_i \langle v, e_i \rangle e_i}}
+
+\p{where the sum converges in the norm.}

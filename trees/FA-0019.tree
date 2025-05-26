@@ -1,0 +1,18 @@
+\title{Orthonormal Basis}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An orthonormal basis for a [Hilbert space](FA-000U) #{H} is an [orthonormal set](FA-001H) #{\{e_i\}} of vectors in #{H} such that the [closed linear span](FA-0014) of #{\{e_i\}} is the entire space #{H}.}
+
+\p{In other words, an orthonormal basis is an orthonormal set that is also [complete](FA-000N) in the sense that any vector in the Hilbert space can be approximated arbitrarily well by finite linear combinations of the basis elements.}
+
+\p{Equivalently, #{\{e_i\}} is an orthonormal basis of #{H} if and only if for every #{x \in H}:}
+##{x = \sum_i \langle x, e_i \rangle e_i}
+
+\p{Important properties include:}
+\ul{
+\li{Every Hilbert space has an orthonormal basis (this requires the [Axiom of Choice](FA-0054) for general Hilbert spaces)}
+\li{[Parseval's identity](FA-001A) holds for orthonormal bases}
+\li{Any two orthonormal bases of the same Hilbert space have the same cardinality}
+}

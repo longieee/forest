@@ -1,0 +1,6 @@
+\title{Bolzano-Weierstrass theorem}
+\date{2025-05-26}
+\taxon{Theorem}
+\author{Long Nguyen}
+
+\p{Every [bounded](FA-000J) sequence in #{\mathbb{R}^n} has a [convergent](FA-000Q) [subsequence](FA-000R)}

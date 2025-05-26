@@ -1,0 +1,37 @@
+
+\title{Functional Analysis Zettelkasten}
+\date{2025-05-26}
+\author{Long Nguyen}
+
+\p{Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.}
+
+\p{\strong{Core Concepts:}}
+\ul{
+  \li{[Weierstrass approximation theorem](FA-0001) - The fundamental theorem on polynomial approximation}
+  \li{[Hilbert Space](FA-002J) - Complete inner product spaces}
+  \li{[Banach Space](FA-002I) - Complete normed spaces}
+  \li{[Bounded Linear Operator](FA-002G) - Key objects of study in functional analysis}
+}
+
+\p{\strong{Important Theorems:}}
+\ul{
+  \li{[Arzelà-Ascoli Theorem](FA-000L) - Characterizes compact subsets in spaces of continuous functions}
+  \li{[Projection Theorem](FA-002O) - Fundamental result for Hilbert spaces}
+  \li{[Parseval's identity](FA-001E) - Relates norms in Fourier analysis}
+  \li{[Hölder inequality](FA-001Y) - Generalizes the Cauchy-Schwarz inequality}
+}
+
+\p{\strong{Measure Theory:}}
+\ul{
+  \li{[Lebesgue Measure](FA-003V) - Foundation for modern integration theory}
+  \li{[Measurable Set](FA-003C) - Sets with well-defined measure}
+  \li{[Measurable Function](FA-003D) - Functions suitable for Lebesgue integration}
+}
+
+\p{\strong{Norms and Metrics:}}
+\ul{
+  \li{[Norm](FA-002S) - Way to measure vector magnitude}
+  \li{[Lp norm](FA-003B) - Important class of norms}
+  \li{[Operator Norm](FA-003F) - Measures the "size" of linear operators}
+  \li{[Metric Space](FA-002P) - Generalized notion of distance}
+}

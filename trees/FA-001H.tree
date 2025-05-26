@@ -1,0 +1,21 @@
+\title{Orthonormal set}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{An orthonormal set in a [Hilbert space](FA-000U) #{H} is a set of vectors #{\{e_i\}} that satisfies the following conditions:}
+
+\ul{
+\li{Each vector has unit norm: #{||e_i|| = 1} for all #{i}}
+\li{Different vectors are orthogonal to each other: #{\langle e_i, e_j \rangle = 0} for all #{i \neq j}}
+}
+
+\p{Equivalently, an orthonormal set satisfies #{\langle e_i, e_j \rangle = \delta_{ij}}, where #{\delta_{ij}} is the [Kronecker delta](FA-0011).}
+
+\p{Orthonormal sets are fundamental building blocks in the theory of Hilbert spaces. They allow for simple representations of vectors:}
+
+\p{If #{\{e_i\}} is an orthonormal set and #{v} is a vector in the Hilbert space, then the Fourier coefficients of #{v} with respect to #{\{e_i\}} are given by #{c_i = \langle v, e_i \rangle}, and we can write:}
+
+\p{#{v = \sum_i c_i e_i + w}}
+
+\p{where #{w} is orthogonal to the span of #{\{e_i\}}.}

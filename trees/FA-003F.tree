@@ -1,0 +1,19 @@
+\title{Operator Norm}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The operator norm is a type of [norm](FA-002S) defined for [bounded linear operators](FA-002G).}
+
+\p{For a [bounded linear operator](FA-002G) #{T: X \rightarrow Y} between [normed spaces](FA-002K) #{X} and #{Y}, the operator norm is defined as:}
+
+\p{#{{||T|| = \sup_{x \neq 0} \frac{||Tx||_Y}{||x||_X} = \sup_{||x||_X=1} ||Tx||_Y}}}
+
+\p{This norm measures the maximum "stretching factor" of the operator, i.e., how much the operator can amplify the length of a unit vector.}
+
+\p{Key properties:}
+\ul{
+  \li{A linear operator is [bounded](FA-0131) if and only if it has a finite operator norm}
+  \li{For operators #{S} and #{T}, we have #{\ ||S \circ T|| \leq ||S|| \cdot ||T||}}
+  \li{The set of bounded linear operators from #{X} to #{Y}, denoted #{B(X,Y)}, forms a [Banach space](FA-002I) when equipped with the operator norm}
+}

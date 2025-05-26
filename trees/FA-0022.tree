@@ -1,0 +1,18 @@
+\title{Basis}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{In the context of functional analysis and Hilbert spaces, there are several different notions of a basis:}
+
+\p{\strong{Orthonormal basis:} In a [Hilbert space](FA-000U) #{H}, an [orthonormal](FA-0021) set #{\{e_i\}} is called an orthonormal basis if it is [complete](FA-0020), meaning that the [closed linear span](FA-0014) of #{\{e_i\}} is the entire space #{H}. Equivalently, #{\{e_i\}} is an orthonormal basis if for every vector #{x \in H}:}
+\ul{
+\li{#{x = \sum_i \langle x, e_i \rangle e_i} (expansion formula)}
+\li{#{||x||^2 = \sum_i |\langle x, e_i \rangle|^2}} ([Parseval's identity](FA-001A))
+}
+
+\p{\strong{Schauder basis:} A sequence #{\{x_i\}} in a Banach space #{X} is called a Schauder basis if every vector #{x \in X} can be expressed uniquely as #{x = \sum_{i=1}^{\infty} a_i x_i}, where the coefficients #{a_i} are scalars and the series converges in the norm of #{X}.}
+
+\p{\strong{Hamel basis:} A set #{\{e_i\}} in a vector space #{V} is called a Hamel basis if every vector #{v \in V} can be expressed uniquely as a finite linear combination #{v = \sum_{i=1}^n a_i e_i}, where #{a_i} are scalars. This is the algebraic notion of a basis, but in [infinite-dimensional](FA-0005) spaces, Hamel bases are typically not useful for analysis because they are uncountable and the expansions don't involve convergence of series.}
+
+\p{For [orthonormal bases](FA-0027) in Hilbert spaces, the existence of such bases is guaranteed by the Gram-Schmidt process and Zorn's lemma, though they may be uncountable for non-separable spaces.}

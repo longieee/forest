@@ -1,0 +1,12 @@
+\title{Linear Operator}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{A linear operator is a mapping between vector spaces that preserves the operations of addition and scalar multiplication.}
+
+\p{Let #{X} and #{Y} be vector spaces over a field #{K}. A mapping #{T: X \rightarrow Y} is a linear operator if:}
+\ul{
+  \li{#{T(x + y) = T(x) + T(y)} for all #{x, y \in X}}
+  \li{#{T(\alpha x) = \alpha T(x)} for all #{x \in X} and #{\ \alpha \in K}}
+}

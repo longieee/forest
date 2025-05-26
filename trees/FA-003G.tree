@@ -1,0 +1,14 @@
+\title{Sup Norm}
+\date{2025-05-26}
+\taxon{Definition}
+\author{Long Nguyen}
+
+\p{The supremum norm (or sup norm) is a [norm](FA-002S) defined for bounded functions. For a bounded function #{f: X \rightarrow \mathbb{R}} or #{f: X \rightarrow \mathbb{C}}, the sup norm is defined as:}
+
+\p{#{{||f||_\infty = \sup_{x \in X} |f(x)|}}}
+
+\p{This norm measures the maximum absolute value that the function takes over its domain.}
+
+\p{In the context of the [space of continuous functions](FA-0132) #{C(X)} on a compact space #{X}, the sup norm makes #{C(X)} into a [Banach space](FA-002I).}
+
+\p{The sup norm is also used to define the #{L^\infty} space, which consists of essentially bounded [measurable functions](FA-003D), with the [essential supremum](FA-003E) replacing the exact supremum.}
