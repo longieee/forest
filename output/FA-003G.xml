@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1561</fr:anchor>
+    <fr:addr type="user">FA-003G</fr:addr>
+    <fr:route>FA-003G.xml</fr:route>
+    <fr:title text="Sup Norm">Sup Norm</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The supremum norm (or sup norm) is a <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link> defined for bounded functions. For a bounded function <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {C}]]></fr:tex>, the sup norm is defined as:</fr:p>
+    <fr:p>
+      <fr:tex display="inline"><![CDATA[{||f||_\infty  = \sup _{x \in  X} |f(x)|}]]></fr:tex>
+    </fr:p>
+    <fr:p>This norm measures the maximum absolute value that the function takes over its domain.</fr:p>
+    <fr:p>In the context of the <fr:link type="external" href="FA-0132">space of continuous functions</fr:link> <fr:tex display="inline"><![CDATA[C(X)]]></fr:tex> on a compact space <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the sup norm makes <fr:tex display="inline"><![CDATA[C(X)]]></fr:tex> into a <fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach space</fr:link>.</fr:p>
+    <fr:p>The sup norm is also used to define the <fr:tex display="inline"><![CDATA[L^\infty ]]></fr:tex> space, which consists of essentially bounded <fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">measurable functions</fr:link>, with the <fr:link type="local" href="FA-003E.xml" addr="FA-003E" title="Essential Supremum">essential supremum</fr:link> replacing the exact supremum.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1563</fr:anchor>
+            <fr:addr type="user">FA-002S</fr:addr>
+            <fr:route>FA-002S.xml</fr:route>
+            <fr:title text="Norm">Norm</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Important concepts:</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-003F.xml" addr="FA-003F" title="Operator Norm">operator norm</fr:link></fr:li>
+  <fr:li><fr:link type="local" href="FA-003G.xml" addr="FA-003G" title="Sup Norm">sup norm</fr:link></fr:li>
+  <fr:li><fr:link type="local" href="FA-003B.xml" addr="FA-003B" title="Lp norm">Lp norm</fr:link></fr:li>
+  <fr:li><fr:link type="external" href="FA-0125">C1 norm</fr:link>, or in general <fr:tex display="inline"><![CDATA[C^p]]></fr:tex>-norm</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1565</fr:anchor>
+            <fr:addr type="user">FA-002I</fr:addr>
+            <fr:route>FA-002I.xml</fr:route>
+            <fr:title text="Banach Space">Banach Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Banach space is a complete <fr:link type="local" href="FA-002K.xml" addr="FA-002K" title="Normed Space">normed space</fr:link>.</fr:p>
+            <fr:p>A normed space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is called a Banach space if every <fr:link type="local" href="FA-002L.xml" addr="FA-002L" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> converges to an element in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1567</fr:anchor>
+            <fr:addr type="user">FA-003E</fr:addr>
+            <fr:route>FA-003E.xml</fr:route>
+            <fr:title text="Essential Supremum">Essential Supremum</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The essential supremum of <fr:tex display="inline"><![CDATA[|f|]]></fr:tex> is the <fr:em>minimum</fr:em> <fr:link type="local" href="FA-003P.xml" addr="FA-003P" title="Essential Upper Bound">essential upper bound</fr:link> for <fr:tex display="inline"><![CDATA[|f|]]></fr:tex>, 
+namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f| \leq  \alpha ]]></fr:tex> <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1569</fr:anchor>
+            <fr:addr type="user">FA-003D</fr:addr>
+            <fr:route>FA-003D.xml</fr:route>
+            <fr:title text="Measurable Function">Measurable Function</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>These are all equivalent definitions of <fr:strong>measurable functions</fr:strong>:</fr:p>
+            <fr:ul><fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) > \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) < \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) \geq  \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) \leq  \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[U \subset  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) \in  U \right \}]]></fr:tex> is Lebesgue measurable</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1571</fr:anchor>
+            <fr:addr type="user">FA-002S</fr:addr>
+            <fr:route>FA-002S.xml</fr:route>
+            <fr:title text="Norm">Norm</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Important concepts:</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-003F.xml" addr="FA-003F" title="Operator Norm">operator norm</fr:link></fr:li>
+  <fr:li><fr:link type="local" href="FA-003G.xml" addr="FA-003G" title="Sup Norm">sup norm</fr:link></fr:li>
+  <fr:li><fr:link type="local" href="FA-003B.xml" addr="FA-003B" title="Lp norm">Lp norm</fr:link></fr:li>
+  <fr:li><fr:link type="external" href="FA-0125">C1 norm</fr:link>, or in general <fr:tex display="inline"><![CDATA[C^p]]></fr:tex>-norm</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>387</fr:anchor>
+    <fr:addr type="user">FA-000S</fr:addr>
+    <fr:route>FA-000S.xml</fr:route>
+    <fr:title text="Bolzano-Weierstrass theorem">Bolzano-Weierstrass theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Every <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link> sequence in <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> has a <fr:link type="local" href="FA-000Q.xml" addr="FA-000Q" title="Convergent">convergent</fr:link> <fr:link type="local" href="FA-000R.xml" addr="FA-000R" title="Subsequence">subsequence</fr:link></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>389</fr:anchor>
+            <fr:addr type="user">FA-000J</fr:addr>
+            <fr:route>FA-000J.xml</fr:route>
+            <fr:title text="Bounded">Bounded</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be bounded if there exists some number <fr:tex display="inline"><![CDATA[r]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x,y) \leq  r]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x,y \in  S]]></fr:tex>.</fr:p>
+            <fr:p>Equivalently, a set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is bounded if it is contained in some ball of finite radius, i.e., if there exists <fr:tex display="inline"><![CDATA[x_0 \in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[r > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[S \subseteq  B(x_0, r)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[B(x_0, r)]]></fr:tex> is the ball with center <fr:tex display="inline"><![CDATA[x_0]]></fr:tex> and radius <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>391</fr:anchor>
+            <fr:addr type="user">FA-000Q</fr:addr>
+            <fr:route>FA-000Q.xml</fr:route>
+            <fr:title text="Convergent">Convergent</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> in a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to converge to a point <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_n, x) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \geq  N]]></fr:tex>.</fr:p>
+            <fr:p>In this case, <fr:tex display="inline"><![CDATA[x]]></fr:tex> is called the limit of the sequence, and we write <fr:tex display="inline"><![CDATA[x_n \to  x]]></fr:tex> as <fr:tex display="inline"><![CDATA[n \to  \infty ]]></fr:tex> or <fr:tex display="inline"><![CDATA[\lim _{n \to  \infty } x_n = x]]></fr:tex>.</fr:p>
+            <fr:p>In functional analysis, there are various notions of convergence depending on the space and the context, including <fr:link type="local" href="FA-000Y.xml" addr="FA-000Y" title="Weak Convergence">weak convergence</fr:link>, <fr:link type="local" href="FA-000Z.xml" addr="FA-000Z" title="Convergence in norm">convergence in norm</fr:link>, and <fr:link type="local" href="FA-0010.xml" addr="FA-0010" title="Pointwise Convergence">pointwise convergence</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>393</fr:anchor>
+            <fr:addr type="user">FA-000R</fr:addr>
+            <fr:route>FA-000R.xml</fr:route>
+            <fr:title text="Subsequence">Subsequence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subsequence of a sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> is a new sequence <fr:tex display="inline"><![CDATA[(x_{n_k})]]></fr:tex> obtained by selecting some of the terms from the original sequence while preserving their order.</fr:p>
+            <fr:p>Formally, if <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> is a sequence, then a subsequence is a sequence of the form <fr:tex display="inline"><![CDATA[(x_{n_k})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[(n_k)]]></fr:tex> is a strictly increasing sequence of positive integers.</fr:p>
+            <fr:p>For example, <fr:tex display="inline"><![CDATA[(x_2, x_4, x_6, x_8, \ldots )]]></fr:tex> is a subsequence of <fr:tex display="inline"><![CDATA[(x_1, x_2, x_3, x_4, \ldots )]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

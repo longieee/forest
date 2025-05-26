@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1535</fr:anchor>
+    <fr:addr type="user">FA-000R</fr:addr>
+    <fr:route>FA-000R.xml</fr:route>
+    <fr:title text="Subsequence">Subsequence</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A subsequence of a sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> is a new sequence <fr:tex display="inline"><![CDATA[(x_{n_k})]]></fr:tex> obtained by selecting some of the terms from the original sequence while preserving their order.</fr:p>
+    <fr:p>Formally, if <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> is a sequence, then a subsequence is a sequence of the form <fr:tex display="inline"><![CDATA[(x_{n_k})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[(n_k)]]></fr:tex> is a strictly increasing sequence of positive integers.</fr:p>
+    <fr:p>For example, <fr:tex display="inline"><![CDATA[(x_2, x_4, x_6, x_8, \ldots )]]></fr:tex> is a subsequence of <fr:tex display="inline"><![CDATA[(x_1, x_2, x_3, x_4, \ldots )]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1537</fr:anchor>
+            <fr:addr type="user">FA-000S</fr:addr>
+            <fr:route>FA-000S.xml</fr:route>
+            <fr:title text="Bolzano-Weierstrass theorem">Bolzano-Weierstrass theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Every <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link> sequence in <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> has a <fr:link type="local" href="FA-000Q.xml" addr="FA-000Q" title="Convergent">convergent</fr:link> <fr:link type="local" href="FA-000R.xml" addr="FA-000R" title="Subsequence">subsequence</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1539</fr:anchor>
+            <fr:addr type="user">FA-001G</fr:addr>
+            <fr:route>FA-001G.xml</fr:route>
+            <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. Then the <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach space</fr:link>.</fr:p>
+            <fr:p>Moreover, if <fr:tex display="inline"><![CDATA[p]]></fr:tex> is a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\{f_n\}_{n \in  \mathbb {N}}]]></fr:tex> is a <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex>, then there exist two functions <fr:tex display="inline"><![CDATA[f, h \in  L^p(E)]]></fr:tex> and a <fr:link type="local" href="FA-000R.xml" addr="FA-000R" title="Subsequence">subsequence</fr:link> <fr:tex display="inline"><![CDATA[f_{n_k}]]></fr:tex> of <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> such that</fr:p>
+            <fr:ol><fr:li><fr:tex display="inline"><![CDATA[|f_{n_k}(x)| \leq  h(x)]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>,</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[f_{n_k} \to  f]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:li></fr:ol>
+            <fr:p><fr:em>Note</fr:em>: The proof uses <fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:link>, <fr:link type="local" href="FA-001F.xml" addr="FA-001F" title="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

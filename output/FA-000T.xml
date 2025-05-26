@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1263</fr:anchor>
+    <fr:addr type="user">FA-000T</fr:addr>
+    <fr:route>FA-000T.xml</fr:route>
+    <fr:title text="Orthonormal sequence">Orthonormal sequence</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>An orthonormal sequence in a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a sequence <fr:tex display="inline"><![CDATA[(u_n)]]></fr:tex> of vectors in <fr:tex display="inline"><![CDATA[H]]></fr:tex> such that:</fr:p>
+    <fr:p>1. Each vector has unit norm: <fr:tex display="inline"><![CDATA[||u_n|| = 1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+    <fr:p>2. Different vectors are orthogonal to each other: <fr:tex display="inline"><![CDATA[\langle  u_m, u_n \rangle  = 0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[m \neq  n]]></fr:tex>.</fr:p>
+    <fr:p>Equivalently, an orthonormal sequence satisfies <fr:tex display="inline"><![CDATA[\langle  u_m, u_n \rangle  = \delta _{mn}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\delta _{mn}]]></fr:tex> is the <fr:link type="local" href="FA-0011.xml" addr="FA-0011" title="Kronecker delta">Kronecker delta</fr:link>.</fr:p>
+    <fr:p>An orthonormal sequence is a fundamental concept in the study of Hilbert spaces and forms the basis for Fourier analysis and many approximation methods.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1265</fr:anchor>
+            <fr:addr type="user">FA-000W</fr:addr>
+            <fr:route>FA-000W.xml</fr:route>
+            <fr:title text="Bessel's inequality">Bessel's inequality</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[U = \{u_n : n \in  \mathbb {N}\}]]></fr:tex> be an <fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link> in a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> and <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex></fr:p>
+            <fr:p>Then,</fr:p>
+            <fr:p><fr:strong>(a)</fr:strong> <fr:tex display="inline"><![CDATA[\sum _{n \in  \mathbb {N}} |\langle  u_n, x \rangle |^2 \leq  ||x||^2]]></fr:tex>;</fr:p>
+            <fr:p>(can be seen as an <fr:em>infinite-dimensional Pythagorean theorem</fr:em>)</fr:p>
+            <fr:p><fr:strong>(b)</fr:strong> <fr:tex display="inline"><![CDATA[x_U \stackrel {\text {def}}{=} \sum _{n=1}^{+\infty } \langle  u_n, x \rangle  u_n]]></fr:tex> is a <fr:link type="local" href="FA-000Q.xml" addr="FA-000Q" title="Convergent">convergent</fr:link> sum;</fr:p>
+            <fr:p><fr:strong>(c)</fr:strong> <fr:tex display="inline"><![CDATA[x - x_U \in  U^\perp ]]></fr:tex></fr:p>
+            <fr:p>(of course <fr:tex display="inline"><![CDATA[U^\perp ]]></fr:tex> is the <fr:link type="local" href="FA-000V.xml" addr="FA-000V" title="Orthogonal complement">orthogonal complement</fr:link> of <fr:tex display="inline"><![CDATA[U]]></fr:tex>)</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1267</fr:anchor>
+            <fr:addr type="user">FA-0020</fr:addr>
+            <fr:route>FA-0020.xml</fr:route>
+            <fr:title text="Completeness of orthonormal set">Completeness of orthonormal set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal set</fr:link> <fr:tex display="inline"><![CDATA[U = \{x_n : n ∈ N\}]]></fr:tex> of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> H is <fr:em>complete (note that this is <fr:strong>not</fr:strong> in the sense of a complete metric <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link>)</fr:em>  if it satisfies <fr:em>any</fr:em> of the equivalent conditions (a)-(e) in <fr:strong>Theorem</fr:strong>:</fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[U = \{u_n : n \in  \mathbb {N}\}]]></fr:tex> is an <fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link> of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the following conditions are equivalent:</fr:p>
+            <fr:p><fr:strong>(a)</fr:strong> <fr:tex display="inline"><![CDATA[\langle  u_n, x \rangle  = 0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[x = 0]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(b)</fr:strong> <fr:tex display="inline"><![CDATA[x = \sum _{n \in  \mathbb {N}} \langle  u_n, x \rangle  u_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(c)</fr:strong> <fr:tex display="inline"><![CDATA[||x||^2 = \sum _{n \in  \mathbb {N}} |\langle  u_n, x \rangle |^2]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex></fr:p>
+            <fr:p>(This is the <fr:link type="local" href="FA-001A.xml" addr="FA-001A" title="Parseval's identity">Parseval's identity</fr:link>)</fr:p>
+            <fr:p><fr:strong>(d)</fr:strong> <fr:tex display="inline"><![CDATA[[U] = H]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(e)</fr:strong> <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a <fr:link type="local" href="FA-0024.xml" addr="FA-0024" title="Maximal orthonormal set">maximal</fr:link> <fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link></fr:p>
+            <fr:p>
+              <fr:strong>Informally</fr:strong>
+            </fr:p>
+            <fr:p>For an orthonormal set <fr:tex display="inline"><![CDATA[u_\alpha ]]></fr:tex> in a Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be a <fr:strong>basis</fr:strong> (or complete), it means that the set is "<fr:em>large enough</fr:em>" to represent any vector in the space.</fr:p>
+            <fr:p>An <fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link> is <fr:em>complete</fr:em> if it's <fr:link type="local" href="FA-0014.xml" addr="FA-0014" title="Closed linear span">closed linear span</fr:link> is the whole space</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1269</fr:anchor>
+            <fr:addr type="user">FA-0027</fr:addr>
+            <fr:route>FA-0027.xml</fr:route>
+            <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A complete (in the sense of <fr:link type="local" href="FA-0020.xml" addr="FA-0020" title="Completeness of orthonormal set">Completeness of orthonormal set</fr:link>) <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset (<fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link>) of H is also called an <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H</fr:p>
+            <fr:p><fr:strong>Altenately</fr:strong>: An <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H is a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> <fr:link type="local" href="FA-0024.xml" addr="FA-0024" title="Maximal orthonormal set">maximal</fr:link> <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset <fr:tex display="inline"><![CDATA[\{e_n\}]]></fr:tex> of H.</fr:p>
+            <fr:p><fr:strong>N.B.</fr:strong>: This notion of <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> is <fr:em>not quite the same</fr:em> as in the <fr:em>finite dimensional case</fr:em> (although it is a legitimate extension of it).</fr:p>
+            <fr:p>There are other, quite different, notions of a <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> in <fr:link type="local" href="FA-0005.xml" addr="FA-0005" title="Infinite Dimensions">infinite dimensions</fr:link>. See for instance '<fr:link type="local" href="FA-0025.xml" addr="FA-0025" title="Hamel basis">Hamel basis</fr:link>' which arises in some settings</fr:p>
+            <fr:p>
+              <fr:strong>Theorem:</fr:strong>
+            </fr:p>
+            <fr:p>Every <fr:link type="local" href="FA-0026.xml" addr="FA-0026" title="Separable space">separable</fr:link> <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> has a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> orthonormal <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1271</fr:anchor>
+            <fr:addr type="user">FA-000U</fr:addr>
+            <fr:route>FA-000U.xml</fr:route>
+            <fr:title text="Hilbert Space">Hilbert Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
+            <fr:p>Hilbert spaces extend the methods of linear algebra to infinite-dimensional settings, making them crucial for quantum mechanics, Fourier analysis, and partial differential equations.</fr:p>
+            <fr:p>Examples include the space <fr:tex display="inline"><![CDATA[L^2]]></fr:tex> of square-integrable functions and the space <fr:tex display="inline"><![CDATA[l^2]]></fr:tex> of square-summable sequences.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1273</fr:anchor>
+            <fr:addr type="user">FA-0011</fr:addr>
+            <fr:route>FA-0011.xml</fr:route>
+            <fr:title text="Kronecker delta">Kronecker delta</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The Kronecker delta, denoted <fr:tex display="inline"><![CDATA[\delta _{ij}]]></fr:tex>, is a function of two variables, usually integers, that is 1 if the variables are equal and 0 otherwise. Formally:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\delta _{ij} =  \begin {cases}  1 & \text {if } i = j \\ 0 & \text {if } i \neq  j \end {cases}]]></fr:tex>
+            </fr:p>
+            <fr:p>The Kronecker delta is widely used in many areas of mathematics, including linear algebra, tensor calculus, and functional analysis. In the context of <fr:link type="local" href="FA-001H.xml" addr="FA-001H" title="Orthonormal set">orthonormal sets</fr:link> or bases in a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link>, the inner product of basis elements is given by the Kronecker delta:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\langle  e_i, e_j \rangle  = \delta _{ij}]]></fr:tex>
+            </fr:p>
+            <fr:p>This expresses the fact that the basis elements are orthogonal to each other (<fr:tex display="inline"><![CDATA[\langle  e_i, e_j \rangle  = 0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i \neq  j]]></fr:tex>) and have unit norm (<fr:tex display="inline"><![CDATA[\langle  e_i, e_i \rangle  = 1]]></fr:tex>).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

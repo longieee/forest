@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1517</fr:anchor>
+    <fr:addr type="user">FA-001C</fr:addr>
+    <fr:route>FA-001C.xml</fr:route>
+    <fr:title text="Space">Space</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>In functional analysis, a "space" typically refers to a vector space equipped with additional structure, such as a topology, norm, or inner product. These structures provide a framework for studying functions as vectors and for analyzing limiting operations.</fr:p>
+    <fr:p>Common types of spaces in functional analysis include:</fr:p>
+    <fr:ul><fr:li><fr:strong>Vector spaces:</fr:strong> Sets equipped with operations of vector addition and scalar multiplication that satisfy certain axioms</fr:li>
+<fr:li><fr:strong><fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">Metric spaces</fr:link>:</fr:strong> Sets equipped with a distance function (metric) that defines the concept of nearness between elements</fr:li>
+<fr:li><fr:strong><fr:link type="local" href="FA-0017.xml" addr="FA-0017" title="Normed vector space">Normed spaces</fr:link>:</fr:strong> Vector spaces equipped with a norm function that assigns a notion of length to vectors</fr:li>
+<fr:li><fr:strong><fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach spaces</fr:link>:</fr:strong> Complete normed vector spaces, where every Cauchy sequence converges</fr:li>
+<fr:li><fr:strong><fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">Inner product spaces</fr:link>:</fr:strong> Vector spaces equipped with an inner product, which generalizes the dot product in Euclidean space</fr:li>
+<fr:li><fr:strong><fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert spaces</fr:link>:</fr:strong> Complete inner product spaces, combining the structures of Banach spaces and inner product spaces</fr:li>
+<fr:li><fr:strong>Topological vector spaces:</fr:strong> Vector spaces equipped with a topology compatible with the vector operations</fr:li>
+<fr:li><fr:strong>Locally convex spaces:</fr:strong> Topological vector spaces where the topology is defined by a family of seminorms</fr:li></fr:ul>
+    <fr:p>Function spaces are particularly important in functional analysis. These are spaces whose elements are functions, such as:</fr:p>
+    <fr:ul><fr:li><fr:strong><fr:tex display="inline"><![CDATA[C(X)]]></fr:tex>:</fr:strong> The space of continuous functions on a topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex></fr:li>
+<fr:li><fr:strong><fr:tex display="inline"><![CDATA[L^p]]></fr:tex>:</fr:strong> The spaces of measurable functions whose <fr:tex display="inline"><![CDATA[p]]></fr:tex>-th power is integrable</fr:li>
+<fr:li><fr:strong><fr:tex display="inline"><![CDATA[H^k]]></fr:tex>:</fr:strong> Sobolev spaces of functions with weak derivatives up to order <fr:tex display="inline"><![CDATA[k]]></fr:tex></fr:li></fr:ul>
+    <fr:p>The study of these spaces and the operators between them forms the core of functional analysis.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1519</fr:anchor>
+            <fr:addr type="user">FA-0020</fr:addr>
+            <fr:route>FA-0020.xml</fr:route>
+            <fr:title text="Completeness of orthonormal set">Completeness of orthonormal set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal set</fr:link> <fr:tex display="inline"><![CDATA[U = \{x_n : n ∈ N\}]]></fr:tex> of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> H is <fr:em>complete (note that this is <fr:strong>not</fr:strong> in the sense of a complete metric <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link>)</fr:em>  if it satisfies <fr:em>any</fr:em> of the equivalent conditions (a)-(e) in <fr:strong>Theorem</fr:strong>:</fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[U = \{u_n : n \in  \mathbb {N}\}]]></fr:tex> is an <fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link> of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then the following conditions are equivalent:</fr:p>
+            <fr:p><fr:strong>(a)</fr:strong> <fr:tex display="inline"><![CDATA[\langle  u_n, x \rangle  = 0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[x = 0]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(b)</fr:strong> <fr:tex display="inline"><![CDATA[x = \sum _{n \in  \mathbb {N}} \langle  u_n, x \rangle  u_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(c)</fr:strong> <fr:tex display="inline"><![CDATA[||x||^2 = \sum _{n \in  \mathbb {N}} |\langle  u_n, x \rangle |^2]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex></fr:p>
+            <fr:p>(This is the <fr:link type="local" href="FA-001A.xml" addr="FA-001A" title="Parseval's identity">Parseval's identity</fr:link>)</fr:p>
+            <fr:p><fr:strong>(d)</fr:strong> <fr:tex display="inline"><![CDATA[[U] = H]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(e)</fr:strong> <fr:tex display="inline"><![CDATA[U]]></fr:tex> is a <fr:link type="local" href="FA-0024.xml" addr="FA-0024" title="Maximal orthonormal set">maximal</fr:link> <fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link></fr:p>
+            <fr:p>
+              <fr:strong>Informally</fr:strong>
+            </fr:p>
+            <fr:p>For an orthonormal set <fr:tex display="inline"><![CDATA[u_\alpha ]]></fr:tex> in a Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> to be a <fr:strong>basis</fr:strong> (or complete), it means that the set is "<fr:em>large enough</fr:em>" to represent any vector in the space.</fr:p>
+            <fr:p>An <fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link> is <fr:em>complete</fr:em> if it's <fr:link type="local" href="FA-0014.xml" addr="FA-0014" title="Closed linear span">closed linear span</fr:link> is the whole space</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1521</fr:anchor>
+            <fr:addr type="user">FA-002D</fr:addr>
+            <fr:route>FA-002D.xml</fr:route>
+            <fr:title text="Lp space">Lp space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. We call <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex> the set of <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable</fr:link> functions <fr:tex display="inline"><![CDATA[f: E \to  \mathbb {R}]]></fr:tex> such that</fr:p>
+            <fr:tex display="inline"><![CDATA[||f||_{L^p} < +\infty ]]></fr:tex>
+            <fr:p>Now, we set the following <fr:link type="local" href="FA-002B.xml" addr="FA-002B" title="Equivalence relation">equivalence relation</fr:link> on <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[f,g \in  \mathcal {L}^p(E)]]></fr:tex>. We say that <fr:tex display="inline"><![CDATA[f \sim  g]]></fr:tex> if <fr:tex display="inline"><![CDATA[f(x) = g(x)]]></fr:tex> for <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost every</fr:link> <fr:tex display="inline"><![CDATA[x \in  E]]></fr:tex>. We set</fr:p>
+            <fr:tex display="inline"><![CDATA[L^p(E) = \mathcal {L}^p(E)/\sim ]]></fr:tex>
+            <fr:p>i.e. <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is the quotient (vector) <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex> through the relation <fr:tex display="inline"><![CDATA[\sim ]]></fr:tex></fr:p>
+            <fr:p>For a given <fr:link type="external" href="FA-0084">equivalence class</fr:link> <fr:tex display="inline"><![CDATA[[f] \in  L^p(E)]]></fr:tex>, we define the <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> of <fr:tex display="inline"><![CDATA[[f]]]></fr:tex> as <fr:tex display="inline"><![CDATA[||f||_{L^p(E)}]]></fr:tex> for an arbitrary representative <fr:tex display="inline"><![CDATA[f \in  [f]]]></fr:tex>.</fr:p>
+            <fr:p>From now on, by abuse of notation, we shall confuse <fr:tex display="inline"><![CDATA[[f]]]></fr:tex> and its representative <fr:tex display="inline"><![CDATA[f]]></fr:tex>. The <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is the <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+            <fr:p><fr:strong>Note</fr:strong>: The elements of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces are not individual functions in the strictest sense, but rather <fr:strong>equivalence classes of functions</fr:strong>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1523</fr:anchor>
+            <fr:addr type="user">FA-001G</fr:addr>
+            <fr:route>FA-001G.xml</fr:route>
+            <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. Then the <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach space</fr:link>.</fr:p>
+            <fr:p>Moreover, if <fr:tex display="inline"><![CDATA[p]]></fr:tex> is a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\{f_n\}_{n \in  \mathbb {N}}]]></fr:tex> is a <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex>, then there exist two functions <fr:tex display="inline"><![CDATA[f, h \in  L^p(E)]]></fr:tex> and a <fr:link type="local" href="FA-000R.xml" addr="FA-000R" title="Subsequence">subsequence</fr:link> <fr:tex display="inline"><![CDATA[f_{n_k}]]></fr:tex> of <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> such that</fr:p>
+            <fr:ol><fr:li><fr:tex display="inline"><![CDATA[|f_{n_k}(x)| \leq  h(x)]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>,</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[f_{n_k} \to  f]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:li></fr:ol>
+            <fr:p><fr:em>Note</fr:em>: The proof uses <fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:link>, <fr:link type="local" href="FA-001F.xml" addr="FA-001F" title="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1525</fr:anchor>
+            <fr:addr type="user">FA-000F</fr:addr>
+            <fr:route>FA-000F.xml</fr:route>
+            <fr:title text="Banach Space">Banach Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Banach space is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0017.xml" addr="FA-0017" title="Normed vector space">normed vector space</fr:link>. That is, a Banach space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||]]></fr:tex> such that every <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[V]]></fr:tex> (with respect to the metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>) converges to a vector in <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+            <fr:p>Banach spaces are fundamental in functional analysis and named after Stefan Banach. They provide the right setting for many important results in analysis, including the Hahn-Banach theorem, the open mapping theorem, and the closed graph theorem.</fr:p>
+            <fr:p>Examples include the spaces <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> for <fr:tex display="inline"><![CDATA[p \geq  1]]></fr:tex>, the space <fr:tex display="inline"><![CDATA[C([a,b])]]></fr:tex> of continuous functions on <fr:tex display="inline"><![CDATA[[a,b]]]></fr:tex> with the <fr:link type="local" href="FA-000E.xml" addr="FA-000E" title="Sup norm">sup norm</fr:link>, and all finite-dimensional normed vector spaces.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1527</fr:anchor>
+            <fr:addr type="user">FA-000U</fr:addr>
+            <fr:route>FA-000U.xml</fr:route>
+            <fr:title text="Hilbert Space">Hilbert Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
+            <fr:p>Hilbert spaces extend the methods of linear algebra to infinite-dimensional settings, making them crucial for quantum mechanics, Fourier analysis, and partial differential equations.</fr:p>
+            <fr:p>Examples include the space <fr:tex display="inline"><![CDATA[L^2]]></fr:tex> of square-integrable functions and the space <fr:tex display="inline"><![CDATA[l^2]]></fr:tex> of square-summable sequences.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1529</fr:anchor>
+            <fr:addr type="user">FA-0012</fr:addr>
+            <fr:route>FA-0012.xml</fr:route>
+            <fr:title text="Inner product space">Inner product space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An inner product space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over the field of real or complex numbers, equipped with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[\langle  \cdot ,\cdot \rangle  : V \times  V \rightarrow  \mathbb {F}]]></fr:tex>.</fr:p>
+            <fr:p>The inner product satisfies the following axioms for all vectors <fr:tex display="inline"><![CDATA[u, v, w \in  V]]></fr:tex> and all scalars <fr:tex display="inline"><![CDATA[a \in  \mathbb {F}]]></fr:tex>:</fr:p>
+            <fr:ul><fr:li><fr:strong>Linearity in the first argument:</fr:strong> <fr:tex display="inline"><![CDATA[\langle  au + v, w\rangle   = a\langle  u, w\rangle   + \langle  v, w\rangle  ]]></fr:tex></fr:li>
+<fr:li><fr:strong>Conjugate symmetry:</fr:strong> <fr:tex display="inline"><![CDATA[\langle  u, v\rangle   = \overline {\langle  v, u\rangle  }]]></fr:tex></fr:li>
+<fr:li><fr:strong>Positive definiteness:</fr:strong> <fr:tex display="inline"><![CDATA[\langle  v, v\rangle   \geq  0]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\langle  v, v\rangle   = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[v = 0]]></fr:tex></fr:li></fr:ul>
+            <fr:p>From the inner product, we can define:</fr:p>
+            <fr:ul><fr:li>A norm: <fr:tex display="inline"><![CDATA[||v|| = \sqrt {\langle  v,v\rangle  }]]></fr:tex></fr:li>
+<fr:li>A metric: <fr:tex display="inline"><![CDATA[d(u,v) = ||u-v||]]></fr:tex></fr:li>
+<fr:li>The concept of orthogonality: <fr:tex display="inline"><![CDATA[u]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> are orthogonal if <fr:tex display="inline"><![CDATA[\langle  u,v\rangle   = 0]]></fr:tex></fr:li></fr:ul>
+            <fr:p>Common examples of inner product spaces include <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> with the dot product, the space <fr:tex display="inline"><![CDATA[C([a,b])]]></fr:tex> with the <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>-inner product <fr:tex display="inline"><![CDATA[\langle  f,g \rangle  = \int _a^b f(x)\overline {g(x)}dx]]></fr:tex>, and the space of square-integrable functions <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>.</fr:p>
+            <fr:p>A <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> is a complete inner product space.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1531</fr:anchor>
+            <fr:addr type="user">FA-000G</fr:addr>
+            <fr:route>FA-000G.xml</fr:route>
+            <fr:title text="Metric Space">Metric Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
+            <fr:p>The metric satisfies the following properties:</fr:p>
+            <fr:ul><fr:li>Non-negativity: <fr:tex display="inline"><![CDATA[d(x,y) \geq  0]]></fr:tex></fr:li>
+<fr:li>Identity of indiscernibles: <fr:tex display="inline"><![CDATA[d(x,y) = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[x = y]]></fr:tex></fr:li>
+<fr:li>Symmetry: <fr:tex display="inline"><![CDATA[d(x,y) = d(y,x)]]></fr:tex></fr:li>
+<fr:li>Triangle inequality: <fr:tex display="inline"><![CDATA[d(x,z) \leq  d(x,y) + d(y,z)]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1533</fr:anchor>
+            <fr:addr type="user">FA-0017</fr:addr>
+            <fr:route>FA-0017.xml</fr:route>
+            <fr:title text="Normed vector space">Normed vector space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A normed vector space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> equipped with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||: V \rightarrow  \mathbb {R}]]></fr:tex>, which is a function that assigns a non-negative real number to each vector in the space, satisfying the following properties for all vectors <fr:tex display="inline"><![CDATA[u, v \in  V]]></fr:tex> and scalars <fr:tex display="inline"><![CDATA[a]]></fr:tex>:</fr:p>
+            <fr:ul><fr:li><fr:strong>Non-negativity:</fr:strong> <fr:tex display="inline"><![CDATA[||v|| \geq  0]]></fr:tex>, and <fr:tex display="inline"><![CDATA[||v|| = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[v = 0]]></fr:tex></fr:li>
+<fr:li><fr:strong>Absolute homogeneity:</fr:strong> <fr:tex display="inline"><![CDATA[||av|| = |a| \cdot  ||v||]]></fr:tex></fr:li>
+<fr:li><fr:strong>Triangle inequality:</fr:strong> <fr:tex display="inline"><![CDATA[||u + v|| \leq  ||u|| + ||v||]]></fr:tex></fr:li></fr:ul>
+            <fr:p>A norm induces a metric <fr:tex display="inline"><![CDATA[d(u,v) = ||u-v||]]></fr:tex> on the space, making it a <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>.</fr:p>
+            <fr:p>Common examples of norms include:</fr:p>
+            <fr:ul><fr:li>The Euclidean norm on <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>: <fr:tex display="inline"><![CDATA[||x||_2 = \sqrt {x_1^2 + x_2^2 + \cdots  + x_n^2}]]></fr:tex></fr:li>
+<fr:li>The <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> norms on function spaces: <fr:tex display="inline"><![CDATA[||f||_p = \left (\int  |f(x)|^p dx\right )^{1/p}]]></fr:tex></fr:li>
+<fr:li>The <fr:link type="local" href="FA-000E.xml" addr="FA-000E" title="Sup norm">sup norm</fr:link> on spaces of bounded functions: <fr:tex display="inline"><![CDATA[||f||_\infty  = \sup _{x} |f(x)|]]></fr:tex></fr:li></fr:ul>
+            <fr:p>A <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach space</fr:link> is a complete normed vector space.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

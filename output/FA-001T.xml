@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>714</fr:anchor>
+    <fr:addr type="user">FA-001T</fr:addr>
+    <fr:route>FA-001T.xml</fr:route>
+    <fr:title text="Hahn-Banach theorem">Hahn-Banach theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The Hahn-Banach theorem is a fundamental result in functional analysis that guarantees the existence of continuous linear functionals on normed spaces with specific properties. It comes in several equivalent forms:</fr:p>
+    <fr:p><fr:strong>Extension Form:</fr:strong> Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a subspace of a real vector space <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a sublinear functional on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a linear functional on <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f(x) \leq  p(x)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  M]]></fr:tex>, then there exists a linear functional <fr:tex display="inline"><![CDATA[F]]></fr:tex> on all of <fr:tex display="inline"><![CDATA[X]]></fr:tex> that extends <fr:tex display="inline"><![CDATA[f]]></fr:tex> (i.e., <fr:tex display="inline"><![CDATA[F(x) = f(x)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  M]]></fr:tex>) and satisfies <fr:tex display="inline"><![CDATA[F(x) \leq  p(x)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>.</fr:p>
+    <fr:p><fr:strong>Geometric Form:</fr:strong> Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a normed space, <fr:tex display="inline"><![CDATA[M]]></fr:tex> a proper closed subspace of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and <fr:tex display="inline"><![CDATA[y_0]]></fr:tex> a point in <fr:tex display="inline"><![CDATA[X \setminus  M]]></fr:tex>. Then there exists a continuous linear functional <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[F(M) = 0]]></fr:tex>, <fr:tex display="inline"><![CDATA[F(y_0) = 1]]></fr:tex>, and <fr:tex display="inline"><![CDATA[||F|| = 1/d(y_0, M)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[d(y_0, M)]]></fr:tex> is the distance from <fr:tex display="inline"><![CDATA[y_0]]></fr:tex> to <fr:tex display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
+    <fr:p><fr:strong>Separation Form:</fr:strong> Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a locally convex topological vector space and let <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> be disjoint, non-empty convex sets with <fr:tex display="inline"><![CDATA[A]]></fr:tex> open. Then there exists a continuous linear functional <fr:tex display="inline"><![CDATA[F]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and a real number <fr:tex display="inline"><![CDATA[c]]></fr:tex> such that <fr:tex display="inline"><![CDATA[F(a) < c \leq  F(b)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a \in  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex>.</fr:p>
+    <fr:p>The theorem has numerous applications, including:</fr:p>
+    <fr:ul><fr:li>Guaranteeing the existence of enough functionals to separate points in a normed space</fr:li>
+<fr:li>Proving that the <fr:link type="local" href="FA-001Q.xml" addr="FA-001Q" title="Dual space">dual space</fr:link> <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> is rich enough to determine the norm of elements in <fr:tex display="inline"><![CDATA[X]]></fr:tex></fr:li>
+<fr:li>Establishing the existence of linear functionals achieving various optimization criteria</fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>716</fr:anchor>
+            <fr:addr type="user">FA-001Q</fr:addr>
+            <fr:route>FA-001Q.xml</fr:route>
+            <fr:title text="Dual space">Dual space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
+            <fr:p>For a normed vector space <fr:tex display="inline"><![CDATA[(X, ||\cdot ||)]]></fr:tex>, the continuous dual space or topological dual space, often still denoted <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>, consists of all bounded (or continuous) linear functionals on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. A linear functional <fr:tex display="inline"><![CDATA[f]]></fr:tex> is bounded if there exists a constant <fr:tex display="inline"><![CDATA[M > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f(x)| \leq  M ||x||]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>.</fr:p>
+            <fr:p>The dual space plays a central role in functional analysis and helps establish important connections between a space and its "mirror image." The natural norm on the dual space <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> is the operator norm:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[||f|| = \sup \{|f(x)| : x \in  X, ||x|| \leq  1\}]]></fr:tex>
+            </fr:p>
+            <fr:p>Some important theorems related to dual spaces include:</fr:p>
+            <fr:ul><fr:li>The <fr:link type="local" href="FA-001T.xml" addr="FA-001T" title="Hahn-Banach theorem">Hahn-Banach theorem</fr:link>, which guarantees the existence of continuous linear functionals with specific properties</fr:li>
+<fr:li>The <fr:link type="local" href="FA-001R.xml" addr="FA-001R" title="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:link>, which states that the closed unit ball in the dual of a normed space is compact in the weak* topology</fr:li>
+<fr:li>For <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert spaces</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, there is a canonical isomorphism between <fr:tex display="inline"><![CDATA[H]]></fr:tex> and its dual <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> via the <fr:link type="local" href="FA-001U.xml" addr="FA-001U" title="Riesz representation theorem">Riesz representation theorem</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>718</fr:anchor>
+            <fr:addr type="user">FA-001Q</fr:addr>
+            <fr:route>FA-001Q.xml</fr:route>
+            <fr:title text="Dual space">Dual space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
+            <fr:p>For a normed vector space <fr:tex display="inline"><![CDATA[(X, ||\cdot ||)]]></fr:tex>, the continuous dual space or topological dual space, often still denoted <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>, consists of all bounded (or continuous) linear functionals on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. A linear functional <fr:tex display="inline"><![CDATA[f]]></fr:tex> is bounded if there exists a constant <fr:tex display="inline"><![CDATA[M > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f(x)| \leq  M ||x||]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>.</fr:p>
+            <fr:p>The dual space plays a central role in functional analysis and helps establish important connections between a space and its "mirror image." The natural norm on the dual space <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> is the operator norm:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[||f|| = \sup \{|f(x)| : x \in  X, ||x|| \leq  1\}]]></fr:tex>
+            </fr:p>
+            <fr:p>Some important theorems related to dual spaces include:</fr:p>
+            <fr:ul><fr:li>The <fr:link type="local" href="FA-001T.xml" addr="FA-001T" title="Hahn-Banach theorem">Hahn-Banach theorem</fr:link>, which guarantees the existence of continuous linear functionals with specific properties</fr:li>
+<fr:li>The <fr:link type="local" href="FA-001R.xml" addr="FA-001R" title="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:link>, which states that the closed unit ball in the dual of a normed space is compact in the weak* topology</fr:li>
+<fr:li>For <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert spaces</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, there is a canonical isomorphism between <fr:tex display="inline"><![CDATA[H]]></fr:tex> and its dual <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> via the <fr:link type="local" href="FA-001U.xml" addr="FA-001U" title="Riesz representation theorem">Riesz representation theorem</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

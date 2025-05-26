@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>325</fr:anchor>
+    <fr:addr type="user">Cauchy-Hadamard Theorem</fr:addr>
+    <fr:route>Cauchy-Hadamard Theorem.xml</fr:route>
+    <fr:title text="Cauchy-Hadamard Theorem">Cauchy-Hadamard Theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Gives us a precise way to determine the <fr:strong>radius of <fr:link type="external" href="convergence">convergence</fr:link></fr:strong> of a <fr:link type="local" href="power%20series.xml" addr="power series" title="Power series">power series</fr:link>.</fr:p>
+    <fr:p>For a <fr:link type="local" href="power%20series.xml" addr="power series" title="Power series">power series</fr:link> centered at <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>:</fr:p>
+    <fr:tex display="block"><![CDATA[\sum _{n=0}^\infty  a_n (z - z_0)^n = a_0 + a_1(z - z_0) + a_2(z - z_0)^2 + \dots ]]></fr:tex>
+    <fr:p>where <fr:tex display="inline"><![CDATA[a_n]]></fr:tex> are the complex coefficients, the radius of convergence <fr:tex display="inline"><![CDATA[R]]></fr:tex> is given by the formula:</fr:p>
+    <fr:tex display="block"><![CDATA[\frac {1}{R} = \limsup _{n \to  \infty } |a_n|^{\frac {1}{n}}]]></fr:tex>
+    <fr:p>Where <fr:link type="external" href="limsup">limsup</fr:link> here is the usual sense in <fr:link type="external" href="Functional%20Analysis">Functional Analysis</fr:link>.</fr:p>
+    <fr:p>Has an analogue of the for the singular part of the <fr:link type="local" href="Laurent%20series.xml" addr="Laurent series" title="Laurent series">Laurent series</fr:link>:</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[z_0 \in  \mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\{a_k\} \subset  \mathbb {C}]]></fr:tex>. Given the series of negative powers (it's a power series)</fr:p>
+    <fr:tex display="block"><![CDATA[\sum _{k=1}^{+\infty } {a_k {(z-z_0)}^k}]]></fr:tex>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[r:=\limsup _{k \to  +\infty } {|a_k|}^{\frac {1}{k}}]]></fr:tex>. Let</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>327</fr:anchor>
+            <fr:addr type="user">power series</fr:addr>
+            <fr:route>power series.xml</fr:route>
+            <fr:title text="Power series">Power series</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter />
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>329</fr:anchor>
+            <fr:addr type="user">Laurent series</fr:addr>
+            <fr:route>Laurent series.xml</fr:route>
+            <fr:title text="Laurent series">Laurent series</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>
+              <fr:strong>Introduction</fr:strong>
+            </fr:p>
+            <fr:p>Consider</fr:p>
+            <fr:tex display="block"><![CDATA[f(z) = f_1(z) + f_2(z) = \frac {1}{1-z} + \frac {1}{2-z}]]></fr:tex>
+            <fr:p>We can Use <fr:link type="external" href="Taylor%20Series">Taylor Series</fr:link>:</fr:p>
+            <fr:tex display="block"><![CDATA[f_1(z) = \frac {1}{1-z} = \sum _{k=0}^\infty  z^k \quad  \text {in } B_1(0)]]></fr:tex>
+            <fr:p>Define</fr:p>
+            <fr:tex display="block"><![CDATA[g_1(w) = f_1(z) \vert  _{z=\frac {1}{w}} = \frac {1}{1-1/w} = -w \frac {1}{1-w} = -w \sum _{k=0}^\infty  w^k]]></fr:tex>
+            <fr:p>when <fr:tex display="inline"><![CDATA[|w| < 1]]></fr:tex></fr:p>
+            <fr:p>Switching back to the original variable <fr:tex display="inline"><![CDATA[z]]></fr:tex> we have we find</fr:p>
+            <fr:tex display="block"><![CDATA[f_1(z) = -\frac {1}{z} \sum _{k=0}^\infty  {\frac {1}{z^k}} = -\sum _{k=1}^\infty  z^{-k}]]></fr:tex>
+            <fr:p>for <fr:tex display="inline"><![CDATA[|z|>1]]></fr:tex></fr:p>
+            <fr:p>Similarly we write</fr:p>
+            <fr:tex display="block"><![CDATA[f_2(z) = \frac {1}{2-z} = \frac {\frac {1}{2}}{1- \frac {z}{2}} = \frac {1}{2} \sum _{k=0}^\infty {\left (\frac {z}{2} \right )}^k]]></fr:tex>
+            <fr:p>for <fr:tex display="inline"><![CDATA[|z| < 2]]></fr:tex></fr:p>
+            <fr:p>In the anulus <fr:tex display="inline"><![CDATA[C_0(1,2) = \{ z \in  \mathbb {C}: 1 < |z| < 2 \}]]></fr:tex> we can write</fr:p>
+            <fr:tex display="block"><![CDATA[f(z) = -\sum _{k=1}^\infty  {\frac {1}{z^k}} + \sum _{k=0}^\infty  {\frac {z^k}{z^{k+1}}} = \sum _{-\infty }^{+\infty }{a_k z^k} ]]></fr:tex>
+            <fr:p>where</fr:p>
+            <fr:tex display="block"><![CDATA[a_k = \begin {cases} -1 \qquad  \text {if } k \leq  -1 \\ \frac {1}{2^{k+1}} \qquad  \text {if } k \geq  0 \end {cases}]]></fr:tex>
+            <fr:p>For our example</fr:p>
+            <fr:tex display="block"><![CDATA[f(z) = \dots  - \frac {1}{z^2} - \frac {1}{z} + \frac {1}{2} + \frac {1}{4}z + \frac {1}{8}z^2 + \dots ]]></fr:tex>
+            <fr:p>
+              <fr:strong>Definition</fr:strong>
+            </fr:p>
+            <fr:p>Given a <fr:link type="local" href="sequence.xml" addr="sequence" title="Sequence">sequence</fr:link> <fr:tex display="inline"><![CDATA[ \{a_k\}_{k \in  \mathbb {Z}} \subset  \mathbb {C} ]]></fr:tex>, the seties</fr:p>
+            <fr:tex display="block"><![CDATA[\sum _{k=-\infty }^{+\infty } {a_k {(z-z_0)}^k}]]></fr:tex>
+            <fr:p>is called the <fr:strong>Laurent series</fr:strong>.</fr:p>
+            <fr:p>It is defined when both the series</fr:p>
+            <fr:tex display="block"><![CDATA[\sum _{k=-\infty }^{-1} {a_k {(z-z_0)}^k} \quad  \text {and} \quad  \sum _{k=-0}^{+\infty } {a_k {(z-z_0)}^k}]]></fr:tex>
+            <fr:p>converge.</fr:p>
+            <fr:p>The first is called the <fr:em>singular part</fr:em> of the Laurent series, while the second is called the <fr:em>regular part</fr:em></fr:p>
+            <fr:p>
+              <fr:strong>Remark</fr:strong>
+            </fr:p>
+            <fr:p>Every <fr:link type="external" href="entire">entire</fr:link> function has <fr:em>zero</fr:em> singular part.</fr:p>
+            <fr:p>For example if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a polynomial of degree <fr:tex display="inline"><![CDATA[N]]></fr:tex>, the singular part is identically <fr:tex display="inline"><![CDATA[0]]></fr:tex>, while the non-zero coefficients of the regular part are at most <fr:tex display="inline"><![CDATA[N+1]]></fr:tex></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

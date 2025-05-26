@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>769</fr:anchor>
+    <fr:addr type="user">FA-0045</fr:addr>
+    <fr:route>FA-0045.xml</fr:route>
+    <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>An orthonormal basis for a <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> is an <fr:link type="local" href="FA-0053.xml" addr="FA-0053" title="Orthonormal set">orthonormal set</fr:link> <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> of vectors in <fr:tex display="inline"><![CDATA[H]]></fr:tex> such that the <fr:link type="local" href="FA-0040.xml" addr="FA-0040" title="Closed linear span">closed linear span</fr:link> of <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> is the entire space <fr:tex display="inline"><![CDATA[H]]></fr:tex>.</fr:p>
+    <fr:p>In other words, an orthonormal basis is an orthonormal set that is also <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Complete">complete</fr:link> in the sense that any vector in the Hilbert space can be approximated arbitrarily well by finite linear combinations of the basis elements.</fr:p>
+    <fr:p>Equivalently, <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> is an orthonormal basis of <fr:tex display="inline"><![CDATA[H]]></fr:tex> if and only if for every <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex>:</fr:p>
+    <fr:tex display="block"><![CDATA[x = \sum _i \langle  x, e_i \rangle  e_i]]></fr:tex>
+    <fr:p>Important properties include:</fr:p>
+    <fr:ul><fr:li>Every Hilbert space has an orthonormal basis (this requires the <fr:link type="external" href="FA-0054">Axiom of Choice</fr:link> for general Hilbert spaces)</fr:li>
+<fr:li><fr:link type="local" href="FA-0046.xml" addr="FA-0046" title="Parseval's identity">Parseval's identity</fr:link> holds for orthonormal bases</fr:li>
+<fr:li>Any two orthonormal bases of the same Hilbert space have the same cardinality</fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>771</fr:anchor>
+            <fr:addr type="user">FA-0046</fr:addr>
+            <fr:route>FA-0046.xml</fr:route>
+            <fr:title text="Parseval's identity">Parseval's identity</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Suppose that <fr:tex display="inline"><![CDATA[U = \{u_n : n \in  \mathbb {N}\}]]></fr:tex> is an <fr:link type="local" href="FA-0045.xml" addr="FA-0045" title="Orthonormal Basis">orthonormal basis</fr:link> of a <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex></fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[x = \sum _{n \in  \mathbb {N}} a_n u_n]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = \sum _{n \in  \mathbb {N}} b_n u_n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[a_n = \langle  u_n, x \rangle ]]></fr:tex> and <fr:tex display="inline"><![CDATA[b_n = \langle  u_n, y \rangle ]]></fr:tex>, then</fr:p>
+            <fr:tex display="block"><![CDATA[{\langle  x, y \rangle  = \sum _{n \in  \mathbb {N}} a_n \bar {b}_n}]]></fr:tex>
+            <fr:p><fr:strong>Alternatively</fr:strong>: Let <fr:tex display="inline"><![CDATA[H]]></fr:tex> be a Hilbert Space and <fr:tex display="inline"><![CDATA[\{e_n\}]]></fr:tex> be a countable orthonormal basis of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then for all <fr:tex display="inline"><![CDATA[u \in  H]]></fr:tex></fr:p>
+            <fr:tex display="block"><![CDATA[{\sum _n {|{\langle  u, e_n \rangle }}|^2 = {||u||}^2}]]></fr:tex>
+            <fr:p>(In <fr:link type="local" href="FA-0032.xml" addr="FA-0032" title="Bessel's inequality">Bessel's inequality</fr:link>, we only had an inequality <fr:tex display="inline"><![CDATA[\leq ]]></fr:tex> in the expression above)</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>773</fr:anchor>
+            <fr:addr type="user">FA-0040</fr:addr>
+            <fr:route>FA-0040.xml</fr:route>
+            <fr:title text="Closed linear span">Closed linear span</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The closed linear span of a subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a normed vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is the closure of the linear span of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+            <fr:p>The linear span of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[span(S)]]></fr:tex>, is the set of all finite linear combinations of elements in <fr:tex display="inline"><![CDATA[S]]></fr:tex>:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[span(S) = \{\sum _{i=1}^n a_i v_i : n \in  \mathbb {N}, a_i \in  \mathbb {K}, v_i \in  S\}]]></fr:tex>
+            </fr:p>
+            <fr:p>The closure of a set in a normed space is the set together with all its limit points. So the closed linear span of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, often denoted by <fr:tex display="inline"><![CDATA[\overline {span(S)}]]></fr:tex>, consists of all vectors that can be approximated arbitrarily well by finite linear combinations of elements in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+            <fr:p>In the context of a <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert space</fr:link>, if <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> is an <fr:link type="local" href="FA-0053.xml" addr="FA-0053" title="Orthonormal set">orthonormal set</fr:link>, then a vector <fr:tex display="inline"><![CDATA[v]]></fr:tex> is in the closed linear span of <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> if and only if:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[v = \sum _i \langle  v, e_i \rangle  e_i]]></fr:tex>
+            </fr:p>
+            <fr:p>where the sum converges in the norm.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>775</fr:anchor>
+            <fr:addr type="user">FA-0023</fr:addr>
+            <fr:route>FA-0023.xml</fr:route>
+            <fr:title text="Complete">Complete</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be complete if every <fr:link type="local" href="FA-0033.xml" addr="FA-0033" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> converges to a point in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>Intuitively, a metric space is complete if there are no "holes" or "missing points" in it. All the limit points of Cauchy sequences are already in the space.</fr:p>
+            <fr:p>Examples of complete spaces include <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> with the Euclidean metric, <fr:link type="local" href="FA-0015.xml" addr="FA-0015" title="Banach Space">Banach spaces</fr:link>, and <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert spaces</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>777</fr:anchor>
+            <fr:addr type="user">FA-0030</fr:addr>
+            <fr:route>FA-0030.xml</fr:route>
+            <fr:title text="Hilbert Space">Hilbert Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0038.xml" addr="FA-0038" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0039.xml" addr="FA-0039" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
+            <fr:p>Hilbert spaces extend the methods of linear algebra to infinite-dimensional settings, making them crucial for quantum mechanics, Fourier analysis, and partial differential equations.</fr:p>
+            <fr:p>Examples include the space <fr:tex display="inline"><![CDATA[L^2]]></fr:tex> of square-integrable functions and the space <fr:tex display="inline"><![CDATA[l^2]]></fr:tex> of square-summable sequences.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>779</fr:anchor>
+            <fr:addr type="user">FA-0053</fr:addr>
+            <fr:route>FA-0053.xml</fr:route>
+            <fr:title text="Orthonormal set">Orthonormal set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An orthonormal set in a <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a set of vectors <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> that satisfies the following conditions:</fr:p>
+            <fr:ul><fr:li>Each vector has unit norm: <fr:tex display="inline"><![CDATA[||e_i|| = 1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i]]></fr:tex></fr:li>
+<fr:li>Different vectors are orthogonal to each other: <fr:tex display="inline"><![CDATA[\langle  e_i, e_j \rangle  = 0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i \neq  j]]></fr:tex></fr:li></fr:ul>
+            <fr:p>Equivalently, an orthonormal set satisfies <fr:tex display="inline"><![CDATA[\langle  e_i, e_j \rangle  = \delta _{ij}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\delta _{ij}]]></fr:tex> is the <fr:link type="local" href="FA-0037.xml" addr="FA-0037" title="Kronecker delta">Kronecker delta</fr:link>.</fr:p>
+            <fr:p>Orthonormal sets are fundamental building blocks in the theory of Hilbert spaces. They allow for simple representations of vectors:</fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> is an orthonormal set and <fr:tex display="inline"><![CDATA[v]]></fr:tex> is a vector in the Hilbert space, then the Fourier coefficients of <fr:tex display="inline"><![CDATA[v]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> are given by <fr:tex display="inline"><![CDATA[c_i = \langle  v, e_i \rangle ]]></fr:tex>, and we can write:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[v = \sum _i c_i e_i + w]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[w]]></fr:tex> is orthogonal to the span of <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>781</fr:anchor>
+            <fr:addr type="user">FA-0046</fr:addr>
+            <fr:route>FA-0046.xml</fr:route>
+            <fr:title text="Parseval's identity">Parseval's identity</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Suppose that <fr:tex display="inline"><![CDATA[U = \{u_n : n \in  \mathbb {N}\}]]></fr:tex> is an <fr:link type="local" href="FA-0045.xml" addr="FA-0045" title="Orthonormal Basis">orthonormal basis</fr:link> of a <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex></fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[x = \sum _{n \in  \mathbb {N}} a_n u_n]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = \sum _{n \in  \mathbb {N}} b_n u_n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[a_n = \langle  u_n, x \rangle ]]></fr:tex> and <fr:tex display="inline"><![CDATA[b_n = \langle  u_n, y \rangle ]]></fr:tex>, then</fr:p>
+            <fr:tex display="block"><![CDATA[{\langle  x, y \rangle  = \sum _{n \in  \mathbb {N}} a_n \bar {b}_n}]]></fr:tex>
+            <fr:p><fr:strong>Alternatively</fr:strong>: Let <fr:tex display="inline"><![CDATA[H]]></fr:tex> be a Hilbert Space and <fr:tex display="inline"><![CDATA[\{e_n\}]]></fr:tex> be a countable orthonormal basis of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, then for all <fr:tex display="inline"><![CDATA[u \in  H]]></fr:tex></fr:p>
+            <fr:tex display="block"><![CDATA[{\sum _n {|{\langle  u, e_n \rangle }}|^2 = {||u||}^2}]]></fr:tex>
+            <fr:p>(In <fr:link type="local" href="FA-0032.xml" addr="FA-0032" title="Bessel's inequality">Bessel's inequality</fr:link>, we only had an inequality <fr:tex display="inline"><![CDATA[\leq ]]></fr:tex> in the expression above)</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

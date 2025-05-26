@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>597</fr:anchor>
+    <fr:addr type="user">FA-0009</fr:addr>
+    <fr:route>FA-0009.xml</fr:route>
+    <fr:title text="Distance Measure">Distance Measure</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A distance measure, or metric, is a function that defines a measure of distance between elements of a set. In a <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>, a distance function <fr:tex display="inline"><![CDATA[d]]></fr:tex> satisfies the following properties for all points <fr:tex display="inline"><![CDATA[x]]></fr:tex>, <fr:tex display="inline"><![CDATA[y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z]]></fr:tex> in the space:</fr:p>
+    <fr:ul><fr:li>Non-negativity: <fr:tex display="inline"><![CDATA[d(x,y) \geq  0]]></fr:tex></fr:li>
+<fr:li>Identity of indiscernibles: <fr:tex display="inline"><![CDATA[d(x,y) = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[x = y]]></fr:tex></fr:li>
+<fr:li>Symmetry: <fr:tex display="inline"><![CDATA[d(x,y) = d(y,x)]]></fr:tex></fr:li>
+<fr:li>Triangle inequality: <fr:tex display="inline"><![CDATA[d(x,z) \leq  d(x,y) + d(y,z)]]></fr:tex></fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>599</fr:anchor>
+            <fr:addr type="user">FA-000G</fr:addr>
+            <fr:route>FA-000G.xml</fr:route>
+            <fr:title text="Metric Space">Metric Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
+            <fr:p>The metric satisfies the following properties:</fr:p>
+            <fr:ul><fr:li>Non-negativity: <fr:tex display="inline"><![CDATA[d(x,y) \geq  0]]></fr:tex></fr:li>
+<fr:li>Identity of indiscernibles: <fr:tex display="inline"><![CDATA[d(x,y) = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[x = y]]></fr:tex></fr:li>
+<fr:li>Symmetry: <fr:tex display="inline"><![CDATA[d(x,y) = d(y,x)]]></fr:tex></fr:li>
+<fr:li>Triangle inequality: <fr:tex display="inline"><![CDATA[d(x,z) \leq  d(x,y) + d(y,z)]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>601</fr:anchor>
+            <fr:addr type="user">FA-000D</fr:addr>
+            <fr:route>FA-000D.xml</fr:route>
+            <fr:title text="Why Functional Analysis?">Why Functional Analysis?</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Why Functional Analysis?</fr:p>
+            <fr:ul><fr:li>Extension of Linear Algebra to <fr:link type="local" href="FA-0005.xml" addr="FA-0005" title="Infinite Dimensions">Infinite Dimensions</fr:link></fr:li>
+<fr:li>Deals with Functions (<fr:link type="local" href="FA-0006.xml" addr="FA-0006" title="Space of Continuous Functions">Space of Continuous Functions</fr:link>) as the primary objects/unknowns</fr:li>
+<fr:li>Merges <fr:link type="external" href="FA-0007">Analysis</fr:link> and <fr:link type="external" href="FA-0008">Linear Algebra</fr:link></fr:li>
+<fr:li>Necessity for exploring different <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">Distance Measure</fr:link>s in <fr:link type="local" href="FA-0010.xml" addr="FA-0010" title="Pointwise Convergence">infinite dimensions</fr:link></fr:li>
+<fr:li>Clarification, Rigorisation, and Unification of concepts</fr:li>
+<fr:li>Applications (<fr:link type="local" href="FA-0011.xml" addr="FA-0011" title="Kronecker delta">Differential Equations</fr:link>, Numerical Methods, <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">Calculus of Variations</fr:link>, Signal Processing, Integral Equations)</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>603</fr:anchor>
+            <fr:addr type="user">FA-000G</fr:addr>
+            <fr:route>FA-000G.xml</fr:route>
+            <fr:title text="Metric Space">Metric Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
+            <fr:p>The metric satisfies the following properties:</fr:p>
+            <fr:ul><fr:li>Non-negativity: <fr:tex display="inline"><![CDATA[d(x,y) \geq  0]]></fr:tex></fr:li>
+<fr:li>Identity of indiscernibles: <fr:tex display="inline"><![CDATA[d(x,y) = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[x = y]]></fr:tex></fr:li>
+<fr:li>Symmetry: <fr:tex display="inline"><![CDATA[d(x,y) = d(y,x)]]></fr:tex></fr:li>
+<fr:li>Triangle inequality: <fr:tex display="inline"><![CDATA[d(x,z) \leq  d(x,y) + d(y,z)]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>277</fr:anchor>
+    <fr:addr type="user">FA-000L</fr:addr>
+    <fr:route>FA-000L.xml</fr:route>
+    <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let K be a <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link> <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>. A subset of <fr:tex display="inline"><![CDATA[C(K)]]></fr:tex> is <fr:link type="local" href="FA-000I.xml" addr="FA-000I" title="Precompact">precompact</fr:link> if and only if it is <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link>, and <fr:link type="local" href="FA-000K.xml" addr="FA-000K" title="Equicontinuous">equicontinuous</fr:link>.</fr:p>
+    <fr:p><fr:strong>N.B</fr:strong> since uniform equicontinuity implies pointwise equicontinuity, the usage of "equicontious" above is unambiguous.</fr:p>
+    <fr:p>If that subset is closed, then it's <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>279</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
+            <fr:p>
+              <fr:strong>Core Concepts:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link> - The fundamental theorem on polynomial approximation</fr:li>
+  <fr:li><fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert Space</fr:link> - Complete inner product spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach Space</fr:link> - Complete normed spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">Bounded Linear Operator</fr:link> - Key objects of study in functional analysis</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Important Theorems:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-000L.xml" addr="FA-000L" title="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:link> - Characterizes compact subsets in spaces of continuous functions</fr:li>
+  <fr:li><fr:link type="local" href="FA-002O.xml" addr="FA-002O" title="Projection Theorem">Projection Theorem</fr:link> - Fundamental result for Hilbert spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Parseval's identity</fr:link> - Relates norms in Fourier analysis</fr:li>
+  <fr:li><fr:link type="local" href="FA-001Y.xml" addr="FA-001Y" title="Hölder inequality">Hölder inequality</fr:link> - Generalizes the Cauchy-Schwarz inequality</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Measure Theory:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue Measure</fr:link> - Foundation for modern integration theory</fr:li>
+  <fr:li><fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">Measurable Set</fr:link> - Sets with well-defined measure</fr:li>
+  <fr:li><fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">Measurable Function</fr:link> - Functions suitable for Lebesgue integration</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Norms and Metrics:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">Norm</fr:link> - Way to measure vector magnitude</fr:li>
+  <fr:li><fr:link type="local" href="FA-003B.xml" addr="FA-003B" title="Lp norm">Lp norm</fr:link> - Important class of norms</fr:li>
+  <fr:li><fr:link type="local" href="FA-003F.xml" addr="FA-003F" title="Operator Norm">Operator Norm</fr:link> - Measures the "size" of linear operators</fr:li>
+  <fr:li><fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">Metric Space</fr:link> - Generalized notion of distance</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>281</fr:anchor>
+            <fr:addr type="user">FA-000J</fr:addr>
+            <fr:route>FA-000J.xml</fr:route>
+            <fr:title text="Bounded">Bounded</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be bounded if there exists some number <fr:tex display="inline"><![CDATA[r]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x,y) \leq  r]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x,y \in  S]]></fr:tex>.</fr:p>
+            <fr:p>Equivalently, a set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is bounded if it is contained in some ball of finite radius, i.e., if there exists <fr:tex display="inline"><![CDATA[x_0 \in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[r > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[S \subseteq  B(x_0, r)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[B(x_0, r)]]></fr:tex> is the ball with center <fr:tex display="inline"><![CDATA[x_0]]></fr:tex> and radius <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>283</fr:anchor>
+            <fr:addr type="user">FA-000H</fr:addr>
+            <fr:route>FA-000H.xml</fr:route>
+            <fr:title text="Compact">Compact</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subset <fr:tex display="inline"><![CDATA[K]]></fr:tex> of a topological space is said to be compact if every open cover of <fr:tex display="inline"><![CDATA[K]]></fr:tex> has a finite subcover.</fr:p>
+            <fr:p>In metric spaces, compactness is equivalent to being <fr:link type="local" href="FA-000M.xml" addr="FA-000M" title="Sequentially compact">sequentially compact</fr:link> (every sequence has a convergent subsequence) and <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> and <fr:link type="local" href="FA-000O.xml" addr="FA-000O" title="Totally bounded">totally bounded</fr:link>.</fr:p>
+            <fr:p>In <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, a set is compact if and only if it is closed and bounded (the <fr:link type="local" href="FA-000P.xml" addr="FA-000P" title="Heine-Borel Theorem">Heine-Borel Theorem</fr:link>).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>285</fr:anchor>
+            <fr:addr type="user">FA-000K</fr:addr>
+            <fr:route>FA-000K.xml</fr:route>
+            <fr:title text="Equicontinuous">Equicontinuous</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A family of functions <fr:tex display="inline"><![CDATA[F]]></fr:tex> from a metric space <fr:tex display="inline"><![CDATA[(X,d_X)]]></fr:tex> to a metric space <fr:tex display="inline"><![CDATA[(Y,d_Y)]]></fr:tex> is said to be equicontinuous at a point <fr:tex display="inline"><![CDATA[x_0 \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists a <fr:tex display="inline"><![CDATA[δ > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d_Y(f(x), f(x_0)) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[f \in  F]]></fr:tex> and all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> with <fr:tex display="inline"><![CDATA[d_X(x, x_0) < δ]]></fr:tex>.</fr:p>
+            <fr:p>The family <fr:tex display="inline"><![CDATA[F]]></fr:tex> is said to be equicontinuous if it is equicontinuous at each point of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>Intuitively, an equicontinuous family of functions has the property that all functions in the family maintain the same level of continuity uniformly.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>287</fr:anchor>
+            <fr:addr type="user">FA-000G</fr:addr>
+            <fr:route>FA-000G.xml</fr:route>
+            <fr:title text="Metric Space">Metric Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
+            <fr:p>The metric satisfies the following properties:</fr:p>
+            <fr:ul><fr:li>Non-negativity: <fr:tex display="inline"><![CDATA[d(x,y) \geq  0]]></fr:tex></fr:li>
+<fr:li>Identity of indiscernibles: <fr:tex display="inline"><![CDATA[d(x,y) = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[x = y]]></fr:tex></fr:li>
+<fr:li>Symmetry: <fr:tex display="inline"><![CDATA[d(x,y) = d(y,x)]]></fr:tex></fr:li>
+<fr:li>Triangle inequality: <fr:tex display="inline"><![CDATA[d(x,z) \leq  d(x,y) + d(y,z)]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>289</fr:anchor>
+            <fr:addr type="user">FA-000I</fr:addr>
+            <fr:route>FA-000I.xml</fr:route>
+            <fr:title text="Precompact">Precompact</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be precompact (or relatively compact) if its closure is <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link>.</fr:p>
+            <fr:p>Equivalently, a set is precompact if every sequence in the set has a convergent subsequence in <fr:tex display="inline"><![CDATA[X]]></fr:tex> (though the limit might not be in the original set).</fr:p>
+            <fr:p>In a complete metric space, a set is precompact if and only if it is <fr:link type="local" href="FA-000O.xml" addr="FA-000O" title="Totally bounded">totally bounded</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

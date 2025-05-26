@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>633</fr:anchor>
+    <fr:addr type="user">FA-0056</fr:addr>
+    <fr:route>FA-0056.xml</fr:route>
+    <fr:title text="Lebesgue outer measure">Lebesgue outer measure</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The Lebesgue outer measure is a function that assigns an extended real number to any subset of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, serving as a precursor to the <fr:link type="local" href="FA-0055.xml" addr="FA-0055" title="Lebesgue measure">Lebesgue measure</fr:link>, which is defined only on <fr:link type="local" href="FA-0047.xml" addr="FA-0047" title="Measurable set">measurable sets</fr:link>.</fr:p>
+    <fr:p>For a subset <fr:tex display="inline"><![CDATA[E]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, the Lebesgue outer measure <fr:tex display="inline"><![CDATA[m^*(E)]]></fr:tex> is defined as:</fr:p>
+    <fr:p>
+      <fr:tex display="inline"><![CDATA[m^*(E) = \inf \{\sum _{i=1}^{\infty } |Q_i| : E \subseteq  \cup _{i=1}^{\infty } Q_i\}]]></fr:tex>
+    </fr:p>
+    <fr:p>where the infimum is taken over all countable covers of <fr:tex display="inline"><![CDATA[E]]></fr:tex> by open rectangles <fr:tex display="inline"><![CDATA[Q_i]]></fr:tex>, and <fr:tex display="inline"><![CDATA[|Q_i|]]></fr:tex> denotes the volume (product of side lengths) of the rectangle <fr:tex display="inline"><![CDATA[Q_i]]></fr:tex>.</fr:p>
+    <fr:p>Key properties of the Lebesgue outer measure include:</fr:p>
+    <fr:ul><fr:li>It is monotone: If <fr:tex display="inline"><![CDATA[E \subseteq  F]]></fr:tex>, then <fr:tex display="inline"><![CDATA[m^*(E) \leq  m^*(F)]]></fr:tex></fr:li>
+<fr:li>It is countably subadditive: <fr:tex display="inline"><![CDATA[m^*(\cup _{i=1}^{\infty } E_i) \leq  \sum _{i=1}^{\infty } m^*(E_i)]]></fr:tex></fr:li>
+<fr:li>It agrees with the standard notion of volume on rectangles</fr:li>
+<fr:li>It is translation invariant: <fr:tex display="inline"><![CDATA[m^*(E + x) = m^*(E)]]></fr:tex> for any set <fr:tex display="inline"><![CDATA[E]]></fr:tex> and any <fr:tex display="inline"><![CDATA[x \in  \mathbb {R}^n]]></fr:tex></fr:li></fr:ul>
+    <fr:p>The concept of <fr:link type="local" href="FA-0047.xml" addr="FA-0047" title="Measurable set">Lebesgue measurability</fr:link> is defined in terms of the Lebesgue outer measure. A set <fr:tex display="inline"><![CDATA[E]]></fr:tex> is Lebesgue measurable if and only if for any set <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[m^*(A) = m^*(A \cap  E) + m^*(A \setminus  E)]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>635</fr:anchor>
+            <fr:addr type="user">FA-0055</fr:addr>
+            <fr:route>FA-0055.xml</fr:route>
+            <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Lebesgue measure is the standard way of assigning a measure to subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, generalizing the intuitive notions of length, area, and volume to more complex sets. It is named after Henri Lebesgue.</fr:p>
+            <fr:p>For "nice" subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> (such as intervals in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, rectangles in <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>, or rectangular solids in <fr:tex display="inline"><![CDATA[\mathbb {R}^3]]></fr:tex>), the Lebesgue measure coincides with the standard notions of length, area, and volume. However, the Lebesgue measure can also be defined for a wide range of more complex and irregular sets.</fr:p>
+            <fr:p>Lebesgue measure has several important properties:</fr:p>
+            <fr:ul><fr:li>It is translation invariant: <fr:tex display="inline"><![CDATA[m(E + x) = m(E)]]></fr:tex> for any measurable set <fr:tex display="inline"><![CDATA[E]]></fr:tex> and any <fr:tex display="inline"><![CDATA[x \in  \mathbb {R}^n]]></fr:tex></fr:li>
+<fr:li>It is scale invariant: <fr:tex display="inline"><![CDATA[m(\lambda  E) = |\lambda |^n m(E)]]></fr:tex> for any measurable set <fr:tex display="inline"><![CDATA[E]]></fr:tex> and any <fr:tex display="inline"><![CDATA[λ \in  \mathbb {R}]]></fr:tex></fr:li>
+<fr:li>It is countably additive: If <fr:tex display="inline"><![CDATA[\{E_i\}]]></fr:tex> is a countable collection of pairwise disjoint measurable sets, then <fr:tex display="inline"><![CDATA[m(\cup _i E_i) = \sum _i m(E_i)]]></fr:tex></fr:li>
+<fr:li>It agrees with the standard notion of volume on "elementary sets" (e.g., rectangles)</fr:li></fr:ul>
+            <fr:p>The construction of Lebesgue measure typically involves defining the <fr:link type="local" href="FA-0056.xml" addr="FA-0056" title="Lebesgue outer measure">Lebesgue outer measure</fr:link> first and then restricting it to the σ-algebra of <fr:link type="local" href="FA-0047.xml" addr="FA-0047" title="Measurable set">Lebesgue measurable sets</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>637</fr:anchor>
+            <fr:addr type="user">FA-0047</fr:addr>
+            <fr:route>FA-0047.xml</fr:route>
+            <fr:title text="Measurable set">Measurable set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A set <fr:tex display="inline"><![CDATA[E]]></fr:tex> in a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be measurable if it belongs to the σ-algebra <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>.</fr:p>
+            <fr:p>In the context of <fr:link type="local" href="FA-0055.xml" addr="FA-0055" title="Lebesgue measure">Lebesgue measure</fr:link> on <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>, a set is Lebesgue measurable if it belongs to the Lebesgue σ-algebra, which is the σ-algebra generated by all open (or equivalently, closed) subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>.</fr:p>
+            <fr:p>Alternatively, a set <fr:tex display="inline"><![CDATA[E]]></fr:tex> is Lebesgue measurable if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an open set <fr:tex display="inline"><![CDATA[G]]></fr:tex> containing <fr:tex display="inline"><![CDATA[E]]></fr:tex> such that the <fr:link type="local" href="FA-0056.xml" addr="FA-0056" title="Lebesgue outer measure">Lebesgue outer measure</fr:link> of <fr:tex display="inline"><![CDATA[G \setminus  E]]></fr:tex> is less than <fr:tex display="inline"><![CDATA[ε]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>639</fr:anchor>
+            <fr:addr type="user">FA-0055</fr:addr>
+            <fr:route>FA-0055.xml</fr:route>
+            <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Lebesgue measure is the standard way of assigning a measure to subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, generalizing the intuitive notions of length, area, and volume to more complex sets. It is named after Henri Lebesgue.</fr:p>
+            <fr:p>For "nice" subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> (such as intervals in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, rectangles in <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>, or rectangular solids in <fr:tex display="inline"><![CDATA[\mathbb {R}^3]]></fr:tex>), the Lebesgue measure coincides with the standard notions of length, area, and volume. However, the Lebesgue measure can also be defined for a wide range of more complex and irregular sets.</fr:p>
+            <fr:p>Lebesgue measure has several important properties:</fr:p>
+            <fr:ul><fr:li>It is translation invariant: <fr:tex display="inline"><![CDATA[m(E + x) = m(E)]]></fr:tex> for any measurable set <fr:tex display="inline"><![CDATA[E]]></fr:tex> and any <fr:tex display="inline"><![CDATA[x \in  \mathbb {R}^n]]></fr:tex></fr:li>
+<fr:li>It is scale invariant: <fr:tex display="inline"><![CDATA[m(\lambda  E) = |\lambda |^n m(E)]]></fr:tex> for any measurable set <fr:tex display="inline"><![CDATA[E]]></fr:tex> and any <fr:tex display="inline"><![CDATA[λ \in  \mathbb {R}]]></fr:tex></fr:li>
+<fr:li>It is countably additive: If <fr:tex display="inline"><![CDATA[\{E_i\}]]></fr:tex> is a countable collection of pairwise disjoint measurable sets, then <fr:tex display="inline"><![CDATA[m(\cup _i E_i) = \sum _i m(E_i)]]></fr:tex></fr:li>
+<fr:li>It agrees with the standard notion of volume on "elementary sets" (e.g., rectangles)</fr:li></fr:ul>
+            <fr:p>The construction of Lebesgue measure typically involves defining the <fr:link type="local" href="FA-0056.xml" addr="FA-0056" title="Lebesgue outer measure">Lebesgue outer measure</fr:link> first and then restricting it to the σ-algebra of <fr:link type="local" href="FA-0047.xml" addr="FA-0047" title="Measurable set">Lebesgue measurable sets</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>641</fr:anchor>
+            <fr:addr type="user">FA-0047</fr:addr>
+            <fr:route>FA-0047.xml</fr:route>
+            <fr:title text="Measurable set">Measurable set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A set <fr:tex display="inline"><![CDATA[E]]></fr:tex> in a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be measurable if it belongs to the σ-algebra <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>.</fr:p>
+            <fr:p>In the context of <fr:link type="local" href="FA-0055.xml" addr="FA-0055" title="Lebesgue measure">Lebesgue measure</fr:link> on <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>, a set is Lebesgue measurable if it belongs to the Lebesgue σ-algebra, which is the σ-algebra generated by all open (or equivalently, closed) subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>.</fr:p>
+            <fr:p>Alternatively, a set <fr:tex display="inline"><![CDATA[E]]></fr:tex> is Lebesgue measurable if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an open set <fr:tex display="inline"><![CDATA[G]]></fr:tex> containing <fr:tex display="inline"><![CDATA[E]]></fr:tex> such that the <fr:link type="local" href="FA-0056.xml" addr="FA-0056" title="Lebesgue outer measure">Lebesgue outer measure</fr:link> of <fr:tex display="inline"><![CDATA[G \setminus  E]]></fr:tex> is less than <fr:tex display="inline"><![CDATA[ε]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

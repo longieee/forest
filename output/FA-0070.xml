@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>583</fr:anchor>
+    <fr:addr type="user">FA-0070</fr:addr>
+    <fr:route>FA-0070.xml</fr:route>
+    <fr:title text="Hölder inequality">Hölder inequality</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[f, g : E \to  \mathbb {R}]]></fr:tex> be <fr:link type="local" href="FA-0057.xml" addr="FA-0057" title="Measurable function">measurable functions</fr:link>, and let <fr:tex display="inline"><![CDATA[p, q \in  [1, +\infty ]]]></fr:tex> be <fr:link type="local" href="FA-0068.xml" addr="FA-0068" title="Conjugate exponents">conjugate</fr:link>. Then</fr:p>
+    <fr:tex display="block"><![CDATA[||fg||_{L^1(E)} \leq  ||f||_{L^p(E)} ||g||_{L^q(E)}]]></fr:tex>
+    <fr:p>The proof uses <fr:link type="external" href="FA-0069">Young's Inequality</fr:link></fr:p>
+    <fr:p><fr:strong>Remark</fr:strong> Hölder inequality can be also rephrased as follows:</fr:p>
+    <fr:tex display="block"><![CDATA[\int _E |f(x)|^\alpha  |g(x)|^\beta  dx \leq  \left (\int _E |f(x)| dx\right )^\alpha  \left (\int _E |g(x)| dx\right )^\beta ]]></fr:tex>
+    <fr:p>provided <fr:tex display="inline"><![CDATA[\alpha  + \beta  = 1]]></fr:tex></fr:p>
+    <fr:p><fr:strong>Discrete case</fr:strong> Let</fr:p>
+    <fr:tex display="inline"><![CDATA[x = (x_1, \dots , x_n), y = (y_1, \dots , y_n) \in  \mathbb {R}^n]]></fr:tex>
+    <fr:p>and let <fr:tex display="inline"><![CDATA[p, q \in  {1,2,3 \dots }]]></fr:tex> with <fr:tex display="inline"><![CDATA[1/p + 1/q = 1]]></fr:tex>, then</fr:p>
+    <fr:tex display="block"><![CDATA[\sum _{i=1}^n |x_i y_i| \leq  \left (\sum _{i=1}^n |x_i|^p\right )^{1/p} \left (\sum _{i=1}^n |y_i|^q\right )^{1/q}]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>584</fr:anchor>
+            <fr:addr type="user">FA-0068</fr:addr>
+            <fr:route>FA-0068.xml</fr:route>
+            <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In the context of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces and related inequalities, two exponents <fr:tex display="inline"><![CDATA[p, q \in  [1, \infty ]]]></fr:tex> are said to be conjugate (or Hölder conjugates) if they satisfy:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\frac {1}{p} + \frac {1}{q} = 1]]></fr:tex>
+            </fr:p>
+            <fr:p>Given a value of <fr:tex display="inline"><![CDATA[p]]></fr:tex>, its conjugate <fr:tex display="inline"><![CDATA[q]]></fr:tex> can be calculated as <fr:tex display="inline"><![CDATA[q = \frac {p}{p-1}]]></fr:tex>. Some common pairs of conjugate exponents are:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[p = 1]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = \infty ]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[p = 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = 2]]></fr:tex> (self-conjugate)</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[p = 4/3]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = 4]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[p = 3/2]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = 3]]></fr:tex></fr:li></fr:ul>
+            <fr:p>Conjugate exponents play a crucial role in many important inequalities in functional analysis and the theory of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces, including:</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-0070.xml" addr="FA-0070" title="Hölder inequality">Hölder's inequality</fr:link>: <fr:tex display="inline"><![CDATA[||fg||_{1} \leq  ||f||_{p} ||g||_{q}]]></fr:tex></fr:li>
+<fr:li>The fact that the <fr:link type="local" href="FA-0062.xml" addr="FA-0062" title="Dual space">dual space</fr:link> of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[L^q]]></fr:tex> for <fr:tex display="inline"><![CDATA[1 \leq  p < \infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="external" href="FA-0069">Young's inequality</fr:link> for products: <fr:tex display="inline"><![CDATA[ab \leq  \frac {a^p}{p} + \frac {b^q}{q}]]></fr:tex> for <fr:tex display="inline"><![CDATA[a, b \geq  0]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>586</fr:anchor>
+            <fr:addr type="user">FA-0071</fr:addr>
+            <fr:route>FA-0071.xml</fr:route>
+            <fr:title text="Minkowski's inequality">Minkowski's inequality</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[f, g : E \to  \mathbb {R}]]></fr:tex> be <fr:link type="local" href="FA-0057.xml" addr="FA-0057" title="Measurable function">measurable functions</fr:link>. Let <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. Then,</fr:p>
+            <fr:tex display="block"><![CDATA[||f+g||_{L^p(E)} \leq  ||f||_{L^p(E)} + ||g||_{L^p(E)}]]></fr:tex>
+            <fr:p>Proof uses <fr:link type="local" href="FA-0070.xml" addr="FA-0070" title="Hölder inequality">Hölder inequality</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>588</fr:anchor>
+            <fr:addr type="user">FA-0068</fr:addr>
+            <fr:route>FA-0068.xml</fr:route>
+            <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In the context of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces and related inequalities, two exponents <fr:tex display="inline"><![CDATA[p, q \in  [1, \infty ]]]></fr:tex> are said to be conjugate (or Hölder conjugates) if they satisfy:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\frac {1}{p} + \frac {1}{q} = 1]]></fr:tex>
+            </fr:p>
+            <fr:p>Given a value of <fr:tex display="inline"><![CDATA[p]]></fr:tex>, its conjugate <fr:tex display="inline"><![CDATA[q]]></fr:tex> can be calculated as <fr:tex display="inline"><![CDATA[q = \frac {p}{p-1}]]></fr:tex>. Some common pairs of conjugate exponents are:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[p = 1]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = \infty ]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[p = 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = 2]]></fr:tex> (self-conjugate)</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[p = 4/3]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = 4]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[p = 3/2]]></fr:tex> and <fr:tex display="inline"><![CDATA[q = 3]]></fr:tex></fr:li></fr:ul>
+            <fr:p>Conjugate exponents play a crucial role in many important inequalities in functional analysis and the theory of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces, including:</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-0070.xml" addr="FA-0070" title="Hölder inequality">Hölder's inequality</fr:link>: <fr:tex display="inline"><![CDATA[||fg||_{1} \leq  ||f||_{p} ||g||_{q}]]></fr:tex></fr:li>
+<fr:li>The fact that the <fr:link type="local" href="FA-0062.xml" addr="FA-0062" title="Dual space">dual space</fr:link> of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[L^q]]></fr:tex> for <fr:tex display="inline"><![CDATA[1 \leq  p < \infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="external" href="FA-0069">Young's inequality</fr:link> for products: <fr:tex display="inline"><![CDATA[ab \leq  \frac {a^p}{p} + \frac {b^q}{q}]]></fr:tex> for <fr:tex display="inline"><![CDATA[a, b \geq  0]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>590</fr:anchor>
+            <fr:addr type="user">FA-0057</fr:addr>
+            <fr:route>FA-0057.xml</fr:route>
+            <fr:title text="Measurable function">Measurable function</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[(X, \mathcal {A})]]></fr:tex> and <fr:tex display="inline"><![CDATA[(Y, \mathcal {B})]]></fr:tex> be measurable spaces, where <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are σ-algebras on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, respectively. A function <fr:tex display="inline"><![CDATA[f: X \to  Y]]></fr:tex> is said to be measurable if the preimage of every measurable set in <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is a measurable set in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>Formally, <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>-<fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> measurable if <fr:tex display="inline"><![CDATA[f^{-1}(B) \in  \mathcal {A}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[B \in  \mathcal {B}]]></fr:tex>.</fr:p>
+            <fr:p>In the context of real-valued functions on <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>, a function <fr:tex display="inline"><![CDATA[f: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> is Lebesgue measurable if the preimage of every Borel set in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is a Lebesgue measurable set in <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>.</fr:p>
+            <fr:p>Equivalently, a function <fr:tex display="inline"><![CDATA[f: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> is Lebesgue measurable if and only if the set <fr:tex display="inline"><![CDATA[\{x \in  \mathbb {R}^d : f(x) > a\}]]></fr:tex> is Lebesgue measurable for every <fr:tex display="inline"><![CDATA[a \in  \mathbb {R}]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

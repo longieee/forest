@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>529</fr:anchor>
+    <fr:addr type="user">FA-0016</fr:addr>
+    <fr:route>FA-0016.xml</fr:route>
+    <fr:title text="Conjugate">Conjugate</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The complex conjugate of a complex number <fr:tex display="inline"><![CDATA[z = a + bi]]></fr:tex>, denoted as <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex> or <fr:tex display="inline"><![CDATA[z^*]]></fr:tex>, is defined as:</fr:p>
+    <fr:p>
+      <fr:tex display="inline"><![CDATA[\bar {z} = a - bi]]></fr:tex>
+    </fr:p>
+    <fr:p>where <fr:tex display="inline"><![CDATA[a]]></fr:tex> is the real part and <fr:tex display="inline"><![CDATA[b]]></fr:tex> is the imaginary part of <fr:tex display="inline"><![CDATA[z]]></fr:tex>.</fr:p>
+    <fr:p>Key properties of complex conjugates include:</fr:p>
+    <fr:ul><fr:li><fr:tex display="inline"><![CDATA[\overline {z_1 + z_2} = \bar {z}_1 + \bar {z}_2]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[\overline {z_1 \cdot  z_2} = \bar {z}_1 \cdot  \bar {z}_2]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[\overline {\bar {z}} = z]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[|z|^2 = z \cdot  \bar {z} = a^2 + b^2]]></fr:tex></fr:li></fr:ul>
+    <fr:p>In the context of <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner products</fr:link> on complex vector spaces, the conjugate symmetry property states that <fr:tex display="inline"><![CDATA[\langle  u, v \rangle  = \overline {\langle  v, u \rangle }]]></fr:tex> for all vectors <fr:tex display="inline"><![CDATA[u]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>531</fr:anchor>
+            <fr:addr type="user">FA-0013</fr:addr>
+            <fr:route>FA-0013.xml</fr:route>
+            <fr:title text="Inner product">Inner product</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An inner product on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[F]]></fr:tex> (either <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) is a function <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >: V \times  V \rightarrow  F]]></fr:tex> that satisfies the following properties for all vectors <fr:tex display="inline"><![CDATA[u, v, w \in  V]]></fr:tex> and all scalars <fr:tex display="inline"><![CDATA[a \in  F]]></fr:tex>:</fr:p>
+            <fr:ul><fr:li><fr:strong>Linearity in the first argument:</fr:strong> <fr:tex display="inline"><![CDATA[<au + v, w> = a<u, w> + <v, w>]]></fr:tex></fr:li>
+<fr:li><fr:strong>Conjugate symmetry:</fr:strong> <fr:tex display="inline"><![CDATA[<u, v> = \overline {<v, u>}]]></fr:tex> (where <fr:tex display="inline"><![CDATA[\overline {z}]]></fr:tex> is the <fr:link type="local" href="FA-0016.xml" addr="FA-0016" title="Conjugate">conjugate</fr:link> of <fr:tex display="inline"><![CDATA[z]]></fr:tex>)</fr:li>
+<fr:li><fr:strong>Positive definiteness:</fr:strong> <fr:tex display="inline"><![CDATA[<v, v> \geq  0]]></fr:tex>, and <fr:tex display="inline"><![CDATA[<v, v> = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[v = 0]]></fr:tex></fr:li></fr:ul>
+            <fr:p>An inner product induces a norm on the vector space via <fr:tex display="inline"><![CDATA[||v|| = \sqrt {<v, v>}]]></fr:tex>, which in turn defines a metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>533</fr:anchor>
+            <fr:addr type="user">FA-0013</fr:addr>
+            <fr:route>FA-0013.xml</fr:route>
+            <fr:title text="Inner product">Inner product</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An inner product on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[F]]></fr:tex> (either <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) is a function <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >: V \times  V \rightarrow  F]]></fr:tex> that satisfies the following properties for all vectors <fr:tex display="inline"><![CDATA[u, v, w \in  V]]></fr:tex> and all scalars <fr:tex display="inline"><![CDATA[a \in  F]]></fr:tex>:</fr:p>
+            <fr:ul><fr:li><fr:strong>Linearity in the first argument:</fr:strong> <fr:tex display="inline"><![CDATA[<au + v, w> = a<u, w> + <v, w>]]></fr:tex></fr:li>
+<fr:li><fr:strong>Conjugate symmetry:</fr:strong> <fr:tex display="inline"><![CDATA[<u, v> = \overline {<v, u>}]]></fr:tex> (where <fr:tex display="inline"><![CDATA[\overline {z}]]></fr:tex> is the <fr:link type="local" href="FA-0016.xml" addr="FA-0016" title="Conjugate">conjugate</fr:link> of <fr:tex display="inline"><![CDATA[z]]></fr:tex>)</fr:li>
+<fr:li><fr:strong>Positive definiteness:</fr:strong> <fr:tex display="inline"><![CDATA[<v, v> \geq  0]]></fr:tex>, and <fr:tex display="inline"><![CDATA[<v, v> = 0]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[v = 0]]></fr:tex></fr:li></fr:ul>
+            <fr:p>An inner product induces a norm on the vector space via <fr:tex display="inline"><![CDATA[||v|| = \sqrt {<v, v>}]]></fr:tex>, which in turn defines a metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

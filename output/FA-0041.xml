@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>631</fr:anchor>
+    <fr:addr type="user">FA-0041</fr:addr>
+    <fr:route>FA-0041.xml</fr:route>
+    <fr:title text="Elementary Set">Elementary Set</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>An elementary set is a finite union of <fr:link type="local" href="FA-0044.xml" addr="FA-0044" title="Rectangle">rectangles</fr:link>.</fr:p>
+    <fr:p>In measure theory, elementary sets serve as the building blocks for constructing more complex measurable sets. They are used in the definition of both <fr:link type="local" href="FA-003W.xml" addr="FA-003W" title="Lebesgue Outer Measure">Lebesgue outer measure</fr:link> and <fr:link type="local" href="FA-003X.xml" addr="FA-003X" title="Lebesgue Inner Measure">Lebesgue inner measure</fr:link>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>633</fr:anchor>
+            <fr:addr type="user">FA-003W</fr:addr>
+            <fr:route>FA-003W.xml</fr:route>
+            <fr:title text="Lebesgue Outer Measure">Lebesgue Outer Measure</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m^* (E) = \inf  \left \{ m(A): A \supset  E \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[A \subset  \mathbb {R}^n]]></fr:tex> is a <fr:link type="external" href="FA-0131">bounded</fr:link> set and:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m(A) = \sup  \left \{ m(I): I \subset  A \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an <fr:link type="local" href="FA-0041.xml" addr="FA-0041" title="Elementary Set">elementary set</fr:link>.</fr:p>
+            <fr:p>Properties:</fr:p>
+            <fr:ul><fr:li>Is monotone: <fr:tex display="inline"><![CDATA[E \subset  F \implies  m^*(E) \leq  m^*(F)]]></fr:tex></fr:li>
+  <fr:li>Is countably <fr:link type="external" href="FA-0146">sub-additive</fr:link>: <fr:tex display="inline"><![CDATA[m^* \left ( \cup _{k=1}^{+\infty } {E_k} \right ) \leq  \sum _{k=1}^{+\infty } {m(E_k)}]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>635</fr:anchor>
+            <fr:addr type="user">FA-003X</fr:addr>
+            <fr:route>FA-003X.xml</fr:route>
+            <fr:title text="Lebesgue Inner Measure">Lebesgue Inner Measure</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m_* (E) = \sup  \left \{ m(K): K \subset  E \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[K \subset  \mathbb {R}^n]]></fr:tex> is a <fr:link type="external" href="FA-0147">compact</fr:link> set and:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m(K) = \inf  \left \{ m(I): I \supset  K \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an <fr:link type="local" href="FA-0041.xml" addr="FA-0041" title="Elementary Set">elementary set</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>637</fr:anchor>
+            <fr:addr type="user">FA-003W</fr:addr>
+            <fr:route>FA-003W.xml</fr:route>
+            <fr:title text="Lebesgue Outer Measure">Lebesgue Outer Measure</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m^* (E) = \inf  \left \{ m(A): A \supset  E \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[A \subset  \mathbb {R}^n]]></fr:tex> is a <fr:link type="external" href="FA-0131">bounded</fr:link> set and:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m(A) = \sup  \left \{ m(I): I \subset  A \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an <fr:link type="local" href="FA-0041.xml" addr="FA-0041" title="Elementary Set">elementary set</fr:link>.</fr:p>
+            <fr:p>Properties:</fr:p>
+            <fr:ul><fr:li>Is monotone: <fr:tex display="inline"><![CDATA[E \subset  F \implies  m^*(E) \leq  m^*(F)]]></fr:tex></fr:li>
+  <fr:li>Is countably <fr:link type="external" href="FA-0146">sub-additive</fr:link>: <fr:tex display="inline"><![CDATA[m^* \left ( \cup _{k=1}^{+\infty } {E_k} \right ) \leq  \sum _{k=1}^{+\infty } {m(E_k)}]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>639</fr:anchor>
+            <fr:addr type="user">FA-003X</fr:addr>
+            <fr:route>FA-003X.xml</fr:route>
+            <fr:title text="Lebesgue Inner Measure">Lebesgue Inner Measure</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m_* (E) = \sup  \left \{ m(K): K \subset  E \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[K \subset  \mathbb {R}^n]]></fr:tex> is a <fr:link type="external" href="FA-0147">compact</fr:link> set and:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m(K) = \inf  \left \{ m(I): I \supset  K \right \}}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an <fr:link type="local" href="FA-0041.xml" addr="FA-0041" title="Elementary Set">elementary set</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>641</fr:anchor>
+            <fr:addr type="user">FA-0044</fr:addr>
+            <fr:route>FA-0044.xml</fr:route>
+            <fr:title text="Rectangle">Rectangle</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p><fr:tex display="inline"><![CDATA[R \in  \mathbb {R}^n]]></fr:tex> is a <fr:strong>rectangle</fr:strong> if <fr:tex display="inline"><![CDATA[R]]></fr:tex> is the Cartesian product of <fr:tex display="inline"><![CDATA[n]]></fr:tex> intervals of the closed, open, or half-open form.</fr:p>
+            <fr:p>In measure theory, rectangles are fundamental shapes used to define measures in Euclidean space. The volume of a rectangle is simply the product of the lengths of its sides.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

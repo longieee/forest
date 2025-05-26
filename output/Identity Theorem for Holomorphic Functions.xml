@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>353</fr:anchor>
+    <fr:addr type="user">Identity Theorem for Holomorphic Functions</fr:addr>
+    <fr:route>Identity Theorem for Holomorphic Functions.xml</fr:route>
+    <fr:title text="Identity Theorem for Holomorphic Functions">Identity Theorem for Holomorphic Functions</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>For a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function <fr:tex display="inline"><![CDATA[f]]></fr:tex> in an open connected set <fr:tex display="inline"><![CDATA[E]]></fr:tex>, and a point <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex>, the following conditions are equivalent:</fr:p>
+    <fr:p><fr:strong>(i)</fr:strong> All derivatives of <fr:tex display="inline"><![CDATA[f]]></fr:tex> at <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> are zero</fr:p>
+    <fr:p><fr:strong>(ii)</fr:strong> f is identically zero in some disk around <fr:tex display="inline"><![CDATA[z_0]]></fr:tex></fr:p>
+    <fr:p><fr:strong>(iii)</fr:strong> There's a <fr:link type="local" href="sequence.xml" addr="sequence" title="Sequence">sequence</fr:link> of distinct zeros of <fr:tex display="inline"><![CDATA[f]]></fr:tex> approaching <fr:tex display="inline"><![CDATA[z_0]]></fr:tex></fr:p>
+    <fr:p><fr:strong>(iv)</fr:strong> <fr:tex display="inline"><![CDATA[f]]></fr:tex> is identically zero on the entire connected set <fr:tex display="inline"><![CDATA[E]]></fr:tex></fr:p>
+    <fr:p><fr:code>(iii) -&gt; (iv)</fr:code> is the "identity part" of the theorem, the proof uses <fr:link type="local" href="Isolated%20Zeros%20Theorem.xml" addr="Isolated Zeros Theorem" title="Isolated Zeros Theorem">Isolated Zeros Theorem</fr:link></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>355</fr:anchor>
+            <fr:addr type="user">sequence</fr:addr>
+            <fr:route>sequence.xml</fr:route>
+            <fr:title text="Sequence">Sequence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter />
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>357</fr:anchor>
+            <fr:addr type="user">Isolated Zeros Theorem</fr:addr>
+            <fr:route>Isolated Zeros Theorem.xml</fr:route>
+            <fr:title text="Isolated Zeros Theorem">Isolated Zeros Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a non-constant <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function in a domain <fr:tex display="inline"><![CDATA[E]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> is a zero of <fr:tex display="inline"><![CDATA[f]]></fr:tex> for <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex>, then there exists an integer <fr:tex display="inline"><![CDATA[N \geq  1]]></fr:tex>, <fr:tex display="inline"><![CDATA[r>0]]></fr:tex> and a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function <fr:tex display="inline"><![CDATA[h]]></fr:tex> in <fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex> such that</fr:p>
+            <fr:tex display="block"><![CDATA[f(z) = (z-z_0)^N h(z) \quad  \forall  z \in  B_r(z_0)]]></fr:tex>
+            <fr:p>with <fr:tex display="inline"><![CDATA[h(z) \neq  0 \quad  \forall  z \in  B_r(z_0)]]></fr:tex></fr:p>
+            <fr:p>In particular, one has that <fr:tex display="inline"><![CDATA[f(z) \neq  0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[z \in  B_r(z_0) \setminus  \{z_0\}]]></fr:tex> (this is the meaning of "isolated zeros")</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>359</fr:anchor>
+            <fr:addr type="user">holomorphic</fr:addr>
+            <fr:route>holomorphic.xml</fr:route>
+            <fr:title text="Holomorphic">Holomorphic</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A continuous function "in every direction"</fr:p>
+            <fr:p>
+              <fr:strong>Is a very strong condition</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li>From <fr:link type="local" href="Cauchy's%20Integral%20theorem.xml" addr="Cauchy's Integral theorem" title="Cauchy's Integral theorem">Cauchy's Integral theorem</fr:link> we know that the integral of a holomorphic function over the boundary any simply connected domain is zero. This gives rise to the <fr:link type="local" href="Cauchy's%20Integral%20Formula.xml" addr="Cauchy's Integral Formula" title="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:link>, hence proves that</fr:li>
+<fr:li>A holomorphic function is automatically <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="local" href="Morera's%20Theorem.xml" addr="Morera's Theorem" title="Morera's Theorem">Morera's Theorem</fr:link> gives a strong condition to test for "holomorphicity"</fr:li>
+<fr:li>An <fr:link type="external" href="analytic">analytic</fr:link> complex-valued function is <fr:strong>automatically</fr:strong> holomorphic and vice versa <fr:ul><fr:li>This is <fr:em>not true for real functions!</fr:em></fr:li> <fr:li>Oftentimes "<fr:link type="external" href="analytic">analytic</fr:link>" and "holomorphic" are used interchangably</fr:li></fr:ul> <fr:tex display="inline"><![CDATA[\longrightarrow ]]></fr:tex> simple differentiability implies such a strong property like being representable by a power series!</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

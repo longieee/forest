@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1611</fr:anchor>
+    <fr:addr type="user">FA-0001</fr:addr>
+    <fr:route>FA-0001.xml</fr:route>
+    <fr:title text="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The set of polynomials on <fr:tex display="inline"><![CDATA[[a, b]]]></fr:tex> is <fr:link type="local" href="FA-0002.xml" addr="FA-0002" title="Dense">dense</fr:link> in <fr:tex display="inline"><![CDATA[C([a, b])]]></fr:tex></fr:p>
+    <fr:p>Differs from Taylor's theorem, which states that a function with sufficiently many derivaties can be approximated locally by its <fr:link type="local" href="FA-0003.xml" addr="FA-0003" title="Taylor polynomial">Taylor polynomial</fr:link>.</fr:p>
+    <fr:p>The Weierstrass appoximation theorem applied to a continuous function, which need not be differentiable, and states that there exists a global polynomial approximation of the function on the whole interval <fr:tex display="inline"><![CDATA[[a,b]]]></fr:tex> (The sequence of approximating polynomials is the <fr:link type="local" href="FA-0004.xml" addr="FA-0004" title="Bernstein polynomials">Bernstein polynomials</fr:link>)</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1613</fr:anchor>
+            <fr:addr type="user">FA-0004</fr:addr>
+            <fr:route>FA-0004.xml</fr:route>
+            <fr:title text="Bernstein polynomials">Bernstein polynomials</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Used to prove the <fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link></fr:p>
+            <fr:p>Formula for Bernstein polynomials of a function <fr:tex display="inline"><![CDATA[f]]></fr:tex>:</fr:p>
+            <fr:tex display="block"><![CDATA[B_n(x,f) = \sum _{k=0}^n{f \frac {k}{n} {n \choose  k} x^k(1-x)^{n-k}}]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1615</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
+            <fr:p>
+              <fr:strong>Core Concepts:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link> - The fundamental theorem on polynomial approximation</fr:li>
+  <fr:li><fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert Space</fr:link> - Complete inner product spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach Space</fr:link> - Complete normed spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">Bounded Linear Operator</fr:link> - Key objects of study in functional analysis</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Important Theorems:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-000L.xml" addr="FA-000L" title="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:link> - Characterizes compact subsets in spaces of continuous functions</fr:li>
+  <fr:li><fr:link type="local" href="FA-002O.xml" addr="FA-002O" title="Projection Theorem">Projection Theorem</fr:link> - Fundamental result for Hilbert spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Parseval's identity</fr:link> - Relates norms in Fourier analysis</fr:li>
+  <fr:li><fr:link type="local" href="FA-001Y.xml" addr="FA-001Y" title="Hölder inequality">Hölder inequality</fr:link> - Generalizes the Cauchy-Schwarz inequality</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Measure Theory:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue Measure</fr:link> - Foundation for modern integration theory</fr:li>
+  <fr:li><fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">Measurable Set</fr:link> - Sets with well-defined measure</fr:li>
+  <fr:li><fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">Measurable Function</fr:link> - Functions suitable for Lebesgue integration</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Norms and Metrics:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">Norm</fr:link> - Way to measure vector magnitude</fr:li>
+  <fr:li><fr:link type="local" href="FA-003B.xml" addr="FA-003B" title="Lp norm">Lp norm</fr:link> - Important class of norms</fr:li>
+  <fr:li><fr:link type="local" href="FA-003F.xml" addr="FA-003F" title="Operator Norm">Operator Norm</fr:link> - Measures the "size" of linear operators</fr:li>
+  <fr:li><fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">Metric Space</fr:link> - Generalized notion of distance</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1617</fr:anchor>
+            <fr:addr type="user">FA-0004</fr:addr>
+            <fr:route>FA-0004.xml</fr:route>
+            <fr:title text="Bernstein polynomials">Bernstein polynomials</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Used to prove the <fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link></fr:p>
+            <fr:p>Formula for Bernstein polynomials of a function <fr:tex display="inline"><![CDATA[f]]></fr:tex>:</fr:p>
+            <fr:tex display="block"><![CDATA[B_n(x,f) = \sum _{k=0}^n{f \frac {k}{n} {n \choose  k} x^k(1-x)^{n-k}}]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1619</fr:anchor>
+            <fr:addr type="user">FA-0002</fr:addr>
+            <fr:route>FA-0002.xml</fr:route>
+            <fr:title text="Dense">Dense</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subset <fr:tex display="inline"><![CDATA[A]]></fr:tex> of a topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is said to be dense in <fr:tex display="inline"><![CDATA[X]]></fr:tex> if the closure of <fr:tex display="inline"><![CDATA[A]]></fr:tex> equals <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>In other words, a set <fr:tex display="inline"><![CDATA[A]]></fr:tex> is dense in <fr:tex display="inline"><![CDATA[X]]></fr:tex> if for every point <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> and every open neighborhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, the intersection <fr:tex display="inline"><![CDATA[A \cap  U]]></fr:tex> is non-empty.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1621</fr:anchor>
+            <fr:addr type="user">FA-0003</fr:addr>
+            <fr:route>FA-0003.xml</fr:route>
+            <fr:title text="Taylor polynomial">Taylor polynomial</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Taylor polynomial of a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a polynomial that approximates the function around a specific point. For a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> that is <fr:tex display="inline"><![CDATA[n]]></fr:tex> times differentiable at a point <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the Taylor polynomial of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex> is:</fr:p>
+            <fr:tex display="block"><![CDATA[P_n(x) = \sum _{k=0}^{n} \frac {f^{(k)}(a)}{k!}(x-a)^k]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

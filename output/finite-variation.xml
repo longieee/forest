@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>257</fr:anchor>
+    <fr:addr type="user">finite-variation</fr:addr>
+    <fr:route>finite-variation.xml</fr:route>
+    <fr:title text="Finite variation">Finite variation</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p><fr:tex display="inline"><![CDATA[\phi : [0,T] \to  \mathbb {R}]]></fr:tex> is of <fr:strong>finite variation</fr:strong> if 
+<fr:tex display="inline"><![CDATA[ || \phi  ||_{TV([0,T])} = \sup  \left \{ \right \} ]]></fr:tex>
+is finite</fr:p>
+    <fr:p>where the LHS is the <fr:link type="external" href="total%20variation">total variation</fr:link> on <fr:tex display="inline"><![CDATA[[0,T]]]></fr:tex></fr:p>
+    <fr:p>If <fr:tex display="inline"><![CDATA[\Phi ]]></fr:tex> is of finite variation and <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a continuous function, we can define the integral <fr:tex display="inline"><![CDATA[\int _0^T {f d\phi }]]></fr:tex> as a <fr:link type="external" href="Lebesgue-Stjeltes%20integral">Lebesgue-Stjeltes integral</fr:link></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>

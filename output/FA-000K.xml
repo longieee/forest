@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>643</fr:anchor>
+    <fr:addr type="user">FA-000K</fr:addr>
+    <fr:route>FA-000K.xml</fr:route>
+    <fr:title text="Equicontinuous">Equicontinuous</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A family of functions <fr:tex display="inline"><![CDATA[F]]></fr:tex> from a metric space <fr:tex display="inline"><![CDATA[(X,d_X)]]></fr:tex> to a metric space <fr:tex display="inline"><![CDATA[(Y,d_Y)]]></fr:tex> is said to be equicontinuous at a point <fr:tex display="inline"><![CDATA[x_0 \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists a <fr:tex display="inline"><![CDATA[δ > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d_Y(f(x), f(x_0)) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[f \in  F]]></fr:tex> and all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> with <fr:tex display="inline"><![CDATA[d_X(x, x_0) < δ]]></fr:tex>.</fr:p>
+    <fr:p>The family <fr:tex display="inline"><![CDATA[F]]></fr:tex> is said to be equicontinuous if it is equicontinuous at each point of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+    <fr:p>Intuitively, an equicontinuous family of functions has the property that all functions in the family maintain the same level of continuity uniformly.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>645</fr:anchor>
+            <fr:addr type="user">FA-000L</fr:addr>
+            <fr:route>FA-000L.xml</fr:route>
+            <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let K be a <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link> <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>. A subset of <fr:tex display="inline"><![CDATA[C(K)]]></fr:tex> is <fr:link type="local" href="FA-000I.xml" addr="FA-000I" title="Precompact">precompact</fr:link> if and only if it is <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link>, and <fr:link type="local" href="FA-000K.xml" addr="FA-000K" title="Equicontinuous">equicontinuous</fr:link>.</fr:p>
+            <fr:p><fr:strong>N.B</fr:strong> since uniform equicontinuity implies pointwise equicontinuity, the usage of "equicontious" above is unambiguous.</fr:p>
+            <fr:p>If that subset is closed, then it's <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

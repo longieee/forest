@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>385</fr:anchor>
+    <fr:addr type="user">Maximum Modulus Theorem</fr:addr>
+    <fr:route>Maximum Modulus Theorem.xml</fr:route>
+    <fr:title text="Maximum Modulus Theorem">Maximum Modulus Theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>
+      <fr:strong>Weak version:</fr:strong>
+    </fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {C}]]></fr:tex> be open and <fr:tex display="inline"><![CDATA[f]]></fr:tex> <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>. If <fr:tex display="inline"><![CDATA[|f(z)|]]></fr:tex> has a local maximum at <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex> then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is constant in a neighborhood of <fr:tex display="inline"><![CDATA[z_0]]></fr:tex></fr:p>
+    <fr:p><fr:strong>Strong version:</fr:strong> (which is actually a <fr:em>consequence</fr:em> of the weak version)</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {C}]]></fr:tex> be open, <fr:link type="external" href="bounded">bounded</fr:link> and connected. Assume <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function on <fr:tex display="inline"><![CDATA[E]]></fr:tex> and continuous on <fr:tex display="inline"><![CDATA[\bar {E}]]></fr:tex>.</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[M = \max _{\bar {E}} |f(z)|]]></fr:tex></fr:p>
+    <fr:p>Then either:</fr:p>
+    <fr:ul><fr:li><fr:tex display="inline"><![CDATA[|f(z)| < M \quad  \forall  z \in  E]]></fr:tex></fr:li>
+<fr:li>If <fr:tex display="inline"><![CDATA[|f(z)| = M]]></fr:tex> for some <fr:tex display="inline"><![CDATA[z \in  E]]></fr:tex>, then f is constant</fr:li></fr:ul>
+    <fr:p>In particular, <fr:tex display="inline"><![CDATA[\max _{\bar {E}} |f(z)| = \max _{\partial  E} |f(z)|]]></fr:tex></fr:p>
+    <fr:p>
+      <fr:strong>Remark</fr:strong>
+    </fr:p>
+    <fr:p>If u is <fr:link type="local" href="harmonic.xml" addr="harmonic" title="Harmonic">harmonic</fr:link> on a <fr:link type="external" href="bounded">bounded</fr:link> open set <fr:tex display="inline"><![CDATA[E]]></fr:tex> and is continuous upto <fr:tex display="inline"><![CDATA[\bar {E}]]></fr:tex>, then the maximum of u in <fr:tex display="inline"><![CDATA[\bar {E}]]></fr:tex> is attained on <fr:tex display="inline"><![CDATA[\partial  E]]></fr:tex>. Indeed if <fr:tex display="inline"><![CDATA[u]]></fr:tex> has a local maximum in <fr:tex display="inline"><![CDATA[E]]></fr:tex> then <fr:tex display="inline"><![CDATA[e^{f(x)}]]></fr:tex> (with <fr:tex display="inline"><![CDATA[f(x) = u + iv]]></fr:tex> <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link>) would have a local maximum in <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+    <fr:p>The <fr:strong>same conclusion</fr:strong> holds for the <fr:em>minimum</fr:em>: Consider <fr:tex display="inline"><![CDATA[-u]]></fr:tex> and use the same argument</fr:p>
+    <fr:p><fr:em>If <fr:tex display="inline"><![CDATA[E]]></fr:tex> is not bounded</fr:em>, we can localize the argument, that is, we can get the same conclusion on any bounded subset contained in <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+    <fr:p>So if <fr:tex display="inline"><![CDATA[|f(z)|]]></fr:tex> has a local maximum at <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is constant</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>387</fr:anchor>
+            <fr:addr type="user">harmonic</fr:addr>
+            <fr:route>harmonic.xml</fr:route>
+            <fr:title text="Harmonic">Harmonic</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter />
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>389</fr:anchor>
+            <fr:addr type="user">holomorphic</fr:addr>
+            <fr:route>holomorphic.xml</fr:route>
+            <fr:title text="Holomorphic">Holomorphic</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A continuous function "in every direction"</fr:p>
+            <fr:p>
+              <fr:strong>Is a very strong condition</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li>From <fr:link type="local" href="Cauchy's%20Integral%20theorem.xml" addr="Cauchy's Integral theorem" title="Cauchy's Integral theorem">Cauchy's Integral theorem</fr:link> we know that the integral of a holomorphic function over the boundary any simply connected domain is zero. This gives rise to the <fr:link type="local" href="Cauchy's%20Integral%20Formula.xml" addr="Cauchy's Integral Formula" title="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:link>, hence proves that</fr:li>
+<fr:li>A holomorphic function is automatically <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="local" href="Morera's%20Theorem.xml" addr="Morera's Theorem" title="Morera's Theorem">Morera's Theorem</fr:link> gives a strong condition to test for "holomorphicity"</fr:li>
+<fr:li>An <fr:link type="external" href="analytic">analytic</fr:link> complex-valued function is <fr:strong>automatically</fr:strong> holomorphic and vice versa <fr:ul><fr:li>This is <fr:em>not true for real functions!</fr:em></fr:li> <fr:li>Oftentimes "<fr:link type="external" href="analytic">analytic</fr:link>" and "holomorphic" are used interchangably</fr:li></fr:ul> <fr:tex display="inline"><![CDATA[\longrightarrow ]]></fr:tex> simple differentiability implies such a strong property like being representable by a power series!</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

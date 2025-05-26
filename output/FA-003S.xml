@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1650</fr:anchor>
+    <fr:addr type="user">FA-003S</fr:addr>
+    <fr:route>FA-003S.xml</fr:route>
+    <fr:title text="A.e.">A.e.</fr:title>
+    <fr:taxon>Notation</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>We use the expression "a.e." as an abbreviation for <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>, referring to a property that holds everywhere except on a set of zero <fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue measure</fr:link>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1652</fr:anchor>
+            <fr:addr type="user">FA-003Q</fr:addr>
+            <fr:route>FA-003Q.xml</fr:route>
+            <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In measure theory, a property is said to hold "almost everywhere" (often abbreviated as <fr:link type="local" href="FA-003S.xml" addr="FA-003S" title="A.e.">a.e.</fr:link>) if the set of points where the property fails has <fr:link type="external" href="FA-0137">measure</fr:link> zero.</fr:p>
+            <fr:p>If a property <fr:tex display="inline"><![CDATA[P(x)]]></fr:tex> holds for all <fr:tex display="inline"><![CDATA[x \in  X \setminus  N]]></fr:tex>, where <fr:tex display="inline"><![CDATA[N]]></fr:tex> is a <fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable set</fr:link> with <fr:tex display="inline"><![CDATA[\ \mu (N) = 0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[P(x)]]></fr:tex> is said to hold almost everywhere on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>This concept is essential in <fr:link type="external" href="FA-0138">Lebesgue integration</fr:link> theory, as functions that differ only on a set of measure zero have the same Lebesgue integral.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1654</fr:anchor>
+            <fr:addr type="user">FA-003Q</fr:addr>
+            <fr:route>FA-003Q.xml</fr:route>
+            <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In measure theory, a property is said to hold "almost everywhere" (often abbreviated as <fr:link type="local" href="FA-003S.xml" addr="FA-003S" title="A.e.">a.e.</fr:link>) if the set of points where the property fails has <fr:link type="external" href="FA-0137">measure</fr:link> zero.</fr:p>
+            <fr:p>If a property <fr:tex display="inline"><![CDATA[P(x)]]></fr:tex> holds for all <fr:tex display="inline"><![CDATA[x \in  X \setminus  N]]></fr:tex>, where <fr:tex display="inline"><![CDATA[N]]></fr:tex> is a <fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable set</fr:link> with <fr:tex display="inline"><![CDATA[\ \mu (N) = 0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[P(x)]]></fr:tex> is said to hold almost everywhere on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>This concept is essential in <fr:link type="external" href="FA-0138">Lebesgue integration</fr:link> theory, as functions that differ only on a set of measure zero have the same Lebesgue integral.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1656</fr:anchor>
+            <fr:addr type="user">FA-003V</fr:addr>
+            <fr:route>FA-003V.xml</fr:route>
+            <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>When we say something is "<fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable</fr:link>", we often mean <fr:strong>Lebesgue measurable</fr:strong>.</fr:p>
+            <fr:p>Lebesgue measure is the standard way of assigning a measure to subsets of Euclidean space. It extends the classical notion of length, area, and volume from simple shapes to a larger class of sets.</fr:p>
+            <fr:p>The Lebesgue measure on <fr:tex display="inline"><![CDATA[\ \mathbb {R}^n]]></fr:tex> is constructed by first defining the measure for intervals or rectangles, then extending it to more general sets through <fr:link type="local" href="FA-003W.xml" addr="FA-003W" title="Lebesgue Outer Measure">outer measure</fr:link> and <fr:link type="local" href="FA-003X.xml" addr="FA-003X" title="Lebesgue Inner Measure">inner measure</fr:link> techniques.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

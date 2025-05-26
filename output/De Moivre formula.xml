@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>349</fr:anchor>
+    <fr:addr type="user">De Moivre formula</fr:addr>
+    <fr:route>De Moivre formula.xml</fr:route>
+    <fr:title text="De Moivre formula">De Moivre formula</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>351</fr:anchor>
+            <fr:addr type="user">Complex logarithm</fr:addr>
+            <fr:route>Complex logarithm.xml</fr:route>
+            <fr:title text="Complex logarithm">Complex logarithm</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p><fr:strong>Case</fr:strong> <fr:tex display="inline"><![CDATA[w = \frac {1}{n}]]></fr:tex></fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[z^{1/n} = e^{\frac {1}{n}Logz} = e^{\frac {1}{n}(log|z| + iarg(z) + ik2\pi )}]]></fr:tex>
+            </fr:p>
+            <fr:p>So <fr:tex display="inline"><![CDATA[z^{\frac {1}{n}} = {|z|}^\frac {1}{n} e^{i(\frac {\arg (z)}{n} + k\frac {2\pi }{n})}]]></fr:tex></fr:p>
+            <fr:p>This is the <fr:link type="local" href="De%20Moivre%20formula.xml" addr="De Moivre formula" title="De Moivre formula">De Moivre formula</fr:link></fr:p>
+            <fr:p>Where <fr:tex display="inline"><![CDATA[{|z|}^\frac {1}{n}]]></fr:tex> is the usual real log</fr:p>
+            <fr:p><fr:strong>Case</fr:strong> <fr:tex display="inline"><![CDATA[w = \frac {p}{q}]]></fr:tex> for <fr:tex display="inline"><![CDATA[p,q \in  \mathbb {Z}]]></fr:tex></fr:p>
+            <fr:p>Then <fr:tex display="inline"><![CDATA[z^w = {(z^p)}^\frac {1}{q}]]></fr:tex></fr:p>
+            <fr:p><fr:strong>Case</fr:strong> <fr:tex display="inline"><![CDATA[w \in  \mathbb {C} \setminus  \mathbb {Q}]]></fr:tex> (w is a complex number which is not rational)</fr:p>
+            <fr:p>then we have <fr:em>infinitely</fr:em> many values</fr:p>
+            <fr:p>Example <fr:tex display="inline"><![CDATA[i^i]]></fr:tex> -&gt; infinite number of <fr:em>real</fr:em> numbers</fr:p>
+            <fr:p><fr:strong>N.B.</fr:strong> <fr:tex display="inline"><![CDATA[Log(z^\alpha ) = \alpha  Log(z)]]></fr:tex> but <fr:tex display="inline"><![CDATA[log(z^\alpha ) \neq  \alpha  log(z)]]></fr:tex> in general (notice <fr:strong>L</fr:strong>og vs <fr:strong>l</fr:strong>og)</fr:p>
+            <fr:p>because we still need to <fr:em>project</fr:em> the angle of <fr:tex display="inline"><![CDATA[log(z^\alpha )]]></fr:tex> to the branch where as with <fr:tex display="inline"><![CDATA[\alpha  log(z)]]></fr:tex> we don't need to do that</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>493</fr:anchor>
+    <fr:addr type="user">holomorphic</fr:addr>
+    <fr:route>holomorphic.xml</fr:route>
+    <fr:title text="Holomorphic">Holomorphic</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A continuous function "in every direction"</fr:p>
+    <fr:p>
+      <fr:strong>Is a very strong condition</fr:strong>
+    </fr:p>
+    <fr:ul><fr:li>From <fr:link type="local" href="Cauchy's%20Integral%20theorem.xml" addr="Cauchy's Integral theorem" title="Cauchy's Integral theorem">Cauchy's Integral theorem</fr:link> we know that the integral of a holomorphic function over the boundary any simply connected domain is zero. This gives rise to the <fr:link type="local" href="Cauchy's%20Integral%20Formula.xml" addr="Cauchy's Integral Formula" title="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:link>, hence proves that</fr:li>
+<fr:li>A holomorphic function is automatically <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="local" href="Morera's%20Theorem.xml" addr="Morera's Theorem" title="Morera's Theorem">Morera's Theorem</fr:link> gives a strong condition to test for "holomorphicity"</fr:li>
+<fr:li>An <fr:link type="external" href="analytic">analytic</fr:link> complex-valued function is <fr:strong>automatically</fr:strong> holomorphic and vice versa <fr:ul><fr:li>This is <fr:em>not true for real functions!</fr:em></fr:li> <fr:li>Oftentimes "<fr:link type="external" href="analytic">analytic</fr:link>" and "holomorphic" are used interchangably</fr:li></fr:ul> <fr:tex display="inline"><![CDATA[\longrightarrow ]]></fr:tex> simple differentiability implies such a strong property like being representable by a power series!</fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>495</fr:anchor>
+            <fr:addr type="user">Analytic convergence theorem</fr:addr>
+            <fr:route>Analytic convergence theorem.xml</fr:route>
+            <fr:title text="Analytic convergence theorem">Analytic convergence theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E]]></fr:tex> be open and <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> be a <fr:link type="local" href="sequence.xml" addr="sequence" title="Sequence">sequence</fr:link> of <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> functions on <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+            <fr:p>Suppose that <fr:tex display="inline"><![CDATA[f_n \to  f]]></fr:tex> uniformly on <fr:link type="external" href="compact%20subsets">compact subsets</fr:link> of <fr:tex display="inline"><![CDATA[E]]></fr:tex>, then</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is also <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[\forall  k \in  \mathbb {N}]]></fr:tex>, the sequence of derivatives <fr:tex display="block"><![CDATA[f^{(k)}_n \to  f^{(k)} \quad  \text {uniformly}]]></fr:tex> on <fr:link type="external" href="compact">compact</fr:link> sets</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Remarks</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li>This result is specific to complex-valued functions</fr:li>
+<fr:li><fr:link type="external" href="Uniform%20convergence">Uniform convergence</fr:link> <fr:tex display="inline"><![CDATA[\to ]]></fr:tex> the limit is <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link></fr:li>
+<fr:li>And also the convergence of any derivative of the sequence</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>497</fr:anchor>
+            <fr:addr type="user">Cauchy's Integral Formula</fr:addr>
+            <fr:route>Cauchy's Integral Formula.xml</fr:route>
+            <fr:title text="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> in a domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a <fr:strong>simple closed contour</fr:strong> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> enclosing a point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, then the derivatives of <fr:tex display="inline"><![CDATA[f]]></fr:tex> at <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> exist for <fr:strong>all orders</fr:strong> and are given by</fr:p>
+            <fr:tex display="block"><![CDATA[f^{(n)}(z_0) = \frac {n!}{2\pi  i} \int _{\gamma } {\frac {f(\zeta )}{{(\zeta  - z_0)}^{n+1}}d\zeta }]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>499</fr:anchor>
+            <fr:addr type="user">Identity Theorem for Holomorphic Functions</fr:addr>
+            <fr:route>Identity Theorem for Holomorphic Functions.xml</fr:route>
+            <fr:title text="Identity Theorem for Holomorphic Functions">Identity Theorem for Holomorphic Functions</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>For a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function <fr:tex display="inline"><![CDATA[f]]></fr:tex> in an open connected set <fr:tex display="inline"><![CDATA[E]]></fr:tex>, and a point <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex>, the following conditions are equivalent:</fr:p>
+            <fr:p><fr:strong>(i)</fr:strong> All derivatives of <fr:tex display="inline"><![CDATA[f]]></fr:tex> at <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> are zero</fr:p>
+            <fr:p><fr:strong>(ii)</fr:strong> f is identically zero in some disk around <fr:tex display="inline"><![CDATA[z_0]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(iii)</fr:strong> There's a <fr:link type="local" href="sequence.xml" addr="sequence" title="Sequence">sequence</fr:link> of distinct zeros of <fr:tex display="inline"><![CDATA[f]]></fr:tex> approaching <fr:tex display="inline"><![CDATA[z_0]]></fr:tex></fr:p>
+            <fr:p><fr:strong>(iv)</fr:strong> <fr:tex display="inline"><![CDATA[f]]></fr:tex> is identically zero on the entire connected set <fr:tex display="inline"><![CDATA[E]]></fr:tex></fr:p>
+            <fr:p><fr:code>(iii) -&gt; (iv)</fr:code> is the "identity part" of the theorem, the proof uses <fr:link type="local" href="Isolated%20Zeros%20Theorem.xml" addr="Isolated Zeros Theorem" title="Isolated Zeros Theorem">Isolated Zeros Theorem</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>501</fr:anchor>
+            <fr:addr type="user">Isolated Zeros Theorem</fr:addr>
+            <fr:route>Isolated Zeros Theorem.xml</fr:route>
+            <fr:title text="Isolated Zeros Theorem">Isolated Zeros Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a non-constant <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function in a domain <fr:tex display="inline"><![CDATA[E]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> is a zero of <fr:tex display="inline"><![CDATA[f]]></fr:tex> for <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex>, then there exists an integer <fr:tex display="inline"><![CDATA[N \geq  1]]></fr:tex>, <fr:tex display="inline"><![CDATA[r>0]]></fr:tex> and a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function <fr:tex display="inline"><![CDATA[h]]></fr:tex> in <fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex> such that</fr:p>
+            <fr:tex display="block"><![CDATA[f(z) = (z-z_0)^N h(z) \quad  \forall  z \in  B_r(z_0)]]></fr:tex>
+            <fr:p>with <fr:tex display="inline"><![CDATA[h(z) \neq  0 \quad  \forall  z \in  B_r(z_0)]]></fr:tex></fr:p>
+            <fr:p>In particular, one has that <fr:tex display="inline"><![CDATA[f(z) \neq  0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[z \in  B_r(z_0) \setminus  \{z_0\}]]></fr:tex> (this is the meaning of "isolated zeros")</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>503</fr:anchor>
+            <fr:addr type="user">Laurent's Theorem</fr:addr>
+            <fr:route>Laurent's Theorem.xml</fr:route>
+            <fr:title text="Laurent's Theorem">Laurent's Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[z_0 \in  \mathbb {C}]]></fr:tex> and let <fr:tex display="inline"><![CDATA[C_{z_0} {(r,R)}]]></fr:tex> with <fr:tex display="inline"><![CDATA[0 \leq  r < R \leq  +\infty ]]></fr:tex></fr:p>
+            <fr:p>Suppose that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[C_{z_0} {(r,R)}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\exists ! \{a_k\}_{k \in  \mathbb {C}} \subset  \mathbb {C}]]></fr:tex> such that</fr:p>
+            <fr:tex display="block"><![CDATA[f(z) = \sum _{k=-\infty }^{+\infty } {a_k {(z-z_0)}^k}]]></fr:tex>
+            <fr:p>The <fr:link type="local" href="series.xml" addr="series" title="Series">series</fr:link> is <fr:link type="external" href="Absolute%20convergence">Absolute convergence</fr:link> on <fr:tex display="inline"><![CDATA[C_{z_0} {(r,R)}]]></fr:tex> and <fr:link type="local" href="Total%20convergence.xml" addr="Total convergence" title="Total convergence">Total convergence</fr:link> on each subsets</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>505</fr:anchor>
+            <fr:addr type="user">Liouville's Theorem</fr:addr>
+            <fr:route>Liouville's Theorem.xml</fr:route>
+            <fr:title text="Liouville's Theorem">Liouville's Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Every <fr:link type="external" href="entire">entire</fr:link> <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> functions for which there exists a positive number <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f(z)|\leq  M \quad  \forall  z \in  \mathbb {C}]]></fr:tex> is constant</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>507</fr:anchor>
+            <fr:addr type="user">Maximum Modulus Theorem</fr:addr>
+            <fr:route>Maximum Modulus Theorem.xml</fr:route>
+            <fr:title text="Maximum Modulus Theorem">Maximum Modulus Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>
+              <fr:strong>Weak version:</fr:strong>
+            </fr:p>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {C}]]></fr:tex> be open and <fr:tex display="inline"><![CDATA[f]]></fr:tex> <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>. If <fr:tex display="inline"><![CDATA[|f(z)|]]></fr:tex> has a local maximum at <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex> then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is constant in a neighborhood of <fr:tex display="inline"><![CDATA[z_0]]></fr:tex></fr:p>
+            <fr:p><fr:strong>Strong version:</fr:strong> (which is actually a <fr:em>consequence</fr:em> of the weak version)</fr:p>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {C}]]></fr:tex> be open, <fr:link type="external" href="bounded">bounded</fr:link> and connected. Assume <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function on <fr:tex display="inline"><![CDATA[E]]></fr:tex> and continuous on <fr:tex display="inline"><![CDATA[\bar {E}]]></fr:tex>.</fr:p>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[M = \max _{\bar {E}} |f(z)|]]></fr:tex></fr:p>
+            <fr:p>Then either:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[|f(z)| < M \quad  \forall  z \in  E]]></fr:tex></fr:li>
+<fr:li>If <fr:tex display="inline"><![CDATA[|f(z)| = M]]></fr:tex> for some <fr:tex display="inline"><![CDATA[z \in  E]]></fr:tex>, then f is constant</fr:li></fr:ul>
+            <fr:p>In particular, <fr:tex display="inline"><![CDATA[\max _{\bar {E}} |f(z)| = \max _{\partial  E} |f(z)|]]></fr:tex></fr:p>
+            <fr:p>
+              <fr:strong>Remark</fr:strong>
+            </fr:p>
+            <fr:p>If u is <fr:link type="local" href="harmonic.xml" addr="harmonic" title="Harmonic">harmonic</fr:link> on a <fr:link type="external" href="bounded">bounded</fr:link> open set <fr:tex display="inline"><![CDATA[E]]></fr:tex> and is continuous upto <fr:tex display="inline"><![CDATA[\bar {E}]]></fr:tex>, then the maximum of u in <fr:tex display="inline"><![CDATA[\bar {E}]]></fr:tex> is attained on <fr:tex display="inline"><![CDATA[\partial  E]]></fr:tex>. Indeed if <fr:tex display="inline"><![CDATA[u]]></fr:tex> has a local maximum in <fr:tex display="inline"><![CDATA[E]]></fr:tex> then <fr:tex display="inline"><![CDATA[e^{f(x)}]]></fr:tex> (with <fr:tex display="inline"><![CDATA[f(x) = u + iv]]></fr:tex> <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link>) would have a local maximum in <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+            <fr:p>The <fr:strong>same conclusion</fr:strong> holds for the <fr:em>minimum</fr:em>: Consider <fr:tex display="inline"><![CDATA[-u]]></fr:tex> and use the same argument</fr:p>
+            <fr:p><fr:em>If <fr:tex display="inline"><![CDATA[E]]></fr:tex> is not bounded</fr:em>, we can localize the argument, that is, we can get the same conclusion on any bounded subset contained in <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+            <fr:p>So if <fr:tex display="inline"><![CDATA[|f(z)|]]></fr:tex> has a local maximum at <fr:tex display="inline"><![CDATA[z_0 \in  E]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is constant</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>509</fr:anchor>
+            <fr:addr type="user">Mean Value Theorem (complex)</fr:addr>
+            <fr:route>Mean Value Theorem (complex).xml</fr:route>
+            <fr:title text="Mean Value Theorem (complex)">Mean Value Theorem (complex)</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>2-dimensional counter part of the <fr:link type="local" href="Mean%20Value%20Theorem.xml" addr="Mean Value Theorem" title="Mean Value Theorem">Mean Value Theorem</fr:link></fr:p>
+            <fr:p>
+              <fr:strong>Statement:</fr:strong>
+            </fr:p>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E]]></fr:tex> be an open set and <fr:tex display="inline"><![CDATA[f]]></fr:tex> be a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function on <fr:tex display="inline"><![CDATA[E]]></fr:tex>. If <fr:tex display="inline"><![CDATA[B_R(z_0) \subset  E]]></fr:tex> then</fr:p>
+            <fr:tex display="block"><![CDATA[f(z_0) = \frac {1}{\pi  R^2} \iint _{B_R(z_0)} {fdxdy}]]></fr:tex>
+            <fr:p>
+              <fr:strong>Proof:</fr:strong>
+            </fr:p>
+            <fr:ul>
+              <fr:li>Uses <fr:link type="local" href="Mean%20Value%20Theorem.xml" addr="Mean Value Theorem" title="Mean Value Theorem">Mean Value Theorem</fr:link> in combination with polar coordinates</fr:li>
+            </fr:ul>
+            <fr:p>Expressing <fr:tex display="inline"><![CDATA[f(x,y) = u(x,y) + iv(x,y)]]></fr:tex> then the integral relation above still holds for <fr:tex display="inline"><![CDATA[u]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex></fr:p>
+            <fr:p>From the necessary and sufficient condition for holomorphic functions, we know that <fr:tex display="inline"><![CDATA[u]]></fr:tex> and <fr:tex display="inline"><![CDATA[v]]></fr:tex> must be <fr:link type="local" href="harmonic.xml" addr="harmonic" title="Harmonic">harmonic</fr:link>, hence we have the MVT for <fr:link type="local" href="harmonic%20function.xml" addr="harmonic function" title="Harmonic function">harmonic function</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>511</fr:anchor>
+            <fr:addr type="user">Morera's Theorem</fr:addr>
+            <fr:route>Morera's Theorem.xml</fr:route>
+            <fr:title text="Morera's Theorem">Morera's Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>a continuous, complex-valued function <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on an <fr:strong>open</fr:strong> set <fr:tex display="inline"><![CDATA[D]]></fr:tex> in the complex plane that satisfies</fr:p>
+            <fr:tex display="block"><![CDATA[\oint _\gamma  f(z)dz=0]]></fr:tex>
+            <fr:p>for every closed piecewise <fr:tex display="inline"><![CDATA[C^1]]></fr:tex> curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> must be <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:p>
+            <fr:p>This is equivalent to stating that <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a <fr:link type="local" href="primitive.xml" addr="primitive" title="Primitive">primitive</fr:link> (or anti-derivative) on <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>513</fr:anchor>
+            <fr:addr type="user">Removable Singularity</fr:addr>
+            <fr:route>Removable Singularity.xml</fr:route>
+            <fr:title text="Removable Singularity">Removable Singularity</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>This is <fr:strong>not true</fr:strong> for real functions</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>411</fr:anchor>
+                <fr:addr type="user">Removable Singularity Theorem</fr:addr>
+                <fr:route>Removable Singularity Theorem.xml</fr:route>
+                <fr:title text="Removable Singularity Theorem">Removable Singularity Theorem</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:authors>
+                  <fr:author>Long Nguyen</fr:author>
+                </fr:authors>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p><fr:strong>Theorem</fr:strong>: Suppose that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is continuous on <fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex> and <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[B_r(z_0) \setminus  \{z_0\}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex></fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>The same conclusion of the theorem holds if we extend:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex> to an open set <fr:tex display="inline"><![CDATA[E]]></fr:tex></fr:li>
+<fr:li>The single point <fr:tex display="inline"><![CDATA[ \{z_0\} ]]></fr:tex> to a line segment parallel to the axes.</fr:li></fr:ul>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> be an <fr:link type="external" href="isolated%20singularity">isolated singularity</fr:link> for <fr:tex display="inline"><![CDATA[f]]></fr:tex>. If there exists a <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> extension of <fr:tex display="inline"><![CDATA[f]]></fr:tex> in <fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex> then the singularity is <fr:strong>removable</fr:strong></fr:p>
+            <fr:p><fr:strong>N.B.</fr:strong> Not all singularities are removable, for example <fr:tex display="inline"><![CDATA[f(z) = \frac {1}{z}]]></fr:tex> has a non-removable singularity at <fr:tex display="inline"><![CDATA[z_0 = 0]]></fr:tex>.</fr:p>
+            <fr:p>Notice that <fr:tex display="inline"><![CDATA[ \not \exists  \lim _{z \to  0} f(z) ]]></fr:tex></fr:p>
+            <fr:p>Similarly for <fr:tex display="inline"><![CDATA[f(z) = \frac {1}{{(z-z_0)}^n}]]></fr:tex></fr:p>
+            <fr:p>In contrast, the function <fr:tex display="inline"><![CDATA[f(z) = \frac {sinz}{z}]]></fr:tex> has a removable singularity at <fr:tex display="inline"><![CDATA[z_0 = 0]]></fr:tex>.</fr:p>
+            <fr:p>Indeed <fr:tex display="inline"><![CDATA[ \lim _{z \to  0} \frac {sinz}{z} = 1 ]]></fr:tex></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>515</fr:anchor>
+            <fr:addr type="user">Removable Singularity Theorem</fr:addr>
+            <fr:route>Removable Singularity Theorem.xml</fr:route>
+            <fr:title text="Removable Singularity Theorem">Removable Singularity Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p><fr:strong>Theorem</fr:strong>: Suppose that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is continuous on <fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex> and <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[B_r(z_0) \setminus  \{z_0\}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[B_r(z_0)]]></fr:tex></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>517</fr:anchor>
+            <fr:addr type="user">primitive</fr:addr>
+            <fr:route>primitive.xml</fr:route>
+            <fr:title text="Primitive">Primitive</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p><fr:strong>Definition</fr:strong>: Let <fr:tex display="inline"><![CDATA[f: E \longrightarrow  \mathbb {C}]]></fr:tex> be continuous.</fr:p>
+            <fr:p>We say that the <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function <fr:tex display="inline"><![CDATA[F: E \longrightarrow  \mathbb {C}]]></fr:tex> is a <fr:strong>primitive</fr:strong> of <fr:tex display="inline"><![CDATA[f]]></fr:tex> if</fr:p>
+            <fr:tex display="block"><![CDATA[F' = f]]></fr:tex>
+            <fr:p>Notice that the primitive is not unique, but it's defined up to a constant.</fr:p>
+            <fr:p>
+              <fr:strong>Theorem:</fr:strong>
+            </fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a primitive, then <fr:tex display="inline"><![CDATA[\omega _R]]></fr:tex> and <fr:tex display="inline"><![CDATA[\omega _I]]></fr:tex> are <fr:link type="external" href="exact%20form">exact form</fr:link>s where</fr:p>
+            <fr:tex display="block"><![CDATA[\begin {cases} \omega _R = udx - vdy \\ \omega _I = vdx + udy \end {cases}]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>519</fr:anchor>
+            <fr:addr type="user">Cauchy's Integral Formula</fr:addr>
+            <fr:route>Cauchy's Integral Formula.xml</fr:route>
+            <fr:title text="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> in a domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a <fr:strong>simple closed contour</fr:strong> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> enclosing a point <fr:tex display="inline"><![CDATA[z_0]]></fr:tex>, then the derivatives of <fr:tex display="inline"><![CDATA[f]]></fr:tex> at <fr:tex display="inline"><![CDATA[z_0]]></fr:tex> exist for <fr:strong>all orders</fr:strong> and are given by</fr:p>
+            <fr:tex display="block"><![CDATA[f^{(n)}(z_0) = \frac {n!}{2\pi  i} \int _{\gamma } {\frac {f(\zeta )}{{(\zeta  - z_0)}^{n+1}}d\zeta }]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>521</fr:anchor>
+            <fr:addr type="user">Cauchy's Integral theorem</fr:addr>
+            <fr:route>Cauchy's Integral theorem.xml</fr:route>
+            <fr:title text="Cauchy's Integral theorem">Cauchy's Integral theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be a <fr:link type="external" href="simply-connected%20domain">simply-connected domain</fr:link> in <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[f]]></fr:tex> a holomorphic function on <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then</fr:p>
+            <fr:tex display="block"><![CDATA[\int _{\partial  D} f(z) dz = 0]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>523</fr:anchor>
+            <fr:addr type="user">Morera's Theorem</fr:addr>
+            <fr:route>Morera's Theorem.xml</fr:route>
+            <fr:title text="Morera's Theorem">Morera's Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>a continuous, complex-valued function <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on an <fr:strong>open</fr:strong> set <fr:tex display="inline"><![CDATA[D]]></fr:tex> in the complex plane that satisfies</fr:p>
+            <fr:tex display="block"><![CDATA[\oint _\gamma  f(z)dz=0]]></fr:tex>
+            <fr:p>for every closed piecewise <fr:tex display="inline"><![CDATA[C^1]]></fr:tex> curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> must be <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:p>
+            <fr:p>This is equivalent to stating that <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a <fr:link type="local" href="primitive.xml" addr="primitive" title="Primitive">primitive</fr:link> (or anti-derivative) on <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

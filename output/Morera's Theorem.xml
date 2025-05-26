@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>401</fr:anchor>
+    <fr:addr type="user">Morera's Theorem</fr:addr>
+    <fr:route>Morera's Theorem.xml</fr:route>
+    <fr:title text="Morera's Theorem">Morera's Theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>a continuous, complex-valued function <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on an <fr:strong>open</fr:strong> set <fr:tex display="inline"><![CDATA[D]]></fr:tex> in the complex plane that satisfies</fr:p>
+    <fr:tex display="block"><![CDATA[\oint _\gamma  f(z)dz=0]]></fr:tex>
+    <fr:p>for every closed piecewise <fr:tex display="inline"><![CDATA[C^1]]></fr:tex> curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> must be <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> on <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:p>
+    <fr:p>This is equivalent to stating that <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a <fr:link type="local" href="primitive.xml" addr="primitive" title="Primitive">primitive</fr:link> (or anti-derivative) on <fr:tex display="inline"><![CDATA[D]]></fr:tex></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>403</fr:anchor>
+            <fr:addr type="user">holomorphic</fr:addr>
+            <fr:route>holomorphic.xml</fr:route>
+            <fr:title text="Holomorphic">Holomorphic</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A continuous function "in every direction"</fr:p>
+            <fr:p>
+              <fr:strong>Is a very strong condition</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li>From <fr:link type="local" href="Cauchy's%20Integral%20theorem.xml" addr="Cauchy's Integral theorem" title="Cauchy's Integral theorem">Cauchy's Integral theorem</fr:link> we know that the integral of a holomorphic function over the boundary any simply connected domain is zero. This gives rise to the <fr:link type="local" href="Cauchy's%20Integral%20Formula.xml" addr="Cauchy's Integral Formula" title="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:link>, hence proves that</fr:li>
+<fr:li>A holomorphic function is automatically <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="local" href="Morera's%20Theorem.xml" addr="Morera's Theorem" title="Morera's Theorem">Morera's Theorem</fr:link> gives a strong condition to test for "holomorphicity"</fr:li>
+<fr:li>An <fr:link type="external" href="analytic">analytic</fr:link> complex-valued function is <fr:strong>automatically</fr:strong> holomorphic and vice versa <fr:ul><fr:li>This is <fr:em>not true for real functions!</fr:em></fr:li> <fr:li>Oftentimes "<fr:link type="external" href="analytic">analytic</fr:link>" and "holomorphic" are used interchangably</fr:li></fr:ul> <fr:tex display="inline"><![CDATA[\longrightarrow ]]></fr:tex> simple differentiability implies such a strong property like being representable by a power series!</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>405</fr:anchor>
+            <fr:addr type="user">holomorphic</fr:addr>
+            <fr:route>holomorphic.xml</fr:route>
+            <fr:title text="Holomorphic">Holomorphic</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A continuous function "in every direction"</fr:p>
+            <fr:p>
+              <fr:strong>Is a very strong condition</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li>From <fr:link type="local" href="Cauchy's%20Integral%20theorem.xml" addr="Cauchy's Integral theorem" title="Cauchy's Integral theorem">Cauchy's Integral theorem</fr:link> we know that the integral of a holomorphic function over the boundary any simply connected domain is zero. This gives rise to the <fr:link type="local" href="Cauchy's%20Integral%20Formula.xml" addr="Cauchy's Integral Formula" title="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:link>, hence proves that</fr:li>
+<fr:li>A holomorphic function is automatically <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="local" href="Morera's%20Theorem.xml" addr="Morera's Theorem" title="Morera's Theorem">Morera's Theorem</fr:link> gives a strong condition to test for "holomorphicity"</fr:li>
+<fr:li>An <fr:link type="external" href="analytic">analytic</fr:link> complex-valued function is <fr:strong>automatically</fr:strong> holomorphic and vice versa <fr:ul><fr:li>This is <fr:em>not true for real functions!</fr:em></fr:li> <fr:li>Oftentimes "<fr:link type="external" href="analytic">analytic</fr:link>" and "holomorphic" are used interchangably</fr:li></fr:ul> <fr:tex display="inline"><![CDATA[\longrightarrow ]]></fr:tex> simple differentiability implies such a strong property like being representable by a power series!</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>407</fr:anchor>
+            <fr:addr type="user">primitive</fr:addr>
+            <fr:route>primitive.xml</fr:route>
+            <fr:title text="Primitive">Primitive</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p><fr:strong>Definition</fr:strong>: Let <fr:tex display="inline"><![CDATA[f: E \longrightarrow  \mathbb {C}]]></fr:tex> be continuous.</fr:p>
+            <fr:p>We say that the <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> function <fr:tex display="inline"><![CDATA[F: E \longrightarrow  \mathbb {C}]]></fr:tex> is a <fr:strong>primitive</fr:strong> of <fr:tex display="inline"><![CDATA[f]]></fr:tex> if</fr:p>
+            <fr:tex display="block"><![CDATA[F' = f]]></fr:tex>
+            <fr:p>Notice that the primitive is not unique, but it's defined up to a constant.</fr:p>
+            <fr:p>
+              <fr:strong>Theorem:</fr:strong>
+            </fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a primitive, then <fr:tex display="inline"><![CDATA[\omega _R]]></fr:tex> and <fr:tex display="inline"><![CDATA[\omega _I]]></fr:tex> are <fr:link type="external" href="exact%20form">exact form</fr:link>s where</fr:p>
+            <fr:tex display="block"><![CDATA[\begin {cases} \omega _R = udx - vdy \\ \omega _I = vdx + udy \end {cases}]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

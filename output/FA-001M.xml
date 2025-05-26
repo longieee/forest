@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1541</fr:anchor>
+    <fr:addr type="user">FA-001M</fr:addr>
+    <fr:route>FA-001M.xml</fr:route>
+    <fr:title text="Summable">Summable</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A function <fr:tex display="inline"><![CDATA[f: X \to  \mathbb {R}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) defined on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be summable if it is <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable</fr:link> and its <fr:link type="local" href="FA-001N.xml" addr="FA-001N" title="Lebesgue integral">Lebesgue integral</fr:link> is finite:</fr:p>
+    <fr:p>
+      <fr:tex display="inline"><![CDATA[\int _X |f(x)| d\mu (x) < \infty ]]></fr:tex>
+    </fr:p>
+    <fr:p>In the context of the Lebesgue measure on <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>, a function is summable if it is in the space <fr:tex display="inline"><![CDATA[L^1(\mathbb {R}^d)]]></fr:tex>, i.e., if the integral of its absolute value over <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex> is finite.</fr:p>
+    <fr:p>Summable functions are precisely those functions for which the Lebesgue integral exists and is finite.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1543</fr:anchor>
+            <fr:addr type="user">FA-001E</fr:addr>
+            <fr:route>FA-001E.xml</fr:route>
+            <fr:title text="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[f_k : \mathbb {R}^d \to  [-\infty , +\infty ]]]></fr:tex> be a sequence of measurable functions. Suppose that</fr:p>
+            <fr:ol><fr:li>There exists a <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable function</fr:link> <fr:tex display="inline"><![CDATA[f : \mathbb {R}^d \to  [-\infty , +\infty ]]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f_n \to  f]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link>.</fr:li>
+<fr:li>There exists a <fr:link type="local" href="FA-001M.xml" addr="FA-001M" title="Summable">summable</fr:link> function <fr:tex display="inline"><![CDATA[g : \mathbb {R}^d \to  [-\infty , +\infty ]]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f_n(x)| \leq  g(x)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex> and for <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost every</fr:link> <fr:tex display="inline"><![CDATA[x \in  \mathbb {R}^d]]></fr:tex></fr:li></fr:ol>
+            <fr:p>Then,</fr:p>
+            <fr:tex display="block"><![CDATA[{\int  f(x)dx = \lim _{n \to  +\infty } \int  f_n(x)dx}]]></fr:tex>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1545</fr:anchor>
+            <fr:addr type="user">FA-001N</fr:addr>
+            <fr:route>FA-001N.xml</fr:route>
+            <fr:title text="Lebesgue integral">Lebesgue integral</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The Lebesgue integral is a generalization of the Riemann integral that allows for the integration of a broader class of functions. It is defined for <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable functions</fr:link> on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex>.</fr:p>
+            <fr:p>The construction of the Lebesgue integral proceeds in several steps:</fr:p>
+            <fr:ol><fr:li>First, define the integral for non-negative <fr:link type="local" href="FA-001O.xml" addr="FA-001O" title="Simple function">simple functions</fr:link> (finite linear combinations of indicator functions of measurable sets).</fr:li>
+<fr:li>Then, extend this definition to non-negative measurable functions using monotone approximation by simple functions.</fr:li>
+<fr:li>Finally, define the integral for general measurable functions by separately integrating their positive and negative parts.</fr:li></fr:ol>
+            <fr:p>The Lebesgue integral has many advantages over the Riemann integral:</fr:p>
+            <fr:ul><fr:li>It allows for the integration of a larger class of functions</fr:li>
+<fr:li>It has better convergence properties, exemplified by the <fr:link type="local" href="FA-001F.xml" addr="FA-001F" title="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:link> and <fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:link></fr:li>
+<fr:li>It provides a more natural setting for limiting operations and for the study of function spaces like <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1547</fr:anchor>
+            <fr:addr type="user">FA-001L</fr:addr>
+            <fr:route>FA-001L.xml</fr:route>
+            <fr:title text="Measurable function">Measurable function</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[(X, \mathcal {A})]]></fr:tex> and <fr:tex display="inline"><![CDATA[(Y, \mathcal {B})]]></fr:tex> be measurable spaces, where <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are σ-algebras on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, respectively. A function <fr:tex display="inline"><![CDATA[f: X \to  Y]]></fr:tex> is said to be measurable if the preimage of every measurable set in <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is a measurable set in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>Formally, <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>-<fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> measurable if <fr:tex display="inline"><![CDATA[f^{-1}(B) \in  \mathcal {A}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[B \in  \mathcal {B}]]></fr:tex>.</fr:p>
+            <fr:p>In the context of real-valued functions on <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>, a function <fr:tex display="inline"><![CDATA[f: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> is Lebesgue measurable if the preimage of every Borel set in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is a Lebesgue measurable set in <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>.</fr:p>
+            <fr:p>Equivalently, a function <fr:tex display="inline"><![CDATA[f: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> is Lebesgue measurable if and only if the set <fr:tex display="inline"><![CDATA[\{x \in  \mathbb {R}^d : f(x) > a\}]]></fr:tex> is Lebesgue measurable for every <fr:tex display="inline"><![CDATA[a \in  \mathbb {R}]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>701</fr:anchor>
+    <fr:addr type="user">FA-0035</fr:addr>
+    <fr:route>FA-0035.xml</fr:route>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>702</fr:anchor>
+            <fr:addr type="user">FA-0026</fr:addr>
+            <fr:route>FA-0026.xml</fr:route>
+            <fr:title text="Convergent">Convergent</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> in a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to converge to a point <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_n, x) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \geq  N]]></fr:tex>.</fr:p>
+            <fr:p>In this case, <fr:tex display="inline"><![CDATA[x]]></fr:tex> is called the limit of the sequence, and we write <fr:tex display="inline"><![CDATA[x_n \to  x]]></fr:tex> as <fr:tex display="inline"><![CDATA[n \to  \infty ]]></fr:tex> or <fr:tex display="inline"><![CDATA[\lim _{n \to  \infty } x_n = x]]></fr:tex>.</fr:p>
+            <fr:p>In functional analysis, there are various notions of convergence depending on the space and the context, including <fr:link type="local" href="FA-0034.xml" addr="FA-0034" title="Weak Convergence">weak convergence</fr:link>, <fr:link type="local" href="FA-0035.xml" addr="FA-0035">convergence in norm</fr:link>, and <fr:link type="local" href="FA-0036.xml" addr="FA-0036">pointwise convergence</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>704</fr:anchor>
+            <fr:addr type="user">FA-0034</fr:addr>
+            <fr:route>FA-0034.xml</fr:route>
+            <fr:title text="Weak Convergence">Weak Convergence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In a Hilbert or Banach space, weak convergence is a generalization of the concept of convergence that is weaker than <fr:link type="local" href="FA-0035.xml" addr="FA-0035">convergence in norm</fr:link>.</fr:p>
+            <fr:p>A sequence <fr:tex display="inline"><![CDATA[\{x_n\}]]></fr:tex> in a Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is said to converge weakly to <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[x_n \rightharpoonup  x]]></fr:tex>, if for all <fr:tex display="inline"><![CDATA[y \in  H]]></fr:tex>:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\lim _{n \to  \infty } \langle  x_n, y \rangle  = \langle  x, y \rangle ]]></fr:tex>
+            </fr:p>
+            <fr:p>In a Banach space <fr:tex display="inline"><![CDATA[X]]></fr:tex>, a sequence <fr:tex display="inline"><![CDATA[\{x_n\}]]></fr:tex> converges weakly to <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if for every <fr:link type="local" href="FA-0061.xml" addr="FA-0061">linear functional</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> in the <fr:link type="local" href="FA-0062.xml" addr="FA-0062">dual space</fr:link> <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\lim _{n \to  \infty } f(x_n) = f(x)]]></fr:tex>
+            </fr:p>
+            <fr:p>Weak convergence has several important properties:</fr:p>
+            <fr:ul><fr:li>Every strongly convergent sequence (a sequence that converges in norm) is also weakly convergent, but the converse is not true in general</fr:li>
+<fr:li>In finite-dimensional spaces, weak convergence and strong convergence are equivalent</fr:li>
+<fr:li>The weak limit is unique</fr:li>
+<fr:li>A weakly convergent sequence is bounded in norm</fr:li>
+<fr:li>The unit ball in a Hilbert space is weakly compact by the <fr:link type="local" href="FA-0063.xml" addr="FA-0063">Banach-Alaoglu theorem</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

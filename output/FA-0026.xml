@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1477</fr:anchor>
+    <fr:addr type="user">FA-0026</fr:addr>
+    <fr:route>FA-0026.xml</fr:route>
+    <fr:title text="Separable space">Separable space</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A topological space is called separable if it contains a countable, dense subset. For a metric space, this means there exists a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> subset whose closure is the entire space.</fr:p>
+    <fr:p>In the context of <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert spaces</fr:link>, a Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is separable if and only if it has a countable <fr:link type="local" href="FA-0027.xml" addr="FA-0027" title="Orthonormal Basis">orthonormal basis</fr:link>. This is equivalent to saying that there exists a countable set <fr:tex display="inline"><![CDATA[\{x_n\}]]></fr:tex> such that the span of <fr:tex display="inline"><![CDATA[\{x_n\}]]></fr:tex> is dense in <fr:tex display="inline"><![CDATA[H]]></fr:tex>.</fr:p>
+    <fr:p>For <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach spaces</fr:link>, separability means there exists a countable subset whose linear span is dense in the space.</fr:p>
+    <fr:p>Important examples of separable spaces include:</fr:p>
+    <fr:ul><fr:li>The Euclidean spaces <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {C}^n]]></fr:tex></fr:li>
+<fr:li>The space <fr:tex display="inline"><![CDATA[L^p[a,b]]]></fr:tex> for <fr:tex display="inline"><![CDATA[1 \leq  p < \infty ]]></fr:tex></fr:li>
+<fr:li>The space <fr:tex display="inline"><![CDATA[C[a,b]]]></fr:tex> of continuous functions on <fr:tex display="inline"><![CDATA[[a,b]]]></fr:tex></fr:li>
+<fr:li>The sequence spaces <fr:tex display="inline"><![CDATA[l^p]]></fr:tex> for <fr:tex display="inline"><![CDATA[1 \leq  p < \infty ]]></fr:tex></fr:li></fr:ul>
+    <fr:p>Important non-separable spaces include:</fr:p>
+    <fr:ul><fr:li>The space <fr:tex display="inline"><![CDATA[L^\infty ]]></fr:tex> of essentially bounded measurable functions</fr:li>
+<fr:li>The space <fr:tex display="inline"><![CDATA[l^\infty ]]></fr:tex> of bounded sequences</fr:li>
+<fr:li>The space of all bounded linear operators on an infinite-dimensional Hilbert space</fr:li></fr:ul>
+    <fr:p>Separability is a useful property in functional analysis as it often allows for the application of results that require countable operations, such as diagonal arguments and the ability to work with sequences rather than nets.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1479</fr:anchor>
+            <fr:addr type="user">FA-0023</fr:addr>
+            <fr:route>FA-0023.xml</fr:route>
+            <fr:title text="Countable">Countable</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is countable if its elements can be arranged in a sequence (i.e., if there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and the set of natural numbers <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>, or a subset of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>).</fr:p>
+            <fr:p>Formally, a set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is countable if either:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[S]]></fr:tex> is finite (i.e., there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and <fr:tex display="inline"><![CDATA[\{1, 2, ..., n\}]]></fr:tex> for some <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex>), or</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[S]]></fr:tex> is countably infinite (i.e., there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>)</fr:li></fr:ul>
+            <fr:p>Examples of countable sets include:</fr:p>
+            <fr:ul><fr:li>The set of natural numbers <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex></fr:li>
+<fr:li>The set of integers <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex></fr:li>
+<fr:li>The set of rational numbers <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex></fr:li>
+<fr:li>The set of algebraic numbers</fr:li></fr:ul>
+            <fr:p>In contrast, the set of real numbers <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is uncountable, as proven by Cantor's diagonal argument.</fr:p>
+            <fr:p>In functional analysis, the concept of countability is important in several contexts:</fr:p>
+            <fr:ul><fr:li>A <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> is <fr:link type="local" href="FA-0026.xml" addr="FA-0026" title="Separable space">separable</fr:link> if and only if it has a countable <fr:link type="local" href="FA-0027.xml" addr="FA-0027" title="Orthonormal Basis">orthonormal basis</fr:link></fr:li>
+<fr:li>A <fr:link type="local" href="FA-0028.xml" addr="FA-0028" title="Schauder basis">Schauder basis</fr:link> in a Banach space is by definition countable</fr:li>
+<fr:li>The spectrum of a compact operator on a Hilbert space is either finite or countably infinite with 0 as the only possible accumulation point</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1481</fr:anchor>
+            <fr:addr type="user">FA-0027</fr:addr>
+            <fr:route>FA-0027.xml</fr:route>
+            <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A complete (in the sense of <fr:link type="local" href="FA-0020.xml" addr="FA-0020" title="Completeness of orthonormal set">Completeness of orthonormal set</fr:link>) <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset (<fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link>) of H is also called an <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H</fr:p>
+            <fr:p><fr:strong>Altenately</fr:strong>: An <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H is a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> <fr:link type="local" href="FA-0024.xml" addr="FA-0024" title="Maximal orthonormal set">maximal</fr:link> <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset <fr:tex display="inline"><![CDATA[\{e_n\}]]></fr:tex> of H.</fr:p>
+            <fr:p><fr:strong>N.B.</fr:strong>: This notion of <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> is <fr:em>not quite the same</fr:em> as in the <fr:em>finite dimensional case</fr:em> (although it is a legitimate extension of it).</fr:p>
+            <fr:p>There are other, quite different, notions of a <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> in <fr:link type="local" href="FA-0005.xml" addr="FA-0005" title="Infinite Dimensions">infinite dimensions</fr:link>. See for instance '<fr:link type="local" href="FA-0025.xml" addr="FA-0025" title="Hamel basis">Hamel basis</fr:link>' which arises in some settings</fr:p>
+            <fr:p>
+              <fr:strong>Theorem:</fr:strong>
+            </fr:p>
+            <fr:p>Every <fr:link type="local" href="FA-0026.xml" addr="FA-0026" title="Separable space">separable</fr:link> <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> has a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> orthonormal <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1483</fr:anchor>
+            <fr:addr type="user">FA-0028</fr:addr>
+            <fr:route>FA-0028.xml</fr:route>
+            <fr:title text="Schauder basis">Schauder basis</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Schauder basis for a Banach space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a sequence of vectors <fr:tex display="inline"><![CDATA[\{e_n\}_{n=1}^{\infty }]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that for every vector <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>, there exists a unique sequence of scalars <fr:tex display="inline"><![CDATA[\{a_n\}_{n=1}^{\infty }]]></fr:tex> such that:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[x = \sum _{n=1}^{\infty } a_n e_n]]></fr:tex>
+            </fr:p>
+            <fr:p>where the series converges in the norm of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>A Schauder basis differs from a <fr:link type="local" href="FA-0025.xml" addr="FA-0025" title="Hamel basis">Hamel basis</fr:link> in that it allows for infinite (but convergent) linear combinations of basis elements, making it more suitable for the study of infinite-dimensional Banach spaces.</fr:p>
+            <fr:p>Every Schauder basis <fr:tex display="inline"><![CDATA[\{e_n\}]]></fr:tex> comes with a sequence of coordinate functionals <fr:tex display="inline"><![CDATA[\{e_n^*\}]]></fr:tex> in the <fr:link type="local" href="FA-001Q.xml" addr="FA-001Q" title="Dual space">dual space</fr:link> <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>, defined by <fr:tex display="inline"><![CDATA[e_n^*(x) = a_n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[a_n]]></fr:tex> are the unique coefficients in the expansion <fr:tex display="inline"><![CDATA[x = \sum _{n} a_n e_n]]></fr:tex>.</fr:p>
+            <fr:p>Important properties of Schauder bases:</fr:p>
+            <fr:ul><fr:li>A Banach space with a Schauder basis is always <fr:link type="local" href="FA-0026.xml" addr="FA-0026" title="Separable space">separable</fr:link></fr:li>
+<fr:li>Not every separable Banach space has a Schauder basis (as proven by Per Enflo for certain spaces)</fr:li>
+<fr:li>In a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link>, every <fr:link type="local" href="FA-0027.xml" addr="FA-0027" title="Orthonormal Basis">orthonormal basis</fr:link> is a Schauder basis</fr:li>
+<fr:li>The standard examples of Schauder bases include the Haar system in <fr:tex display="inline"><![CDATA[L^p[0,1]]]></fr:tex> for <fr:tex display="inline"><![CDATA[1 \leq  p < \infty ]]></fr:tex> and the trigonometric system in <fr:tex display="inline"><![CDATA[L^2[0,2\pi ]]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1485</fr:anchor>
+            <fr:addr type="user">FA-000F</fr:addr>
+            <fr:route>FA-000F.xml</fr:route>
+            <fr:title text="Banach Space">Banach Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Banach space is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0017.xml" addr="FA-0017" title="Normed vector space">normed vector space</fr:link>. That is, a Banach space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||]]></fr:tex> such that every <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[V]]></fr:tex> (with respect to the metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>) converges to a vector in <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+            <fr:p>Banach spaces are fundamental in functional analysis and named after Stefan Banach. They provide the right setting for many important results in analysis, including the Hahn-Banach theorem, the open mapping theorem, and the closed graph theorem.</fr:p>
+            <fr:p>Examples include the spaces <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> for <fr:tex display="inline"><![CDATA[p \geq  1]]></fr:tex>, the space <fr:tex display="inline"><![CDATA[C([a,b])]]></fr:tex> of continuous functions on <fr:tex display="inline"><![CDATA[[a,b]]]></fr:tex> with the <fr:link type="local" href="FA-000E.xml" addr="FA-000E" title="Sup norm">sup norm</fr:link>, and all finite-dimensional normed vector spaces.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1487</fr:anchor>
+            <fr:addr type="user">FA-0023</fr:addr>
+            <fr:route>FA-0023.xml</fr:route>
+            <fr:title text="Countable">Countable</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is countable if its elements can be arranged in a sequence (i.e., if there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and the set of natural numbers <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>, or a subset of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>).</fr:p>
+            <fr:p>Formally, a set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is countable if either:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[S]]></fr:tex> is finite (i.e., there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and <fr:tex display="inline"><![CDATA[\{1, 2, ..., n\}]]></fr:tex> for some <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex>), or</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[S]]></fr:tex> is countably infinite (i.e., there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>)</fr:li></fr:ul>
+            <fr:p>Examples of countable sets include:</fr:p>
+            <fr:ul><fr:li>The set of natural numbers <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex></fr:li>
+<fr:li>The set of integers <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex></fr:li>
+<fr:li>The set of rational numbers <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex></fr:li>
+<fr:li>The set of algebraic numbers</fr:li></fr:ul>
+            <fr:p>In contrast, the set of real numbers <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is uncountable, as proven by Cantor's diagonal argument.</fr:p>
+            <fr:p>In functional analysis, the concept of countability is important in several contexts:</fr:p>
+            <fr:ul><fr:li>A <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> is <fr:link type="local" href="FA-0026.xml" addr="FA-0026" title="Separable space">separable</fr:link> if and only if it has a countable <fr:link type="local" href="FA-0027.xml" addr="FA-0027" title="Orthonormal Basis">orthonormal basis</fr:link></fr:li>
+<fr:li>A <fr:link type="local" href="FA-0028.xml" addr="FA-0028" title="Schauder basis">Schauder basis</fr:link> in a Banach space is by definition countable</fr:li>
+<fr:li>The spectrum of a compact operator on a Hilbert space is either finite or countably infinite with 0 as the only possible accumulation point</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1489</fr:anchor>
+            <fr:addr type="user">FA-000U</fr:addr>
+            <fr:route>FA-000U.xml</fr:route>
+            <fr:title text="Hilbert Space">Hilbert Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
+            <fr:p>Hilbert spaces extend the methods of linear algebra to infinite-dimensional settings, making them crucial for quantum mechanics, Fourier analysis, and partial differential equations.</fr:p>
+            <fr:p>Examples include the space <fr:tex display="inline"><![CDATA[L^2]]></fr:tex> of square-integrable functions and the space <fr:tex display="inline"><![CDATA[l^2]]></fr:tex> of square-summable sequences.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1491</fr:anchor>
+            <fr:addr type="user">FA-0027</fr:addr>
+            <fr:route>FA-0027.xml</fr:route>
+            <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A complete (in the sense of <fr:link type="local" href="FA-0020.xml" addr="FA-0020" title="Completeness of orthonormal set">Completeness of orthonormal set</fr:link>) <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset (<fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link>) of H is also called an <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H</fr:p>
+            <fr:p><fr:strong>Altenately</fr:strong>: An <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H is a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> <fr:link type="local" href="FA-0024.xml" addr="FA-0024" title="Maximal orthonormal set">maximal</fr:link> <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset <fr:tex display="inline"><![CDATA[\{e_n\}]]></fr:tex> of H.</fr:p>
+            <fr:p><fr:strong>N.B.</fr:strong>: This notion of <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> is <fr:em>not quite the same</fr:em> as in the <fr:em>finite dimensional case</fr:em> (although it is a legitimate extension of it).</fr:p>
+            <fr:p>There are other, quite different, notions of a <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> in <fr:link type="local" href="FA-0005.xml" addr="FA-0005" title="Infinite Dimensions">infinite dimensions</fr:link>. See for instance '<fr:link type="local" href="FA-0025.xml" addr="FA-0025" title="Hamel basis">Hamel basis</fr:link>' which arises in some settings</fr:p>
+            <fr:p>
+              <fr:strong>Theorem:</fr:strong>
+            </fr:p>
+            <fr:p>Every <fr:link type="local" href="FA-0026.xml" addr="FA-0026" title="Separable space">separable</fr:link> <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> has a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> orthonormal <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

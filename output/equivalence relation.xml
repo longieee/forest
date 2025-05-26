@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>475</fr:anchor>
+    <fr:addr type="user">equivalence relation</fr:addr>
+    <fr:route>equivalence relation.xml</fr:route>
+    <fr:title text="Equivalence relation">Equivalence relation</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>on set S</fr:p>
+    <fr:p>a relation which holds between certain elements of S</fr:p>
+    <fr:p>Notation: <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex></fr:p>
+    <fr:p>Requirements:</fr:p>
+    <fr:ol><fr:li><fr:strong>Transitive</fr:strong>: If <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex>  and <fr:tex display="inline"><![CDATA[b \sim  c]]></fr:tex> then <fr:tex display="inline"><![CDATA[a \sim  c]]></fr:tex></fr:li>
+<fr:li><fr:strong>Symmetric</fr:strong>: If <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex> then <fr:tex display="inline"><![CDATA[b \sim  a]]></fr:tex></fr:li>
+<fr:li><fr:strong>Reflexive</fr:strong>: <fr:tex display="inline"><![CDATA[a \sim  a]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a \in  S]]></fr:tex></fr:li></fr:ol>
+    <fr:p>Examples:</fr:p>
+    <fr:ul>
+      <fr:li>Congruence of triangles: equivalence relation on the set S of triangles in a plane</fr:li>
+    </fr:ul>
+    <fr:p>
+      <fr:strong>Formally</fr:strong>
+    </fr:p>
+    <fr:p>An <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link> on S is the same thing as:</fr:p>
+    <fr:ul><fr:li><fr:strong>A subset R of the set <fr:tex display="inline"><![CDATA[S \times  S]]></fr:tex> of pairs of elements</fr:strong></fr:li>
+<fr:li><fr:strong>The subset <fr:tex display="inline"><![CDATA[R]]></fr:tex> consists of pairs <fr:tex display="inline"><![CDATA[(a,b)]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex></fr:strong></fr:li></fr:ul>
+    <fr:p>Rewriting axiom for an equivalence relation:</fr:p>
+    <fr:ol><fr:li>If <fr:tex display="inline"><![CDATA[(a,b) \in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[(b,c) \in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(a,c) \in  R]]></fr:tex></fr:li>
+<fr:li>If <fr:tex display="inline"><![CDATA[(a,b) \in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(b,a) \in  R]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[(a,a) \in  R]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a]]></fr:tex></fr:li></fr:ol>
+    <fr:p>The notion of a <fr:link type="local" href="partition.xml" addr="partition" title="Partition">partition</fr:link> of S and an <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link> on S are logically equivalent</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>477</fr:anchor>
+            <fr:addr type="user">congruence class</fr:addr>
+            <fr:route>congruence class.xml</fr:route>
+            <fr:title text="Congruence class">Congruence class</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>a and b are <fr:strong>congruent modulo n</fr:strong>:</fr:p>
+            <fr:tex display="inline"><![CDATA[a \equiv  b \quad  (mod \ n)]]></fr:tex>
+            <fr:p>If <fr:strong>n divides b - a</fr:strong>, or if <fr:strong>b = a + nk</fr:strong> for some integer k This is an <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link></fr:p>
+            <fr:p>So we may consider the <fr:link type="local" href="equivalence%20class.xml" addr="equivalence class" title="Equivalence class">equivalence class</fr:link> -&gt; <fr:link type="local" href="congruence%20class.xml" addr="congruence class" title="Congruence class">congruence class</fr:link> modulo n (<fr:link type="local" href="residue%20class.xml" addr="residue class" title="Residue class">residue class</fr:link> modulo n)</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\bar {a} = \{\dots , a-2n, a-n, a, a+n, a+2n, \dots \}]]></fr:tex>
+            </fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>479</fr:anchor>
+            <fr:addr type="user">equivalence class</fr:addr>
+            <fr:route>equivalence class.xml</fr:route>
+            <fr:title text="Equivalence class">Equivalence class</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given an <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link> we can define a <fr:link type="local" href="partition.xml" addr="partition" title="Partition">partition</fr:link> P this way:</fr:p>
+            <fr:p>The subset containing <fr:tex display="inline"><![CDATA[a]]></fr:tex> is the set of all elements <fr:tex display="inline"><![CDATA[b]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex></fr:p>
+            <fr:p>This <fr:strong>subset</fr:strong> is called the <fr:link type="local" href="equivalence%20class.xml" addr="equivalence class" title="Equivalence class">equivalence class</fr:link> of <fr:tex display="inline"><![CDATA[a]]></fr:tex>, and <fr:tex display="inline"><![CDATA[S]]></fr:tex> is partitioned into equivalent classes</fr:p>
+            <fr:p>To check that equivalent classes partition the set <fr:tex display="inline"><![CDATA[S]]></fr:tex> --&gt; Check the axioms of the equivalence relation</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>481</fr:anchor>
+            <fr:addr type="user">equivalence relation</fr:addr>
+            <fr:route>equivalence relation.xml</fr:route>
+            <fr:title text="Equivalence relation">Equivalence relation</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>on set S</fr:p>
+            <fr:p>a relation which holds between certain elements of S</fr:p>
+            <fr:p>Notation: <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex></fr:p>
+            <fr:p>Requirements:</fr:p>
+            <fr:ol><fr:li><fr:strong>Transitive</fr:strong>: If <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex>  and <fr:tex display="inline"><![CDATA[b \sim  c]]></fr:tex> then <fr:tex display="inline"><![CDATA[a \sim  c]]></fr:tex></fr:li>
+<fr:li><fr:strong>Symmetric</fr:strong>: If <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex> then <fr:tex display="inline"><![CDATA[b \sim  a]]></fr:tex></fr:li>
+<fr:li><fr:strong>Reflexive</fr:strong>: <fr:tex display="inline"><![CDATA[a \sim  a]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a \in  S]]></fr:tex></fr:li></fr:ol>
+            <fr:p>Examples:</fr:p>
+            <fr:ul>
+              <fr:li>Congruence of triangles: equivalence relation on the set S of triangles in a plane</fr:li>
+            </fr:ul>
+            <fr:p>
+              <fr:strong>Formally</fr:strong>
+            </fr:p>
+            <fr:p>An <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link> on S is the same thing as:</fr:p>
+            <fr:ul><fr:li><fr:strong>A subset R of the set <fr:tex display="inline"><![CDATA[S \times  S]]></fr:tex> of pairs of elements</fr:strong></fr:li>
+<fr:li><fr:strong>The subset <fr:tex display="inline"><![CDATA[R]]></fr:tex> consists of pairs <fr:tex display="inline"><![CDATA[(a,b)]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex></fr:strong></fr:li></fr:ul>
+            <fr:p>Rewriting axiom for an equivalence relation:</fr:p>
+            <fr:ol><fr:li>If <fr:tex display="inline"><![CDATA[(a,b) \in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[(b,c) \in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(a,c) \in  R]]></fr:tex></fr:li>
+<fr:li>If <fr:tex display="inline"><![CDATA[(a,b) \in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(b,a) \in  R]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[(a,a) \in  R]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a]]></fr:tex></fr:li></fr:ol>
+            <fr:p>The notion of a <fr:link type="local" href="partition.xml" addr="partition" title="Partition">partition</fr:link> of S and an <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link> on S are logically equivalent</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>483</fr:anchor>
+            <fr:addr type="user">partition</fr:addr>
+            <fr:route>partition.xml</fr:route>
+            <fr:title text="Partition">Partition</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subdivision of S into nonoverlapping subsets:</fr:p>
+            <fr:p>
+              <fr:strong><fr:tex display="inline"><![CDATA[S]]></fr:tex> =# union of disjoint, nonempty sets;</fr:strong>
+            </fr:p>
+            <fr:p>Example:</fr:p>
+            <fr:ul><fr:li>Even integers and odd integers form a partition of the set <fr:tex display="inline"><![CDATA[Z]]></fr:tex></fr:li>
+<fr:li>Sets <fr:tex display="inline"><![CDATA[ {1,2} ]]></fr:tex>, <fr:tex display="inline"><![CDATA[ {3,4} ]]></fr:tex> and <fr:tex display="inline"><![CDATA[ {5} ]]></fr:tex> form a partition of the set <fr:tex display="inline"><![CDATA[ {1,2,3,4,5} ]]></fr:tex></fr:li></fr:ul>
+            <fr:p>Logically equivalent to an <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>485</fr:anchor>
+            <fr:addr type="user">equivalence relation</fr:addr>
+            <fr:route>equivalence relation.xml</fr:route>
+            <fr:title text="Equivalence relation">Equivalence relation</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>on set S</fr:p>
+            <fr:p>a relation which holds between certain elements of S</fr:p>
+            <fr:p>Notation: <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex></fr:p>
+            <fr:p>Requirements:</fr:p>
+            <fr:ol><fr:li><fr:strong>Transitive</fr:strong>: If <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex>  and <fr:tex display="inline"><![CDATA[b \sim  c]]></fr:tex> then <fr:tex display="inline"><![CDATA[a \sim  c]]></fr:tex></fr:li>
+<fr:li><fr:strong>Symmetric</fr:strong>: If <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex> then <fr:tex display="inline"><![CDATA[b \sim  a]]></fr:tex></fr:li>
+<fr:li><fr:strong>Reflexive</fr:strong>: <fr:tex display="inline"><![CDATA[a \sim  a]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a \in  S]]></fr:tex></fr:li></fr:ol>
+            <fr:p>Examples:</fr:p>
+            <fr:ul>
+              <fr:li>Congruence of triangles: equivalence relation on the set S of triangles in a plane</fr:li>
+            </fr:ul>
+            <fr:p>
+              <fr:strong>Formally</fr:strong>
+            </fr:p>
+            <fr:p>An <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link> on S is the same thing as:</fr:p>
+            <fr:ul><fr:li><fr:strong>A subset R of the set <fr:tex display="inline"><![CDATA[S \times  S]]></fr:tex> of pairs of elements</fr:strong></fr:li>
+<fr:li><fr:strong>The subset <fr:tex display="inline"><![CDATA[R]]></fr:tex> consists of pairs <fr:tex display="inline"><![CDATA[(a,b)]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a \sim  b]]></fr:tex></fr:strong></fr:li></fr:ul>
+            <fr:p>Rewriting axiom for an equivalence relation:</fr:p>
+            <fr:ol><fr:li>If <fr:tex display="inline"><![CDATA[(a,b) \in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[(b,c) \in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(a,c) \in  R]]></fr:tex></fr:li>
+<fr:li>If <fr:tex display="inline"><![CDATA[(a,b) \in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(b,a) \in  R]]></fr:tex></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[(a,a) \in  R]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a]]></fr:tex></fr:li></fr:ol>
+            <fr:p>The notion of a <fr:link type="local" href="partition.xml" addr="partition" title="Partition">partition</fr:link> of S and an <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link> on S are logically equivalent</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>487</fr:anchor>
+            <fr:addr type="user">partition</fr:addr>
+            <fr:route>partition.xml</fr:route>
+            <fr:title text="Partition">Partition</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subdivision of S into nonoverlapping subsets:</fr:p>
+            <fr:p>
+              <fr:strong><fr:tex display="inline"><![CDATA[S]]></fr:tex> =# union of disjoint, nonempty sets;</fr:strong>
+            </fr:p>
+            <fr:p>Example:</fr:p>
+            <fr:ul><fr:li>Even integers and odd integers form a partition of the set <fr:tex display="inline"><![CDATA[Z]]></fr:tex></fr:li>
+<fr:li>Sets <fr:tex display="inline"><![CDATA[ {1,2} ]]></fr:tex>, <fr:tex display="inline"><![CDATA[ {3,4} ]]></fr:tex> and <fr:tex display="inline"><![CDATA[ {5} ]]></fr:tex> form a partition of the set <fr:tex display="inline"><![CDATA[ {1,2,3,4,5} ]]></fr:tex></fr:li></fr:ul>
+            <fr:p>Logically equivalent to an <fr:link type="local" href="equivalence%20relation.xml" addr="equivalence relation" title="Equivalence relation">equivalence relation</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

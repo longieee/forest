@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1104</fr:anchor>
+    <fr:addr type="user">FA-003D</fr:addr>
+    <fr:route>FA-003D.xml</fr:route>
+    <fr:title text="Measurable Function">Measurable Function</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>These are all equivalent definitions of <fr:strong>measurable functions</fr:strong>:</fr:p>
+    <fr:ul><fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) > \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) < \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) \geq  \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[\ \alpha  \in  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) \leq  \alpha  \right \}]]></fr:tex> is Lebesgue measurable</fr:li>
+  <fr:li>For all <fr:tex display="inline"><![CDATA[U \subset  \mathbb {R}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[\ \left \{ x \in  \Omega : f(x) \in  U \right \}]]></fr:tex> is Lebesgue measurable</fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1106</fr:anchor>
+            <fr:addr type="user">FA-003P</fr:addr>
+            <fr:route>FA-003P.xml</fr:route>
+            <fr:title text="Essential Upper Bound">Essential Upper Bound</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An upper bound that holds <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>.</fr:p>
+            <fr:p>For a <fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">measurable function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on a <fr:link type="external" href="FA-0135">measure space</fr:link>, a real number <fr:tex display="inline"><![CDATA[M]]></fr:tex> is an essential upper bound for <fr:tex display="inline"><![CDATA[f]]></fr:tex> if <fr:tex display="inline"><![CDATA[f(x) \leq  M]]></fr:tex> for <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost every</fr:link> <fr:tex display="inline"><![CDATA[x]]></fr:tex> in the domain.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1108</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
+            <fr:p>
+              <fr:strong>Core Concepts:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link> - The fundamental theorem on polynomial approximation</fr:li>
+  <fr:li><fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert Space</fr:link> - Complete inner product spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach Space</fr:link> - Complete normed spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">Bounded Linear Operator</fr:link> - Key objects of study in functional analysis</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Important Theorems:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-000L.xml" addr="FA-000L" title="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:link> - Characterizes compact subsets in spaces of continuous functions</fr:li>
+  <fr:li><fr:link type="local" href="FA-002O.xml" addr="FA-002O" title="Projection Theorem">Projection Theorem</fr:link> - Fundamental result for Hilbert spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Parseval's identity</fr:link> - Relates norms in Fourier analysis</fr:li>
+  <fr:li><fr:link type="local" href="FA-001Y.xml" addr="FA-001Y" title="Hölder inequality">Hölder inequality</fr:link> - Generalizes the Cauchy-Schwarz inequality</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Measure Theory:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue Measure</fr:link> - Foundation for modern integration theory</fr:li>
+  <fr:li><fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">Measurable Set</fr:link> - Sets with well-defined measure</fr:li>
+  <fr:li><fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">Measurable Function</fr:link> - Functions suitable for Lebesgue integration</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Norms and Metrics:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">Norm</fr:link> - Way to measure vector magnitude</fr:li>
+  <fr:li><fr:link type="local" href="FA-003B.xml" addr="FA-003B" title="Lp norm">Lp norm</fr:link> - Important class of norms</fr:li>
+  <fr:li><fr:link type="local" href="FA-003F.xml" addr="FA-003F" title="Operator Norm">Operator Norm</fr:link> - Measures the "size" of linear operators</fr:li>
+  <fr:li><fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">Metric Space</fr:link> - Generalized notion of distance</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1110</fr:anchor>
+            <fr:addr type="user">FA-003B</fr:addr>
+            <fr:route>FA-003B.xml</fr:route>
+            <fr:title text="Lp norm">Lp norm</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[\ \Omega  \subset  \mathbb {R}^n]]></fr:tex> be a Lebesgue <fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable set</fr:link>. For a <fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">measurable function</fr:link> <fr:tex display="inline"><![CDATA[f: \Omega  \to  \mathbb {R}]]></fr:tex> we define the <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> norm of <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[\ \Omega ]]></fr:tex> as the (finite or infinite) number:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{||f||_{L^p(\Omega )} \stackrel {\text {def}}{=} \left (\int _{\Omega } |f(x)|^p dx\right )^{1/p}}]]></fr:tex>
+            </fr:p>
+            <fr:p>Moreover, we set:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{C \stackrel {\text {def}}{=} \{\alpha  \in  \mathbb {R} : |f(x)| \leq  \alpha  \text { almost everywhere on } \Omega \}.}]]></fr:tex>
+            </fr:p>
+            <fr:p>The <fr:tex display="inline"><![CDATA[L^\infty ]]></fr:tex> norm of <fr:tex display="inline"><![CDATA[f]]></fr:tex> (also called the <fr:link type="local" href="FA-003E.xml" addr="FA-003E" title="Essential Supremum">essential supremum</fr:link> of <fr:tex display="inline"><![CDATA[f]]></fr:tex>) is defined as:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{||f||_{L^\infty (\Omega )} = \inf  C}]]></fr:tex>
+            </fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1112</fr:anchor>
+            <fr:addr type="user">FA-003G</fr:addr>
+            <fr:route>FA-003G.xml</fr:route>
+            <fr:title text="Sup Norm">Sup Norm</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The supremum norm (or sup norm) is a <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link> defined for bounded functions. For a bounded function <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {C}]]></fr:tex>, the sup norm is defined as:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{||f||_\infty  = \sup _{x \in  X} |f(x)|}]]></fr:tex>
+            </fr:p>
+            <fr:p>This norm measures the maximum absolute value that the function takes over its domain.</fr:p>
+            <fr:p>In the context of the <fr:link type="external" href="FA-0132">space of continuous functions</fr:link> <fr:tex display="inline"><![CDATA[C(X)]]></fr:tex> on a compact space <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the sup norm makes <fr:tex display="inline"><![CDATA[C(X)]]></fr:tex> into a <fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach space</fr:link>.</fr:p>
+            <fr:p>The sup norm is also used to define the <fr:tex display="inline"><![CDATA[L^\infty ]]></fr:tex> space, which consists of essentially bounded <fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">measurable functions</fr:link>, with the <fr:link type="local" href="FA-003E.xml" addr="FA-003E" title="Essential Supremum">essential supremum</fr:link> replacing the exact supremum.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

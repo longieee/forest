@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>963</fr:anchor>
+    <fr:addr type="user">FA-001E</fr:addr>
+    <fr:route>FA-001E.xml</fr:route>
+    <fr:title text="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[f_k : \mathbb {R}^d \to  [-\infty , +\infty ]]]></fr:tex> be a sequence of measurable functions. Suppose that</fr:p>
+    <fr:ol><fr:li>There exists a <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable function</fr:link> <fr:tex display="inline"><![CDATA[f : \mathbb {R}^d \to  [-\infty , +\infty ]]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f_n \to  f]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link>.</fr:li>
+<fr:li>There exists a <fr:link type="local" href="FA-001M.xml" addr="FA-001M" title="Summable">summable</fr:link> function <fr:tex display="inline"><![CDATA[g : \mathbb {R}^d \to  [-\infty , +\infty ]]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f_n(x)| \leq  g(x)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \in  \mathbb {N}]]></fr:tex> and for <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost every</fr:link> <fr:tex display="inline"><![CDATA[x \in  \mathbb {R}^d]]></fr:tex></fr:li></fr:ol>
+    <fr:p>Then,</fr:p>
+    <fr:tex display="block"><![CDATA[{\int  f(x)dx = \lim _{n \to  +\infty } \int  f_n(x)dx}]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>965</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
+            <fr:p>
+              <fr:strong>Core Concepts:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link> - The fundamental theorem on polynomial approximation</fr:li>
+  <fr:li><fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert Space</fr:link> - Complete inner product spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach Space</fr:link> - Complete normed spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">Bounded Linear Operator</fr:link> - Key objects of study in functional analysis</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Important Theorems:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-000L.xml" addr="FA-000L" title="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:link> - Characterizes compact subsets in spaces of continuous functions</fr:li>
+  <fr:li><fr:link type="local" href="FA-002O.xml" addr="FA-002O" title="Projection Theorem">Projection Theorem</fr:link> - Fundamental result for Hilbert spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Parseval's identity</fr:link> - Relates norms in Fourier analysis</fr:li>
+  <fr:li><fr:link type="local" href="FA-001Y.xml" addr="FA-001Y" title="Hölder inequality">Hölder inequality</fr:link> - Generalizes the Cauchy-Schwarz inequality</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Measure Theory:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue Measure</fr:link> - Foundation for modern integration theory</fr:li>
+  <fr:li><fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">Measurable Set</fr:link> - Sets with well-defined measure</fr:li>
+  <fr:li><fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">Measurable Function</fr:link> - Functions suitable for Lebesgue integration</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Norms and Metrics:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">Norm</fr:link> - Way to measure vector magnitude</fr:li>
+  <fr:li><fr:link type="local" href="FA-003B.xml" addr="FA-003B" title="Lp norm">Lp norm</fr:link> - Important class of norms</fr:li>
+  <fr:li><fr:link type="local" href="FA-003F.xml" addr="FA-003F" title="Operator Norm">Operator Norm</fr:link> - Measures the "size" of linear operators</fr:li>
+  <fr:li><fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">Metric Space</fr:link> - Generalized notion of distance</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>967</fr:anchor>
+            <fr:addr type="user">FA-001N</fr:addr>
+            <fr:route>FA-001N.xml</fr:route>
+            <fr:title text="Lebesgue integral">Lebesgue integral</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The Lebesgue integral is a generalization of the Riemann integral that allows for the integration of a broader class of functions. It is defined for <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable functions</fr:link> on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex>.</fr:p>
+            <fr:p>The construction of the Lebesgue integral proceeds in several steps:</fr:p>
+            <fr:ol><fr:li>First, define the integral for non-negative <fr:link type="local" href="FA-001O.xml" addr="FA-001O" title="Simple function">simple functions</fr:link> (finite linear combinations of indicator functions of measurable sets).</fr:li>
+<fr:li>Then, extend this definition to non-negative measurable functions using monotone approximation by simple functions.</fr:li>
+<fr:li>Finally, define the integral for general measurable functions by separately integrating their positive and negative parts.</fr:li></fr:ol>
+            <fr:p>The Lebesgue integral has many advantages over the Riemann integral:</fr:p>
+            <fr:ul><fr:li>It allows for the integration of a larger class of functions</fr:li>
+<fr:li>It has better convergence properties, exemplified by the <fr:link type="local" href="FA-001F.xml" addr="FA-001F" title="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:link> and <fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:link></fr:li>
+<fr:li>It provides a more natural setting for limiting operations and for the study of function spaces like <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>969</fr:anchor>
+            <fr:addr type="user">FA-001G</fr:addr>
+            <fr:route>FA-001G.xml</fr:route>
+            <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. Then the <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach space</fr:link>.</fr:p>
+            <fr:p>Moreover, if <fr:tex display="inline"><![CDATA[p]]></fr:tex> is a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\{f_n\}_{n \in  \mathbb {N}}]]></fr:tex> is a <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex>, then there exist two functions <fr:tex display="inline"><![CDATA[f, h \in  L^p(E)]]></fr:tex> and a <fr:link type="local" href="FA-000R.xml" addr="FA-000R" title="Subsequence">subsequence</fr:link> <fr:tex display="inline"><![CDATA[f_{n_k}]]></fr:tex> of <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> such that</fr:p>
+            <fr:ol><fr:li><fr:tex display="inline"><![CDATA[|f_{n_k}(x)| \leq  h(x)]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>,</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[f_{n_k} \to  f]]></fr:tex> <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost everywhere</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:li></fr:ol>
+            <fr:p><fr:em>Note</fr:em>: The proof uses <fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:link>, <fr:link type="local" href="FA-001F.xml" addr="FA-001F" title="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>971</fr:anchor>
+            <fr:addr type="user">FA-001D</fr:addr>
+            <fr:route>FA-001D.xml</fr:route>
+            <fr:title text="Almost everywhere">Almost everywhere</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A property is said to hold almost everywhere (abbreviated as "a.e.") on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> if the set of points where the property fails has measure zero.</fr:p>
+            <fr:p>Formally, a property <fr:tex display="inline"><![CDATA[P]]></fr:tex> holds almost everywhere if there exists a measurable set <fr:tex display="inline"><![CDATA[N]]></fr:tex> with <fr:tex display="inline"><![CDATA[μ(N) = 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[P]]></fr:tex> holds for all <fr:tex display="inline"><![CDATA[x \in  X \setminus  N]]></fr:tex>.</fr:p>
+            <fr:p>This concept is fundamental in measure theory and functional analysis because it allows us to ignore sets of measure zero, which are often irrelevant for integration and other analytical purposes.</fr:p>
+            <fr:p>For example, two <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable functions</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> are said to be equal almost everywhere if <fr:tex display="inline"><![CDATA[\mu (\{x \in  X : f(x) \neq  g(x)\}) = 0]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>973</fr:anchor>
+            <fr:addr type="user">FA-001L</fr:addr>
+            <fr:route>FA-001L.xml</fr:route>
+            <fr:title text="Measurable function">Measurable function</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[(X, \mathcal {A})]]></fr:tex> and <fr:tex display="inline"><![CDATA[(Y, \mathcal {B})]]></fr:tex> be measurable spaces, where <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are σ-algebras on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, respectively. A function <fr:tex display="inline"><![CDATA[f: X \to  Y]]></fr:tex> is said to be measurable if the preimage of every measurable set in <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is a measurable set in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+            <fr:p>Formally, <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>-<fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> measurable if <fr:tex display="inline"><![CDATA[f^{-1}(B) \in  \mathcal {A}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[B \in  \mathcal {B}]]></fr:tex>.</fr:p>
+            <fr:p>In the context of real-valued functions on <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>, a function <fr:tex display="inline"><![CDATA[f: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> is Lebesgue measurable if the preimage of every Borel set in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is a Lebesgue measurable set in <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>.</fr:p>
+            <fr:p>Equivalently, a function <fr:tex display="inline"><![CDATA[f: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> is Lebesgue measurable if and only if the set <fr:tex display="inline"><![CDATA[\{x \in  \mathbb {R}^d : f(x) > a\}]]></fr:tex> is Lebesgue measurable for every <fr:tex display="inline"><![CDATA[a \in  \mathbb {R}]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>975</fr:anchor>
+            <fr:addr type="user">FA-001M</fr:addr>
+            <fr:route>FA-001M.xml</fr:route>
+            <fr:title text="Summable">Summable</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A function <fr:tex display="inline"><![CDATA[f: X \to  \mathbb {R}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) defined on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be summable if it is <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable</fr:link> and its <fr:link type="local" href="FA-001N.xml" addr="FA-001N" title="Lebesgue integral">Lebesgue integral</fr:link> is finite:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[\int _X |f(x)| d\mu (x) < \infty ]]></fr:tex>
+            </fr:p>
+            <fr:p>In the context of the Lebesgue measure on <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex>, a function is summable if it is in the space <fr:tex display="inline"><![CDATA[L^1(\mathbb {R}^d)]]></fr:tex>, i.e., if the integral of its absolute value over <fr:tex display="inline"><![CDATA[\mathbb {R}^d]]></fr:tex> is finite.</fr:p>
+            <fr:p>Summable functions are precisely those functions for which the Lebesgue integral exists and is finite.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

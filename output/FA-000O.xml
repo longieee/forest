@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1577</fr:anchor>
+    <fr:addr type="user">FA-000O</fr:addr>
+    <fr:route>FA-000O.xml</fr:route>
+    <fr:title text="Totally bounded">Totally bounded</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be totally bounded if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists a finite cover of <fr:tex display="inline"><![CDATA[S]]></fr:tex> by balls of radius <fr:tex display="inline"><![CDATA[ε]]></fr:tex>.</fr:p>
+    <fr:p>In other words, for any <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exist finitely many points <fr:tex display="inline"><![CDATA[x_1, x_2, \ldots , x_n \in  X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[S \subseteq  \cup _{i=1}^n B(x_i, ε)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[B(x_i, ε)]]></fr:tex> is the ball with center <fr:tex display="inline"><![CDATA[x_i]]></fr:tex> and radius <fr:tex display="inline"><![CDATA[ε]]></fr:tex>.</fr:p>
+    <fr:p>In a complete metric space, a set is compact if and only if it is totally bounded and closed.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1579</fr:anchor>
+            <fr:addr type="user">FA-000H</fr:addr>
+            <fr:route>FA-000H.xml</fr:route>
+            <fr:title text="Compact">Compact</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subset <fr:tex display="inline"><![CDATA[K]]></fr:tex> of a topological space is said to be compact if every open cover of <fr:tex display="inline"><![CDATA[K]]></fr:tex> has a finite subcover.</fr:p>
+            <fr:p>In metric spaces, compactness is equivalent to being <fr:link type="local" href="FA-000M.xml" addr="FA-000M" title="Sequentially compact">sequentially compact</fr:link> (every sequence has a convergent subsequence) and <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> and <fr:link type="local" href="FA-000O.xml" addr="FA-000O" title="Totally bounded">totally bounded</fr:link>.</fr:p>
+            <fr:p>In <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, a set is compact if and only if it is closed and bounded (the <fr:link type="local" href="FA-000P.xml" addr="FA-000P" title="Heine-Borel Theorem">Heine-Borel Theorem</fr:link>).</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1581</fr:anchor>
+            <fr:addr type="user">FA-000I</fr:addr>
+            <fr:route>FA-000I.xml</fr:route>
+            <fr:title text="Precompact">Precompact</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be precompact (or relatively compact) if its closure is <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link>.</fr:p>
+            <fr:p>Equivalently, a set is precompact if every sequence in the set has a convergent subsequence in <fr:tex display="inline"><![CDATA[X]]></fr:tex> (though the limit might not be in the original set).</fr:p>
+            <fr:p>In a complete metric space, a set is precompact if and only if it is <fr:link type="local" href="FA-000O.xml" addr="FA-000O" title="Totally bounded">totally bounded</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

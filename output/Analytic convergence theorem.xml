@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>309</fr:anchor>
+    <fr:addr type="user">Analytic convergence theorem</fr:addr>
+    <fr:route>Analytic convergence theorem.xml</fr:route>
+    <fr:title text="Analytic convergence theorem">Analytic convergence theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[E]]></fr:tex> be open and <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> be a <fr:link type="local" href="sequence.xml" addr="sequence" title="Sequence">sequence</fr:link> of <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link> functions on <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+    <fr:p>Suppose that <fr:tex display="inline"><![CDATA[f_n \to  f]]></fr:tex> uniformly on <fr:link type="external" href="compact%20subsets">compact subsets</fr:link> of <fr:tex display="inline"><![CDATA[E]]></fr:tex>, then</fr:p>
+    <fr:ul><fr:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is also <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link></fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[\forall  k \in  \mathbb {N}]]></fr:tex>, the sequence of derivatives <fr:tex display="block"><![CDATA[f^{(k)}_n \to  f^{(k)} \quad  \text {uniformly}]]></fr:tex> on <fr:link type="external" href="compact">compact</fr:link> sets</fr:li></fr:ul>
+    <fr:p>
+      <fr:strong>Remarks</fr:strong>
+    </fr:p>
+    <fr:ul><fr:li>This result is specific to complex-valued functions</fr:li>
+<fr:li><fr:link type="external" href="Uniform%20convergence">Uniform convergence</fr:link> <fr:tex display="inline"><![CDATA[\to ]]></fr:tex> the limit is <fr:link type="local" href="holomorphic.xml" addr="holomorphic" title="Holomorphic">holomorphic</fr:link></fr:li>
+<fr:li>And also the convergence of any derivative of the sequence</fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>311</fr:anchor>
+            <fr:addr type="user">sequence</fr:addr>
+            <fr:route>sequence.xml</fr:route>
+            <fr:title text="Sequence">Sequence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter />
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>313</fr:anchor>
+            <fr:addr type="user">holomorphic</fr:addr>
+            <fr:route>holomorphic.xml</fr:route>
+            <fr:title text="Holomorphic">Holomorphic</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A continuous function "in every direction"</fr:p>
+            <fr:p>
+              <fr:strong>Is a very strong condition</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li>From <fr:link type="local" href="Cauchy's%20Integral%20theorem.xml" addr="Cauchy's Integral theorem" title="Cauchy's Integral theorem">Cauchy's Integral theorem</fr:link> we know that the integral of a holomorphic function over the boundary any simply connected domain is zero. This gives rise to the <fr:link type="local" href="Cauchy's%20Integral%20Formula.xml" addr="Cauchy's Integral Formula" title="Cauchy's Integral Formula">Cauchy's Integral Formula</fr:link>, hence proves that</fr:li>
+<fr:li>A holomorphic function is automatically <fr:tex display="inline"><![CDATA[C^\infty ]]></fr:tex></fr:li>
+<fr:li><fr:link type="local" href="Morera's%20Theorem.xml" addr="Morera's Theorem" title="Morera's Theorem">Morera's Theorem</fr:link> gives a strong condition to test for "holomorphicity"</fr:li>
+<fr:li>An <fr:link type="external" href="analytic">analytic</fr:link> complex-valued function is <fr:strong>automatically</fr:strong> holomorphic and vice versa <fr:ul><fr:li>This is <fr:em>not true for real functions!</fr:em></fr:li> <fr:li>Oftentimes "<fr:link type="external" href="analytic">analytic</fr:link>" and "holomorphic" are used interchangably</fr:li></fr:ul> <fr:tex display="inline"><![CDATA[\longrightarrow ]]></fr:tex> simple differentiability implies such a strong property like being representable by a power series!</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1393</fr:anchor>
+    <fr:addr type="user">FA-002O</fr:addr>
+    <fr:route>FA-002O.xml</fr:route>
+    <fr:title text="Projection Theorem">Projection Theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a closed subspace of a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>. Then for any <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex>, there exists a unique element <fr:tex display="inline"><![CDATA[m \in  M]]></fr:tex> such that:</fr:p>
+    <fr:p>
+      <fr:tex display="inline"><![CDATA[\ |x - m| = \inf _{y \in  M} |x - y|]]></fr:tex>
+    </fr:p>
+    <fr:p>Furthermore:</fr:p>
+    <fr:ul><fr:li><fr:tex display="inline"><![CDATA[m]]></fr:tex> is the unique element in <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x - m]]></fr:tex> is <fr:link type="external" href="FA-0110">orthogonal</fr:link> to every element in <fr:tex display="inline"><![CDATA[M]]></fr:tex></fr:li>
+  <fr:li>The mapping <fr:tex display="inline"><![CDATA[P_M: H \rightarrow  M]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[P_M(x) = m]]></fr:tex> is a <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">linear operator</fr:link> called the <fr:link type="local" href="FA-0033.xml" addr="FA-0033" title="Orthogonal Projection">orthogonal projection</fr:link> onto <fr:tex display="inline"><![CDATA[M]]></fr:tex></fr:li></fr:ul>
+    <fr:p>This theorem establishes the existence of a <fr:link type="local" href="FA-0034.xml" addr="FA-0034" title="Projection">projection</fr:link> operator in Hilbert spaces, which has fundamental importance in functional analysis.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1395</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
+            <fr:p>
+              <fr:strong>Core Concepts:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link> - The fundamental theorem on polynomial approximation</fr:li>
+  <fr:li><fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert Space</fr:link> - Complete inner product spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach Space</fr:link> - Complete normed spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">Bounded Linear Operator</fr:link> - Key objects of study in functional analysis</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Important Theorems:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-000L.xml" addr="FA-000L" title="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:link> - Characterizes compact subsets in spaces of continuous functions</fr:li>
+  <fr:li><fr:link type="local" href="FA-002O.xml" addr="FA-002O" title="Projection Theorem">Projection Theorem</fr:link> - Fundamental result for Hilbert spaces</fr:li>
+  <fr:li><fr:link type="local" href="FA-001E.xml" addr="FA-001E" title="Lebesgue's Dominated Convergence Theorem">Parseval's identity</fr:link> - Relates norms in Fourier analysis</fr:li>
+  <fr:li><fr:link type="local" href="FA-001Y.xml" addr="FA-001Y" title="Hölder inequality">Hölder inequality</fr:link> - Generalizes the Cauchy-Schwarz inequality</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Measure Theory:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue Measure</fr:link> - Foundation for modern integration theory</fr:li>
+  <fr:li><fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">Measurable Set</fr:link> - Sets with well-defined measure</fr:li>
+  <fr:li><fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">Measurable Function</fr:link> - Functions suitable for Lebesgue integration</fr:li></fr:ul>
+            <fr:p>
+              <fr:strong>Norms and Metrics:</fr:strong>
+            </fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">Norm</fr:link> - Way to measure vector magnitude</fr:li>
+  <fr:li><fr:link type="local" href="FA-003B.xml" addr="FA-003B" title="Lp norm">Lp norm</fr:link> - Important class of norms</fr:li>
+  <fr:li><fr:link type="local" href="FA-003F.xml" addr="FA-003F" title="Operator Norm">Operator Norm</fr:link> - Measures the "size" of linear operators</fr:li>
+  <fr:li><fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">Metric Space</fr:link> - Generalized notion of distance</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1397</fr:anchor>
+            <fr:addr type="user">FA-002J</fr:addr>
+            <fr:route>FA-002J.xml</fr:route>
+            <fr:title text="Hilbert Space">Hilbert Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
+            <fr:p>Hilbert spaces extend the methods of vector algebra and calculus from 2D and 3D Euclidean spaces to spaces with any finite or infinite number of dimensions.</fr:p>
+            <fr:p>Key properties include:</fr:p>
+            <fr:ul><fr:li>Every Hilbert space is a <fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach space</fr:link>, with the norm derived from the inner product</fr:li>
+  <fr:li><fr:link type="local" href="FA-002N.xml" addr="FA-002N" title="Orthonormal Basis">Orthonormal basis</fr:link> existence</fr:li>
+  <fr:li><fr:link type="local" href="FA-002O.xml" addr="FA-002O" title="Projection Theorem">Projection theorem</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1399</fr:anchor>
+            <fr:addr type="user">FA-002J</fr:addr>
+            <fr:route>FA-002J.xml</fr:route>
+            <fr:title text="Hilbert Space">Hilbert Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
+            <fr:p>Hilbert spaces extend the methods of vector algebra and calculus from 2D and 3D Euclidean spaces to spaces with any finite or infinite number of dimensions.</fr:p>
+            <fr:p>Key properties include:</fr:p>
+            <fr:ul><fr:li>Every Hilbert space is a <fr:link type="local" href="FA-002I.xml" addr="FA-002I" title="Banach Space">Banach space</fr:link>, with the norm derived from the inner product</fr:li>
+  <fr:li><fr:link type="local" href="FA-002N.xml" addr="FA-002N" title="Orthonormal Basis">Orthonormal basis</fr:link> existence</fr:li>
+  <fr:li><fr:link type="local" href="FA-002O.xml" addr="FA-002O" title="Projection Theorem">Projection theorem</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1401</fr:anchor>
+            <fr:addr type="user">FA-002H</fr:addr>
+            <fr:route>FA-002H.xml</fr:route>
+            <fr:title text="Linear Operator">Linear Operator</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A linear operator is a mapping between vector spaces that preserves the operations of addition and scalar multiplication.</fr:p>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be vector spaces over a field <fr:tex display="inline"><![CDATA[K]]></fr:tex>. A mapping <fr:tex display="inline"><![CDATA[T: X \rightarrow  Y]]></fr:tex> is a linear operator if:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[T(x + y) = T(x) + T(y)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x, y \in  X]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[T(\alpha  x) = \alpha  T(x)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\ \alpha  \in  K]]></fr:tex></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1403</fr:anchor>
+            <fr:addr type="user">FA-0033</fr:addr>
+            <fr:route>FA-0033.xml</fr:route>
+            <fr:title text="Orthogonal Projection">Orthogonal Projection</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a closed subspace of a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>. The orthogonal projection onto <fr:tex display="inline"><![CDATA[M]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[P_M]]></fr:tex>, is a <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">linear operator</fr:link> that maps each point <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex> to the unique point <fr:tex display="inline"><![CDATA[P_M x \in  M]]></fr:tex> such that:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{x - P_M x \in  M^\perp }]]></fr:tex>
+            </fr:p>
+            <fr:p>Where <fr:tex display="inline"><![CDATA[M^\perp ]]></fr:tex> is the <fr:link type="local" href="FA-0037.xml" addr="FA-0037" title="Orthogonal Complement">orthogonal complement</fr:link> of <fr:tex display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
+            <fr:p>Properties of orthogonal projections:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[P_M]]></fr:tex> is a <fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">bounded linear operator</fr:link> with <fr:tex display="inline"><![CDATA[\ |P_M| \leq  1]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[P_M]]></fr:tex> is <fr:link type="local" href="FA-003K.xml" addr="FA-003K" title="Adjoint Operator">self-adjoint</fr:link>: <fr:tex display="inline"><![CDATA[\ \langle  P_M x, y \rangle  = \langle  x, P_M y \rangle ]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[P_M]]></fr:tex> is idempotent: <fr:tex display="inline"><![CDATA[P_M^2 = P_M]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[I - P_M]]></fr:tex> is the orthogonal projection onto <fr:tex display="inline"><![CDATA[M^\perp ]]></fr:tex></fr:li>
+  <fr:li>For any <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex>, <fr:tex display="inline"><![CDATA[\ |x|^2 = |P_M x|^2 + |x - P_M x|^2]]></fr:tex></fr:li> (Pythagorean theorem)</fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1405</fr:anchor>
+            <fr:addr type="user">FA-0034</fr:addr>
+            <fr:route>FA-0034.xml</fr:route>
+            <fr:title text="Projection">Projection</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">linear operator</fr:link> P such that <fr:tex display="inline"><![CDATA[P^2 = P]]></fr:tex>. A projection P leads to a <fr:link type="external" href="FA-0113">direct sum</fr:link> <fr:link type="external" href="FA-0114">decomposition</fr:link> of the space <fr:tex display="inline"><![CDATA[Im(P) \bigoplus  Ker(P)]]></fr:tex>.</fr:p>
+            <fr:p>In a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> H, an <fr:link type="local" href="FA-0033.xml" addr="FA-0033" title="Orthogonal Projection">orthogonal projection</fr:link> is a projection onto a closed subspace M along its <fr:link type="local" href="FA-0037.xml" addr="FA-0037" title="Orthogonal Complement">orthogonal complement</fr:link> <fr:tex display="inline"><![CDATA[M^\perp ]]></fr:tex>, i.e., <fr:tex display="inline"><![CDATA[H = M \bigoplus  M^\perp ]]></fr:tex>.</fr:p>
+            <fr:p>Examples:</fr:p>
+            <fr:ul><fr:li>Multiplying by a characteristic function in <fr:tex display="inline"><![CDATA[L^2]]></fr:tex></fr:li>
+  <fr:li>Projecting onto a vector direction</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>861</fr:anchor>
+    <fr:addr type="user">FA-0036</fr:addr>
+    <fr:route>FA-0036.xml</fr:route>
+    <fr:title text="Pointwise Convergence">Pointwise Convergence</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge pointwise to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for each <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex>, the sequence of numbers <fr:tex display="inline"><![CDATA[\{f_n(x)\}]]></fr:tex> converges to <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex>.</fr:p>
+    <fr:p>Formally, <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> converges pointwise to <fr:tex display="inline"><![CDATA[f]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex> and every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N(x,ε)]]></fr:tex> such that:</fr:p>
+    <fr:p><fr:tex display="inline"><![CDATA[|f_n(x) - f(x)| < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \geq  N(x,ε)]]></fr:tex></fr:p>
+    <fr:p>Note that the integer <fr:tex display="inline"><![CDATA[N]]></fr:tex> may depend on both <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[ε]]></fr:tex>, which is a key distinction from <fr:link type="local" href="FA-0064.xml" addr="FA-0064" title="Uniform Convergence">uniform convergence</fr:link>.</fr:p>
+    <fr:p>Pointwise convergence is generally weaker than uniform convergence. A sequence of functions can converge pointwise without preserving many important properties of the functions, such as continuity, boundedness, or integrability.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>863</fr:anchor>
+            <fr:addr type="user">FA-0026</fr:addr>
+            <fr:route>FA-0026.xml</fr:route>
+            <fr:title text="Convergent">Convergent</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> in a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to converge to a point <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_n, x) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \geq  N]]></fr:tex>.</fr:p>
+            <fr:p>In this case, <fr:tex display="inline"><![CDATA[x]]></fr:tex> is called the limit of the sequence, and we write <fr:tex display="inline"><![CDATA[x_n \to  x]]></fr:tex> as <fr:tex display="inline"><![CDATA[n \to  \infty ]]></fr:tex> or <fr:tex display="inline"><![CDATA[\lim _{n \to  \infty } x_n = x]]></fr:tex>.</fr:p>
+            <fr:p>In functional analysis, there are various notions of convergence depending on the space and the context, including <fr:link type="local" href="FA-0034.xml" addr="FA-0034" title="Weak Convergence">weak convergence</fr:link>, <fr:link type="external" href="FA-0035">convergence in norm</fr:link>, and <fr:link type="local" href="FA-0036.xml" addr="FA-0036" title="Pointwise Convergence">pointwise convergence</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>865</fr:anchor>
+            <fr:addr type="user">FA-0064</fr:addr>
+            <fr:route>FA-0064.xml</fr:route>
+            <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge uniformly to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N(ε)]]></fr:tex> (independent of <fr:tex display="inline"><![CDATA[x]]></fr:tex>) such that:</fr:p>
+            <fr:p><fr:tex display="inline"><![CDATA[|f_n(x) - f(x)| < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex> and all <fr:tex display="inline"><![CDATA[n \geq  N(ε)]]></fr:tex></fr:p>
+            <fr:p>In other words, the rate of convergence is uniform across all points in the domain. This is stronger than <fr:link type="local" href="FA-0036.xml" addr="FA-0036" title="Pointwise Convergence">pointwise convergence</fr:link>, where the rate of convergence can vary from point to point.</fr:p>
+            <fr:p>Uniform convergence has several important properties:</fr:p>
+            <fr:ul><fr:li>If each <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> is continuous and the sequence converges uniformly to <fr:tex display="inline"><![CDATA[f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is also continuous</fr:li>
+<fr:li>If each <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> is integrable and the sequence converges uniformly to <fr:tex display="inline"><![CDATA[f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\lim _{n \to  \infty } \int _D f_n(x) dx = \int _D f(x) dx]]></fr:tex></fr:li>
+<fr:li>If each <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> is differentiable and the sequence of derivatives <fr:tex display="inline"><![CDATA[\{f'_n\}]]></fr:tex> converges uniformly, then the original sequence <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> converges uniformly to a differentiable function <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and <fr:tex display="inline"><![CDATA[f'(x) = \lim _{n \to  \infty } f'_n(x)]]></fr:tex></fr:li></fr:ul>
+            <fr:p>A common criterion for uniform convergence is the <fr:link type="local" href="FA-0067.xml" addr="FA-0067" title="Weierstrass M-test">Weierstrass M-test</fr:link>, which states that if <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> is a sequence of functions satisfying <fr:tex display="inline"><![CDATA[|f_n(x)| \leq  M_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex>, and if the series <fr:tex display="inline"><![CDATA[\sum _{n=1}^{\infty } M_n]]></fr:tex> converges, then the series <fr:tex display="inline"><![CDATA[\sum _{n=1}^{\infty } f_n(x)]]></fr:tex> converges uniformly on <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>867</fr:anchor>
+            <fr:addr type="user">FA-0064</fr:addr>
+            <fr:route>FA-0064.xml</fr:route>
+            <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge uniformly to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N(ε)]]></fr:tex> (independent of <fr:tex display="inline"><![CDATA[x]]></fr:tex>) such that:</fr:p>
+            <fr:p><fr:tex display="inline"><![CDATA[|f_n(x) - f(x)| < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex> and all <fr:tex display="inline"><![CDATA[n \geq  N(ε)]]></fr:tex></fr:p>
+            <fr:p>In other words, the rate of convergence is uniform across all points in the domain. This is stronger than <fr:link type="local" href="FA-0036.xml" addr="FA-0036" title="Pointwise Convergence">pointwise convergence</fr:link>, where the rate of convergence can vary from point to point.</fr:p>
+            <fr:p>Uniform convergence has several important properties:</fr:p>
+            <fr:ul><fr:li>If each <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> is continuous and the sequence converges uniformly to <fr:tex display="inline"><![CDATA[f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is also continuous</fr:li>
+<fr:li>If each <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> is integrable and the sequence converges uniformly to <fr:tex display="inline"><![CDATA[f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\lim _{n \to  \infty } \int _D f_n(x) dx = \int _D f(x) dx]]></fr:tex></fr:li>
+<fr:li>If each <fr:tex display="inline"><![CDATA[f_n]]></fr:tex> is differentiable and the sequence of derivatives <fr:tex display="inline"><![CDATA[\{f'_n\}]]></fr:tex> converges uniformly, then the original sequence <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> converges uniformly to a differentiable function <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and <fr:tex display="inline"><![CDATA[f'(x) = \lim _{n \to  \infty } f'_n(x)]]></fr:tex></fr:li></fr:ul>
+            <fr:p>A common criterion for uniform convergence is the <fr:link type="local" href="FA-0067.xml" addr="FA-0067" title="Weierstrass M-test">Weierstrass M-test</fr:link>, which states that if <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> is a sequence of functions satisfying <fr:tex display="inline"><![CDATA[|f_n(x)| \leq  M_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex>, and if the series <fr:tex display="inline"><![CDATA[\sum _{n=1}^{\infty } M_n]]></fr:tex> converges, then the series <fr:tex display="inline"><![CDATA[\sum _{n=1}^{\infty } f_n(x)]]></fr:tex> converges uniformly on <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

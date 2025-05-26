@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>239</fr:anchor>
+    <fr:addr type="user">Legendre-polynomial</fr:addr>
+    <fr:route>Legendre-polynomial.xml</fr:route>
+    <fr:title text="Legendre polynomial">Legendre polynomial</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>
+      <fr:strong>Definition</fr:strong>
+    </fr:p>
+    <fr:tex display="inline"><![CDATA[P_n(x) = \frac {1}{2^n n!} \frac {d^n}{dx^n} {(x^2-1)}^n]]></fr:tex>
+    <fr:p>
+      <fr:strong>Properties</fr:strong>
+    </fr:p>
+    <fr:ul><fr:li>Legendre polnomials are orthogonal in <fr:tex display="inline"><![CDATA[L^2([-1,1])]]></fr:tex></fr:li>
+<fr:li>Obtained by <fr:link type="external" href="Gram-Schmidt%20orthonormalization%20procedure">Gram-Schmidt orthonormalization procedure</fr:link> of the monomials</fr:li>
+<fr:li>The set <fr:tex display="inline"><![CDATA[\left \{ \sqrt {\frac {2n+1}{2}} P_n(x), n \in  \mathbb {N} \right \}]]></fr:tex> is an <fr:link type="external" href="orthonormal%20basis">orthonormal basis</fr:link> of <fr:tex display="inline"><![CDATA[L^2([-1,1])]]></fr:tex></fr:li>
+<fr:li>Legendre polynomials have definite parity <fr:tex display="inline"><![CDATA[P_n(-x) = (-1)^nP_n(x)]]></fr:tex></fr:li></fr:ul>
+    <fr:p>
+      <fr:strong>Applications</fr:strong>
+    </fr:p>
+    <fr:ul><fr:li>Expanding an inverse distance potential</fr:li>
+<fr:li>They also appear when solving the Schrödinger equation in three dimensions for a central force</fr:li>
+<fr:li>In recurrent neural networks</fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>

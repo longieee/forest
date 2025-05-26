@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>265</fr:anchor>
+    <fr:addr type="user">multi-index</fr:addr>
+    <fr:route>multi-index.xml</fr:route>
+    <fr:title text="Multi-index">Multi-index</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>An <fr:tex display="inline"><![CDATA[n]]></fr:tex>-dimensional multi-index <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is an <fr:tex display="inline"><![CDATA[n]]></fr:tex>-tuple of non-negative integers:
+<fr:tex display="inline"><![CDATA[ \alpha  = (\alpha _1, \alpha _2, \ldots , \alpha _n) ]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[\alpha _i \in  \{0, 1, 2, \ldots \}]]></fr:tex> for each <fr:tex display="inline"><![CDATA[i=1, \ldots , n]]></fr:tex>.</fr:p>
+    <fr:p>For a multi-index <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>:</fr:p>
+    <fr:ul><fr:li><fr:strong>Length (or order):</fr:strong> 
+<fr:tex display="inline"><![CDATA[|\alpha | = \alpha _1 + \alpha _2 + \ldots  + \alpha _n]]></fr:tex></fr:li>
+<fr:li><fr:strong>Factorial:</fr:strong> 
+<fr:tex display="inline"><![CDATA[ \alpha ! = \alpha _1! \alpha _2! \ldots  \alpha _n! ]]></fr:tex></fr:li>
+<fr:li><fr:strong>Power of a variable:</fr:strong> For <fr:tex display="inline"><![CDATA[x = (x_1, \ldots , x_n) \in  \mathbb {R}^n]]></fr:tex>,
+<fr:tex display="inline"><![CDATA[ x^\alpha  = x_1^{\alpha _1} x_2^{\alpha _2} \ldots  x_n^{\alpha _n} ]]></fr:tex></fr:li>
+<fr:li><fr:strong>Partial derivative operator:</fr:strong>
+    <fr:tex display="inline"><![CDATA[ \partial ^\alpha  = \frac {\partial ^{|\alpha |}}{\partial  x_1^{\alpha _1} \partial  x_2^{\alpha _2} \ldots  \partial  x_n^{\alpha _n}} ]]></fr:tex></fr:li></fr:ul>
+    <fr:p>Often used in <fr:link type="external" href="differential%20form">differential form</fr:link>s and PDEs</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>267</fr:anchor>
+            <fr:addr type="user">complementary-increasing-multi-index</fr:addr>
+            <fr:route>complementary-increasing-multi-index.xml</fr:route>
+            <fr:title text="Complementary increasing multi-index">Complementary increasing multi-index</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>For any increasing <fr:link type="local" href="multi-index.xml" addr="multi-index" title="Multi-index">multi-index</fr:link> <fr:tex display="inline"><![CDATA[I]]></fr:tex>, <fr:tex display="inline"><![CDATA[I^C]]></fr:tex> denotes the <fr:strong>complementary increasing multi-index</fr:strong>, which consists of all numbers between <fr:tex display="inline"><![CDATA[1]]></fr:tex> and <fr:tex display="inline"><![CDATA[n]]></fr:tex> that <fr:em>do not occur</fr:em> in <fr:tex display="inline"><![CDATA[I]]></fr:tex>.</fr:p>
+            <fr:p>This is used for the <fr:link type="external" href="Hodge%20star%20operator">Hodge star operator</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

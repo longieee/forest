@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>1573</fr:anchor>
+    <fr:addr type="user">FA-0003</fr:addr>
+    <fr:route>FA-0003.xml</fr:route>
+    <fr:title text="Taylor polynomial">Taylor polynomial</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>A Taylor polynomial of a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a polynomial that approximates the function around a specific point. For a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> that is <fr:tex display="inline"><![CDATA[n]]></fr:tex> times differentiable at a point <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the Taylor polynomial of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex> is:</fr:p>
+    <fr:tex display="block"><![CDATA[P_n(x) = \sum _{k=0}^{n} \frac {f^{(k)}(a)}{k!}(x-a)^k]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1575</fr:anchor>
+            <fr:addr type="user">FA-0001</fr:addr>
+            <fr:route>FA-0001.xml</fr:route>
+            <fr:title text="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The set of polynomials on <fr:tex display="inline"><![CDATA[[a, b]]]></fr:tex> is <fr:link type="local" href="FA-0002.xml" addr="FA-0002" title="Dense">dense</fr:link> in <fr:tex display="inline"><![CDATA[C([a, b])]]></fr:tex></fr:p>
+            <fr:p>Differs from Taylor's theorem, which states that a function with sufficiently many derivaties can be approximated locally by its <fr:link type="local" href="FA-0003.xml" addr="FA-0003" title="Taylor polynomial">Taylor polynomial</fr:link>.</fr:p>
+            <fr:p>The Weierstrass appoximation theorem applied to a continuous function, which need not be differentiable, and states that there exists a global polynomial approximation of the function on the whole interval <fr:tex display="inline"><![CDATA[[a,b]]]></fr:tex> (The sequence of approximating polynomials is the <fr:link type="local" href="FA-0004.xml" addr="FA-0004" title="Bernstein polynomials">Bernstein polynomials</fr:link>)</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

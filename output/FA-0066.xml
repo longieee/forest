@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>877</fr:anchor>
+    <fr:addr type="user">FA-0066</fr:addr>
+    <fr:route>FA-0066.xml</fr:route>
+    <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>Long Nguyen</fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The Riesz representation theorem has several forms, but the most common version for Hilbert spaces states:</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[H]]></fr:tex> be a <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert space</fr:link> and let <fr:tex display="inline"><![CDATA[φ: H → \mathbb {C}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>) be a continuous <fr:link type="local" href="FA-0061.xml" addr="FA-0061" title="Linear Functional">linear functional</fr:link> on <fr:tex display="inline"><![CDATA[H]]></fr:tex>. Then there exists a unique vector <fr:tex display="inline"><![CDATA[y \in  H]]></fr:tex> such that:</fr:p>
+    <fr:p><fr:tex display="inline"><![CDATA[φ(x) = \langle  x, y \rangle ]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex></fr:p>
+    <fr:p>Furthermore, <fr:tex display="inline"><![CDATA[||φ|| = ||y||]]></fr:tex>.</fr:p>
+    <fr:p>This theorem establishes a canonical isomorphism between a Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> and its <fr:link type="local" href="FA-0062.xml" addr="FA-0062" title="Dual space">dual space</fr:link> <fr:tex display="inline"><![CDATA[H^*]]></fr:tex>. It means that every continuous linear functional on a Hilbert space can be represented as an inner product with a unique vector in the space.</fr:p>
+    <fr:p>There are also Riesz representation theorems for other contexts:</fr:p>
+    <fr:ul><fr:li><fr:strong>For measures:</fr:strong> For certain spaces of continuous functions <fr:tex display="inline"><![CDATA[C(X)]]></fr:tex>, every positive linear functional can be represented as integration against a measure</fr:li>
+<fr:li><fr:strong>For <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces:</fr:strong> For <fr:tex display="inline"><![CDATA[1 < p < \infty ]]></fr:tex>, the dual of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[L^q]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\frac {1}{p} + \frac {1}{q} = 1]]></fr:tex></fr:li></fr:ul>
+    <fr:p>The theorem is used extensively in various applications, including in quantum mechanics (where observables correspond to operators and states to vectors), and in solving partial differential equations using variational methods.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>879</fr:anchor>
+            <fr:addr type="user">FA-0062</fr:addr>
+            <fr:route>FA-0062.xml</fr:route>
+            <fr:title text="Dual space">Dual space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-0061.xml" addr="FA-0061" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
+            <fr:p>For a normed vector space <fr:tex display="inline"><![CDATA[(X, ||\cdot ||)]]></fr:tex>, the continuous dual space or topological dual space, often still denoted <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>, consists of all bounded (or continuous) linear functionals on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. A linear functional <fr:tex display="inline"><![CDATA[f]]></fr:tex> is bounded if there exists a constant <fr:tex display="inline"><![CDATA[M > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f(x)| \leq  M ||x||]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>.</fr:p>
+            <fr:p>The dual space plays a central role in functional analysis and helps establish important connections between a space and its "mirror image." The natural norm on the dual space <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> is the operator norm:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[||f|| = \sup \{|f(x)| : x \in  X, ||x|| \leq  1\}]]></fr:tex>
+            </fr:p>
+            <fr:p>Some important theorems related to dual spaces include:</fr:p>
+            <fr:ul><fr:li>The <fr:link type="local" href="FA-0065.xml" addr="FA-0065" title="Hahn-Banach theorem">Hahn-Banach theorem</fr:link>, which guarantees the existence of continuous linear functionals with specific properties</fr:li>
+<fr:li>The <fr:link type="local" href="FA-0063.xml" addr="FA-0063" title="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:link>, which states that the closed unit ball in the dual of a normed space is compact in the weak* topology</fr:li>
+<fr:li>For <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert spaces</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, there is a canonical isomorphism between <fr:tex display="inline"><![CDATA[H]]></fr:tex> and its dual <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> via the <fr:link type="local" href="FA-0066.xml" addr="FA-0066" title="Riesz representation theorem">Riesz representation theorem</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>881</fr:anchor>
+            <fr:addr type="user">FA-0062</fr:addr>
+            <fr:route>FA-0062.xml</fr:route>
+            <fr:title text="Dual space">Dual space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-0061.xml" addr="FA-0061" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
+            <fr:p>For a normed vector space <fr:tex display="inline"><![CDATA[(X, ||\cdot ||)]]></fr:tex>, the continuous dual space or topological dual space, often still denoted <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>, consists of all bounded (or continuous) linear functionals on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. A linear functional <fr:tex display="inline"><![CDATA[f]]></fr:tex> is bounded if there exists a constant <fr:tex display="inline"><![CDATA[M > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|f(x)| \leq  M ||x||]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>.</fr:p>
+            <fr:p>The dual space plays a central role in functional analysis and helps establish important connections between a space and its "mirror image." The natural norm on the dual space <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> is the operator norm:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[||f|| = \sup \{|f(x)| : x \in  X, ||x|| \leq  1\}]]></fr:tex>
+            </fr:p>
+            <fr:p>Some important theorems related to dual spaces include:</fr:p>
+            <fr:ul><fr:li>The <fr:link type="local" href="FA-0065.xml" addr="FA-0065" title="Hahn-Banach theorem">Hahn-Banach theorem</fr:link>, which guarantees the existence of continuous linear functionals with specific properties</fr:li>
+<fr:li>The <fr:link type="local" href="FA-0063.xml" addr="FA-0063" title="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:link>, which states that the closed unit ball in the dual of a normed space is compact in the weak* topology</fr:li>
+<fr:li>For <fr:link type="local" href="FA-0030.xml" addr="FA-0030" title="Hilbert Space">Hilbert spaces</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, there is a canonical isomorphism between <fr:tex display="inline"><![CDATA[H]]></fr:tex> and its dual <fr:tex display="inline"><![CDATA[H^*]]></fr:tex> via the <fr:link type="local" href="FA-0066.xml" addr="FA-0066" title="Riesz representation theorem">Riesz representation theorem</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>883</fr:anchor>
+            <fr:addr type="user">FA-0030</fr:addr>
+            <fr:route>FA-0030.xml</fr:route>
+            <fr:title text="Hilbert Space">Hilbert Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0038.xml" addr="FA-0038" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0039.xml" addr="FA-0039" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
+            <fr:p>Hilbert spaces extend the methods of linear algebra to infinite-dimensional settings, making them crucial for quantum mechanics, Fourier analysis, and partial differential equations.</fr:p>
+            <fr:p>Examples include the space <fr:tex display="inline"><![CDATA[L^2]]></fr:tex> of square-integrable functions and the space <fr:tex display="inline"><![CDATA[l^2]]></fr:tex> of square-summable sequences.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>885</fr:anchor>
+            <fr:addr type="user">FA-0061</fr:addr>
+            <fr:route>FA-0061.xml</fr:route>
+            <fr:title text="Linear Functional">Linear Functional</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>Long Nguyen</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A linear functional on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a linear map <fr:tex display="inline"><![CDATA[f: V \rightarrow  F]]></fr:tex> from the vector space to its underlying field.</fr:p>
+            <fr:p>In other words, a linear functional is a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> that satisfies:</fr:p>
+            <fr:ul><fr:li><fr:tex display="inline"><![CDATA[f(x + y) = f(x) + f(y)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x, y \in  V]]></fr:tex> (additivity)</fr:li>
+<fr:li><fr:tex display="inline"><![CDATA[f(\alpha  x) = \alpha  f(x)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x \in  V]]></fr:tex> and <fr:tex display="inline"><![CDATA[α \in  F]]></fr:tex> (homogeneity)</fr:li></fr:ul>
+            <fr:p>In the context of functional analysis, linear functionals are particularly important when they are also continuous (or bounded) on normed spaces. The collection of all bounded linear functionals on a normed space <fr:tex display="inline"><![CDATA[X]]></fr:tex> forms the <fr:link type="local" href="FA-0062.xml" addr="FA-0062" title="Dual space">dual space</fr:link> <fr:tex display="inline"><![CDATA[X^*]]></fr:tex>.</fr:p>
+            <fr:p>Examples of linear functionals include:</fr:p>
+            <fr:ul><fr:li>Integration functionals: <fr:tex display="inline"><![CDATA[f(g) = \int _a^b g(x) dx]]></fr:tex> on appropriate function spaces</fr:li>
+<fr:li>Evaluation functionals: <fr:tex display="inline"><![CDATA[f(g) = g(x_0)]]></fr:tex> for some fixed point <fr:tex display="inline"><![CDATA[x_0]]></fr:tex></fr:li>
+<fr:li>Inner products: For a fixed vector <fr:tex display="inline"><![CDATA[v]]></fr:tex> in a Hilbert space, <fr:tex display="inline"><![CDATA[f(x) = \langle  x, v \rangle ]]></fr:tex> defines a bounded linear functional</fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
