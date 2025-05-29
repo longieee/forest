@@ -1,7 +1,7 @@
 \title{Totally bounded}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A subset #{S} of a metric space #{(X,d)} is said to be totally bounded if for every #{ε > 0}, there exists a finite cover of #{S} by balls of radius #{ε}.}
 

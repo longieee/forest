@@ -1,0 +1,17 @@
+\date{2025-05-26}
+\title{Almost surely vs. Almost everywhere}
+\taxon{Definition}
+
+\p{The concept of "almost surely" in probability theory is precisely the probabilistic analogue of "almost everywhere" (a.e.) in measure theory and functional analysis.}
+
+\p{Measure Theory/Functional Analysis ("[Almost Everywhere](FA-001D)"):}
+
+\p{In measure theory, "almost everywhere" means that a property holds true for all points in a set, except possibly for a set of measure zero. For example, if a function is continuous almost everywhere, it means the set of points where it is discontinuous has [Lebesgue measure](FA-003V) zero. This concept is fundamental for defining integrals (e.g., [Lebesgue integral](FA-001N)) and understanding properties of functions in [#{L^p} spaces](FA-002D).}
+
+\p{Probability Theory ("[Almost Surely](SP-0002)"):}
+
+\p{Probability theory is built on measure theory. A probability space is a special kind of measure space where the total measure is 1.}
+
+\p{In this context, "measure zero" in general measure theory corresponds to "probability zero" in probability theory.}
+
+\p{Therefore, an event occurring "almost surely" means that the set of outcomes where the event does not occur has probability zero.}

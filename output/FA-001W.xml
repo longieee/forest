@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>535</fr:anchor>
+    <fr:anchor>439</fr:anchor>
     <fr:addr type="user">FA-001W</fr:addr>
     <fr:route>FA-001W.xml</fr:route>
     <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>In the context of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces and related inequalities, two exponents <fr:tex display="inline"><![CDATA[p, q \in  [1, \infty ]]]></fr:tex> are said to be conjugate (or Hölder conjugates) if they satisfy:</fr:p>
@@ -40,7 +38,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>537</fr:anchor>
+            <fr:anchor>440</fr:anchor>
             <fr:addr type="user">FA-001Y</fr:addr>
             <fr:route>FA-001Y.xml</fr:route>
             <fr:title text="Hölder inequality">Hölder inequality</fr:title>
@@ -68,7 +66,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>538</fr:anchor>
+            <fr:anchor>441</fr:anchor>
             <fr:addr type="user">FA-001X</fr:addr>
             <fr:route>FA-001X.xml</fr:route>
             <fr:title text="Young's Inequality">Young's Inequality</fr:title>
@@ -78,9 +76,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[q]]></fr:tex> be its <fr:link type="local" href="FA-001W.xml" addr="FA-001W" title="Conjugate exponents">conjugate</fr:link>. Let <fr:tex display="inline"><![CDATA[a, b \geq  0]]></fr:tex> be two positive numbers. Then,</fr:p>
@@ -99,7 +95,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>540</fr:anchor>
+            <fr:anchor>442</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
@@ -109,9 +105,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
@@ -129,7 +123,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>542</fr:anchor>
+            <fr:anchor>443</fr:anchor>
             <fr:addr type="user">FA-001Y</fr:addr>
             <fr:route>FA-001Y.xml</fr:route>
             <fr:title text="Hölder inequality">Hölder inequality</fr:title>
@@ -157,7 +151,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>543</fr:anchor>
+            <fr:anchor>444</fr:anchor>
             <fr:addr type="user">FA-001X</fr:addr>
             <fr:route>FA-001X.xml</fr:route>
             <fr:title text="Young's Inequality">Young's Inequality</fr:title>
@@ -167,9 +161,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[q]]></fr:tex> be its <fr:link type="local" href="FA-001W.xml" addr="FA-001W" title="Conjugate exponents">conjugate</fr:link>. Let <fr:tex display="inline"><![CDATA[a, b \geq  0]]></fr:tex> be two positive numbers. Then,</fr:p>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1541</fr:anchor>
+    <fr:anchor>952</fr:anchor>
     <fr:addr type="user">FA-000R</fr:addr>
     <fr:route>FA-000R.xml</fr:route>
     <fr:title text="Subsequence">Subsequence</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A subsequence of a sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> is a new sequence <fr:tex display="inline"><![CDATA[(x_{n_k})]]></fr:tex> obtained by selecting some of the terms from the original sequence while preserving their order.</fr:p>
@@ -30,7 +28,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1543</fr:anchor>
+            <fr:anchor>953</fr:anchor>
             <fr:addr type="user">FA-000S</fr:addr>
             <fr:route>FA-000S.xml</fr:route>
             <fr:title text="Bolzano-Weierstrass theorem">Bolzano-Weierstrass theorem</fr:title>
@@ -40,9 +38,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Every <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link> sequence in <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> has a <fr:link type="local" href="FA-000Q.xml" addr="FA-000Q" title="Convergent">convergent</fr:link> <fr:link type="local" href="FA-000R.xml" addr="FA-000R" title="Subsequence">subsequence</fr:link></fr:p>
@@ -51,7 +47,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1545</fr:anchor>
+            <fr:anchor>954</fr:anchor>
             <fr:addr type="user">FA-001G</fr:addr>
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
@@ -61,9 +57,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. Then the <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach space</fr:link>.</fr:p>

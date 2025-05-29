@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1259</fr:anchor>
+    <fr:anchor>809</fr:anchor>
     <fr:addr type="user">FA-0037</fr:addr>
     <fr:route>FA-0037.xml</fr:route>
     <fr:title text="Orthogonal Complement">Orthogonal Complement</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>For a subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, the orthogonal complement of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[S^\perp ]]></fr:tex>, is defined as:</fr:p>
@@ -35,7 +33,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1261</fr:anchor>
+            <fr:anchor>810</fr:anchor>
             <fr:addr type="user">FA-0033</fr:addr>
             <fr:route>FA-0033.xml</fr:route>
             <fr:title text="Orthogonal Projection">Orthogonal Projection</fr:title>
@@ -45,9 +43,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a closed subspace of a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>. The orthogonal projection onto <fr:tex display="inline"><![CDATA[M]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[P_M]]></fr:tex>, is a <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">linear operator</fr:link> that maps each point <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex> to the unique point <fr:tex display="inline"><![CDATA[P_M x \in  M]]></fr:tex> such that:</fr:p>
@@ -66,7 +62,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1263</fr:anchor>
+            <fr:anchor>811</fr:anchor>
             <fr:addr type="user">FA-0034</fr:addr>
             <fr:route>FA-0034.xml</fr:route>
             <fr:title text="Projection">Projection</fr:title>
@@ -76,9 +72,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">linear operator</fr:link> P such that <fr:tex display="inline"><![CDATA[P^2 = P]]></fr:tex>. A projection P leads to a <fr:link type="external" href="FA-0113">direct sum</fr:link> <fr:link type="external" href="FA-0114">decomposition</fr:link> of the space <fr:tex display="inline"><![CDATA[Im(P) \bigoplus  Ker(P)]]></fr:tex>.</fr:p>
@@ -100,7 +94,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1265</fr:anchor>
+            <fr:anchor>812</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -110,9 +104,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>

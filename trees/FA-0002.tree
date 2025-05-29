@@ -1,7 +1,7 @@
 \title{Dense}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A subset #{A} of a topological space #{X} is said to be dense in #{X} if the closure of #{A} equals #{X}.}
 

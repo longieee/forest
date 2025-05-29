@@ -1,7 +1,7 @@
 \title{Pointwise Convergence}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A sequence of functions #{\{f_n\}} defined on a common domain #{D} is said to converge pointwise to a function #{f} on #{D} if for each #{x \in D}, the sequence of numbers #{\{f_n(x)\}} converges to #{f(x)}.}
 

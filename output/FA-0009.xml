@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>597</fr:anchor>
+    <fr:anchor>471</fr:anchor>
     <fr:addr type="user">FA-0009</fr:addr>
     <fr:route>FA-0009.xml</fr:route>
     <fr:title text="Distance Measure">Distance Measure</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A distance measure, or metric, is a function that defines a measure of distance between elements of a set. In a <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>, a distance function <fr:tex display="inline"><![CDATA[d]]></fr:tex> satisfies the following properties for all points <fr:tex display="inline"><![CDATA[x]]></fr:tex>, <fr:tex display="inline"><![CDATA[y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z]]></fr:tex> in the space:</fr:p>
@@ -32,7 +30,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>599</fr:anchor>
+            <fr:anchor>472</fr:anchor>
             <fr:addr type="user">FA-000G</fr:addr>
             <fr:route>FA-000G.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
@@ -42,9 +40,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
@@ -58,7 +54,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>601</fr:anchor>
+            <fr:anchor>473</fr:anchor>
             <fr:addr type="user">FA-000D</fr:addr>
             <fr:route>FA-000D.xml</fr:route>
             <fr:title text="Why Functional Analysis?">Why Functional Analysis?</fr:title>
@@ -68,9 +64,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Why Functional Analysis?</fr:p>
@@ -94,7 +88,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>603</fr:anchor>
+            <fr:anchor>474</fr:anchor>
             <fr:addr type="user">FA-000G</fr:addr>
             <fr:route>FA-000G.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
@@ -104,9 +98,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>

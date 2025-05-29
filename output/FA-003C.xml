@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1092</fr:anchor>
+    <fr:anchor>724</fr:anchor>
     <fr:addr type="user">FA-003C</fr:addr>
     <fr:route>FA-003C.xml</fr:route>
     <fr:title text="Measurable Set">Measurable Set</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A <fr:em>bounded</fr:em> subset <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^n]]></fr:tex> is said to be <fr:strong>Lebesgue <fr:link type="external" href="FA-0142">measurable</fr:link></fr:strong> if:</fr:p>
@@ -41,7 +39,34 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1094</fr:anchor>
+            <fr:anchor>725</fr:anchor>
+            <fr:addr type="user">AN-0002</fr:addr>
+            <fr:route>AN-0002.xml</fr:route>
+            <fr:title text="-Algebra"><fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In mathematical analysis and in probability theory, a <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra is part of the formalism for defining sets that can be measured (<fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable sets</fr:link>)</fr:p>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be some set, and let  <fr:tex display="inline"><![CDATA[P(X)]]></fr:tex> represent its power set, the set of all subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex></fr:p>
+            <fr:p>Then a subset <fr:tex display="inline"><![CDATA[\Sigma  \subseteq  P(X)]]></fr:tex> is called a <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra if and only if it satisfies the following three properties:</fr:p>
+            <fr:ol><fr:li><fr:tex display="inline"><![CDATA[X]]></fr:tex> is in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is closed under complementation</fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is closed under countable union</fr:li></fr:ol>
+            <fr:p>From these properties, it follows that the <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra is also closed under countable intersections (by applying De Morgan's laws).</fr:p>
+            <fr:p>It also follows that the empty set is also in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, because from <fr:strong>(1)</fr:strong>, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> and from <fr:strong>(2)</fr:strong>, the complement of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the empty set, is also in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>.</fr:p>
+            <fr:p>Notice that the set <fr:tex display="inline"><![CDATA[\left \{ X, \emptyset  \right \}]]></fr:tex> satisfies all 3 of the properties, making it the smallest possible <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>726</fr:anchor>
             <fr:addr type="user">FA-003Q</fr:addr>
             <fr:route>FA-003Q.xml</fr:route>
             <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
@@ -51,9 +76,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In measure theory, a property is said to hold "almost everywhere" (often abbreviated as <fr:link type="local" href="FA-003S.xml" addr="FA-003S" title="A.e.">a.e.</fr:link>) if the set of points where the property fails has <fr:link type="external" href="FA-0137">measure</fr:link> zero.</fr:p>
@@ -64,7 +87,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1096</fr:anchor>
+            <fr:anchor>727</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
@@ -73,9 +96,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
@@ -111,7 +132,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1098</fr:anchor>
+            <fr:anchor>728</fr:anchor>
             <fr:addr type="user">FA-003V</fr:addr>
             <fr:route>FA-003V.xml</fr:route>
             <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
@@ -121,9 +142,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>When we say something is "<fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable</fr:link>", we often mean <fr:strong>Lebesgue measurable</fr:strong>.</fr:p>
@@ -134,7 +153,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1100</fr:anchor>
+            <fr:anchor>729</fr:anchor>
             <fr:addr type="user">FA-003B</fr:addr>
             <fr:route>FA-003B.xml</fr:route>
             <fr:title text="Lp norm">Lp norm</fr:title>
@@ -144,9 +163,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[\ \Omega  \subset  \mathbb {R}^n]]></fr:tex> be a Lebesgue <fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable set</fr:link>. For a <fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">measurable function</fr:link> <fr:tex display="inline"><![CDATA[f: \Omega  \to  \mathbb {R}]]></fr:tex> we define the <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> norm of <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[\ \Omega ]]></fr:tex> as the (finite or infinite) number:</fr:p>
@@ -175,7 +192,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1102</fr:anchor>
+            <fr:anchor>730</fr:anchor>
             <fr:addr type="user">FA-003V</fr:addr>
             <fr:route>FA-003V.xml</fr:route>
             <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
@@ -185,9 +202,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>When we say something is "<fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable</fr:link>", we often mean <fr:strong>Lebesgue measurable</fr:strong>.</fr:p>
@@ -198,7 +213,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1104</fr:anchor>
+            <fr:anchor>731</fr:anchor>
             <fr:addr type="user">FA-003W</fr:addr>
             <fr:route>FA-003W.xml</fr:route>
             <fr:title text="Lebesgue Outer Measure">Lebesgue Outer Measure</fr:title>
@@ -208,9 +223,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>
@@ -229,7 +242,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1106</fr:anchor>
+            <fr:anchor>732</fr:anchor>
             <fr:addr type="user">FA-003X</fr:addr>
             <fr:route>FA-003X.xml</fr:route>
             <fr:title text="Lebesgue Inner Measure">Lebesgue Inner Measure</fr:title>
@@ -239,9 +252,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>

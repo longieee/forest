@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>395</fr:anchor>
+    <fr:anchor>359</fr:anchor>
     <fr:addr type="user">FA-000J</fr:addr>
     <fr:route>FA-000J.xml</fr:route>
     <fr:title text="Bounded">Bounded</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be bounded if there exists some number <fr:tex display="inline"><![CDATA[r]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x,y) \leq  r]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x,y \in  S]]></fr:tex>.</fr:p>
@@ -29,7 +27,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>397</fr:anchor>
+            <fr:anchor>360</fr:anchor>
             <fr:addr type="user">FA-000L</fr:addr>
             <fr:route>FA-000L.xml</fr:route>
             <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
@@ -39,9 +37,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let K be a <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link> <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>. A subset of <fr:tex display="inline"><![CDATA[C(K)]]></fr:tex> is <fr:link type="local" href="FA-000I.xml" addr="FA-000I" title="Precompact">precompact</fr:link> if and only if it is <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link>, and <fr:link type="local" href="FA-000K.xml" addr="FA-000K" title="Equicontinuous">equicontinuous</fr:link>.</fr:p>
@@ -52,7 +48,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>399</fr:anchor>
+            <fr:anchor>361</fr:anchor>
             <fr:addr type="user">FA-000S</fr:addr>
             <fr:route>FA-000S.xml</fr:route>
             <fr:title text="Bolzano-Weierstrass theorem">Bolzano-Weierstrass theorem</fr:title>
@@ -62,9 +58,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Every <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link> sequence in <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> has a <fr:link type="local" href="FA-000Q.xml" addr="FA-000Q" title="Convergent">convergent</fr:link> <fr:link type="local" href="FA-000R.xml" addr="FA-000R" title="Subsequence">subsequence</fr:link></fr:p>
@@ -73,7 +67,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>401</fr:anchor>
+            <fr:anchor>362</fr:anchor>
             <fr:addr type="user">FA-000P</fr:addr>
             <fr:route>FA-000P.xml</fr:route>
             <fr:title text="Heine-Borel Theorem">Heine-Borel Theorem</fr:title>
@@ -83,9 +77,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> is <fr:link type="local" href="FA-000M.xml" addr="FA-000M" title="Sequentially compact">sequentially compact</fr:link> <fr:em>if and only if</fr:em> it is closed and <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link></fr:p>

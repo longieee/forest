@@ -1,7 +1,7 @@
 \title{Hamel basis}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A Hamel basis for a vector space #{V} is a subset #{\{e_i\}_{i \in I}} of #{V} such that:}
 

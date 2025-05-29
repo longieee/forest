@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1009</fr:anchor>
+    <fr:anchor>680</fr:anchor>
     <fr:addr type="user">FA-002D</fr:addr>
     <fr:route>FA-002D.xml</fr:route>
     <fr:title text="Lp space">Lp space</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. We call <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex> the set of <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable</fr:link> functions <fr:tex display="inline"><![CDATA[f: E \to  \mathbb {R}]]></fr:tex> such that</fr:p>
@@ -35,7 +33,51 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1011</fr:anchor>
+            <fr:anchor>681</fr:anchor>
+            <fr:addr type="user">SP-0007</fr:addr>
+            <fr:route>SP-0007.xml</fr:route>
+            <fr:title text="Property of sample paths">Property of sample paths</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>the following limit holds in <fr:link type="local" href="FA-002D.xml" addr="FA-002D" title="Lp space"><fr:tex display="inline"><![CDATA[L^2(\Omega )]]></fr:tex></fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>682</fr:anchor>
+            <fr:addr type="user">SP-0003</fr:addr>
+            <fr:route>SP-0003.xml</fr:route>
+            <fr:title text="Almost surely vs. Almost everywhere">Almost surely vs. Almost everywhere</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The concept of "almost surely" in probability theory is precisely the probabilistic analogue of "almost everywhere" (a.e.) in measure theory and functional analysis.</fr:p>
+            <fr:p>Measure Theory/Functional Analysis ("<fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">Almost Everywhere</fr:link>"):</fr:p>
+            <fr:p>In measure theory, "almost everywhere" means that a property holds true for all points in a set, except possibly for a set of measure zero. For example, if a function is continuous almost everywhere, it means the set of points where it is discontinuous has <fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue measure</fr:link> zero. This concept is fundamental for defining integrals (e.g., <fr:link type="local" href="FA-001N.xml" addr="FA-001N" title="Lebesgue integral">Lebesgue integral</fr:link>) and understanding properties of functions in <fr:link type="local" href="FA-002D.xml" addr="FA-002D" title="Lp space"><fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces</fr:link>.</fr:p>
+            <fr:p>Probability Theory ("<fr:link type="local" href="SP-0002.xml" addr="SP-0002" title="Almost surely">Almost Surely</fr:link>"):</fr:p>
+            <fr:p>Probability theory is built on measure theory. A probability space is a special kind of measure space where the total measure is 1.</fr:p>
+            <fr:p>In this context, "measure zero" in general measure theory corresponds to "probability zero" in probability theory.</fr:p>
+            <fr:p>Therefore, an event occurring "almost surely" means that the set of outcomes where the event does not occur has probability zero.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>683</fr:anchor>
             <fr:addr type="user">FA-002B</fr:addr>
             <fr:route>FA-002B.xml</fr:route>
             <fr:title text="Equivalence relation">Equivalence relation</fr:title>
@@ -45,9 +87,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An equivalence relation on a set <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a binary relation, often denoted by <fr:tex display="inline"><![CDATA[\sim ]]></fr:tex>, that is:</fr:p>
@@ -75,7 +115,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1013</fr:anchor>
+            <fr:anchor>684</fr:anchor>
             <fr:addr type="user">FA-001D</fr:addr>
             <fr:route>FA-001D.xml</fr:route>
             <fr:title text="Almost everywhere">Almost everywhere</fr:title>
@@ -85,9 +125,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A property is said to hold almost everywhere (abbreviated as "a.e.") on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> if the set of points where the property fails has measure zero.</fr:p>
@@ -99,7 +137,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1015</fr:anchor>
+            <fr:anchor>685</fr:anchor>
             <fr:addr type="user">FA-002B</fr:addr>
             <fr:route>FA-002B.xml</fr:route>
             <fr:title text="Equivalence relation">Equivalence relation</fr:title>
@@ -109,9 +147,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An equivalence relation on a set <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a binary relation, often denoted by <fr:tex display="inline"><![CDATA[\sim ]]></fr:tex>, that is:</fr:p>
@@ -130,7 +166,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1017</fr:anchor>
+            <fr:anchor>686</fr:anchor>
             <fr:addr type="user">FA-001B</fr:addr>
             <fr:route>FA-001B.xml</fr:route>
             <fr:title text="Measurable set">Measurable set</fr:title>
@@ -140,9 +176,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A set <fr:tex display="inline"><![CDATA[E]]></fr:tex> in a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be measurable if it belongs to the σ-algebra <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>.</fr:p>
@@ -153,7 +187,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1019</fr:anchor>
+            <fr:anchor>687</fr:anchor>
             <fr:addr type="user">FA-0018</fr:addr>
             <fr:route>FA-0018.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
@@ -163,9 +197,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A norm on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is a function <fr:tex display="inline"><![CDATA[||\cdot ||: V \rightarrow  \mathbb {R}]]></fr:tex> that assigns a non-negative real number to each vector in the space, satisfying the following axioms for all vectors <fr:tex display="inline"><![CDATA[u, v \in  V]]></fr:tex> and scalars <fr:tex display="inline"><![CDATA[a]]></fr:tex>:</fr:p>
@@ -184,7 +216,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1021</fr:anchor>
+            <fr:anchor>688</fr:anchor>
             <fr:addr type="user">FA-001C</fr:addr>
             <fr:route>FA-001C.xml</fr:route>
             <fr:title text="Space">Space</fr:title>
@@ -194,9 +226,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In functional analysis, a "space" typically refers to a vector space equipped with additional structure, such as a topology, norm, or inner product. These structures provide a framework for studying functions as vectors and for analyzing limiting operations.</fr:p>

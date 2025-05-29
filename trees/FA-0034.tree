@@ -1,7 +1,7 @@
 \title{Projection}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A [linear operator](FA-002H) P such that #{P^2 = P}. A projection P leads to a [direct sum](FA-0113) [decomposition](FA-0114) of the space #{Im(P) \bigoplus Ker(P)}.}
 

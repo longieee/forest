@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1483</fr:anchor>
+    <fr:anchor>921</fr:anchor>
     <fr:addr type="user">FA-0026</fr:addr>
     <fr:route>FA-0026.xml</fr:route>
     <fr:title text="Separable space">Separable space</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A topological space is called separable if it contains a countable, dense subset. For a metric space, this means there exists a <fr:link type="local" href="FA-0023.xml" addr="FA-0023" title="Countable">countable</fr:link> subset whose closure is the entire space.</fr:p>
@@ -40,7 +38,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1485</fr:anchor>
+            <fr:anchor>922</fr:anchor>
             <fr:addr type="user">FA-0023</fr:addr>
             <fr:route>FA-0023.xml</fr:route>
             <fr:title text="Countable">Countable</fr:title>
@@ -50,9 +48,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is countable if its elements can be arranged in a sequence (i.e., if there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and the set of natural numbers <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>, or a subset of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>).</fr:p>
@@ -74,7 +70,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1487</fr:anchor>
+            <fr:anchor>923</fr:anchor>
             <fr:addr type="user">FA-0027</fr:addr>
             <fr:route>FA-0027.xml</fr:route>
             <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
@@ -84,9 +80,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A complete (in the sense of <fr:link type="local" href="FA-0020.xml" addr="FA-0020" title="Completeness of orthonormal set">Completeness of orthonormal set</fr:link>) <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset (<fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link>) of H is also called an <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H</fr:p>
@@ -102,7 +96,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1489</fr:anchor>
+            <fr:anchor>924</fr:anchor>
             <fr:addr type="user">FA-0028</fr:addr>
             <fr:route>FA-0028.xml</fr:route>
             <fr:title text="Schauder basis">Schauder basis</fr:title>
@@ -112,9 +106,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Schauder basis for a Banach space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a sequence of vectors <fr:tex display="inline"><![CDATA[\{e_n\}_{n=1}^{\infty }]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that for every vector <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>, there exists a unique sequence of scalars <fr:tex display="inline"><![CDATA[\{a_n\}_{n=1}^{\infty }]]></fr:tex> such that:</fr:p>
@@ -143,7 +135,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1491</fr:anchor>
+            <fr:anchor>925</fr:anchor>
             <fr:addr type="user">FA-000F</fr:addr>
             <fr:route>FA-000F.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
@@ -153,9 +145,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Banach space is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0017.xml" addr="FA-0017" title="Normed vector space">normed vector space</fr:link>. That is, a Banach space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||]]></fr:tex> such that every <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[V]]></fr:tex> (with respect to the metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>) converges to a vector in <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
@@ -166,7 +156,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1493</fr:anchor>
+            <fr:anchor>926</fr:anchor>
             <fr:addr type="user">FA-0023</fr:addr>
             <fr:route>FA-0023.xml</fr:route>
             <fr:title text="Countable">Countable</fr:title>
@@ -176,9 +166,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A set <fr:tex display="inline"><![CDATA[S]]></fr:tex> is countable if its elements can be arranged in a sequence (i.e., if there exists a bijection between <fr:tex display="inline"><![CDATA[S]]></fr:tex> and the set of natural numbers <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>, or a subset of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>).</fr:p>
@@ -200,7 +188,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1495</fr:anchor>
+            <fr:anchor>927</fr:anchor>
             <fr:addr type="user">FA-000U</fr:addr>
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -210,9 +198,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
@@ -223,7 +209,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1497</fr:anchor>
+            <fr:anchor>928</fr:anchor>
             <fr:addr type="user">FA-0027</fr:addr>
             <fr:route>FA-0027.xml</fr:route>
             <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
@@ -233,9 +219,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A complete (in the sense of <fr:link type="local" href="FA-0020.xml" addr="FA-0020" title="Completeness of orthonormal set">Completeness of orthonormal set</fr:link>) <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset (<fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link>) of H is also called an <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H</fr:p>

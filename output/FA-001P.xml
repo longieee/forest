@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>981</fr:anchor>
+    <fr:anchor>666</fr:anchor>
     <fr:addr type="user">FA-001P</fr:addr>
     <fr:route>FA-001P.xml</fr:route>
     <fr:title text="Linear Functional">Linear Functional</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A linear functional on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a linear map <fr:tex display="inline"><![CDATA[f: V \rightarrow  F]]></fr:tex> from the vector space to its underlying field.</fr:p>
@@ -36,7 +34,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>983</fr:anchor>
+            <fr:anchor>667</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
@@ -46,9 +44,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
@@ -66,7 +62,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>985</fr:anchor>
+            <fr:anchor>668</fr:anchor>
             <fr:addr type="user">FA-001U</fr:addr>
             <fr:route>FA-001U.xml</fr:route>
             <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
@@ -76,9 +72,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Riesz representation theorem has several forms, but the most common version for Hilbert spaces states:</fr:p>
@@ -95,7 +89,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>987</fr:anchor>
+            <fr:anchor>669</fr:anchor>
             <fr:addr type="user">FA-000Y</fr:addr>
             <fr:route>FA-000Y.xml</fr:route>
             <fr:title text="Weak Convergence">Weak Convergence</fr:title>
@@ -105,9 +99,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In a Hilbert or Banach space, weak convergence is a generalization of the concept of convergence that is weaker than <fr:link type="local" href="FA-000Z.xml" addr="FA-000Z" title="Convergence in norm">convergence in norm</fr:link>.</fr:p>
@@ -139,7 +131,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>989</fr:anchor>
+            <fr:anchor>670</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
@@ -149,9 +141,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>

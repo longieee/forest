@@ -1,7 +1,7 @@
 \title{Inner product}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{An inner product on a vector space #{V} over a field #{F} (either #{\mathbb{R}} or #{\mathbb{C}}) is a function #{<\cdot,\cdot>: V \times V \rightarrow F} that satisfies the following properties for all vectors #{u, v, w \in V} and all scalars #{a \in F}:}
 

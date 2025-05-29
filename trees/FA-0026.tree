@@ -1,7 +1,7 @@
 \title{Separable space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A topological space is called separable if it contains a countable, dense subset. For a metric space, this means there exists a [countable](FA-0023) subset whose closure is the entire space.}
 

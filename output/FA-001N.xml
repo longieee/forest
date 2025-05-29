@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>919</fr:anchor>
+    <fr:anchor>633</fr:anchor>
     <fr:addr type="user">FA-001N</fr:addr>
     <fr:route>FA-001N.xml</fr:route>
     <fr:title text="Lebesgue integral">Lebesgue integral</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The Lebesgue integral is a generalization of the Riemann integral that allows for the integration of a broader class of functions. It is defined for <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable functions</fr:link> on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex>.</fr:p>
@@ -36,7 +34,32 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>921</fr:anchor>
+            <fr:anchor>634</fr:anchor>
+            <fr:addr type="user">SP-0003</fr:addr>
+            <fr:route>SP-0003.xml</fr:route>
+            <fr:title text="Almost surely vs. Almost everywhere">Almost surely vs. Almost everywhere</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The concept of "almost surely" in probability theory is precisely the probabilistic analogue of "almost everywhere" (a.e.) in measure theory and functional analysis.</fr:p>
+            <fr:p>Measure Theory/Functional Analysis ("<fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">Almost Everywhere</fr:link>"):</fr:p>
+            <fr:p>In measure theory, "almost everywhere" means that a property holds true for all points in a set, except possibly for a set of measure zero. For example, if a function is continuous almost everywhere, it means the set of points where it is discontinuous has <fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue measure</fr:link> zero. This concept is fundamental for defining integrals (e.g., <fr:link type="local" href="FA-001N.xml" addr="FA-001N" title="Lebesgue integral">Lebesgue integral</fr:link>) and understanding properties of functions in <fr:link type="local" href="FA-002D.xml" addr="FA-002D" title="Lp space"><fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces</fr:link>.</fr:p>
+            <fr:p>Probability Theory ("<fr:link type="local" href="SP-0002.xml" addr="SP-0002" title="Almost surely">Almost Surely</fr:link>"):</fr:p>
+            <fr:p>Probability theory is built on measure theory. A probability space is a special kind of measure space where the total measure is 1.</fr:p>
+            <fr:p>In this context, "measure zero" in general measure theory corresponds to "probability zero" in probability theory.</fr:p>
+            <fr:p>Therefore, an event occurring "almost surely" means that the set of outcomes where the event does not occur has probability zero.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>635</fr:anchor>
             <fr:addr type="user">FA-001O</fr:addr>
             <fr:route>FA-001O.xml</fr:route>
             <fr:title text="Simple function">Simple function</fr:title>
@@ -46,9 +69,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A simple function (or simple measurable function) is a <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable function</fr:link> that takes only a finite number of values. Specifically, a function <fr:tex display="inline"><![CDATA[s: X \to  \mathbb {R}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) defined on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is a simple function if it can be written as:</fr:p>
@@ -62,7 +83,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>923</fr:anchor>
+            <fr:anchor>636</fr:anchor>
             <fr:addr type="user">FA-001M</fr:addr>
             <fr:route>FA-001M.xml</fr:route>
             <fr:title text="Summable">Summable</fr:title>
@@ -72,9 +93,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A function <fr:tex display="inline"><![CDATA[f: X \to  \mathbb {R}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) defined on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be summable if it is <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable</fr:link> and its <fr:link type="local" href="FA-001N.xml" addr="FA-001N" title="Lebesgue integral">Lebesgue integral</fr:link> is finite:</fr:p>
@@ -97,7 +116,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>925</fr:anchor>
+            <fr:anchor>637</fr:anchor>
             <fr:addr type="user">FA-001E</fr:addr>
             <fr:route>FA-001E.xml</fr:route>
             <fr:title text="Lebesgue's Dominated Convergence Theorem">Lebesgue's Dominated Convergence Theorem</fr:title>
@@ -107,9 +126,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[f_k : \mathbb {R}^d \to  [-\infty , +\infty ]]]></fr:tex> be a sequence of measurable functions. Suppose that</fr:p>
@@ -122,7 +139,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>927</fr:anchor>
+            <fr:anchor>638</fr:anchor>
             <fr:addr type="user">FA-001L</fr:addr>
             <fr:route>FA-001L.xml</fr:route>
             <fr:title text="Measurable function">Measurable function</fr:title>
@@ -132,9 +149,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[(X, \mathcal {A})]]></fr:tex> and <fr:tex display="inline"><![CDATA[(Y, \mathcal {B})]]></fr:tex> be measurable spaces, where <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are σ-algebras on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, respectively. A function <fr:tex display="inline"><![CDATA[f: X \to  Y]]></fr:tex> is said to be measurable if the preimage of every measurable set in <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is a measurable set in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
@@ -146,7 +161,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>929</fr:anchor>
+            <fr:anchor>639</fr:anchor>
             <fr:addr type="user">FA-001F</fr:addr>
             <fr:route>FA-001F.xml</fr:route>
             <fr:title text="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:title>
@@ -156,9 +171,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[f_k : \mathbb {R}^d \to  [0, +\infty ]]]></fr:tex> be a sequence of <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable function</fr:link>s. Assume that</fr:p>
@@ -170,7 +183,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>931</fr:anchor>
+            <fr:anchor>640</fr:anchor>
             <fr:addr type="user">FA-001O</fr:addr>
             <fr:route>FA-001O.xml</fr:route>
             <fr:title text="Simple function">Simple function</fr:title>
@@ -180,9 +193,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A simple function (or simple measurable function) is a <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable function</fr:link> that takes only a finite number of values. Specifically, a function <fr:tex display="inline"><![CDATA[s: X \to  \mathbb {R}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) defined on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is a simple function if it can be written as:</fr:p>

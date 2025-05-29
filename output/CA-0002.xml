@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>257</fr:anchor>
+    <fr:addr type="user">CA-0002</fr:addr>
+    <fr:route>CA-0002.xml</fr:route>
+    <fr:title text="Meromorphic functions">Meromorphic functions</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>258</fr:anchor>
+            <fr:addr type="user">CA-0001</fr:addr>
+            <fr:route>CA-0001.xml</fr:route>
+            <fr:title text="Essential Singularity">Essential Singularity</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Consider the example <fr:tex display="inline"><![CDATA[g(z) = e^{\frac {1}{z}}]]></fr:tex>, which clearly has a singularity at the origin. If we write <fr:tex display="inline"><![CDATA[z = re^{i\theta }]]></fr:tex> then</fr:p>
+            <fr:tex display="block"><![CDATA[   |g(z)| = e^{\frac {\cos \theta }{\theta }} ]]></fr:tex>
+            <fr:p>
+              <fr:ul><fr:li>If <fr:tex display="inline"><![CDATA[z]]></fr:tex> approaches from the imaginary axis, then <fr:tex display="inline"><![CDATA[|g(z)| = 1]]></fr:tex></fr:li>
+    <fr:li>If <fr:tex display="inline"><![CDATA[z]]></fr:tex> approaches from the left-half of the complex plane, then <fr:tex display="inline"><![CDATA[|g(z)| = 0]]></fr:tex></fr:li>
+    <fr:li>If <fr:tex display="inline"><![CDATA[z]]></fr:tex> approaches from the left-half of the complex plane, then <fr:tex display="inline"><![CDATA[|g(z)| = +\infty ]]></fr:tex></fr:li></fr:ul>
+            </fr:p>
+            <fr:p>In fact, in the third case, not only <fr:tex display="inline"><![CDATA[|g(z)|]]></fr:tex> tends to <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>, but the <fr:em>rate</fr:em> of "blowing up" is faster than <fr:em>any polynomial</fr:em>
+  (Formally: <fr:tex display="inline"><![CDATA[g]]></fr:tex> grows faster than any <fr:link type="local" href="CA-0002.xml" addr="CA-0002" title="Meromorphic functions">meromorphic</fr:link> function)</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

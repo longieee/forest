@@ -1,7 +1,7 @@
 \title{Equicontinuous}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A family of functions #{F} from a metric space #{(X,d_X)} to a metric space #{(Y,d_Y)} is said to be equicontinuous at a point #{x_0 \in X} if for every #{ε > 0}, there exists a #{δ > 0} such that #{d_Y(f(x), f(x_0)) < ε} for all #{f \in F} and all #{x \in X} with #{d_X(x, x_0) < δ}.}
 

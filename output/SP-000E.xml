@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>243</fr:anchor>
+    <fr:addr type="user">SP-000E</fr:addr>
+    <fr:route>SP-000E.xml</fr:route>
+    <fr:title text="Stopping time">Stopping time</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>244</fr:anchor>
+            <fr:addr type="user">SP-0008</fr:addr>
+            <fr:route>SP-0008.xml</fr:route>
+            <fr:title text="Strong Markov property of Brownian Motion">Strong Markov property of Brownian Motion</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[ (B_{t} )_{t\geq  0} ]]></fr:tex>  be a <fr:link type="local" href="SP-0001.xml" addr="SP-0001" title="Brownian motion">Brownian Motion</fr:link>, and <fr:tex display="inline"><![CDATA[ T ]]></fr:tex> is a <fr:link type="local" href="SP-000E.xml" addr="SP-000E" title="Stopping time">stopping time</fr:link>. Then, conditional on <fr:tex display="inline"><![CDATA[ T < +\infty  ]]></fr:tex>, <fr:tex display="inline"><![CDATA[ \left ( B_{t+T} -B_{t}  \right )_{t\geq  0}  ]]></fr:tex> is another Brownian motion, independent of <fr:tex display="inline"><![CDATA[ (B_{r})_{ r \leq  T } ]]></fr:tex></fr:p>
+            <fr:p><fr:strong>N.B.</fr:strong> For the special case of deterministic times <fr:tex display="inline"><![CDATA[ T=s ]]></fr:tex>, we can prove this theorem using the definition</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

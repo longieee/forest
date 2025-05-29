@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1635</fr:anchor>
+    <fr:anchor>999</fr:anchor>
     <fr:addr type="user">FA-000D</fr:addr>
     <fr:route>FA-000D.xml</fr:route>
     <fr:title text="Why Functional Analysis?">Why Functional Analysis?</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>Why Functional Analysis?</fr:p>
@@ -34,7 +32,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1637</fr:anchor>
+            <fr:anchor>1000</fr:anchor>
             <fr:addr type="user">FA-0009</fr:addr>
             <fr:route>FA-0009.xml</fr:route>
             <fr:title text="Distance Measure">Distance Measure</fr:title>
@@ -44,9 +42,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A distance measure, or metric, is a function that defines a measure of distance between elements of a set. In a <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>, a distance function <fr:tex display="inline"><![CDATA[d]]></fr:tex> satisfies the following properties for all points <fr:tex display="inline"><![CDATA[x]]></fr:tex>, <fr:tex display="inline"><![CDATA[y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z]]></fr:tex> in the space:</fr:p>
@@ -59,7 +55,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1639</fr:anchor>
+            <fr:anchor>1001</fr:anchor>
             <fr:addr type="user">FA-0005</fr:addr>
             <fr:route>FA-0005.xml</fr:route>
             <fr:title text="Infinite Dimensions">Infinite Dimensions</fr:title>
@@ -69,9 +65,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A vector space is said to be infinite-dimensional if it cannot be spanned by a finite number of vectors. In other words, there is no finite basis for the space.</fr:p>
@@ -81,7 +75,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1641</fr:anchor>
+            <fr:anchor>1002</fr:anchor>
             <fr:addr type="user">FA-0012</fr:addr>
             <fr:route>FA-0012.xml</fr:route>
             <fr:title text="Inner product space">Inner product space</fr:title>
@@ -91,9 +85,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An inner product space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over the field of real or complex numbers, equipped with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[\langle  \cdot ,\cdot \rangle  : V \times  V \rightarrow  \mathbb {F}]]></fr:tex>.</fr:p>
@@ -112,7 +104,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1643</fr:anchor>
+            <fr:anchor>1003</fr:anchor>
             <fr:addr type="user">FA-0011</fr:addr>
             <fr:route>FA-0011.xml</fr:route>
             <fr:title text="Kronecker delta">Kronecker delta</fr:title>
@@ -122,9 +114,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Kronecker delta, denoted <fr:tex display="inline"><![CDATA[\delta _{ij}]]></fr:tex>, is a function of two variables, usually integers, that is 1 if the variables are equal and 0 otherwise. Formally:</fr:p>
@@ -141,7 +131,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1645</fr:anchor>
+            <fr:anchor>1004</fr:anchor>
             <fr:addr type="user">FA-0010</fr:addr>
             <fr:route>FA-0010.xml</fr:route>
             <fr:title text="Pointwise Convergence">Pointwise Convergence</fr:title>
@@ -151,9 +141,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge pointwise to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for each <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex>, the sequence of numbers <fr:tex display="inline"><![CDATA[\{f_n(x)\}]]></fr:tex> converges to <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex>.</fr:p>
@@ -166,7 +154,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1647</fr:anchor>
+            <fr:anchor>1005</fr:anchor>
             <fr:addr type="user">FA-0006</fr:addr>
             <fr:route>FA-0006.xml</fr:route>
             <fr:title text="Space of Continuous Functions">Space of Continuous Functions</fr:title>
@@ -176,9 +164,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The space of continuous functions on an interval <fr:tex display="inline"><![CDATA[[a,b]]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[C([a,b])]]></fr:tex>, consists of all continuous real-valued or complex-valued functions defined on <fr:tex display="inline"><![CDATA[[a,b]]]></fr:tex>.</fr:p>

@@ -1,7 +1,7 @@
 \title{Bessel's inequality}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{Let #{U = \{u_n : n \in \mathbb{N}\}} be an [orthonormal sequence](FA-000T) in a [Hilbert space](FA-000U) #{H} and #{x \in H}}
 

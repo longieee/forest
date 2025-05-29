@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>433</fr:anchor>
+    <fr:anchor>388</fr:anchor>
     <fr:addr type="user">FA-002L</fr:addr>
     <fr:route>FA-002L.xml</fr:route>
     <fr:title text="Cauchy sequence">Cauchy sequence</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>In a <fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">metric space</fr:link> <fr:tex display="inline"><![CDATA[(X, d)]]></fr:tex>, a sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> is a Cauchy sequence if for every <fr:tex display="inline"><![CDATA[\ \epsilon  > 0]]></fr:tex>, there exists <fr:tex display="inline"><![CDATA[N \in  \mathbb {N}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_n, x_m) < \epsilon ]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n, m \geq  N]]></fr:tex>.</fr:p>
@@ -33,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>435</fr:anchor>
+            <fr:anchor>389</fr:anchor>
             <fr:addr type="user">FA-002I</fr:addr>
             <fr:route>FA-002I.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
@@ -43,9 +41,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Banach space is a complete <fr:link type="local" href="FA-002K.xml" addr="FA-002K" title="Normed Space">normed space</fr:link>.</fr:p>
@@ -55,7 +51,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>437</fr:anchor>
+            <fr:anchor>390</fr:anchor>
             <fr:addr type="user">FA-002Q</fr:addr>
             <fr:route>FA-002Q.xml</fr:route>
             <fr:title text="Completeness">Completeness</fr:title>
@@ -65,9 +61,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A <fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">metric space</fr:link> is complete if every <fr:link type="local" href="FA-002L.xml" addr="FA-002L" title="Cauchy sequence">Cauchy sequence</fr:link> in the space converges to a point within the space.</fr:p>
@@ -95,7 +89,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>439</fr:anchor>
+            <fr:anchor>391</fr:anchor>
             <fr:addr type="user">FA-002Q</fr:addr>
             <fr:route>FA-002Q.xml</fr:route>
             <fr:title text="Completeness">Completeness</fr:title>
@@ -105,9 +99,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A <fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">metric space</fr:link> is complete if every <fr:link type="local" href="FA-002L.xml" addr="FA-002L" title="Cauchy sequence">Cauchy sequence</fr:link> in the space converges to a point within the space.</fr:p>
@@ -126,7 +118,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>441</fr:anchor>
+            <fr:anchor>392</fr:anchor>
             <fr:addr type="user">FA-002P</fr:addr>
             <fr:route>FA-002P.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
@@ -136,9 +128,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[X]]></fr:tex> equipped with a <fr:link type="external" href="FA-0116">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d: X \times  X \rightarrow  \mathbb {R}]]></fr:tex> that satisfies the following properties for all <fr:tex display="inline"><![CDATA[x, y, z \in  X]]></fr:tex>:</fr:p>

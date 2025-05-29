@@ -1,7 +1,7 @@
 \title{Equivalence relation}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{An equivalence relation on a set #{X} is a binary relation, often denoted by #{\sim}, that is:}
 

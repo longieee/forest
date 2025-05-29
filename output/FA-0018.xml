@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1161</fr:anchor>
+    <fr:anchor>760</fr:anchor>
     <fr:addr type="user">FA-0018</fr:addr>
     <fr:route>FA-0018.xml</fr:route>
     <fr:title text="Norm">Norm</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A norm on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is a function <fr:tex display="inline"><![CDATA[||\cdot ||: V \rightarrow  \mathbb {R}]]></fr:tex> that assigns a non-negative real number to each vector in the space, satisfying the following axioms for all vectors <fr:tex display="inline"><![CDATA[u, v \in  V]]></fr:tex> and scalars <fr:tex display="inline"><![CDATA[a]]></fr:tex>:</fr:p>
@@ -38,7 +36,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1163</fr:anchor>
+            <fr:anchor>761</fr:anchor>
             <fr:addr type="user">FA-000F</fr:addr>
             <fr:route>FA-000F.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
@@ -48,9 +46,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Banach space is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0017.xml" addr="FA-0017" title="Normed vector space">normed vector space</fr:link>. That is, a Banach space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||]]></fr:tex> such that every <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[V]]></fr:tex> (with respect to the metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>) converges to a vector in <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
@@ -61,7 +57,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1165</fr:anchor>
+            <fr:anchor>762</fr:anchor>
             <fr:addr type="user">FA-0029</fr:addr>
             <fr:route>FA-0029.xml</fr:route>
             <fr:title text="Essential supremum">Essential supremum</fr:title>
@@ -71,9 +67,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>For a <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on a measure space <fr:tex display="inline"><![CDATA[(X, \Sigma , \mu )]]></fr:tex>, the essential supremum is the smallest value that bounds <fr:tex display="inline"><![CDATA[f]]></fr:tex> almost everywhere.</fr:p>
@@ -88,7 +82,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1167</fr:anchor>
+            <fr:anchor>763</fr:anchor>
             <fr:addr type="user">FA-002D</fr:addr>
             <fr:route>FA-002D.xml</fr:route>
             <fr:title text="Lp space">Lp space</fr:title>
@@ -98,9 +92,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. We call <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex> the set of <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable</fr:link> functions <fr:tex display="inline"><![CDATA[f: E \to  \mathbb {R}]]></fr:tex> such that</fr:p>
@@ -116,7 +108,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1169</fr:anchor>
+            <fr:anchor>764</fr:anchor>
             <fr:addr type="user">FA-0017</fr:addr>
             <fr:route>FA-0017.xml</fr:route>
             <fr:title text="Normed vector space">Normed vector space</fr:title>
@@ -126,9 +118,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A normed vector space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> equipped with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||: V \rightarrow  \mathbb {R}]]></fr:tex>, which is a function that assigns a non-negative real number to each vector in the space, satisfying the following properties for all vectors <fr:tex display="inline"><![CDATA[u, v \in  V]]></fr:tex> and scalars <fr:tex display="inline"><![CDATA[a]]></fr:tex>:</fr:p>
@@ -155,7 +145,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1171</fr:anchor>
+            <fr:anchor>765</fr:anchor>
             <fr:addr type="user">FA-000G</fr:addr>
             <fr:route>FA-000G.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
@@ -165,9 +155,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
@@ -181,7 +169,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1173</fr:anchor>
+            <fr:anchor>766</fr:anchor>
             <fr:addr type="user">FA-000E</fr:addr>
             <fr:route>FA-000E.xml</fr:route>
             <fr:title text="Sup norm">Sup norm</fr:title>
@@ -191,9 +179,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The sup norm (or supremum norm, or uniform norm, or <fr:tex display="inline"><![CDATA[L^\infty ]]></fr:tex> norm) of a bounded function <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {R}]]></fr:tex> (or <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>) is defined as:</fr:p>

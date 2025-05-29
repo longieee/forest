@@ -1,7 +1,7 @@
 \title{Hahn-Banach theorem}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{The Hahn-Banach theorem is a fundamental result in functional analysis that guarantees the existence of continuous linear functionals on normed spaces with specific properties. It comes in several equivalent forms:}
 

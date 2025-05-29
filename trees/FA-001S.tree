@@ -1,7 +1,7 @@
 \title{Uniform Convergence}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A sequence of functions #{\{f_n\}} defined on a common domain #{D} is said to converge uniformly to a function #{f} on #{D} if for every #{ε > 0}, there exists an integer #{N(ε)} (independent of #{x}) such that:}
 

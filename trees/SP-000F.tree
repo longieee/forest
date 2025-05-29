@@ -1,0 +1,23 @@
+\date{2025-05-29}
+\title{Reflection Principle}
+\taxon{Theorem}
+
+\p{
+  Let #{ (B_{t} )_{t\geq 0} } be a [Brownian Motion](SP-0001). Then, for any #{ t\geq 0 } and #{ a\geq 0 }, it holds that
+  ##{
+    \mathbb{P} \left( \sup_{s\leq t} B_{s} \geq a \right) 
+    = 2\mathbb{P} \left( B_{t} \geq a \right) 
+    = \mathbb{P} \left( \left\vert B_{t}  \right\vert \geq a \right) 
+  }  
+}
+
+\p{
+  In particular, #{ \sup _{s\leq t} B_{s}  } has the same distribution as #{ \left\vert B_{t}  \right\vert  } 
+}
+
+\p{
+  A consequence of the reflection principle is that
+  ##{
+    \mathbb{E} \left[ {\left( \sup _{s\leq t} \left\vert B_{s}  \right\vert  \right)}^n  \right] < +\infty \quad \forall n \in \mathbb{N} 
+  }
+}

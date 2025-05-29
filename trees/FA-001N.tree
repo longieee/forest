@@ -1,7 +1,7 @@
 \title{Lebesgue integral}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The Lebesgue integral is a generalization of the Riemann integral that allows for the integration of a broader class of functions. It is defined for [measurable functions](FA-001L) on a measure space #{(X, \mathcal{A}, \mu)}.}
 

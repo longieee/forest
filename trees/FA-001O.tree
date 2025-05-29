@@ -1,7 +1,7 @@
 \title{Simple function}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A simple function (or simple measurable function) is a [measurable function](FA-001L) that takes only a finite number of values. Specifically, a function #{s: X \to \mathbb{R}} (or #{\mathbb{C}}) defined on a measure space #{(X, \mathcal{A}, \mu)} is a simple function if it can be written as:}
 

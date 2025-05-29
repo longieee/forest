@@ -1,7 +1,7 @@
 \title{Cauchy sequence}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{In a [metric space](FA-002P) #{(X, d)}, a sequence #{(x_n)} is a Cauchy sequence if for every #{\ \epsilon > 0}, there exists #{N \in \mathbb{N}} such that #{d(x_n, x_m) < \epsilon} for all #{n, m \geq N}.}
 

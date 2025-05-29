@@ -1,7 +1,7 @@
 \title{Riesz-Fisher theorem}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{Let #{E \subset \mathbb{R}^d} be a [measurable set](FA-001B) and #{p \in [1, +\infty]}. Then the [space](FA-001C) #{L^p(E)} is [Banach space](FA-000F).}
 

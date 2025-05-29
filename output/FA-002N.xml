@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1355</fr:anchor>
+    <fr:anchor>857</fr:anchor>
     <fr:addr type="user">FA-002N</fr:addr>
     <fr:route>FA-002N.xml</fr:route>
     <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A complete (in the sense of <fr:link type="external" href="FA-0101">Completeness of orthonormal set</fr:link>) <fr:link type="external" href="FA-0102">orthonormal</fr:link> subset (<fr:link type="external" href="FA-0103">orthonormal sequence</fr:link>) of H is also called an <fr:link type="external" href="FA-0102">orthonormal</fr:link> <fr:link type="external" href="FA-0104">basis</fr:link> of H.</fr:p>
@@ -32,7 +30,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1357</fr:anchor>
+            <fr:anchor>858</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -42,9 +40,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
@@ -67,7 +63,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1359</fr:anchor>
+            <fr:anchor>859</fr:anchor>
             <fr:addr type="user">FA-0108</fr:addr>
             <fr:route>FA-0108.xml</fr:route>
             <fr:title text="Hamel Basis">Hamel Basis</fr:title>
@@ -77,9 +73,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hamel basis is a basis for a vector space over a field, where every element of the vector space can be expressed as a finite linear combination of elements from the basis.</fr:p>
@@ -106,7 +100,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1361</fr:anchor>
+            <fr:anchor>860</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -116,9 +110,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>

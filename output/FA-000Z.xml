@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>545</fr:anchor>
+    <fr:anchor>445</fr:anchor>
     <fr:addr type="user">FA-000Z</fr:addr>
     <fr:route>FA-000Z.xml</fr:route>
     <fr:title text="Convergence in norm">Convergence in norm</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>In a normed vector space <fr:tex display="inline"><![CDATA[(X, ||\cdot ||)]]></fr:tex>, a sequence <fr:tex display="inline"><![CDATA[\{x_n\}]]></fr:tex> is said to converge in norm to an element <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if:</fr:p>
@@ -37,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>547</fr:anchor>
+            <fr:anchor>446</fr:anchor>
             <fr:addr type="user">FA-000Q</fr:addr>
             <fr:route>FA-000Q.xml</fr:route>
             <fr:title text="Convergent">Convergent</fr:title>
@@ -47,9 +45,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> in a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to converge to a point <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_n, x) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \geq  N]]></fr:tex>.</fr:p>
@@ -60,7 +56,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>549</fr:anchor>
+            <fr:anchor>447</fr:anchor>
             <fr:addr type="user">FA-000Y</fr:addr>
             <fr:route>FA-000Y.xml</fr:route>
             <fr:title text="Weak Convergence">Weak Convergence</fr:title>
@@ -70,9 +66,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In a Hilbert or Banach space, weak convergence is a generalization of the concept of convergence that is weaker than <fr:link type="local" href="FA-000Z.xml" addr="FA-000Z" title="Convergence in norm">convergence in norm</fr:link>.</fr:p>
@@ -104,7 +98,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>551</fr:anchor>
+            <fr:anchor>448</fr:anchor>
             <fr:addr type="user">FA-000F</fr:addr>
             <fr:route>FA-000F.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
@@ -114,9 +108,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Banach space is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0017.xml" addr="FA-0017" title="Normed vector space">normed vector space</fr:link>. That is, a Banach space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||]]></fr:tex> such that every <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[V]]></fr:tex> (with respect to the metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>) converges to a vector in <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
@@ -127,7 +119,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>553</fr:anchor>
+            <fr:anchor>449</fr:anchor>
             <fr:addr type="user">FA-000X</fr:addr>
             <fr:route>FA-000X.xml</fr:route>
             <fr:title text="Cauchy sequence">Cauchy sequence</fr:title>
@@ -137,9 +129,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> in a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is called a Cauchy sequence if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_m, x_n) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[m, n \geq  N]]></fr:tex>.</fr:p>
@@ -150,7 +140,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>555</fr:anchor>
+            <fr:anchor>450</fr:anchor>
             <fr:addr type="user">FA-0010</fr:addr>
             <fr:route>FA-0010.xml</fr:route>
             <fr:title text="Pointwise Convergence">Pointwise Convergence</fr:title>
@@ -160,9 +150,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge pointwise to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for each <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex>, the sequence of numbers <fr:tex display="inline"><![CDATA[\{f_n(x)\}]]></fr:tex> converges to <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex>.</fr:p>
@@ -175,7 +163,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>557</fr:anchor>
+            <fr:anchor>451</fr:anchor>
             <fr:addr type="user">FA-000Y</fr:addr>
             <fr:route>FA-000Y.xml</fr:route>
             <fr:title text="Weak Convergence">Weak Convergence</fr:title>
@@ -185,9 +173,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In a Hilbert or Banach space, weak convergence is a generalization of the concept of convergence that is weaker than <fr:link type="local" href="FA-000Z.xml" addr="FA-000Z" title="Convergence in norm">convergence in norm</fr:link>.</fr:p>

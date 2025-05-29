@@ -1,7 +1,7 @@
 \title{Metric Space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A metric space is a set #{M} together with a [distance measure](FA-0009) (or metric) #{d} that defines a concept of distance between any two members of the set.}
 

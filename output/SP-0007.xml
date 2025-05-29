@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>263</fr:anchor>
+    <fr:addr type="user">SP-0007</fr:addr>
+    <fr:route>SP-0007.xml</fr:route>
+    <fr:title text="Property of sample paths">Property of sample paths</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>the following limit holds in <fr:link type="local" href="FA-002D.xml" addr="FA-002D" title="Lp space"><fr:tex display="inline"><![CDATA[L^2(\Omega )]]></fr:tex></fr:link></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>264</fr:anchor>
+            <fr:addr type="user">FA-002D</fr:addr>
+            <fr:route>FA-002D.xml</fr:route>
+            <fr:title text="Lp space">Lp space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. We call <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex> the set of <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable</fr:link> functions <fr:tex display="inline"><![CDATA[f: E \to  \mathbb {R}]]></fr:tex> such that</fr:p>
+            <fr:tex display="inline"><![CDATA[||f||_{L^p} < +\infty ]]></fr:tex>
+            <fr:p>Now, we set the following <fr:link type="local" href="FA-002B.xml" addr="FA-002B" title="Equivalence relation">equivalence relation</fr:link> on <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[f,g \in  \mathcal {L}^p(E)]]></fr:tex>. We say that <fr:tex display="inline"><![CDATA[f \sim  g]]></fr:tex> if <fr:tex display="inline"><![CDATA[f(x) = g(x)]]></fr:tex> for <fr:link type="local" href="FA-001D.xml" addr="FA-001D" title="Almost everywhere">almost every</fr:link> <fr:tex display="inline"><![CDATA[x \in  E]]></fr:tex>. We set</fr:p>
+            <fr:tex display="inline"><![CDATA[L^p(E) = \mathcal {L}^p(E)/\sim ]]></fr:tex>
+            <fr:p>i.e. <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is the quotient (vector) <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex> through the relation <fr:tex display="inline"><![CDATA[\sim ]]></fr:tex></fr:p>
+            <fr:p>For a given <fr:link type="external" href="FA-0084">equivalence class</fr:link> <fr:tex display="inline"><![CDATA[[f] \in  L^p(E)]]></fr:tex>, we define the <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> of <fr:tex display="inline"><![CDATA[[f]]]></fr:tex> as <fr:tex display="inline"><![CDATA[||f||_{L^p(E)}]]></fr:tex> for an arbitrary representative <fr:tex display="inline"><![CDATA[f \in  [f]]]></fr:tex>.</fr:p>
+            <fr:p>From now on, by abuse of notation, we shall confuse <fr:tex display="inline"><![CDATA[[f]]]></fr:tex> and its representative <fr:tex display="inline"><![CDATA[f]]></fr:tex>. The <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is the <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> on <fr:tex display="inline"><![CDATA[E]]></fr:tex>.</fr:p>
+            <fr:p><fr:strong>Note</fr:strong>: The elements of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces are not individual functions in the strictest sense, but rather <fr:strong>equivalence classes of functions</fr:strong>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

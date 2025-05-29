@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>459</fr:anchor>
+    <fr:anchor>401</fr:anchor>
     <fr:addr type="user">FA-000H</fr:addr>
     <fr:route>FA-000H.xml</fr:route>
     <fr:title text="Compact">Compact</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A subset <fr:tex display="inline"><![CDATA[K]]></fr:tex> of a topological space is said to be compact if every open cover of <fr:tex display="inline"><![CDATA[K]]></fr:tex> has a finite subcover.</fr:p>
@@ -30,7 +28,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>461</fr:anchor>
+            <fr:anchor>402</fr:anchor>
             <fr:addr type="user">FA-000L</fr:addr>
             <fr:route>FA-000L.xml</fr:route>
             <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
@@ -40,9 +38,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let K be a <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link> <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>. A subset of <fr:tex display="inline"><![CDATA[C(K)]]></fr:tex> is <fr:link type="local" href="FA-000I.xml" addr="FA-000I" title="Precompact">precompact</fr:link> if and only if it is <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link>, and <fr:link type="local" href="FA-000K.xml" addr="FA-000K" title="Equicontinuous">equicontinuous</fr:link>.</fr:p>
@@ -53,7 +49,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>463</fr:anchor>
+            <fr:anchor>403</fr:anchor>
             <fr:addr type="user">FA-000I</fr:addr>
             <fr:route>FA-000I.xml</fr:route>
             <fr:title text="Precompact">Precompact</fr:title>
@@ -63,9 +59,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be precompact (or relatively compact) if its closure is <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link>.</fr:p>
@@ -85,7 +79,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>465</fr:anchor>
+            <fr:anchor>404</fr:anchor>
             <fr:addr type="user">FA-000N</fr:addr>
             <fr:route>FA-000N.xml</fr:route>
             <fr:title text="Complete">Complete</fr:title>
@@ -95,9 +89,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be complete if every <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> converges to a point in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
@@ -108,7 +100,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>467</fr:anchor>
+            <fr:anchor>405</fr:anchor>
             <fr:addr type="user">FA-000P</fr:addr>
             <fr:route>FA-000P.xml</fr:route>
             <fr:title text="Heine-Borel Theorem">Heine-Borel Theorem</fr:title>
@@ -118,9 +110,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex> is <fr:link type="local" href="FA-000M.xml" addr="FA-000M" title="Sequentially compact">sequentially compact</fr:link> <fr:em>if and only if</fr:em> it is closed and <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link></fr:p>
@@ -129,7 +119,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>469</fr:anchor>
+            <fr:anchor>406</fr:anchor>
             <fr:addr type="user">FA-000M</fr:addr>
             <fr:route>FA-000M.xml</fr:route>
             <fr:title text="Sequentially compact">Sequentially compact</fr:title>
@@ -139,9 +129,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a topological space is sequentially compact if every sequence in <fr:tex display="inline"><![CDATA[S]]></fr:tex> has a convergent subsequence whose limit is in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
@@ -152,7 +140,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>471</fr:anchor>
+            <fr:anchor>407</fr:anchor>
             <fr:addr type="user">FA-000O</fr:addr>
             <fr:route>FA-000O.xml</fr:route>
             <fr:title text="Totally bounded">Totally bounded</fr:title>
@@ -162,9 +150,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be totally bounded if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists a finite cover of <fr:tex display="inline"><![CDATA[S]]></fr:tex> by balls of radius <fr:tex display="inline"><![CDATA[ε]]></fr:tex>.</fr:p>

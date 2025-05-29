@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>277</fr:anchor>
+    <fr:anchor>300</fr:anchor>
     <fr:addr type="user">FA-000L</fr:addr>
     <fr:route>FA-000L.xml</fr:route>
     <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>Let K be a <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link> <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>. A subset of <fr:tex display="inline"><![CDATA[C(K)]]></fr:tex> is <fr:link type="local" href="FA-000I.xml" addr="FA-000I" title="Precompact">precompact</fr:link> if and only if it is <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link>, and <fr:link type="local" href="FA-000K.xml" addr="FA-000K" title="Equicontinuous">equicontinuous</fr:link>.</fr:p>
@@ -30,7 +28,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>279</fr:anchor>
+            <fr:anchor>301</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
@@ -39,9 +37,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
@@ -86,7 +82,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>281</fr:anchor>
+            <fr:anchor>302</fr:anchor>
             <fr:addr type="user">FA-000J</fr:addr>
             <fr:route>FA-000J.xml</fr:route>
             <fr:title text="Bounded">Bounded</fr:title>
@@ -96,9 +92,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be bounded if there exists some number <fr:tex display="inline"><![CDATA[r]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x,y) \leq  r]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x,y \in  S]]></fr:tex>.</fr:p>
@@ -108,7 +102,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>283</fr:anchor>
+            <fr:anchor>303</fr:anchor>
             <fr:addr type="user">FA-000H</fr:addr>
             <fr:route>FA-000H.xml</fr:route>
             <fr:title text="Compact">Compact</fr:title>
@@ -118,9 +112,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset <fr:tex display="inline"><![CDATA[K]]></fr:tex> of a topological space is said to be compact if every open cover of <fr:tex display="inline"><![CDATA[K]]></fr:tex> has a finite subcover.</fr:p>
@@ -131,7 +123,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>285</fr:anchor>
+            <fr:anchor>304</fr:anchor>
             <fr:addr type="user">FA-000K</fr:addr>
             <fr:route>FA-000K.xml</fr:route>
             <fr:title text="Equicontinuous">Equicontinuous</fr:title>
@@ -141,9 +133,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A family of functions <fr:tex display="inline"><![CDATA[F]]></fr:tex> from a metric space <fr:tex display="inline"><![CDATA[(X,d_X)]]></fr:tex> to a metric space <fr:tex display="inline"><![CDATA[(Y,d_Y)]]></fr:tex> is said to be equicontinuous at a point <fr:tex display="inline"><![CDATA[x_0 \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists a <fr:tex display="inline"><![CDATA[δ > 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d_Y(f(x), f(x_0)) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[f \in  F]]></fr:tex> and all <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> with <fr:tex display="inline"><![CDATA[d_X(x, x_0) < δ]]></fr:tex>.</fr:p>
@@ -154,7 +144,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>287</fr:anchor>
+            <fr:anchor>305</fr:anchor>
             <fr:addr type="user">FA-000G</fr:addr>
             <fr:route>FA-000G.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
@@ -164,9 +154,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
@@ -180,7 +168,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>289</fr:anchor>
+            <fr:anchor>306</fr:anchor>
             <fr:addr type="user">FA-000I</fr:addr>
             <fr:route>FA-000I.xml</fr:route>
             <fr:title text="Precompact">Precompact</fr:title>
@@ -190,9 +178,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to be precompact (or relatively compact) if its closure is <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link>.</fr:p>

@@ -1,7 +1,7 @@
 \title{Self-Adjoint}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A [bounded linear operator](FA-002G) #{A} on a [Hilbert space](FA-002J) is self-adjoint if #{A = A^*}, where #{A^*} is the [adjoint operator](FA-003K) of #{A}.}
 

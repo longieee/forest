@@ -1,7 +1,7 @@
 \title{Linear Functional}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A linear functional on a vector space #{V} over a field #{F} is a linear map #{f: V \rightarrow F} from the vector space to its underlying field.}
 

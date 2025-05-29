@@ -1,7 +1,7 @@
 \title{Space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{In functional analysis, a "space" typically refers to a vector space equipped with additional structure, such as a topology, norm, or inner product. These structures provide a framework for studying functions as vectors and for analyzing limiting operations.}
 

@@ -1,7 +1,7 @@
 \title{Arzelà-Ascoli Theorem}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{Let K be a [compact](FA-000H) [metric space](FA-000G). A subset of #{C(K)} is [precompact](FA-000I) if and only if it is [bounded](FA-000J), and [equicontinuous](FA-000K).}
 

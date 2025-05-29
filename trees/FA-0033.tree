@@ -1,7 +1,7 @@
 \title{Orthogonal Projection}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{Let #{M} be a closed subspace of a [Hilbert space](FA-002J) #{H}. The orthogonal projection onto #{M}, denoted #{P_M}, is a [linear operator](FA-002H) that maps each point #{x \in H} to the unique point #{P_M x \in M} such that:}
 

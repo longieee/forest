@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>585</fr:anchor>
+    <fr:anchor>465</fr:anchor>
     <fr:addr type="user">FA-0002</fr:addr>
     <fr:route>FA-0002.xml</fr:route>
     <fr:title text="Dense">Dense</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A subset <fr:tex display="inline"><![CDATA[A]]></fr:tex> of a topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is said to be dense in <fr:tex display="inline"><![CDATA[X]]></fr:tex> if the closure of <fr:tex display="inline"><![CDATA[A]]></fr:tex> equals <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
@@ -29,7 +27,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>587</fr:anchor>
+            <fr:anchor>466</fr:anchor>
             <fr:addr type="user">FA-0001</fr:addr>
             <fr:route>FA-0001.xml</fr:route>
             <fr:title text="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:title>
@@ -39,9 +37,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The set of polynomials on <fr:tex display="inline"><![CDATA[[a, b]]]></fr:tex> is <fr:link type="local" href="FA-0002.xml" addr="FA-0002" title="Dense">dense</fr:link> in <fr:tex display="inline"><![CDATA[C([a, b])]]></fr:tex></fr:p>

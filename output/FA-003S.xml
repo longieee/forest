@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1656</fr:anchor>
+    <fr:anchor>1010</fr:anchor>
     <fr:addr type="user">FA-003S</fr:addr>
     <fr:route>FA-003S.xml</fr:route>
     <fr:title text="A.e.">A.e.</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>We use the expression "a.e." as an abbreviation for <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>, referring to a property that holds everywhere except on a set of zero <fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue measure</fr:link>.</fr:p>
@@ -28,7 +26,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1658</fr:anchor>
+            <fr:anchor>1011</fr:anchor>
             <fr:addr type="user">FA-003Q</fr:addr>
             <fr:route>FA-003Q.xml</fr:route>
             <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
@@ -38,9 +36,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In measure theory, a property is said to hold "almost everywhere" (often abbreviated as <fr:link type="local" href="FA-003S.xml" addr="FA-003S" title="A.e.">a.e.</fr:link>) if the set of points where the property fails has <fr:link type="external" href="FA-0137">measure</fr:link> zero.</fr:p>
@@ -60,7 +56,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1660</fr:anchor>
+            <fr:anchor>1012</fr:anchor>
             <fr:addr type="user">FA-003Q</fr:addr>
             <fr:route>FA-003Q.xml</fr:route>
             <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
@@ -70,9 +66,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In measure theory, a property is said to hold "almost everywhere" (often abbreviated as <fr:link type="local" href="FA-003S.xml" addr="FA-003S" title="A.e.">a.e.</fr:link>) if the set of points where the property fails has <fr:link type="external" href="FA-0137">measure</fr:link> zero.</fr:p>
@@ -83,7 +77,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1662</fr:anchor>
+            <fr:anchor>1013</fr:anchor>
             <fr:addr type="user">FA-003V</fr:addr>
             <fr:route>FA-003V.xml</fr:route>
             <fr:title text="Lebesgue Measure">Lebesgue Measure</fr:title>
@@ -93,9 +87,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>When we say something is "<fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable</fr:link>", we often mean <fr:strong>Lebesgue measurable</fr:strong>.</fr:p>

@@ -1,7 +1,7 @@
 \title{Direct sum}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The direct sum of two vector subspaces #{U} and #{V} of a vector space #{W}, denoted #{U \oplus V}, is the set of all vectors that can be uniquely expressed as the sum of a vector from #{U} and a vector from #{V}.}
 

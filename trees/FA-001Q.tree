@@ -1,7 +1,7 @@
 \title{Dual space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The dual space of a vector space #{V}, denoted #{V^*}, is the vector space of all [linear functionals](FA-001P) on #{V} (i.e., linear maps from #{V} to the underlying field).}
 

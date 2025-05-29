@@ -1,7 +1,7 @@
 \title{Lebesgue's Dominated Convergence Theorem}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{Let #{f_k : \mathbb{R}^d \to [-\infty, +\infty]} be a sequence of measurable functions. Suppose that}
 

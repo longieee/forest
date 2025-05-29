@@ -1,7 +1,7 @@
 \title{Banach Space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A Banach space is a [complete](FA-000N) [normed vector space](FA-0017). That is, a Banach space is a vector space #{V} with a [norm](FA-0018) #{||\cdot||} such that every [Cauchy sequence](FA-000X) in #{V} (with respect to the metric #{d(u, v) = ||u - v||}) converges to a vector in #{V}.}
 

@@ -1,0 +1,7 @@
+\date{2025-05-29}
+\taxon{Lemma}
+\title{Symmetry of Brownian Motion}
+
+\p{
+  Let #{ (B_{t} )_{t\geq 0} } be a [Brownian Motion](SP-0001), then #{ (-B_{t} )_{t\geq 0}} is also a Brownian Motion.
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>265</fr:anchor>
+    <fr:addr type="user">SP-0009</fr:addr>
+    <fr:route>SP-0009.xml</fr:route>
+    <fr:title text="Stochastic Integration">Stochastic Integration</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter />
+</fr:tree>

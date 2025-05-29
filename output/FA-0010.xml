@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1379</fr:anchor>
+    <fr:anchor>869</fr:anchor>
     <fr:addr type="user">FA-0010</fr:addr>
     <fr:route>FA-0010.xml</fr:route>
     <fr:title text="Pointwise Convergence">Pointwise Convergence</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge pointwise to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for each <fr:tex display="inline"><![CDATA[x \in  D]]></fr:tex>, the sequence of numbers <fr:tex display="inline"><![CDATA[\{f_n(x)\}]]></fr:tex> converges to <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex>.</fr:p>
@@ -32,7 +30,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1381</fr:anchor>
+            <fr:anchor>870</fr:anchor>
             <fr:addr type="user">FA-000Z</fr:addr>
             <fr:route>FA-000Z.xml</fr:route>
             <fr:title text="Convergence in norm">Convergence in norm</fr:title>
@@ -42,9 +40,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In a normed vector space <fr:tex display="inline"><![CDATA[(X, ||\cdot ||)]]></fr:tex>, a sequence <fr:tex display="inline"><![CDATA[\{x_n\}]]></fr:tex> is said to converge in norm to an element <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if:</fr:p>
@@ -62,7 +58,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1383</fr:anchor>
+            <fr:anchor>871</fr:anchor>
             <fr:addr type="user">FA-000Q</fr:addr>
             <fr:route>FA-000Q.xml</fr:route>
             <fr:title text="Convergent">Convergent</fr:title>
@@ -72,9 +68,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> in a metric space <fr:tex display="inline"><![CDATA[(X,d)]]></fr:tex> is said to converge to a point <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_n, x) < ε]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n \geq  N]]></fr:tex>.</fr:p>
@@ -85,7 +79,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1385</fr:anchor>
+            <fr:anchor>872</fr:anchor>
             <fr:addr type="user">FA-001S</fr:addr>
             <fr:route>FA-001S.xml</fr:route>
             <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
@@ -95,9 +89,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge uniformly to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N(ε)]]></fr:tex> (independent of <fr:tex display="inline"><![CDATA[x]]></fr:tex>) such that:</fr:p>
@@ -113,7 +105,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1387</fr:anchor>
+            <fr:anchor>873</fr:anchor>
             <fr:addr type="user">FA-000D</fr:addr>
             <fr:route>FA-000D.xml</fr:route>
             <fr:title text="Why Functional Analysis?">Why Functional Analysis?</fr:title>
@@ -123,9 +115,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Why Functional Analysis?</fr:p>
@@ -149,7 +139,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1389</fr:anchor>
+            <fr:anchor>874</fr:anchor>
             <fr:addr type="user">FA-001S</fr:addr>
             <fr:route>FA-001S.xml</fr:route>
             <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
@@ -159,9 +149,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge uniformly to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N(ε)]]></fr:tex> (independent of <fr:tex display="inline"><![CDATA[x]]></fr:tex>) such that:</fr:p>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>873</fr:anchor>
+    <fr:anchor>610</fr:anchor>
     <fr:addr type="user">FA-002M</fr:addr>
     <fr:route>FA-002M.xml</fr:route>
     <fr:title text="Inner Product">Inner Product</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>An inner product on a <fr:link type="external" href="FA-0099">vector space</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[K]]></fr:tex> (either <fr:tex display="inline"><![CDATA[\ \mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\ \mathbb {C}]]></fr:tex>) is a function <fr:tex display="inline"><![CDATA[\ \langle  \cdot , \cdot  \rangle : X \times  X \rightarrow  K]]></fr:tex> satisfying the following properties for all <fr:tex display="inline"><![CDATA[x, y, z \in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\ \alpha , \beta  \in  K]]></fr:tex>:</fr:p>
@@ -33,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>875</fr:anchor>
+            <fr:anchor>611</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -43,9 +41,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
@@ -59,7 +55,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>877</fr:anchor>
+            <fr:anchor>612</fr:anchor>
             <fr:addr type="user">FA-002M</fr:addr>
             <fr:route>FA-002M.xml</fr:route>
             <fr:title text="Inner Product">Inner Product</fr:title>
@@ -69,9 +65,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An inner product on a <fr:link type="external" href="FA-0099">vector space</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[K]]></fr:tex> (either <fr:tex display="inline"><![CDATA[\ \mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\ \mathbb {C}]]></fr:tex>) is a function <fr:tex display="inline"><![CDATA[\ \langle  \cdot , \cdot  \rangle : X \times  X \rightarrow  K]]></fr:tex> satisfying the following properties for all <fr:tex display="inline"><![CDATA[x, y, z \in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\ \alpha , \beta  \in  K]]></fr:tex>:</fr:p>
@@ -94,7 +88,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>879</fr:anchor>
+            <fr:anchor>613</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -104,9 +98,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
@@ -120,7 +112,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>881</fr:anchor>
+            <fr:anchor>614</fr:anchor>
             <fr:addr type="user">FA-002M</fr:addr>
             <fr:route>FA-002M.xml</fr:route>
             <fr:title text="Inner Product">Inner Product</fr:title>
@@ -130,9 +122,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An inner product on a <fr:link type="external" href="FA-0099">vector space</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[K]]></fr:tex> (either <fr:tex display="inline"><![CDATA[\ \mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\ \mathbb {C}]]></fr:tex>) is a function <fr:tex display="inline"><![CDATA[\ \langle  \cdot , \cdot  \rangle : X \times  X \rightarrow  K]]></fr:tex> satisfying the following properties for all <fr:tex display="inline"><![CDATA[x, y, z \in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\ \alpha , \beta  \in  K]]></fr:tex>:</fr:p>
@@ -146,7 +136,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>883</fr:anchor>
+            <fr:anchor>615</fr:anchor>
             <fr:addr type="user">FA-002S</fr:addr>
             <fr:route>FA-002S.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
@@ -156,9 +146,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Important concepts:</fr:p>

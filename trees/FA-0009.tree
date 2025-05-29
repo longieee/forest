@@ -1,7 +1,7 @@
 \title{Distance Measure}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A distance measure, or metric, is a function that defines a measure of distance between elements of a set. In a [metric space](FA-000G), a distance function #{d} satisfies the following properties for all points #{x}, #{y}, and #{z} in the space:}
 

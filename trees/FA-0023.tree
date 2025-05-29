@@ -1,7 +1,7 @@
 \title{Countable}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A set #{S} is countable if its elements can be arranged in a sequence (i.e., if there exists a bijection between #{S} and the set of natural numbers #{\mathbb{N}}, or a subset of #{\mathbb{N}}).}
 

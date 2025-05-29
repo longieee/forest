@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>265</fr:anchor>
+    <fr:anchor>283</fr:anchor>
     <fr:addr type="user">FA-003Q</fr:addr>
     <fr:route>FA-003Q.xml</fr:route>
     <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>In measure theory, a property is said to hold "almost everywhere" (often abbreviated as <fr:link type="local" href="FA-003S.xml" addr="FA-003S" title="A.e.">a.e.</fr:link>) if the set of points where the property fails has <fr:link type="external" href="FA-0137">measure</fr:link> zero.</fr:p>
@@ -30,7 +28,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>267</fr:anchor>
+            <fr:anchor>284</fr:anchor>
             <fr:addr type="user">FA-003E</fr:addr>
             <fr:route>FA-003E.xml</fr:route>
             <fr:title text="Essential Supremum">Essential Supremum</fr:title>
@@ -40,9 +38,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The essential supremum of <fr:tex display="inline"><![CDATA[|f|]]></fr:tex> is the <fr:em>minimum</fr:em> <fr:link type="local" href="FA-003P.xml" addr="FA-003P" title="Essential Upper Bound">essential upper bound</fr:link> for <fr:tex display="inline"><![CDATA[|f|]]></fr:tex>, 
@@ -52,7 +48,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>269</fr:anchor>
+            <fr:anchor>285</fr:anchor>
             <fr:addr type="user">FA-003P</fr:addr>
             <fr:route>FA-003P.xml</fr:route>
             <fr:title text="Essential Upper Bound">Essential Upper Bound</fr:title>
@@ -62,9 +58,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An upper bound that holds <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>.</fr:p>
@@ -74,7 +68,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>271</fr:anchor>
+            <fr:anchor>286</fr:anchor>
             <fr:addr type="user">FA-003S</fr:addr>
             <fr:route>FA-003S.xml</fr:route>
             <fr:title text="A.e.">A.e.</fr:title>
@@ -84,9 +78,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>We use the expression "a.e." as an abbreviation for <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>, referring to a property that holds everywhere except on a set of zero <fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue measure</fr:link>.</fr:p>
@@ -104,7 +96,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>273</fr:anchor>
+            <fr:anchor>287</fr:anchor>
             <fr:addr type="user">FA-003C</fr:addr>
             <fr:route>FA-003C.xml</fr:route>
             <fr:title text="Measurable Set">Measurable Set</fr:title>
@@ -114,9 +106,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A <fr:em>bounded</fr:em> subset <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^n]]></fr:tex> is said to be <fr:strong>Lebesgue <fr:link type="external" href="FA-0142">measurable</fr:link></fr:strong> if:</fr:p>
@@ -138,7 +128,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>275</fr:anchor>
+            <fr:anchor>288</fr:anchor>
             <fr:addr type="user">FA-003S</fr:addr>
             <fr:route>FA-003S.xml</fr:route>
             <fr:title text="A.e.">A.e.</fr:title>
@@ -148,9 +138,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>We use the expression "a.e." as an abbreviation for <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>, referring to a property that holds everywhere except on a set of zero <fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue measure</fr:link>.</fr:p>

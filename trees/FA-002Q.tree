@@ -1,7 +1,7 @@
 \title{Completeness}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A [metric space](FA-002P) is complete if every [Cauchy sequence](FA-002L) in the space converges to a point within the space.}
 

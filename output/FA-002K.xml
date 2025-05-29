@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1207</fr:anchor>
+    <fr:anchor>783</fr:anchor>
     <fr:addr type="user">FA-002K</fr:addr>
     <fr:route>FA-002K.xml</fr:route>
     <fr:title text="Normed Space">Normed Space</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A normed space is a <fr:link type="external" href="FA-0099">vector space</fr:link> equipped with a <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link>.</fr:p>
@@ -33,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1209</fr:anchor>
+            <fr:anchor>784</fr:anchor>
             <fr:addr type="user">FA-002I</fr:addr>
             <fr:route>FA-002I.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
@@ -43,9 +41,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Banach space is a complete <fr:link type="local" href="FA-002K.xml" addr="FA-002K" title="Normed Space">normed space</fr:link>.</fr:p>
@@ -55,7 +51,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1211</fr:anchor>
+            <fr:anchor>785</fr:anchor>
             <fr:addr type="user">FA-002P</fr:addr>
             <fr:route>FA-002P.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
@@ -65,9 +61,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[X]]></fr:tex> equipped with a <fr:link type="external" href="FA-0116">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d: X \times  X \rightarrow  \mathbb {R}]]></fr:tex> that satisfies the following properties for all <fr:tex display="inline"><![CDATA[x, y, z \in  X]]></fr:tex>:</fr:p>
@@ -82,7 +76,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1213</fr:anchor>
+            <fr:anchor>786</fr:anchor>
             <fr:addr type="user">FA-003F</fr:addr>
             <fr:route>FA-003F.xml</fr:route>
             <fr:title text="Operator Norm">Operator Norm</fr:title>
@@ -92,9 +86,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The operator norm is a type of <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link> defined for <fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">bounded linear operators</fr:link>.</fr:p>
@@ -121,7 +113,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1215</fr:anchor>
+            <fr:anchor>787</fr:anchor>
             <fr:addr type="user">FA-002S</fr:addr>
             <fr:route>FA-002S.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
@@ -131,9 +123,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Important concepts:</fr:p>

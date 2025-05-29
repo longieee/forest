@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>714</fr:anchor>
+    <fr:anchor>530</fr:anchor>
     <fr:addr type="user">FA-001T</fr:addr>
     <fr:route>FA-001T.xml</fr:route>
     <fr:title text="Hahn-Banach theorem">Hahn-Banach theorem</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The Hahn-Banach theorem is a fundamental result in functional analysis that guarantees the existence of continuous linear functionals on normed spaces with specific properties. It comes in several equivalent forms:</fr:p>
@@ -35,7 +33,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>716</fr:anchor>
+            <fr:anchor>531</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
@@ -45,9 +43,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
@@ -74,7 +70,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>718</fr:anchor>
+            <fr:anchor>532</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
@@ -84,9 +80,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>

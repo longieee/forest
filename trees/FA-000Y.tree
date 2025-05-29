@@ -1,7 +1,7 @@
 \title{Weak Convergence}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{In a Hilbert or Banach space, weak convergence is a generalization of the concept of convergence that is weaker than [convergence in norm](FA-000Z).}
 

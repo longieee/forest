@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1399</fr:anchor>
+    <fr:anchor>879</fr:anchor>
     <fr:addr type="user">FA-002O</fr:addr>
     <fr:route>FA-002O.xml</fr:route>
     <fr:title text="Projection Theorem">Projection Theorem</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a closed subspace of a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>. Then for any <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex>, there exists a unique element <fr:tex display="inline"><![CDATA[m \in  M]]></fr:tex> such that:</fr:p>
@@ -35,7 +33,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1401</fr:anchor>
+            <fr:anchor>880</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
@@ -44,9 +42,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
@@ -82,7 +78,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1403</fr:anchor>
+            <fr:anchor>881</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -92,9 +88,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
@@ -117,7 +111,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1405</fr:anchor>
+            <fr:anchor>882</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -127,9 +121,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
@@ -143,7 +135,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1407</fr:anchor>
+            <fr:anchor>883</fr:anchor>
             <fr:addr type="user">FA-002H</fr:addr>
             <fr:route>FA-002H.xml</fr:route>
             <fr:title text="Linear Operator">Linear Operator</fr:title>
@@ -153,9 +145,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A linear operator is a mapping between vector spaces that preserves the operations of addition and scalar multiplication.</fr:p>
@@ -167,7 +157,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1409</fr:anchor>
+            <fr:anchor>884</fr:anchor>
             <fr:addr type="user">FA-0033</fr:addr>
             <fr:route>FA-0033.xml</fr:route>
             <fr:title text="Orthogonal Projection">Orthogonal Projection</fr:title>
@@ -177,9 +167,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a closed subspace of a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>. The orthogonal projection onto <fr:tex display="inline"><![CDATA[M]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[P_M]]></fr:tex>, is a <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">linear operator</fr:link> that maps each point <fr:tex display="inline"><![CDATA[x \in  H]]></fr:tex> to the unique point <fr:tex display="inline"><![CDATA[P_M x \in  M]]></fr:tex> such that:</fr:p>
@@ -198,7 +186,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1411</fr:anchor>
+            <fr:anchor>885</fr:anchor>
             <fr:addr type="user">FA-0034</fr:addr>
             <fr:route>FA-0034.xml</fr:route>
             <fr:title text="Projection">Projection</fr:title>
@@ -208,9 +196,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">linear operator</fr:link> P such that <fr:tex display="inline"><![CDATA[P^2 = P]]></fr:tex>. A projection P leads to a <fr:link type="external" href="FA-0113">direct sum</fr:link> <fr:link type="external" href="FA-0114">decomposition</fr:link> of the space <fr:tex display="inline"><![CDATA[Im(P) \bigoplus  Ker(P)]]></fr:tex>.</fr:p>

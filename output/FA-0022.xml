@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>349</fr:anchor>
+    <fr:anchor>336</fr:anchor>
     <fr:addr type="user">FA-0022</fr:addr>
     <fr:route>FA-0022.xml</fr:route>
     <fr:title text="Basis">Basis</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>In the context of functional analysis and Hilbert spaces, there are several different notions of a basis:</fr:p>
@@ -34,7 +32,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>351</fr:anchor>
+            <fr:anchor>337</fr:anchor>
             <fr:addr type="user">FA-0027</fr:addr>
             <fr:route>FA-0027.xml</fr:route>
             <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
@@ -44,9 +42,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A complete (in the sense of <fr:link type="local" href="FA-0020.xml" addr="FA-0020" title="Completeness of orthonormal set">Completeness of orthonormal set</fr:link>) <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset (<fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link>) of H is also called an <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H</fr:p>
@@ -71,7 +67,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>353</fr:anchor>
+            <fr:anchor>338</fr:anchor>
             <fr:addr type="user">FA-0014</fr:addr>
             <fr:route>FA-0014.xml</fr:route>
             <fr:title text="Closed linear span">Closed linear span</fr:title>
@@ -81,9 +77,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The closed linear span of a subset <fr:tex display="inline"><![CDATA[S]]></fr:tex> of a normed vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is the closure of the linear span of <fr:tex display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
@@ -102,7 +96,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>355</fr:anchor>
+            <fr:anchor>339</fr:anchor>
             <fr:addr type="user">FA-0020</fr:addr>
             <fr:route>FA-0020.xml</fr:route>
             <fr:title text="Completeness of orthonormal set">Completeness of orthonormal set</fr:title>
@@ -112,9 +106,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal set</fr:link> <fr:tex display="inline"><![CDATA[U = \{x_n : n ∈ N\}]]></fr:tex> of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> H is <fr:em>complete (note that this is <fr:strong>not</fr:strong> in the sense of a complete metric <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link>)</fr:em>  if it satisfies <fr:em>any</fr:em> of the equivalent conditions (a)-(e) in <fr:strong>Theorem</fr:strong>:</fr:p>
@@ -135,7 +127,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>357</fr:anchor>
+            <fr:anchor>340</fr:anchor>
             <fr:addr type="user">FA-000U</fr:addr>
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -145,9 +137,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
@@ -158,7 +148,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>359</fr:anchor>
+            <fr:anchor>341</fr:anchor>
             <fr:addr type="user">FA-0005</fr:addr>
             <fr:route>FA-0005.xml</fr:route>
             <fr:title text="Infinite Dimensions">Infinite Dimensions</fr:title>
@@ -168,9 +158,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A vector space is said to be infinite-dimensional if it cannot be spanned by a finite number of vectors. In other words, there is no finite basis for the space.</fr:p>
@@ -180,7 +168,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>361</fr:anchor>
+            <fr:anchor>342</fr:anchor>
             <fr:addr type="user">FA-0021</fr:addr>
             <fr:route>FA-0021.xml</fr:route>
             <fr:title text="Orthonormal">Orthonormal</fr:title>
@@ -190,9 +178,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A set of vectors <fr:tex display="inline"><![CDATA[\{e_i\}]]></fr:tex> in an <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link> is said to be orthonormal if:</fr:p>
@@ -209,7 +195,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>363</fr:anchor>
+            <fr:anchor>343</fr:anchor>
             <fr:addr type="user">FA-0027</fr:addr>
             <fr:route>FA-0027.xml</fr:route>
             <fr:title text="Orthonormal Basis">Orthonormal Basis</fr:title>
@@ -219,9 +205,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A complete (in the sense of <fr:link type="local" href="FA-0020.xml" addr="FA-0020" title="Completeness of orthonormal set">Completeness of orthonormal set</fr:link>) <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> subset (<fr:link type="local" href="FA-000T.xml" addr="FA-000T" title="Orthonormal sequence">orthonormal sequence</fr:link>) of H is also called an <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal</fr:link> <fr:link type="local" href="FA-0022.xml" addr="FA-0022" title="Basis">basis</fr:link> of H</fr:p>
@@ -237,7 +221,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>365</fr:anchor>
+            <fr:anchor>344</fr:anchor>
             <fr:addr type="user">FA-001A</fr:addr>
             <fr:route>FA-001A.xml</fr:route>
             <fr:title text="Parseval's identity">Parseval's identity</fr:title>
@@ -247,9 +231,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Suppose that <fr:tex display="inline"><![CDATA[U = \{u_n : n \in  \mathbb {N}\}]]></fr:tex> is an <fr:link type="local" href="FA-0019.xml" addr="FA-0019" title="Orthonormal Basis">orthonormal basis</fr:link> of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex></fr:p>

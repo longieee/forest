@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>321</fr:anchor>
+    <fr:anchor>322</fr:anchor>
     <fr:addr type="user">FA-002I</fr:addr>
     <fr:route>FA-002I.xml</fr:route>
     <fr:title text="Banach Space">Banach Space</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A Banach space is a complete <fr:link type="local" href="FA-002K.xml" addr="FA-002K" title="Normed Space">normed space</fr:link>.</fr:p>
@@ -39,9 +37,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Is a <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">Linear Operator</fr:link></fr:p>
@@ -53,7 +49,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>325</fr:anchor>
+            <fr:anchor>324</fr:anchor>
             <fr:addr type="user">FA-002Q</fr:addr>
             <fr:route>FA-002Q.xml</fr:route>
             <fr:title text="Completeness">Completeness</fr:title>
@@ -63,9 +59,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A <fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">metric space</fr:link> is complete if every <fr:link type="local" href="FA-002L.xml" addr="FA-002L" title="Cauchy sequence">Cauchy sequence</fr:link> in the space converges to a point within the space.</fr:p>
@@ -84,7 +78,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>327</fr:anchor>
+            <fr:anchor>325</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
@@ -93,9 +87,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
@@ -131,7 +123,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>329</fr:anchor>
+            <fr:anchor>326</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -141,9 +133,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>
@@ -157,7 +147,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>331</fr:anchor>
+            <fr:anchor>327</fr:anchor>
             <fr:addr type="user">FA-003F</fr:addr>
             <fr:route>FA-003F.xml</fr:route>
             <fr:title text="Operator Norm">Operator Norm</fr:title>
@@ -167,9 +157,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The operator norm is a type of <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link> defined for <fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">bounded linear operators</fr:link>.</fr:p>
@@ -187,7 +175,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>333</fr:anchor>
+            <fr:anchor>328</fr:anchor>
             <fr:addr type="user">FA-003G</fr:addr>
             <fr:route>FA-003G.xml</fr:route>
             <fr:title text="Sup Norm">Sup Norm</fr:title>
@@ -197,9 +185,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The supremum norm (or sup norm) is a <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link> defined for bounded functions. For a bounded function <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {C}]]></fr:tex>, the sup norm is defined as:</fr:p>
@@ -223,7 +209,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>335</fr:anchor>
+            <fr:anchor>329</fr:anchor>
             <fr:addr type="user">FA-002L</fr:addr>
             <fr:route>FA-002L.xml</fr:route>
             <fr:title text="Cauchy sequence">Cauchy sequence</fr:title>
@@ -233,9 +219,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In a <fr:link type="local" href="FA-002P.xml" addr="FA-002P" title="Metric Space">metric space</fr:link> <fr:tex display="inline"><![CDATA[(X, d)]]></fr:tex>, a sequence <fr:tex display="inline"><![CDATA[(x_n)]]></fr:tex> is a Cauchy sequence if for every <fr:tex display="inline"><![CDATA[\ \epsilon  > 0]]></fr:tex>, there exists <fr:tex display="inline"><![CDATA[N \in  \mathbb {N}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d(x_n, x_m) < \epsilon ]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n, m \geq  N]]></fr:tex>.</fr:p>
@@ -249,7 +233,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>337</fr:anchor>
+            <fr:anchor>330</fr:anchor>
             <fr:addr type="user">FA-002K</fr:addr>
             <fr:route>FA-002K.xml</fr:route>
             <fr:title text="Normed Space">Normed Space</fr:title>
@@ -259,9 +243,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A normed space is a <fr:link type="external" href="FA-0099">vector space</fr:link> equipped with a <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link>.</fr:p>

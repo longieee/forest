@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>250</fr:anchor>
+    <fr:addr type="user">SP-000D</fr:addr>
+    <fr:route>SP-000D.xml</fr:route>
+    <fr:title text="Transition density">Transition density</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The transition density <fr:tex display="inline"><![CDATA[ p_{t}  ]]></fr:tex> is given by
+  <fr:tex display="block"><![CDATA[     p_{t} (x) = \frac {1}{\sqrt { 2\pi  t }} e^{ - \frac {x^{2} }{2t} }   ]]></fr:tex></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>251</fr:anchor>
+            <fr:addr type="user">SP-000C</fr:addr>
+            <fr:route>SP-000C.xml</fr:route>
+            <fr:title text="Transition density of Brownian Vector">Transition density of Brownian Vector</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Let <fr:tex display="inline"><![CDATA[ (B_{t} )_{t\geq  0} ]]></fr:tex> be a <fr:link type="local" href="SP-0001.xml" addr="SP-0001" title="Brownian motion">Brownian Motion</fr:link>, then the density of <fr:tex display="inline"><![CDATA[ \left ( B_{t_1}, B_{t_2} \dots  B_{t_n}   \right )  ]]></fr:tex> is given by
+  <fr:tex display="block"><![CDATA[     f_{B_{t_1} \dots   B_{t_n} } (x_1, \dots  x_n) =      p_{t_1} (x_1)      p_{t_2 - t_1} (x_2 - x_1) \dots       p_{t_n - t_{n-1}} (x_n - x_{n-1})   ]]></fr:tex>
+
+  whre <fr:tex display="inline"><![CDATA[ p_{t}  ]]></fr:tex> is the <fr:link type="local" href="SP-000D.xml" addr="SP-000D" title="Transition density">transition density</fr:link></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

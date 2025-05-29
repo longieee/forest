@@ -1,7 +1,7 @@
 \title{Taylor polynomial}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A Taylor polynomial of a function #{f} is a polynomial that approximates the function around a specific point. For a function #{f} that is #{n} times differentiable at a point #{a}, the Taylor polynomial of degree #{n} is:}
 

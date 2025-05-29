@@ -1,7 +1,7 @@
 \title{Convergence in norm}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{In a normed vector space #{(X, ||\cdot||)}, a sequence #{\{x_n\}} is said to converge in norm to an element #{x \in X} if:}
 

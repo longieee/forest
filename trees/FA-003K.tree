@@ -1,7 +1,7 @@
 \title{Adjoint Operator}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{For a [bounded linear operator](FA-002G) A on a [Hilbert space](FA-002J) H, the adjoint operator #{A^*} satisfies #{\ \langle Ax,y\rangle = \langle x, A^*y\rangle} for all x, y in H.}
 

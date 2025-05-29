@@ -1,7 +1,7 @@
 \title{Normed vector space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A normed vector space is a vector space #{V} equipped with a [norm](FA-0018) #{||\cdot||: V \rightarrow \mathbb{R}}, which is a function that assigns a non-negative real number to each vector in the space, satisfying the following properties for all vectors #{u, v \in V} and scalars #{a}:}
 

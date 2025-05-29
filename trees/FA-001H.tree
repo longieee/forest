@@ -1,7 +1,7 @@
 \title{Orthonormal set}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{An orthonormal set in a [Hilbert space](FA-000U) #{H} is a set of vectors #{\{e_i\}} that satisfies the following conditions:}
 

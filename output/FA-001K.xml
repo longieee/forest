@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>909</fr:anchor>
+    <fr:anchor>628</fr:anchor>
     <fr:addr type="user">FA-001K</fr:addr>
     <fr:route>FA-001K.xml</fr:route>
     <fr:title text="Lebesgue outer measure">Lebesgue outer measure</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The Lebesgue outer measure is a function that assigns an extended real number to any subset of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, serving as a precursor to the <fr:link type="local" href="FA-001J.xml" addr="FA-001J" title="Lebesgue measure">Lebesgue measure</fr:link>, which is defined only on <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable sets</fr:link>.</fr:p>
@@ -39,7 +37,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>911</fr:anchor>
+            <fr:anchor>629</fr:anchor>
             <fr:addr type="user">FA-001J</fr:addr>
             <fr:route>FA-001J.xml</fr:route>
             <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
@@ -49,9 +47,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Lebesgue measure is the standard way of assigning a measure to subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, generalizing the intuitive notions of length, area, and volume to more complex sets. It is named after Henri Lebesgue.</fr:p>
@@ -67,7 +63,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>913</fr:anchor>
+            <fr:anchor>630</fr:anchor>
             <fr:addr type="user">FA-001B</fr:addr>
             <fr:route>FA-001B.xml</fr:route>
             <fr:title text="Measurable set">Measurable set</fr:title>
@@ -77,9 +73,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A set <fr:tex display="inline"><![CDATA[E]]></fr:tex> in a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be measurable if it belongs to the σ-algebra <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>.</fr:p>
@@ -99,7 +93,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>915</fr:anchor>
+            <fr:anchor>631</fr:anchor>
             <fr:addr type="user">FA-001J</fr:addr>
             <fr:route>FA-001J.xml</fr:route>
             <fr:title text="Lebesgue measure">Lebesgue measure</fr:title>
@@ -109,9 +103,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Lebesgue measure is the standard way of assigning a measure to subsets of <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, generalizing the intuitive notions of length, area, and volume to more complex sets. It is named after Henri Lebesgue.</fr:p>
@@ -127,7 +119,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>917</fr:anchor>
+            <fr:anchor>632</fr:anchor>
             <fr:addr type="user">FA-001B</fr:addr>
             <fr:route>FA-001B.xml</fr:route>
             <fr:title text="Measurable set">Measurable set</fr:title>
@@ -137,9 +129,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A set <fr:tex display="inline"><![CDATA[E]]></fr:tex> in a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be measurable if it belongs to the σ-algebra <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>.</fr:p>

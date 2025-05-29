@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1429</fr:anchor>
+    <fr:anchor>894</fr:anchor>
     <fr:addr type="user">FA-001U</fr:addr>
     <fr:route>FA-001U.xml</fr:route>
     <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The Riesz representation theorem has several forms, but the most common version for Hilbert spaces states:</fr:p>
@@ -36,7 +34,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1431</fr:anchor>
+            <fr:anchor>895</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
@@ -46,9 +44,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
@@ -75,7 +71,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1433</fr:anchor>
+            <fr:anchor>896</fr:anchor>
             <fr:addr type="user">FA-001Q</fr:addr>
             <fr:route>FA-001Q.xml</fr:route>
             <fr:title text="Dual space">Dual space</fr:title>
@@ -85,9 +81,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
@@ -105,7 +99,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1435</fr:anchor>
+            <fr:anchor>897</fr:anchor>
             <fr:addr type="user">FA-000U</fr:addr>
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -115,9 +109,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
@@ -128,7 +120,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1437</fr:anchor>
+            <fr:anchor>898</fr:anchor>
             <fr:addr type="user">FA-001P</fr:addr>
             <fr:route>FA-001P.xml</fr:route>
             <fr:title text="Linear Functional">Linear Functional</fr:title>
@@ -138,9 +130,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A linear functional on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a linear map <fr:tex display="inline"><![CDATA[f: V \rightarrow  F]]></fr:tex> from the vector space to its underlying field.</fr:p>

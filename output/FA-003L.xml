@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1473</fr:anchor>
+    <fr:anchor>916</fr:anchor>
     <fr:addr type="user">FA-003L</fr:addr>
     <fr:route>FA-003L.xml</fr:route>
     <fr:title text="Self-Adjoint">Self-Adjoint</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A <fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">bounded linear operator</fr:link> <fr:tex display="inline"><![CDATA[A]]></fr:tex> on a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> is self-adjoint if <fr:tex display="inline"><![CDATA[A = A^*]]></fr:tex>, where <fr:tex display="inline"><![CDATA[A^*]]></fr:tex> is the <fr:link type="local" href="FA-003K.xml" addr="FA-003K" title="Adjoint Operator">adjoint operator</fr:link> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</fr:p>
@@ -37,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1475</fr:anchor>
+            <fr:anchor>917</fr:anchor>
             <fr:addr type="user">FA-003K</fr:addr>
             <fr:route>FA-003K.xml</fr:route>
             <fr:title text="Adjoint Operator">Adjoint Operator</fr:title>
@@ -47,9 +45,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>For a <fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">bounded linear operator</fr:link> A on a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> H, the adjoint operator <fr:tex display="inline"><![CDATA[A^*]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[\ \langle  Ax,y\rangle  = \langle  x, A^*y\rangle ]]></fr:tex> for all x, y in H.</fr:p>
@@ -68,7 +64,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1477</fr:anchor>
+            <fr:anchor>918</fr:anchor>
             <fr:addr type="user">FA-003K</fr:addr>
             <fr:route>FA-003K.xml</fr:route>
             <fr:title text="Adjoint Operator">Adjoint Operator</fr:title>
@@ -78,9 +74,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>For a <fr:link type="local" href="FA-002G.xml" addr="FA-002G" title="Bounded Linear Operator">bounded linear operator</fr:link> A on a <fr:link type="local" href="FA-002J.xml" addr="FA-002J" title="Hilbert Space">Hilbert space</fr:link> H, the adjoint operator <fr:tex display="inline"><![CDATA[A^*]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[\ \langle  Ax,y\rangle  = \langle  x, A^*y\rangle ]]></fr:tex> for all x, y in H.</fr:p>
@@ -90,7 +84,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1479</fr:anchor>
+            <fr:anchor>919</fr:anchor>
             <fr:addr type="user">FA-002G</fr:addr>
             <fr:route>FA-002G.xml</fr:route>
             <fr:title text="Bounded Linear Operator">Bounded Linear Operator</fr:title>
@@ -100,9 +94,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Is a <fr:link type="local" href="FA-002H.xml" addr="FA-002H" title="Linear Operator">Linear Operator</fr:link></fr:p>
@@ -114,7 +106,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1481</fr:anchor>
+            <fr:anchor>920</fr:anchor>
             <fr:addr type="user">FA-002J</fr:addr>
             <fr:route>FA-002J.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -124,9 +116,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space is a complete <fr:link type="local" href="FA-002M.xml" addr="FA-002M" title="Inner Product">inner product space</fr:link>.</fr:p>

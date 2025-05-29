@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>247</fr:anchor>
+    <fr:addr type="user">SP-000C</fr:addr>
+    <fr:route>SP-000C.xml</fr:route>
+    <fr:title text="Transition density of Brownian Vector">Transition density of Brownian Vector</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[ (B_{t} )_{t\geq  0} ]]></fr:tex> be a <fr:link type="local" href="SP-0001.xml" addr="SP-0001" title="Brownian motion">Brownian Motion</fr:link>, then the density of <fr:tex display="inline"><![CDATA[ \left ( B_{t_1}, B_{t_2} \dots  B_{t_n}   \right )  ]]></fr:tex> is given by
+  <fr:tex display="block"><![CDATA[     f_{B_{t_1} \dots   B_{t_n} } (x_1, \dots  x_n) =      p_{t_1} (x_1)      p_{t_2 - t_1} (x_2 - x_1) \dots       p_{t_n - t_{n-1}} (x_n - x_{n-1})   ]]></fr:tex>
+
+  whre <fr:tex display="inline"><![CDATA[ p_{t}  ]]></fr:tex> is the <fr:link type="local" href="SP-000D.xml" addr="SP-000D" title="Transition density">transition density</fr:link></fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>248</fr:anchor>
+            <fr:addr type="user">SP-000D</fr:addr>
+            <fr:route>SP-000D.xml</fr:route>
+            <fr:title text="Transition density">Transition density</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The transition density <fr:tex display="inline"><![CDATA[ p_{t}  ]]></fr:tex> is given by
+  <fr:tex display="block"><![CDATA[     p_{t} (x) = \frac {1}{\sqrt { 2\pi  t }} e^{ - \frac {x^{2} }{2t} }   ]]></fr:tex></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>249</fr:anchor>
+            <fr:addr type="user">SP-0001</fr:addr>
+            <fr:route>SP-0001.xml</fr:route>
+            <fr:title text="Brownian motion">Brownian motion</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A Standard Brownian Motion (often denoted as <fr:tex display="inline"><![CDATA[B_t]]></fr:tex> or <fr:tex display="inline"><![CDATA[W_t]]></fr:tex>) is a <fr:link type="local" href="SP-0004.xml" addr="SP-0004" title="Stochastic Process">stochastic process</fr:link> satisfying the following four properties:</fr:p>
+            <fr:ol><fr:li><fr:strong>Starting Point</fr:strong>: <fr:tex display="inline"><![CDATA[B_0 = 0]]></fr:tex> (<fr:link type="local" href="SP-0002.xml" addr="SP-0002" title="Almost surely">almost surely</fr:link>). This means the process starts at the origin.</fr:li>
+
+  <fr:li><fr:strong>Independent Increments</fr:strong>: For any non-overlapping time intervals, the increments of the process are independent. That is, for any <fr:tex display="inline"><![CDATA[0 \leq  s_1 \leq  t_1 \leq  s_2 \leq  t_2]]></fr:tex>, the increment <fr:tex display="inline"><![CDATA[B_{t_1} - B_{s1}]]></fr:tex> is independent of <fr:tex display="inline"><![CDATA[B_{t_2} - B_{s2}]]></fr:tex>. More generally, all increments are independent</fr:li>
+
+  <fr:li><fr:strong>Stationary and Normally Distributed Increments</fr:strong> For all <fr:tex display="inline"><![CDATA[ 0\leq  s \leq  t ]]></fr:tex>, we have that 
+    <fr:tex display="block"><![CDATA[       B_t - B_s \sim  \mathcal {N} (0, t-s)     ]]></fr:tex></fr:li>
+
+  <fr:li><fr:strong>Continuity of Paths</fr:strong>: The sample paths (or realizations) of the Brownian motion are continuous functions of time. This means there are <fr:em>no sudden jumps</fr:em> in the particle's position.</fr:li></fr:ol>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

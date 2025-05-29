@@ -1,7 +1,7 @@
 \title{Summable}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A function #{f: X \to \mathbb{R}} (or #{\mathbb{C}}) defined on a measure space #{(X, \mathcal{A}, \mu)} is said to be summable if it is [measurable](FA-001L) and its [Lebesgue integral](FA-001N) is finite:}
 

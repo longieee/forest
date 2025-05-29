@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>252</fr:anchor>
+    <fr:addr type="user">AN-0002</fr:addr>
+    <fr:route>AN-0002.xml</fr:route>
+    <fr:title text="-Algebra"><fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>In mathematical analysis and in probability theory, a <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra is part of the formalism for defining sets that can be measured (<fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable sets</fr:link>)</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be some set, and let  <fr:tex display="inline"><![CDATA[P(X)]]></fr:tex> represent its power set, the set of all subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex></fr:p>
+    <fr:p>Then a subset <fr:tex display="inline"><![CDATA[\Sigma  \subseteq  P(X)]]></fr:tex> is called a <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra if and only if it satisfies the following three properties:</fr:p>
+    <fr:ol><fr:li><fr:tex display="inline"><![CDATA[X]]></fr:tex> is in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is closed under complementation</fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is closed under countable union</fr:li></fr:ol>
+    <fr:p>From these properties, it follows that the <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra is also closed under countable intersections (by applying De Morgan's laws).</fr:p>
+    <fr:p>It also follows that the empty set is also in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, because from <fr:strong>(1)</fr:strong>, <fr:tex display="inline"><![CDATA[X]]></fr:tex> is in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> and from <fr:strong>(2)</fr:strong>, the complement of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the empty set, is also in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>.</fr:p>
+    <fr:p>Notice that the set <fr:tex display="inline"><![CDATA[\left \{ X, \emptyset  \right \}]]></fr:tex> satisfies all 3 of the properties, making it the smallest possible <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>253</fr:anchor>
+            <fr:addr type="user">FA-003C</fr:addr>
+            <fr:route>FA-003C.xml</fr:route>
+            <fr:title text="Measurable Set">Measurable Set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A <fr:em>bounded</fr:em> subset <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^n]]></fr:tex> is said to be <fr:strong>Lebesgue <fr:link type="external" href="FA-0142">measurable</fr:link></fr:strong> if:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m^*(E) = m_*(E)}]]></fr:tex>
+            </fr:p>
+            <fr:p>where <fr:tex display="inline"><![CDATA[m^*(E)]]></fr:tex> is the <fr:link type="local" href="FA-003W.xml" addr="FA-003W" title="Lebesgue Outer Measure">Lebesgue outer measure</fr:link> and <fr:tex display="inline"><![CDATA[m_*(E)]]></fr:tex> is the <fr:link type="local" href="FA-003X.xml" addr="FA-003X" title="Lebesgue Inner Measure">Lebesgue inner measure</fr:link>.</fr:p>
+            <fr:p>If <fr:tex display="inline"><![CDATA[E]]></fr:tex> is <fr:em>unbounded</fr:em> we say that E is <fr:strong>Lebesgue <fr:link type="external" href="FA-0142">measurable</fr:link></fr:strong> if <fr:tex display="inline"><![CDATA[E \cap  B_R(0)]]></fr:tex> is <fr:strong>Lebesgue <fr:link type="external" href="FA-0142">measurable</fr:link></fr:strong> for all <fr:tex display="inline"><![CDATA[R \geq  0]]></fr:tex> and set:</fr:p>
+            <fr:p>
+              <fr:tex display="inline"><![CDATA[{m(E) = \lim _{R \to  +\infty  }{m(E \cap  B_R(0))}}]]></fr:tex>
+            </fr:p>
+            <fr:p><fr:tex display="inline"><![CDATA[m(E)]]></fr:tex> may be <fr:em>infinite</fr:em>!</fr:p>
+            <fr:p>These concepts satisfy <fr:link type="external" href="FA-0143">Boolean closure</fr:link>:</fr:p>
+            <fr:ul><fr:li>The empty set is <fr:link type="external" href="FA-0142">measurable</fr:link> with <fr:tex display="inline"><![CDATA[m(\emptyset ) = 0]]></fr:tex></fr:li>
+  <fr:li><fr:tex display="inline"><![CDATA[\ \mathbb {R}^n]]></fr:tex> is <fr:link type="external" href="FA-0142">measurable</fr:link> with <fr:tex display="inline"><![CDATA[m(\mathbb {R}^n) = +\infty ]]></fr:tex></fr:li></fr:ul>
+            <fr:p><fr:strong>Fact</fr:strong>: The <fr:link type="local" href="FA-003V.xml" addr="FA-003V" title="Lebesgue Measure">Lebesgue measure</fr:link> is <fr:link type="external" href="FA-0144">translation invariant</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

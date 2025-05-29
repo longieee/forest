@@ -1,7 +1,7 @@
 \title{Kronecker delta}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The Kronecker delta, denoted #{\delta_{ij}}, is a function of two variables, usually integers, that is 1 if the variables are equal and 0 otherwise. Formally:}
 

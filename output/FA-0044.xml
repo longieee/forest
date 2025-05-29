@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1425</fr:anchor>
+    <fr:anchor>892</fr:anchor>
     <fr:addr type="user">FA-0044</fr:addr>
     <fr:route>FA-0044.xml</fr:route>
     <fr:title text="Rectangle">Rectangle</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p><fr:tex display="inline"><![CDATA[R \in  \mathbb {R}^n]]></fr:tex> is a <fr:strong>rectangle</fr:strong> if <fr:tex display="inline"><![CDATA[R]]></fr:tex> is the Cartesian product of <fr:tex display="inline"><![CDATA[n]]></fr:tex> intervals of the closed, open, or half-open form.</fr:p>
@@ -29,7 +27,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1427</fr:anchor>
+            <fr:anchor>893</fr:anchor>
             <fr:addr type="user">FA-0041</fr:addr>
             <fr:route>FA-0041.xml</fr:route>
             <fr:title text="Elementary Set">Elementary Set</fr:title>
@@ -39,9 +37,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An elementary set is a finite union of <fr:link type="local" href="FA-0044.xml" addr="FA-0044" title="Rectangle">rectangles</fr:link>.</fr:p>

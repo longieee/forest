@@ -1,7 +1,7 @@
 \title{Completeness of orthonormal set}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{An [orthonormal set](FA-0021) #{U = \{x_n : n ∈ N\}} of a [Hilbert space](FA-000U) H is \em{complete (note that this is \strong{not} in the sense of a complete metric [space](FA-001C))}  if it satisfies \em{any} of the equivalent conditions (a)-(e) in \strong{Theorem}:}
 

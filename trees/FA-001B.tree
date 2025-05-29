@@ -1,7 +1,7 @@
 \title{Measurable set}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A set #{E} in a measure space #{(X, \mathcal{A}, \mu)} is said to be measurable if it belongs to the σ-algebra #{\mathcal{A}}.}
 

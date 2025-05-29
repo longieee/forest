@@ -1,0 +1,22 @@
+\date{2025-05-27}
+\title{Essential Singularity}
+\taxon{Definition}
+
+\p{Consider the example #{g(z) = e^{\frac{1}{z}}}, which clearly has a singularity at the origin. If we write #{z = re^{i\theta}} then} 
+
+##{
+  |g(z)| = e^{\frac{\cos\theta}{\theta}}
+}
+
+\p{
+  \ul{
+    \li{If #{z} approaches from the imaginary axis, then #{|g(z)| = 1}}
+    \li{If #{z} approaches from the left-half of the complex plane, then #{|g(z)| = 0}}
+    \li{If #{z} approaches from the left-half of the complex plane, then #{|g(z)| = +\infty}}
+  }
+}
+
+\p{
+  In fact, in the third case, not only #{|g(z)|} tends to #{\infty}, but the \em{rate} of "blowing up" is faster than \em{any polynomial}
+  (Formally: #{g} grows faster than any [meromorphic](CA-0002) function)
+}

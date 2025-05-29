@@ -1,0 +1,10 @@
+\date{2025-05-29}
+\taxon{Lemma}
+\title{Property of Brownian Motion}
+
+\p{
+  Let #{ (B_{t} )_{t\geq 0} } be a [Brownian Motion](SP-0001), then
+  ##{
+    \mathbb{E} \left[ B_{t}  \right] =0 \quad \text{and} \quad \mathbb{E} \left( B_{s} B_{t}  \right) = \text{Cov}\left( B_{s} , B_{t}    \right) = \min \left\{ s,t \right\} 
+  } 
+}

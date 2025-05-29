@@ -1,0 +1,19 @@
+\date{2025-05-26}
+\title{Brownian motion}
+\taxon{Definition}
+
+\p{A Standard Brownian Motion (often denoted as #{B_t} or #{W_t}) is a [stochastic process](SP-0004) satisfying the following four properties:}
+
+\ol{
+  \li{ \strong{Starting Point}: #{B_0 = 0} ([almost surely](SP-0002)). This means the process starts at the origin.}
+
+  \li{ \strong{Independent Increments}: For any non-overlapping time intervals, the increments of the process are independent. That is, for any #{0 \leq s_1 \leq t_1 \leq s_2 \leq t_2}, the increment #{B_{t_1} - B_{s1}} is independent of #{B_{t_2} - B_{s2}}. More generally, all increments are independent }
+
+  \li{ \strong{Stationary and Normally Distributed Increments} For all #{ 0\leq s \leq t }, we have that 
+    ##{
+      B_t - B_s \sim \mathcal{N} (0, t-s)
+    }
+  }
+
+  \li{ \strong{Continuity of Paths}: The sample paths (or realizations) of the Brownian motion are continuous functions of time. This means there are \em{no sudden jumps} in the particle's position. }
+}

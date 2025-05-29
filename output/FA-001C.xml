@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1523</fr:anchor>
+    <fr:anchor>941</fr:anchor>
     <fr:addr type="user">FA-001C</fr:addr>
     <fr:route>FA-001C.xml</fr:route>
     <fr:title text="Space">Space</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>In functional analysis, a "space" typically refers to a vector space equipped with additional structure, such as a topology, norm, or inner product. These structures provide a framework for studying functions as vectors and for analyzing limiting operations.</fr:p>
@@ -42,7 +40,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1525</fr:anchor>
+            <fr:anchor>942</fr:anchor>
             <fr:addr type="user">FA-0020</fr:addr>
             <fr:route>FA-0020.xml</fr:route>
             <fr:title text="Completeness of orthonormal set">Completeness of orthonormal set</fr:title>
@@ -52,9 +50,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An <fr:link type="local" href="FA-0021.xml" addr="FA-0021" title="Orthonormal">orthonormal set</fr:link> <fr:tex display="inline"><![CDATA[U = \{x_n : n ∈ N\}]]></fr:tex> of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> H is <fr:em>complete (note that this is <fr:strong>not</fr:strong> in the sense of a complete metric <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link>)</fr:em>  if it satisfies <fr:em>any</fr:em> of the equivalent conditions (a)-(e) in <fr:strong>Theorem</fr:strong>:</fr:p>
@@ -75,7 +71,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1527</fr:anchor>
+            <fr:anchor>943</fr:anchor>
             <fr:addr type="user">FA-002D</fr:addr>
             <fr:route>FA-002D.xml</fr:route>
             <fr:title text="Lp space">Lp space</fr:title>
@@ -85,9 +81,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. We call <fr:tex display="inline"><![CDATA[\mathcal {L}^p(E)]]></fr:tex> the set of <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable</fr:link> functions <fr:tex display="inline"><![CDATA[f: E \to  \mathbb {R}]]></fr:tex> such that</fr:p>
@@ -103,7 +97,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1529</fr:anchor>
+            <fr:anchor>944</fr:anchor>
             <fr:addr type="user">FA-001G</fr:addr>
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
@@ -113,9 +107,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. Then the <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach space</fr:link>.</fr:p>
@@ -137,7 +129,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1531</fr:anchor>
+            <fr:anchor>945</fr:anchor>
             <fr:addr type="user">FA-000F</fr:addr>
             <fr:route>FA-000F.xml</fr:route>
             <fr:title text="Banach Space">Banach Space</fr:title>
@@ -147,9 +139,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Banach space is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0017.xml" addr="FA-0017" title="Normed vector space">normed vector space</fr:link>. That is, a Banach space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||]]></fr:tex> such that every <fr:link type="local" href="FA-000X.xml" addr="FA-000X" title="Cauchy sequence">Cauchy sequence</fr:link> in <fr:tex display="inline"><![CDATA[V]]></fr:tex> (with respect to the metric <fr:tex display="inline"><![CDATA[d(u, v) = ||u - v||]]></fr:tex>) converges to a vector in <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
@@ -160,7 +150,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1533</fr:anchor>
+            <fr:anchor>946</fr:anchor>
             <fr:addr type="user">FA-000U</fr:addr>
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -170,9 +160,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
@@ -183,7 +171,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1535</fr:anchor>
+            <fr:anchor>947</fr:anchor>
             <fr:addr type="user">FA-0012</fr:addr>
             <fr:route>FA-0012.xml</fr:route>
             <fr:title text="Inner product space">Inner product space</fr:title>
@@ -193,9 +181,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An inner product space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over the field of real or complex numbers, equipped with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[\langle  \cdot ,\cdot \rangle  : V \times  V \rightarrow  \mathbb {F}]]></fr:tex>.</fr:p>
@@ -214,7 +200,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1537</fr:anchor>
+            <fr:anchor>948</fr:anchor>
             <fr:addr type="user">FA-000G</fr:addr>
             <fr:route>FA-000G.xml</fr:route>
             <fr:title text="Metric Space">Metric Space</fr:title>
@@ -224,9 +210,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
@@ -240,7 +224,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1539</fr:anchor>
+            <fr:anchor>949</fr:anchor>
             <fr:addr type="user">FA-0017</fr:addr>
             <fr:route>FA-0017.xml</fr:route>
             <fr:title text="Normed vector space">Normed vector space</fr:title>
@@ -250,9 +234,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A normed vector space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> equipped with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||: V \rightarrow  \mathbb {R}]]></fr:tex>, which is a function that assigns a non-negative real number to each vector in the space, satisfying the following properties for all vectors <fr:tex display="inline"><![CDATA[u, v \in  V]]></fr:tex> and scalars <fr:tex display="inline"><![CDATA[a]]></fr:tex>:</fr:p>

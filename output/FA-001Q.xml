@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>605</fr:anchor>
+    <fr:anchor>475</fr:anchor>
     <fr:addr type="user">FA-001Q</fr:addr>
     <fr:route>FA-001Q.xml</fr:route>
     <fr:title text="Dual space">Dual space</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The dual space of a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, is the vector space of all <fr:link type="local" href="FA-001P.xml" addr="FA-001P" title="Linear Functional">linear functionals</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> (i.e., linear maps from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the underlying field).</fr:p>
@@ -37,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>607</fr:anchor>
+            <fr:anchor>476</fr:anchor>
             <fr:addr type="user">FA-001R</fr:addr>
             <fr:route>FA-001R.xml</fr:route>
             <fr:title text="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:title>
@@ -47,9 +45,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Banach-Alaoglu theorem states that the closed unit ball in the <fr:link type="local" href="FA-001Q.xml" addr="FA-001Q" title="Dual space">dual space</fr:link> <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> of a normed vector space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact in the weak* topology.</fr:p>
@@ -65,7 +61,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>609</fr:anchor>
+            <fr:anchor>477</fr:anchor>
             <fr:addr type="user">FA-001W</fr:addr>
             <fr:route>FA-001W.xml</fr:route>
             <fr:title text="Conjugate exponents">Conjugate exponents</fr:title>
@@ -75,9 +71,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In the context of <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> spaces and related inequalities, two exponents <fr:tex display="inline"><![CDATA[p, q \in  [1, \infty ]]]></fr:tex> are said to be conjugate (or Hölder conjugates) if they satisfy:</fr:p>
@@ -98,7 +92,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>611</fr:anchor>
+            <fr:anchor>478</fr:anchor>
             <fr:addr type="user">FA-001T</fr:addr>
             <fr:route>FA-001T.xml</fr:route>
             <fr:title text="Hahn-Banach theorem">Hahn-Banach theorem</fr:title>
@@ -108,9 +102,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Hahn-Banach theorem is a fundamental result in functional analysis that guarantees the existence of continuous linear functionals on normed spaces with specific properties. It comes in several equivalent forms:</fr:p>
@@ -126,7 +118,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>613</fr:anchor>
+            <fr:anchor>479</fr:anchor>
             <fr:addr type="user">FA-001P</fr:addr>
             <fr:route>FA-001P.xml</fr:route>
             <fr:title text="Linear Functional">Linear Functional</fr:title>
@@ -136,9 +128,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A linear functional on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a linear map <fr:tex display="inline"><![CDATA[f: V \rightarrow  F]]></fr:tex> from the vector space to its underlying field.</fr:p>
@@ -155,7 +145,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>615</fr:anchor>
+            <fr:anchor>480</fr:anchor>
             <fr:addr type="user">FA-001U</fr:addr>
             <fr:route>FA-001U.xml</fr:route>
             <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
@@ -165,9 +155,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Riesz representation theorem has several forms, but the most common version for Hilbert spaces states:</fr:p>
@@ -184,7 +172,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>617</fr:anchor>
+            <fr:anchor>481</fr:anchor>
             <fr:addr type="user">FA-0028</fr:addr>
             <fr:route>FA-0028.xml</fr:route>
             <fr:title text="Schauder basis">Schauder basis</fr:title>
@@ -194,9 +182,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Schauder basis for a Banach space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a sequence of vectors <fr:tex display="inline"><![CDATA[\{e_n\}_{n=1}^{\infty }]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that for every vector <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>, there exists a unique sequence of scalars <fr:tex display="inline"><![CDATA[\{a_n\}_{n=1}^{\infty }]]></fr:tex> such that:</fr:p>
@@ -216,7 +202,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>619</fr:anchor>
+            <fr:anchor>482</fr:anchor>
             <fr:addr type="user">FA-000Y</fr:addr>
             <fr:route>FA-000Y.xml</fr:route>
             <fr:title text="Weak Convergence">Weak Convergence</fr:title>
@@ -226,9 +212,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In a Hilbert or Banach space, weak convergence is a generalization of the concept of convergence that is weaker than <fr:link type="local" href="FA-000Z.xml" addr="FA-000Z" title="Convergence in norm">convergence in norm</fr:link>.</fr:p>
@@ -260,7 +244,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>621</fr:anchor>
+            <fr:anchor>483</fr:anchor>
             <fr:addr type="user">FA-001R</fr:addr>
             <fr:route>FA-001R.xml</fr:route>
             <fr:title text="Banach-Alaoglu theorem">Banach-Alaoglu theorem</fr:title>
@@ -270,9 +254,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Banach-Alaoglu theorem states that the closed unit ball in the <fr:link type="local" href="FA-001Q.xml" addr="FA-001Q" title="Dual space">dual space</fr:link> <fr:tex display="inline"><![CDATA[X^*]]></fr:tex> of a normed vector space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact in the weak* topology.</fr:p>
@@ -288,7 +270,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>623</fr:anchor>
+            <fr:anchor>484</fr:anchor>
             <fr:addr type="user">FA-001T</fr:addr>
             <fr:route>FA-001T.xml</fr:route>
             <fr:title text="Hahn-Banach theorem">Hahn-Banach theorem</fr:title>
@@ -298,9 +280,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Hahn-Banach theorem is a fundamental result in functional analysis that guarantees the existence of continuous linear functionals on normed spaces with specific properties. It comes in several equivalent forms:</fr:p>
@@ -316,7 +296,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>625</fr:anchor>
+            <fr:anchor>485</fr:anchor>
             <fr:addr type="user">FA-000U</fr:addr>
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -326,9 +306,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
@@ -339,7 +317,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>627</fr:anchor>
+            <fr:anchor>486</fr:anchor>
             <fr:addr type="user">FA-001P</fr:addr>
             <fr:route>FA-001P.xml</fr:route>
             <fr:title text="Linear Functional">Linear Functional</fr:title>
@@ -349,9 +327,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A linear functional on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> over a field <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a linear map <fr:tex display="inline"><![CDATA[f: V \rightarrow  F]]></fr:tex> from the vector space to its underlying field.</fr:p>
@@ -368,7 +344,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>629</fr:anchor>
+            <fr:anchor>487</fr:anchor>
             <fr:addr type="user">FA-001U</fr:addr>
             <fr:route>FA-001U.xml</fr:route>
             <fr:title text="Riesz representation theorem">Riesz representation theorem</fr:title>
@@ -378,9 +354,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Riesz representation theorem has several forms, but the most common version for Hilbert spaces states:</fr:p>

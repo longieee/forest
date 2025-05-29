@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1617</fr:anchor>
+    <fr:anchor>990</fr:anchor>
     <fr:addr type="user">FA-0001</fr:addr>
     <fr:route>FA-0001.xml</fr:route>
     <fr:title text="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The set of polynomials on <fr:tex display="inline"><![CDATA[[a, b]]]></fr:tex> is <fr:link type="local" href="FA-0002.xml" addr="FA-0002" title="Dense">dense</fr:link> in <fr:tex display="inline"><![CDATA[C([a, b])]]></fr:tex></fr:p>
@@ -30,7 +28,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1619</fr:anchor>
+            <fr:anchor>991</fr:anchor>
             <fr:addr type="user">FA-0004</fr:addr>
             <fr:route>FA-0004.xml</fr:route>
             <fr:title text="Bernstein polynomials">Bernstein polynomials</fr:title>
@@ -40,9 +38,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Used to prove the <fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link></fr:p>
@@ -53,7 +49,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1621</fr:anchor>
+            <fr:anchor>992</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Functional Analysis Zettelkasten">Functional Analysis Zettelkasten</fr:title>
@@ -62,9 +58,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.</fr:p>
@@ -109,7 +103,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1623</fr:anchor>
+            <fr:anchor>993</fr:anchor>
             <fr:addr type="user">FA-0004</fr:addr>
             <fr:route>FA-0004.xml</fr:route>
             <fr:title text="Bernstein polynomials">Bernstein polynomials</fr:title>
@@ -119,9 +113,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Used to prove the <fr:link type="local" href="FA-0001.xml" addr="FA-0001" title="Weierstrass approximation theorem">Weierstrass approximation theorem</fr:link></fr:p>
@@ -132,7 +124,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1625</fr:anchor>
+            <fr:anchor>994</fr:anchor>
             <fr:addr type="user">FA-0002</fr:addr>
             <fr:route>FA-0002.xml</fr:route>
             <fr:title text="Dense">Dense</fr:title>
@@ -142,9 +134,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A subset <fr:tex display="inline"><![CDATA[A]]></fr:tex> of a topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is said to be dense in <fr:tex display="inline"><![CDATA[X]]></fr:tex> if the closure of <fr:tex display="inline"><![CDATA[A]]></fr:tex> equals <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
@@ -154,7 +144,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1627</fr:anchor>
+            <fr:anchor>995</fr:anchor>
             <fr:addr type="user">FA-0003</fr:addr>
             <fr:route>FA-0003.xml</fr:route>
             <fr:title text="Taylor polynomial">Taylor polynomial</fr:title>
@@ -164,9 +154,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Taylor polynomial of a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a polynomial that approximates the function around a specific point. For a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> that is <fr:tex display="inline"><![CDATA[n]]></fr:tex> times differentiable at a point <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the Taylor polynomial of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex> is:</fr:p>

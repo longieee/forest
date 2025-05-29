@@ -1,7 +1,7 @@
 \title{Measurable function}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{Let #{(X, \mathcal{A})} and #{(Y, \mathcal{B})} be measurable spaces, where #{\mathcal{A}} and #{\mathcal{B}} are σ-algebras on #{X} and #{Y}, respectively. A function #{f: X \to Y} is said to be measurable if the preimage of every measurable set in #{Y} is a measurable set in #{X}.}
 

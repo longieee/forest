@@ -1,7 +1,7 @@
 \title{Hamel Basis}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 \p{A Hamel basis is a basis for a vector space over a field, where every element of the vector space can be expressed as a finite linear combination of elements from the basis.}
 \p{In other words, a Hamel basis is a set of vectors #{B} in a vector space #{V} such that every vector #{v \in V} can be uniquely expressed as:}
 

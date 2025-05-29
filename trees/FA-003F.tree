@@ -1,7 +1,7 @@
 \title{Operator Norm}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The operator norm is a type of [norm](FA-002S) defined for [bounded linear operators](FA-002G).}
 

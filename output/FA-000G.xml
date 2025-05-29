@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1118</fr:anchor>
+    <fr:anchor>738</fr:anchor>
     <fr:addr type="user">FA-000G</fr:addr>
     <fr:route>FA-000G.xml</fr:route>
     <fr:title text="Metric Space">Metric Space</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A metric space is a set <fr:tex display="inline"><![CDATA[M]]></fr:tex> together with a <fr:link type="local" href="FA-0009.xml" addr="FA-0009" title="Distance Measure">distance measure</fr:link> (or metric) <fr:tex display="inline"><![CDATA[d]]></fr:tex> that defines a concept of distance between any two members of the set.</fr:p>
@@ -33,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1120</fr:anchor>
+            <fr:anchor>739</fr:anchor>
             <fr:addr type="user">FA-000L</fr:addr>
             <fr:route>FA-000L.xml</fr:route>
             <fr:title text="Arzelà-Ascoli Theorem">Arzelà-Ascoli Theorem</fr:title>
@@ -43,9 +41,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let K be a <fr:link type="local" href="FA-000H.xml" addr="FA-000H" title="Compact">compact</fr:link> <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>. A subset of <fr:tex display="inline"><![CDATA[C(K)]]></fr:tex> is <fr:link type="local" href="FA-000I.xml" addr="FA-000I" title="Precompact">precompact</fr:link> if and only if it is <fr:link type="local" href="FA-000J.xml" addr="FA-000J" title="Bounded">bounded</fr:link>, and <fr:link type="local" href="FA-000K.xml" addr="FA-000K" title="Equicontinuous">equicontinuous</fr:link>.</fr:p>
@@ -56,7 +52,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1122</fr:anchor>
+            <fr:anchor>740</fr:anchor>
             <fr:addr type="user">FA-0009</fr:addr>
             <fr:route>FA-0009.xml</fr:route>
             <fr:title text="Distance Measure">Distance Measure</fr:title>
@@ -66,9 +62,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A distance measure, or metric, is a function that defines a measure of distance between elements of a set. In a <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>, a distance function <fr:tex display="inline"><![CDATA[d]]></fr:tex> satisfies the following properties for all points <fr:tex display="inline"><![CDATA[x]]></fr:tex>, <fr:tex display="inline"><![CDATA[y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z]]></fr:tex> in the space:</fr:p>
@@ -81,7 +75,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1124</fr:anchor>
+            <fr:anchor>741</fr:anchor>
             <fr:addr type="user">FA-0018</fr:addr>
             <fr:route>FA-0018.xml</fr:route>
             <fr:title text="Norm">Norm</fr:title>
@@ -91,9 +85,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A norm on a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is a function <fr:tex display="inline"><![CDATA[||\cdot ||: V \rightarrow  \mathbb {R}]]></fr:tex> that assigns a non-negative real number to each vector in the space, satisfying the following axioms for all vectors <fr:tex display="inline"><![CDATA[u, v \in  V]]></fr:tex> and scalars <fr:tex display="inline"><![CDATA[a]]></fr:tex>:</fr:p>
@@ -112,7 +104,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1126</fr:anchor>
+            <fr:anchor>742</fr:anchor>
             <fr:addr type="user">FA-0017</fr:addr>
             <fr:route>FA-0017.xml</fr:route>
             <fr:title text="Normed vector space">Normed vector space</fr:title>
@@ -122,9 +114,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A normed vector space is a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> equipped with a <fr:link type="local" href="FA-0018.xml" addr="FA-0018" title="Norm">norm</fr:link> <fr:tex display="inline"><![CDATA[||\cdot ||: V \rightarrow  \mathbb {R}]]></fr:tex>, which is a function that assigns a non-negative real number to each vector in the space, satisfying the following properties for all vectors <fr:tex display="inline"><![CDATA[u, v \in  V]]></fr:tex> and scalars <fr:tex display="inline"><![CDATA[a]]></fr:tex>:</fr:p>
@@ -142,7 +132,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1128</fr:anchor>
+            <fr:anchor>743</fr:anchor>
             <fr:addr type="user">FA-001C</fr:addr>
             <fr:route>FA-001C.xml</fr:route>
             <fr:title text="Space">Space</fr:title>
@@ -152,9 +142,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In functional analysis, a "space" typically refers to a vector space equipped with additional structure, such as a topology, norm, or inner product. These structures provide a framework for studying functions as vectors and for analyzing limiting operations.</fr:p>
@@ -186,7 +174,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1130</fr:anchor>
+            <fr:anchor>744</fr:anchor>
             <fr:addr type="user">FA-0009</fr:addr>
             <fr:route>FA-0009.xml</fr:route>
             <fr:title text="Distance Measure">Distance Measure</fr:title>
@@ -196,9 +184,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A distance measure, or metric, is a function that defines a measure of distance between elements of a set. In a <fr:link type="local" href="FA-000G.xml" addr="FA-000G" title="Metric Space">metric space</fr:link>, a distance function <fr:tex display="inline"><![CDATA[d]]></fr:tex> satisfies the following properties for all points <fr:tex display="inline"><![CDATA[x]]></fr:tex>, <fr:tex display="inline"><![CDATA[y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z]]></fr:tex> in the space:</fr:p>

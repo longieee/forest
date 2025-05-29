@@ -1,7 +1,7 @@
 \title{Inner Product}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{An inner product on a [vector space](FA-0099) #{X} over a field #{K} (either #{\ \mathbb{R}} or #{\ \mathbb{C}}) is a function #{\ \langle \cdot, \cdot \rangle: X \times X \rightarrow K} satisfying the following properties for all #{x, y, z \in X} and #{\ \alpha, \beta \in K}:}
 

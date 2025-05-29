@@ -1,7 +1,7 @@
 \title{Sup norm}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The sup norm (or supremum norm, or uniform norm, or #{L^\infty} norm) of a bounded function #{f: X \rightarrow \mathbb{R}} (or #{\mathbb{C}}) is defined as:}
 

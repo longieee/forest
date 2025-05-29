@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>665</fr:anchor>
+    <fr:anchor>505</fr:anchor>
     <fr:addr type="user">FA-003E</fr:addr>
     <fr:route>FA-003E.xml</fr:route>
     <fr:title text="Essential Supremum">Essential Supremum</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The essential supremum of <fr:tex display="inline"><![CDATA[|f|]]></fr:tex> is the <fr:em>minimum</fr:em> <fr:link type="local" href="FA-003P.xml" addr="FA-003P" title="Essential Upper Bound">essential upper bound</fr:link> for <fr:tex display="inline"><![CDATA[|f|]]></fr:tex>, 
@@ -29,7 +27,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>667</fr:anchor>
+            <fr:anchor>506</fr:anchor>
             <fr:addr type="user">FA-003B</fr:addr>
             <fr:route>FA-003B.xml</fr:route>
             <fr:title text="Lp norm">Lp norm</fr:title>
@@ -39,9 +37,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a positive integer, <fr:tex display="inline"><![CDATA[p < +\infty ]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[\ \Omega  \subset  \mathbb {R}^n]]></fr:tex> be a Lebesgue <fr:link type="local" href="FA-003C.xml" addr="FA-003C" title="Measurable Set">measurable set</fr:link>. For a <fr:link type="local" href="FA-003D.xml" addr="FA-003D" title="Measurable Function">measurable function</fr:link> <fr:tex display="inline"><![CDATA[f: \Omega  \to  \mathbb {R}]]></fr:tex> we define the <fr:tex display="inline"><![CDATA[L^p]]></fr:tex> norm of <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[\ \Omega ]]></fr:tex> as the (finite or infinite) number:</fr:p>
@@ -61,7 +57,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>669</fr:anchor>
+            <fr:anchor>507</fr:anchor>
             <fr:addr type="user">FA-003G</fr:addr>
             <fr:route>FA-003G.xml</fr:route>
             <fr:title text="Sup Norm">Sup Norm</fr:title>
@@ -71,9 +67,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The supremum norm (or sup norm) is a <fr:link type="local" href="FA-002S.xml" addr="FA-002S" title="Norm">norm</fr:link> defined for bounded functions. For a bounded function <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[f: X \rightarrow  \mathbb {C}]]></fr:tex>, the sup norm is defined as:</fr:p>
@@ -97,7 +91,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>671</fr:anchor>
+            <fr:anchor>508</fr:anchor>
             <fr:addr type="user">FA-003Q</fr:addr>
             <fr:route>FA-003Q.xml</fr:route>
             <fr:title text="Almost Everywhere">Almost Everywhere</fr:title>
@@ -107,9 +101,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>In measure theory, a property is said to hold "almost everywhere" (often abbreviated as <fr:link type="local" href="FA-003S.xml" addr="FA-003S" title="A.e.">a.e.</fr:link>) if the set of points where the property fails has <fr:link type="external" href="FA-0137">measure</fr:link> zero.</fr:p>
@@ -120,7 +112,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>673</fr:anchor>
+            <fr:anchor>509</fr:anchor>
             <fr:addr type="user">FA-003P</fr:addr>
             <fr:route>FA-003P.xml</fr:route>
             <fr:title text="Essential Upper Bound">Essential Upper Bound</fr:title>
@@ -130,9 +122,7 @@ namely the <fr:em>minimum</fr:em> <fr:tex display="inline"><![CDATA[\alpha ]]></
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An upper bound that holds <fr:link type="local" href="FA-003Q.xml" addr="FA-003Q" title="Almost Everywhere">almost everywhere</fr:link>.</fr:p>

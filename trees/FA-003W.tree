@@ -1,7 +1,7 @@
 \title{Lebesgue Outer Measure}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{#{{m^* (E) = \inf \left\{ m(A): A \supset E \right\}}}}
 

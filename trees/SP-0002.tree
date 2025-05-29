@@ -1,0 +1,25 @@
+\date{2025-05-26}
+\title{Almost surely}
+\taxon{Definition}
+
+
+\p{
+  "Almost surely" (often abbreviated a.s.) is a precise mathematical term in probability theory. It means that an event happens with probability 1.
+}
+
+\p{
+  Imagine you pick a random real number between 0 and 1. What's the probability that you pick exactly 0.5? It's 0. There are infinitely many numbers between 0 and 1, so the probability of picking any single specific number is zero. However, picking any number in that interval is certain (probability 1).
+}
+
+\p{"Almost surely" captures this distinction:}
+\ul{
+  \li{An event occurs almost surely if the set of outcomes where the event does not occur has probability zero.}
+  \li{It acknowledges that there might be some "exceptional" outcomes where the event doesn't happen, but these exceptions are so rare that their total probability is zero.}
+}
+
+\p{
+  In the context of [Brownian motion](SP-0001), when we say "#{B_0 = 0} almost surely", it means that 
+  while theoretically it's possible for a sample path to start at, say, 0.0000001 (because the process is continuous and random), 
+  the probability of that happening is zero. 
+  For all practical purposes and in almost every single realization of a Brownian motion path, it will start exactly at 0.
+}

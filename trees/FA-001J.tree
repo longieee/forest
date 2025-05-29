@@ -1,7 +1,7 @@
 \title{Lebesgue measure}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{Lebesgue measure is the standard way of assigning a measure to subsets of #{\mathbb{R}^n}, generalizing the intuitive notions of length, area, and volume to more complex sets. It is named after Henri Lebesgue.}
 

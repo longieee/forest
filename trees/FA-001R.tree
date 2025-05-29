@@ -1,7 +1,7 @@
 \title{Banach-Alaoglu theorem}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{The Banach-Alaoglu theorem states that the closed unit ball in the [dual space](FA-001Q) #{X^*} of a normed vector space #{X} is compact in the weak* topology.}
 

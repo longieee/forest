@@ -1,7 +1,7 @@
 \title{Orthonormal Basis}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A complete (in the sense of [Completeness of orthonormal set](FA-0101)) [orthonormal](FA-0102) subset ([orthonormal sequence](FA-0103)) of H is also called an [orthonormal](FA-0102) [basis](FA-0104) of H.}
 

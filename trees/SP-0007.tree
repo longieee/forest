@@ -1,0 +1,7 @@
+\date{2025-05-27}
+\taxon{Theorem}
+\title{Property of sample paths}
+
+\p{
+  the following limit holds in [#{L^2(\Omega)}](FA-002D)
+}

@@ -1,7 +1,7 @@
 \title{Rectangle}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{#{R \in \mathbb{R}^n} is a \strong{rectangle} if #{R} is the Cartesian product of #{n} intervals of the closed, open, or half-open form.}
 

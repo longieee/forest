@@ -1,0 +1,11 @@
+\date{2025-05-27}
+\title{Strong Markov property of Brownian Motion}
+\taxon{Theorem}
+
+\p{
+  Let #{ (B_{t} )_{t\geq 0} }  be a [Brownian Motion](SP-0001), and #{ T } is a [stopping time](SP-000E). Then, conditional on #{ T < +\infty }, #{ \left( B_{t+T} -B_{t}  \right)_{t\geq 0}  } is another Brownian motion, independent of #{ (B_{r})_{ r \leq T } }  
+}
+
+\p{
+  \strong{N.B.} For the special case of deterministic times #{ T=s }, we can prove this theorem using the definition
+}

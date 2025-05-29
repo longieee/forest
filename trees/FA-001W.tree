@@ -1,7 +1,7 @@
 \title{Conjugate exponents}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{In the context of #{L^p} spaces and related inequalities, two exponents #{p, q \in [1, \infty]} are said to be conjugate (or Hölder conjugates) if they satisfy:}
 

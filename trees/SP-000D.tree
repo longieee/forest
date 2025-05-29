@@ -1,0 +1,10 @@
+\date{2025-05-29}
+\taxon{Definition}
+\title{Transition density}
+
+\p{
+  The transition density #{ p_{t}  } is given by
+  ##{
+    p_{t} (x) = \frac{1}{\sqrt{ 2\pi t }} e^{ - \frac{x^{2} }{2t} }
+  }
+}

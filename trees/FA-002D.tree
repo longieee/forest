@@ -1,7 +1,7 @@
 \title{Lp space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{Let #{E \subset \mathbb{R}^d} be a [measurable set](FA-001B) and #{p \in [1, +\infty]}. We call #{\mathcal{L}^p(E)} the set of [measurable](FA-001B) functions #{f: E \to \mathbb{R}} such that}
 

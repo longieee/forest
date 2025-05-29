@@ -1,7 +1,7 @@
 \title{Lebesgue Inner Measure}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{#{{m_* (E) = \sup \left\{ m(K): K \subset E \right\}}}}
 

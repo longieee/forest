@@ -1,7 +1,7 @@
 \title{Norm}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A norm on a vector space #{V} is a function #{||\cdot||: V \rightarrow \mathbb{R}} that assigns a non-negative real number to each vector in the space, satisfying the following axioms for all vectors #{u, v \in V} and scalars #{a}:}
 

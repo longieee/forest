@@ -1,7 +1,7 @@
 \title{Subsequence}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A subsequence of a sequence #{(x_n)} is a new sequence #{(x_{n_k})} obtained by selecting some of the terms from the original sequence while preserving their order.}
 

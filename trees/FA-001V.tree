@@ -1,7 +1,7 @@
 \title{Weierstrass M-test}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{The Weierstrass M-test is a criterion for determining the [uniform convergence](FA-001S) of a series of functions. It states:}
 

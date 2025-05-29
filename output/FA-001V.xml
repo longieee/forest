@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1629</fr:anchor>
+    <fr:anchor>996</fr:anchor>
     <fr:addr type="user">FA-001V</fr:addr>
     <fr:route>FA-001V.xml</fr:route>
     <fr:title text="Weierstrass M-test">Weierstrass M-test</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The Weierstrass M-test is a criterion for determining the <fr:link type="local" href="FA-001S.xml" addr="FA-001S" title="Uniform Convergence">uniform convergence</fr:link> of a series of functions. It states:</fr:p>
@@ -36,7 +34,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1631</fr:anchor>
+            <fr:anchor>997</fr:anchor>
             <fr:addr type="user">FA-001S</fr:addr>
             <fr:route>FA-001S.xml</fr:route>
             <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
@@ -46,9 +44,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge uniformly to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N(ε)]]></fr:tex> (independent of <fr:tex display="inline"><![CDATA[x]]></fr:tex>) such that:</fr:p>
@@ -73,7 +69,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1633</fr:anchor>
+            <fr:anchor>998</fr:anchor>
             <fr:addr type="user">FA-001S</fr:addr>
             <fr:route>FA-001S.xml</fr:route>
             <fr:title text="Uniform Convergence">Uniform Convergence</fr:title>
@@ -83,9 +79,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A sequence of functions <fr:tex display="inline"><![CDATA[\{f_n\}]]></fr:tex> defined on a common domain <fr:tex display="inline"><![CDATA[D]]></fr:tex> is said to converge uniformly to a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on <fr:tex display="inline"><![CDATA[D]]></fr:tex> if for every <fr:tex display="inline"><![CDATA[ε > 0]]></fr:tex>, there exists an integer <fr:tex display="inline"><![CDATA[N(ε)]]></fr:tex> (independent of <fr:tex display="inline"><![CDATA[x]]></fr:tex>) such that:</fr:p>

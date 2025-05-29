@@ -1,7 +1,7 @@
 \title{Almost Everywhere}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{In measure theory, a property is said to hold "almost everywhere" (often abbreviated as [a.e.](FA-003S)) if the set of points where the property fails has [measure](FA-0137) zero.}
 

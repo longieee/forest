@@ -1,7 +1,7 @@
 \title{Weierstrass approximation theorem}
 \date{2025-05-26}
 \taxon{Theorem}
-\author{Long Nguyen}
+
 
 \p{The set of polynomials on #{[a, b]} is [dense](FA-0002) in #{C([a, b])}}
 

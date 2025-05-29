@@ -1,7 +1,7 @@
 \title{Inner product space}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{An inner product space is a vector space #{V} over the field of real or complex numbers, equipped with an [inner product](FA-0013) #{\langle \cdot,\cdot\rangle : V \times V \rightarrow \mathbb{F}}.}
 

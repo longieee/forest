@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>589</fr:anchor>
+    <fr:anchor>467</fr:anchor>
     <fr:addr type="user">FA-0015</fr:addr>
     <fr:route>FA-0015.xml</fr:route>
     <fr:title text="Direct sum">Direct sum</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>The direct sum of two vector subspaces <fr:tex display="inline"><![CDATA[U]]></fr:tex> and <fr:tex display="inline"><![CDATA[V]]></fr:tex> of a vector space <fr:tex display="inline"><![CDATA[W]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[U \oplus  V]]></fr:tex>, is the set of all vectors that can be uniquely expressed as the sum of a vector from <fr:tex display="inline"><![CDATA[U]]></fr:tex> and a vector from <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
@@ -31,7 +29,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>591</fr:anchor>
+            <fr:anchor>468</fr:anchor>
             <fr:addr type="user">FA-000V</fr:addr>
             <fr:route>FA-000V.xml</fr:route>
             <fr:title text="Orthogonal complement">Orthogonal complement</fr:title>
@@ -41,9 +39,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a subset of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>. The orthogonal complement of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[S^\perp ]]></fr:tex>, is the set of all vectors in <fr:tex display="inline"><![CDATA[H]]></fr:tex> that are orthogonal to every vector in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
@@ -66,7 +62,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>593</fr:anchor>
+            <fr:anchor>469</fr:anchor>
             <fr:addr type="user">FA-000U</fr:addr>
             <fr:route>FA-000U.xml</fr:route>
             <fr:title text="Hilbert Space">Hilbert Space</fr:title>
@@ -76,9 +72,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A Hilbert space <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <fr:link type="local" href="FA-000N.xml" addr="FA-000N" title="Complete">complete</fr:link> <fr:link type="local" href="FA-0012.xml" addr="FA-0012" title="Inner product space">inner product space</fr:link>. That is, a Hilbert space is a vector space <fr:tex display="inline"><![CDATA[H]]></fr:tex> with an <fr:link type="local" href="FA-0013.xml" addr="FA-0013" title="Inner product">inner product</fr:link> <fr:tex display="inline"><![CDATA[<\cdot ,\cdot >]]></fr:tex> such that the norm defined by <fr:tex display="inline"><![CDATA[||x|| = \sqrt {<x,x>}]]></fr:tex> makes <fr:tex display="inline"><![CDATA[H]]></fr:tex> into a complete metric space.</fr:p>
@@ -89,7 +83,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>595</fr:anchor>
+            <fr:anchor>470</fr:anchor>
             <fr:addr type="user">FA-000V</fr:addr>
             <fr:route>FA-000V.xml</fr:route>
             <fr:title text="Orthogonal complement">Orthogonal complement</fr:title>
@@ -99,9 +93,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be a subset of a <fr:link type="local" href="FA-000U.xml" addr="FA-000U" title="Hilbert Space">Hilbert space</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>. The orthogonal complement of <fr:tex display="inline"><![CDATA[S]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[S^\perp ]]></fr:tex>, is the set of all vectors in <fr:tex display="inline"><![CDATA[H]]></fr:tex> that are orthogonal to every vector in <fr:tex display="inline"><![CDATA[S]]></fr:tex>.</fr:p>

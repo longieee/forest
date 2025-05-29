@@ -1,7 +1,7 @@
 \title{Lp norm}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{Let #{p} be a positive integer, #{p < +\infty}, and let #{\Omega \subset \mathbb{R}^n} be a Lebesgue [measurable set](FA-001B). For a [measurable function](FA-001L) #{f: \Omega \to \mathbb{R}} we define the #{L^p} norm of #{f} on #{\Omega} as the (finite or infinite) number}
 

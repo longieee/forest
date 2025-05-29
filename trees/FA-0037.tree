@@ -1,7 +1,7 @@
 \title{Orthogonal Complement}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{For a subset #{S} of a [Hilbert space](FA-002J) #{H}, the orthogonal complement of #{S}, denoted #{S^\perp}, is defined as:}
 

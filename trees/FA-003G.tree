@@ -1,7 +1,7 @@
 \title{Sup Norm}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The supremum norm (or sup norm) is a [norm](FA-002S) defined for bounded functions. For a bounded function #{f: X \rightarrow \mathbb{R}} or #{f: X \rightarrow \mathbb{C}}, the sup norm is defined as:}
 

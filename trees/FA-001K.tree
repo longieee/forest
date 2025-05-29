@@ -1,7 +1,7 @@
 \title{Lebesgue outer measure}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{The Lebesgue outer measure is a function that assigns an extended real number to any subset of #{\mathbb{R}^n}, serving as a precursor to the [Lebesgue measure](FA-001J), which is defined only on [measurable sets](FA-001B).}
 

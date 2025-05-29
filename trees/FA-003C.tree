@@ -1,7 +1,7 @@
 \title{Measurable Set}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A \em{bounded} subset #{E \subset \mathbb{R}^n} is said to be \strong{Lebesgue [measurable](FA-0142)} if:}
 

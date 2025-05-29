@@ -1,7 +1,7 @@
 \title{Orthonormal sequence}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{An orthonormal sequence in a [Hilbert space](FA-000U) #{H} is a sequence #{(u_n)} of vectors in #{H} such that:}
 

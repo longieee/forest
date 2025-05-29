@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1149</fr:anchor>
+    <fr:anchor>754</fr:anchor>
     <fr:addr type="user">FA-001F</fr:addr>
     <fr:route>FA-001F.xml</fr:route>
     <fr:title text="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:title>
@@ -12,9 +12,7 @@
       <fr:month>5</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:authors>
-      <fr:author>Long Nguyen</fr:author>
-    </fr:authors>
+    <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>Let <fr:tex display="inline"><![CDATA[f_k : \mathbb {R}^d \to  [0, +\infty ]]]></fr:tex> be a sequence of <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable function</fr:link>s. Assume that</fr:p>
@@ -31,7 +29,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1151</fr:anchor>
+            <fr:anchor>755</fr:anchor>
             <fr:addr type="user">FA-001N</fr:addr>
             <fr:route>FA-001N.xml</fr:route>
             <fr:title text="Lebesgue integral">Lebesgue integral</fr:title>
@@ -41,9 +39,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The Lebesgue integral is a generalization of the Riemann integral that allows for the integration of a broader class of functions. It is defined for <fr:link type="local" href="FA-001L.xml" addr="FA-001L" title="Measurable function">measurable functions</fr:link> on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex>.</fr:p>
@@ -60,7 +56,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1153</fr:anchor>
+            <fr:anchor>756</fr:anchor>
             <fr:addr type="user">FA-001G</fr:addr>
             <fr:route>FA-001G.xml</fr:route>
             <fr:title text="Riesz-Fisher theorem">Riesz-Fisher theorem</fr:title>
@@ -70,9 +66,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[E \subset  \mathbb {R}^d]]></fr:tex> be a <fr:link type="local" href="FA-001B.xml" addr="FA-001B" title="Measurable set">measurable set</fr:link> and <fr:tex display="inline"><![CDATA[p \in  [1, +\infty ]]]></fr:tex>. Then the <fr:link type="local" href="FA-001C.xml" addr="FA-001C" title="Space">space</fr:link> <fr:tex display="inline"><![CDATA[L^p(E)]]></fr:tex> is <fr:link type="local" href="FA-000F.xml" addr="FA-000F" title="Banach Space">Banach space</fr:link>.</fr:p>
@@ -94,7 +88,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1155</fr:anchor>
+            <fr:anchor>757</fr:anchor>
             <fr:addr type="user">FA-001D</fr:addr>
             <fr:route>FA-001D.xml</fr:route>
             <fr:title text="Almost everywhere">Almost everywhere</fr:title>
@@ -104,9 +98,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A property is said to hold almost everywhere (abbreviated as "a.e.") on a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> if the set of points where the property fails has measure zero.</fr:p>
@@ -118,7 +110,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1157</fr:anchor>
+            <fr:anchor>758</fr:anchor>
             <fr:addr type="user">FA-001B</fr:addr>
             <fr:route>FA-001B.xml</fr:route>
             <fr:title text="Measurable set">Measurable set</fr:title>
@@ -128,9 +120,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A set <fr:tex display="inline"><![CDATA[E]]></fr:tex> in a measure space <fr:tex display="inline"><![CDATA[(X, \mathcal {A}, \mu )]]></fr:tex> is said to be measurable if it belongs to the σ-algebra <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>.</fr:p>
@@ -141,7 +131,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1159</fr:anchor>
+            <fr:anchor>759</fr:anchor>
             <fr:addr type="user">FA-001L</fr:addr>
             <fr:route>FA-001L.xml</fr:route>
             <fr:title text="Measurable function">Measurable function</fr:title>
@@ -151,9 +141,7 @@
               <fr:month>5</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:authors>
-              <fr:author>Long Nguyen</fr:author>
-            </fr:authors>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Let <fr:tex display="inline"><![CDATA[(X, \mathcal {A})]]></fr:tex> and <fr:tex display="inline"><![CDATA[(Y, \mathcal {B})]]></fr:tex> be measurable spaces, where <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {B}]]></fr:tex> are σ-algebras on <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, respectively. A function <fr:tex display="inline"><![CDATA[f: X \to  Y]]></fr:tex> is said to be measurable if the preimage of every measurable set in <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is a measurable set in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</fr:p>

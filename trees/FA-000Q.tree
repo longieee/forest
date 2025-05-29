@@ -1,7 +1,7 @@
 \title{Convergent}
 \date{2025-05-26}
 \taxon{Definition}
-\author{Long Nguyen}
+
 
 \p{A sequence #{(x_n)} in a metric space #{(X,d)} is said to converge to a point #{x \in X} if for every #{ε > 0}, there exists an integer #{N} such that #{d(x_n, x) < ε} for all #{n \geq N}.}
 
