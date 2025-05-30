@@ -11,6 +11,6 @@
 
 \p{#{{C \stackrel{\text{def}}{=} \{\alpha \in \mathbb{R} : |f(x)| \leq \alpha \text{ almost everywhere on } \Omega\}.}}}
 
-\p{The #{L^\infty} norm of #{f} (also called the [essential supremum](FA-003E) of #{f}) is defined as:}
+\p{The #{L^\infty} norm of #{f} (also called the [essential supremum](FA-0029) of #{f}) is defined as:}
 
 \p{#{{||f||_{L^\infty(\Omega)} = \inf C}}}

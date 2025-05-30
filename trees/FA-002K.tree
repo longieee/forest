@@ -3,7 +3,7 @@
 \taxon{Definition}
 
 
-\p{A normed space is a [vector space](FA-0099) equipped with a [norm](FA-002S).}
+\p{A normed space is a [vector space](FA-0099) equipped with a [norm](FA-0018).}
 
 \p{Let #{X} be a vector space over the field #{K} (either #{\mathbb{R}} or #{\mathbb{C}}). A norm on #{X} is a function #{\ \left| \cdot \right|: X \rightarrow \mathbb{R}} satisfying the following properties for all #{x, y \in X} and #{\ \alpha \in K}:}
 \ul{

@@ -4,3 +4,7 @@
 \p{
   Let #{(B_t)_{t \geq 0}} be a [Brownian Motion](SP-0001), then its sample path is \strong{not differentiable} at any point [almost surely](SP-0002)
 }
+
+\p{
+  Additionally, various limit properties hold in [#{L^2(\Omega)}](FA-002D) for Brownian motion sample paths.
+}

@@ -3,6 +3,6 @@
 \taxon{Definition}
 
 
-\p{For a [bounded linear operator](FA-002G) A on a [Hilbert space](FA-002J) H, the adjoint operator #{A^*} satisfies #{\ \langle Ax,y\rangle = \langle x, A^*y\rangle} for all x, y in H.}
+\p{For a [bounded linear operator](FA-002G) A on a [Hilbert space](FA-000U) H, the adjoint operator #{A^*} satisfies #{\ \langle Ax,y\rangle = \langle x, A^*y\rangle} for all x, y in H.}
 
 \p{An operator is [self-adjoint](FA-003L) if #{A = A^*}.}

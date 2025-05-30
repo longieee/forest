@@ -3,7 +3,7 @@
 \taxon{Definition}
 
 \p{
-  In mathematical analysis and in probability theory, a #{\sigma}-algebra is part of the formalism for defining sets that can be measured ([measurable sets](FA-003C))
+  In mathematical analysis and in probability theory, a #{\sigma}-algebra is part of the formalism for defining sets that can be measured ([measurable sets](FA-001B))
 }
 
 \p{Let #{X} be some set, and let  #{P(X)} represent its power set, the set of all subsets of #{X}}

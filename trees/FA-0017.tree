@@ -17,7 +17,7 @@
 \ul{
 \li{The Euclidean norm on #{\mathbb{R}^n}: #{||x||_2 = \sqrt{x_1^2 + x_2^2 + \cdots + x_n^2}}}
 \li{The #{L^p} norms on function spaces: #{||f||_p = \left(\int |f(x)|^p dx\right)^{1/p}}}
-\li{The [sup norm](FA-000E) on spaces of bounded functions: #{||f||_\infty = \sup_{x} |f(x)|}}
+\li{The [sup norm](FA-003G) on spaces of bounded functions: #{||f||_\infty = \sup_{x} |f(x)|}}
 }
 
 \p{A [Banach space](FA-000F) is a complete normed vector space.}

@@ -13,4 +13,4 @@
 
 \p{An inner product induces a [norm](FA-002S) via #{\ |x| = \sqrt{\langle x, x \rangle}}.}
 
-\p{Every [inner product space](FA-002M) can be completed to form a [Hilbert space](FA-002J).}
+\p{Every [inner product space](FA-0013) can be completed to form a [Hilbert space](FA-000U).}

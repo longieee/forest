@@ -3,7 +3,7 @@
 \taxon{Definition}
 
 
-\p{For a subset #{S} of a [Hilbert space](FA-002J) #{H}, the orthogonal complement of #{S}, denoted #{S^\perp}, is defined as:}
+\p{For a subset #{S} of a [Hilbert space](FA-000U) #{H}, the orthogonal complement of #{S}, denoted #{S^\perp}, is defined as:}
 
 \p{#{{S^\perp = \{y \in H : \langle y, x \rangle = 0 \text{ for all } x \in S\}}}}
 

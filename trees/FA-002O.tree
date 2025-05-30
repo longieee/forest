@@ -3,7 +3,7 @@
 \taxon{Theorem}
 
 
-\p{Let #{M} be a closed subspace of a [Hilbert space](FA-002J) #{H}. Then for any #{x \in H}, there exists a unique element #{m \in M} such that:}
+\p{Let #{M} be a closed subspace of a [Hilbert space](FA-000U) #{H}. Then for any #{x \in H}, there exists a unique element #{m \in M} such that:}
 
 \p{#{\ |x - m| = \inf_{y \in M} |x - y|}}
 

@@ -9,7 +9,7 @@
 
 \p{Key properties include:}
 \ul{
-  \li{Every Hilbert space is a [Banach space](FA-002I), with the norm derived from the inner product}
-  \li{[Orthonormal basis](FA-002N) existence}
+  \li{Every Hilbert space is a [Banach space](FA-000F), with the norm derived from the inner product}
+  \li{[Orthonormal basis](FA-0027) existence}
   \li{[Projection theorem](FA-002O)}
 }

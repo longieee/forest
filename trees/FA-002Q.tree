@@ -3,7 +3,7 @@
 \taxon{Definition}
 
 
-\p{A [metric space](FA-002P) is complete if every [Cauchy sequence](FA-002L) in the space converges to a point within the space.}
+\p{A [metric space](FA-000G) is complete if every [Cauchy sequence](FA-000X) in the space converges to a point within the space.}
 
 \p{Completeness is a fundamental property in analysis, as it ensures that sequences with the Cauchy property have limits within the space.}
 
@@ -11,9 +11,9 @@
 \ul{
   \li{The real numbers #{\ \mathbb{R}} with the standard metric}
   \li{The complex numbers #{\ \mathbb{C}} with the standard metric}
-  \li{Any [Banach space](FA-002I), by definition}
-  \li{Any [Hilbert space](FA-002J), by definition}
-  \li{The space #{L^p} of functions with finite [Lp norm](FA-003B)}
+  \li{Any [Banach space](FA-000F), by definition}
+  \li{Any [Hilbert space](FA-000U), by definition}
+  \li{The space #{L^p} of functions with finite [Lp norm](FA-002A)}
 }
 
 \p{Non-examples of complete spaces:}

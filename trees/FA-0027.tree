@@ -5,6 +5,8 @@
 
 \p{A complete (in the sense of [Completeness of orthonormal set](FA-0020)) [orthonormal](FA-0021) subset ([orthonormal sequence](FA-000T)) of H is also called an [orthonormal](FA-0021) [basis](FA-0022) of H}
 
+\p{Equivalently, an orthonormal basis for a [Hilbert space](FA-000U) #{H} is an [orthonormal set](FA-001H) #{\{e_i\}} of vectors in #{H} such that the [closed linear span](FA-0014) of #{\{e_i\}} is the entire space #{H}. In other words, it is an orthonormal set that is also [complete](FA-000N) in the sense that any vector in the Hilbert space can be approximated arbitrarily well by finite linear combinations of the basis elements.}
+
 \p{\strong{Altenately}: An [orthonormal](FA-0021) [basis](FA-0022) of H is a [countable](FA-0023) [maximal](FA-0024) [orthonormal](FA-0021) subset #{\{e_n\}} of H.}
 
 \p{\strong{N.B.}: This notion of [basis](FA-0022) is \em{not quite the same} as in the \em{finite dimensional case} (although it is a legitimate extension of it).}
@@ -12,3 +14,13 @@
 
 \p{\strong{Theorem:}}
 \p{Every [separable](FA-0026) [Hilbert space](FA-000U) has a [countable](FA-0023) orthonormal [basis](FA-0022).}
+
+\p{For any orthonormal basis #{\{e_i\}} of #{H}, every #{x \in H} can be expressed as:}
+##{x = \sum_i \langle x, e_i \rangle e_i}
+
+\p{Important properties include:}
+\ul{
+\li{Every Hilbert space has an orthonormal basis (this requires the [Axiom of Choice](FA-0054) for general Hilbert spaces)}
+\li{[Parseval's identity](FA-001A) holds for orthonormal bases}
+\li{Any two orthonormal bases of the same Hilbert space have the same cardinality}
+}

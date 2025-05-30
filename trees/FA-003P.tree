@@ -3,6 +3,6 @@
 \taxon{Definition}
 
 
-\p{An upper bound that holds [almost everywhere](FA-003Q).}
+\p{An upper bound that holds [almost everywhere](FA-001D).}
 
-\p{For a [measurable function](FA-003D) #{f} defined on a [measure space](FA-0135), a real number #{M} is an essential upper bound for #{f} if #{f(x) \leq M} for [almost every](FA-003Q) #{x} in the domain.}
+\p{For a [measurable function](FA-001L) #{f} defined on a [measure space](FA-0135), a real number #{M} is an essential upper bound for #{f} if #{f(x) \leq M} for [almost every](FA-001D) #{x} in the domain.}

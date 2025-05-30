@@ -19,4 +19,12 @@
 \li{For an infinite-dimensional Banach space, a Hamel basis is always uncountable}
 \li{A Hamel basis for an infinite-dimensional Banach space is not useful for analysis because the expansion coefficients don't have nice continuity properties, and the basis elements don't form a convergent series}
 \li{The standard basis #{\{e_i\}} for #{\mathbb{R}^n} or #{\mathbb{C}^n} is both a Hamel basis and an orthonormal basis}
+\li{The elements of a Hamel basis are linearly independent, meaning no element can be expressed as a finite linear combination of the others}
+\li{A Hamel basis is not necessarily orthonormal or complete in the sense of functional analysis}
+}
+
+\p{Examples of Hamel bases include:}
+\ul{
+\li{The standard basis #{\{e_1, e_2, \ldots, e_n\}} for #{\mathbb{R}^n} or #{\mathbb{C}^n}, where each #{e_i} is a vector with a 1 in the #{i}-th position and 0 elsewhere}
+\li{A Hamel basis for the space of polynomials over #{\mathbb{R}} can be the set of monomials #{\{1, x, x^2, \ldots\}}}
 }

@@ -5,7 +5,7 @@
 
 \p{A [linear operator](FA-002H) P such that #{P^2 = P}. A projection P leads to a [direct sum](FA-0113) [decomposition](FA-0114) of the space #{Im(P) \bigoplus Ker(P)}.}
 
-\p{In a [Hilbert space](FA-002J) H, an [orthogonal projection](FA-0033) is a projection onto a closed subspace M along its [orthogonal complement](FA-0037) #{M^\perp}, i.e., #{H = M \bigoplus M^\perp}.}
+\p{In a [Hilbert space](FA-000U) H, an [orthogonal projection](FA-0033) is a projection onto a closed subspace M along its [orthogonal complement](FA-0037) #{M^\perp}, i.e., #{H = M \bigoplus M^\perp}.}
 
 \p{Examples:}
 \ul{

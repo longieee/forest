@@ -7,4 +7,11 @@
 
 \p{Hilbert spaces extend the methods of linear algebra to infinite-dimensional settings, making them crucial for quantum mechanics, Fourier analysis, and partial differential equations.}
 
+\p{Key properties include:}
+\ul{
+  \li{Every Hilbert space is a [Banach space](FA-000F), with the norm derived from the inner product}
+  \li{[Orthonormal basis](FA-0027) existence}
+  \li{[Projection theorem](FA-002O)}
+}
+
 \p{Examples include the space #{L^2} of square-integrable functions and the space #{l^2} of square-summable sequences.}

@@ -3,7 +3,7 @@
 \taxon{Theorem}
 
 
-\p{Suppose that #{U = \{u_n : n \in \mathbb{N}\}} is an [orthonormal basis](FA-0019) of a [Hilbert space](FA-000U) #{H}}
+\p{Suppose that #{U = \{u_n : n \in \mathbb{N}\}} is an [orthonormal basis](FA-0027) of a [Hilbert space](FA-000U) #{H}}
 \p{If #{x = \sum_{n \in \mathbb{N}} a_n u_n} and #{y = \sum_{n \in \mathbb{N}} b_n u_n}, where #{a_n = \langle u_n, x \rangle} and #{b_n = \langle u_n, y \rangle}, then}
 ##{{\langle x, y \rangle = \sum_{n \in \mathbb{N}} a_n \bar{b}_n}}
 

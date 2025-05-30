@@ -67,7 +67,7 @@ function addThemeToggleButton() {
     </svg>
     <span class="theme-toggle-text">Theme</span>
   `;
-  toggleButton.title = 'Toggle theme (Cmd+T)';
+  toggleButton.title = 'Toggle theme (Ctrl+T)';
   toggleButton.addEventListener('click', toggleTheme);
   
   document.body.appendChild(toggleButton);
@@ -126,9 +126,42 @@ let allNotes = [];
 let contentIndex = new Map(); // Cache for loaded content
 let contentLoadingPromises = new Map(); // Track ongoing loads
 
-fetch("./forest.json")
- .then((res) => res.json())
+// Try multiple possible paths for forest.json
+const forestJsonPaths = ["./forest.json", "/forest.json", "forest.json"];
+
+async function fetchForestJson() {
+  // Add cache-busting parameter to avoid stale data
+  const cacheBuster = `?v=${Date.now()}`;
+  
+  for (const path of forestJsonPaths) {
+    try {
+      console.log(`Trying to fetch forest.json from: ${path}${cacheBuster}`);
+      const response = await fetch(path + cacheBuster, {
+        headers: {
+          'Accept': 'application/json, text/plain, */*',
+          'Cache-Control': 'no-cache'
+        }
+      });
+      if (response.ok) {
+        console.log(`Successfully fetched forest.json from: ${path}`);
+        const text = await response.text();
+        console.log(`Response text length: ${text.length}`);
+        const data = JSON.parse(text);
+        console.log(`Parsed JSON with ${Object.keys(data).length} entries`);
+        return data;
+      } else {
+        console.log(`Failed to fetch from ${path}: ${response.status} ${response.statusText}`);
+      }
+    } catch (error) {
+      console.log(`Error fetching from ${path}:`, error);
+    }
+  }
+  throw new Error('Could not fetch forest.json from any path');
+}
+
+fetchForestJson()
  .then((data) => {
+   console.log('Forest data loaded successfully:', Object.keys(data).length, 'notes found');
   const items = []
 
   const editIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480-120v-71l216-216 71 71-216 216h-71ZM120-330v-60h300v60H120Zm690-49-71-71 29-29q8-8 21-8t21 8l29 29q8 8 8 21t-8 21l-29 29ZM120-495v-60h470v60H120Zm0-165v-60h470v60H120Z"/></svg>'
@@ -177,7 +210,7 @@ fetch("./forest.json")
     id: 'toggle-theme',
     title: 'Toggle Dark/Light Mode',
     section: 'Theme',
-    hotkey: 'cmd+t',
+    hotkey: 'ctrl+t',
     icon: themeIcon,
     handler: toggleTheme
   })
@@ -263,6 +296,21 @@ fetch("./forest.json")
   rest.forEach((addr) => addItemToSection(addr, "All Trees", null))
 
   ninja.data = items
+ })
+ .catch((error) => {
+   console.error('Error loading forest.json:', error);
+   console.log('Hover previews and search functionality may not work properly');
+   
+   // Initialize empty allNotes array so hover previews don't crash
+   allNotes = [];
+   
+   // Try to initialize basic functionality anyway
+   try {
+     setupEnhancedSearch();
+     setupHoverPreviews();
+   } catch (e) {
+     console.error('Error initializing search/preview functionality:', e);
+   }
  });
 
 // Fuzzy search functionality
@@ -311,9 +359,14 @@ function openFuzzySearchModal() {
   // Show modal with animation
   setTimeout(() => {
     overlay.classList.add('active');
+    // Focus input after animation starts to ensure it gets focus
+    setTimeout(() => {
+      input.focus();
+      input.select(); // Also select any existing text
+    }, 50);
   }, 10);
 
-  // Focus input
+  // Focus input immediately as well (fallback)
   input.focus();
 
   // Close handlers
@@ -623,8 +676,8 @@ function setupEnhancedSearch() {
       e.preventDefault();
       openFuzzySearchModal();
     }
-    // Add keyboard shortcut for theme toggle (case-insensitive)
-    if ((e.metaKey || e.ctrlKey) && (e.key === 't' || e.key === 'T') && !e.shiftKey) {
+    // Add keyboard shortcut for theme toggle (Ctrl+T only, not Cmd+T to avoid conflict with new tab)
+    if (e.ctrlKey && (e.key === 't' || e.key === 'T') && !e.shiftKey && !e.metaKey) {
       e.preventDefault();
       toggleTheme();
     }
@@ -633,6 +686,7 @@ function setupEnhancedSearch() {
 
 // Hover preview functionality
 function setupHoverPreviews() {
+  console.log('Setting up hover previews...');
   let hoverTimeout = null;
   let currentPreview = null;
   
@@ -640,6 +694,7 @@ function setupHoverPreviews() {
   const updatePreviews = () => {
     // Find all internal links (those that point to .xml files or anchors)
     const internalLinks = document.querySelectorAll('a[href*=".xml"], a[href^="#"]');
+    console.log(`Found ${internalLinks.length} internal links for hover preview setup`);
     
     internalLinks.forEach(link => {
       // Skip if already has preview listeners
@@ -685,11 +740,26 @@ function showPreview(link) {
     noteId = href.substring(1);
   }
   
-  if (!noteId || !allNotes.length) return;
+  console.log(`Attempting to show preview for note ID: ${noteId}`);
+  
+  if (!noteId) {
+    console.log('No valid note ID found');
+    return;
+  }
+  
+  if (!allNotes.length) {
+    console.log('allNotes array is empty');
+    return;
+  }
   
   // Find the note data
   const note = allNotes.find(n => n.id === noteId);
-  if (!note) return;
+  if (!note) {
+    console.log(`Note with ID ${noteId} not found in allNotes`);
+    return;
+  }
+  
+  console.log(`Creating preview for note:`, note);
   
   // Create preview element
   const preview = document.createElement('div');
@@ -747,6 +817,10 @@ function hidePreview() {
 
 // Initialize everything when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('DOM ready - initializing forest features...');
+  console.log('Current URL:', window.location.href);
+  console.log('Base URL:', window.location.origin);
+  
   // Initialize theme system
   initializeTheme();
   createThemeToggleButton();
@@ -756,4 +830,27 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Initialize hover previews
   setupHoverPreviews();
+  
+  // Add global debugging info
+  window.forestDebug = {
+    allNotes: () => allNotes,
+    forestJsonPaths: forestJsonPaths,
+    contentIndex: () => contentIndex,
+    testFetch: async (path) => {
+      try {
+        const response = await fetch(path);
+        console.log(`Fetch ${path}:`, response.status, response.ok);
+        if (response.ok) {
+          const data = await response.json();
+          console.log(`Data keys:`, Object.keys(data).slice(0, 5));
+        }
+        return response;
+      } catch (error) {
+        console.log(`Fetch error for ${path}:`, error);
+        return null;
+      }
+    }
+  };
+  
+  console.log('Forest features initialized. Use window.forestDebug for debugging.');
 });

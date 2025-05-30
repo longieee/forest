@@ -6,8 +6,8 @@
 \p{\strong{Functional Analysis:}}
 \ul{
   \li{[Weierstrass approximation theorem](FA-0001) - The fundamental theorem on polynomial approximation}
-  \li{[Hilbert Space](FA-002J) - Complete inner product spaces}
-  \li{[Banach Space](FA-002I) - Complete normed spaces}
+  \li{[Hilbert Space](FA-000U) - Complete inner product spaces}
+  \li{[Banach Space](FA-000F) - Complete normed spaces}
   \li{[Bounded Linear Operator](FA-002G) - Key objects of study in functional analysis}
 }
 
@@ -22,16 +22,16 @@
 \p{\strong{Measure Theory:}}
 \ul{
   \li{[Lebesgue Measure](FA-003V) - Foundation for modern integration theory}
-  \li{[Measurable Set](FA-003C) - Sets with well-defined measure}
-  \li{[Measurable Function](FA-003D) - Functions suitable for Lebesgue integration}
+  \li{[Measurable Set](FA-001B) - Sets with well-defined measure}
+  \li{[Measurable Function](FA-001L) - Functions suitable for Lebesgue integration}
 }
 
 \p{\strong{Norms and Metrics:}}
 \ul{
-  \li{[Norm](FA-002S) - Way to measure vector magnitude}
-  \li{[Lp norm](FA-003B) - Important class of norms}
+  \li{[Norm](FA-0018) - Way to measure vector magnitude}
+  \li{[Lp norm](FA-002A) - Important class of norms}
   \li{[Operator Norm](FA-003F) - Measures the "size" of linear operators}
-  \li{[Metric Space](FA-002P) - Generalized notion of distance}
+  \li{[Metric Space](FA-000G) - Generalized notion of distance}
 }
 
 \p{\strong{Analysis:}}

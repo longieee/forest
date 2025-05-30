@@ -7,7 +7,7 @@
 
 \p{\strong{Alternately}: An [orthonormal](FA-0102) [basis](FA-0104) of H is a [countable](FA-0105) [maximal](FA-0106) [orthonormal](FA-0102) subset #{\ \{e_n\}} of H.}
 
-\p{\strong{N.B.}: This notion of [basis](FA-0104) is \em{not quite the same} as in the \em{finite dimensional case} (although it is a legitimate extension of it). There are other, quite different, notions of a [basis](FA-0104) in [infinite dimensions](FA-0107). See for instance '[Hamel basis](FA-0108)' which arises in some settings.}
+\p{\strong{N.B.}: This notion of [basis](FA-0104) is \em{not quite the same} as in the \em{finite dimensional case} (although it is a legitimate extension of it). There are other, quite different, notions of a [basis](FA-0104) in [infinite dimensions](FA-0107). See for instance '[Hamel basis](FA-0025)' which arises in some settings.}
 
 \p{\strong{Theorem}:}
-\p{Every [separable](FA-0109) [Hilbert space](FA-002J) has a [countable](FA-0105) orthonormal [basis](FA-0104).}
+\p{Every [separable](FA-0109) [Hilbert space](FA-000U) has a [countable](FA-0105) orthonormal [basis](FA-0104).}

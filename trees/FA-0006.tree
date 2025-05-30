@@ -5,4 +5,4 @@
 
 \p{The space of continuous functions on an interval #{[a,b]}, denoted #{C([a,b])}, consists of all continuous real-valued or complex-valued functions defined on #{[a,b]}.}
 
-\p{This space is typically equipped with the [sup norm](FA-000E), which makes it a [Banach space](FA-000F).}
+\p{This space is typically equipped with the [sup norm](FA-003G), which makes it a [Banach space](FA-000F).}

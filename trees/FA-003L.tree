@@ -3,7 +3,7 @@
 \taxon{Definition}
 
 
-\p{A [bounded linear operator](FA-002G) #{A} on a [Hilbert space](FA-002J) is self-adjoint if #{A = A^*}, where #{A^*} is the [adjoint operator](FA-003K) of #{A}.}
+\p{A [bounded linear operator](FA-002G) #{A} on a [Hilbert space](FA-000U) is self-adjoint if #{A = A^*}, where #{A^*} is the [adjoint operator](FA-003K) of #{A}.}
 
 \p{Equivalently, #{A} is self-adjoint if:}
 \p{#{{\ \langle Ax,y\rangle = \langle x, Ay\rangle}}}

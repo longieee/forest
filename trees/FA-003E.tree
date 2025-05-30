@@ -4,4 +4,4 @@
 
 
 \p{The essential supremum of #{|f|} is the \em{minimum} [essential upper bound](FA-003P) for #{|f|}, 
-namely the \em{minimum} #{\alpha} such that #{|f| \leq \alpha} [almost everywhere](FA-003Q).}
+namely the \em{minimum} #{\alpha} such that #{|f| \leq \alpha} [almost everywhere](FA-001D).}

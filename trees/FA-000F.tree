@@ -7,4 +7,4 @@
 
 \p{Banach spaces are fundamental in functional analysis and named after Stefan Banach. They provide the right setting for many important results in analysis, including the Hahn-Banach theorem, the open mapping theorem, and the closed graph theorem.}
 
-\p{Examples include the spaces #{L^p} for #{p \geq 1}, the space #{C([a,b])} of continuous functions on #{[a,b]} with the [sup norm](FA-000E), and all finite-dimensional normed vector spaces.}
+\p{Examples include the spaces #{L^p} for #{p \geq 1}, the space #{C([a,b])} of continuous functions on #{[a,b]} with the [sup norm](FA-003G), and all finite-dimensional normed vector spaces.}

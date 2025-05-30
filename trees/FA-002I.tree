@@ -1,8 +1,0 @@
-\title{Banach Space}
-\date{2025-05-26}
-\taxon{Definition}
-
-
-\p{A Banach space is a complete [normed space](FA-002K).}
-
-\p{A normed space #{X} is called a Banach space if every [Cauchy sequence](FA-002L) in #{X} converges to an element in #{X}.}
