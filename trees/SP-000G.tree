@@ -1,0 +1,21 @@
+\date{2025-05-29}
+\title{Quadratic Variation of Brownian Motion}
+\taxon{Theorem}
+
+\p{
+  let #{ t>0 } fixed. For #{ n \in \mathbb{N}  }, take a uniform partition of #{ [0,t] } in #{ n } intervals: 
+  ##{ 0 = t_0^{(n)} < t_1^{(n)} < \dots < t_n^{(n)} = t} with #{ t_k^{(n)} = t \frac{k}{n} }.
+}
+
+\p{
+  #{ (B_{t} )_{t\geq 0} } is a [Brownian Motion](SP-0001). 
+  Then, the following limit holds in [#{ L^2(\Omega ) }](FA-002D):
+  ##{
+    \lim_{n \to \infty} \sum_{k=0}^{n-1}
+    {\left\vert B_{t_k^{(n)}} - B_{t_{k-1}^{(n)}} \right\vert }^2 = t
+  }   
+}
+
+\p{
+  The fact that the quadratic variation converges to a non-zero value (t) implies that Brownian motion paths are \strong{nowhere differentiable}
+}

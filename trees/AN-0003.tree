@@ -1,0 +1,18 @@
+\date{2025-05-29}
+\title{Total variation}
+\taxon{Definition}
+
+\p{
+  The total variation of a real-valued (or more generally complex-valued) function f, defined on an interval #{ [a,b]\subset \mathbb {R} } is the quantity
+  ##{
+    V_{a} ^{b}(f) = \sup _{P \in \mathcal{P} }
+    \sum_{i=0}^{n_{P} -1} \left\vert f(x_{i+1}) - f(x_i) \right\vert  
+  }
+
+  where the supremum is taken over \em{all possible} partitions of the interval #{ [a,b] } 
+}
+
+\p{
+  Total variation (TV) is a concept that appears in various fields of mathematics and engineering, including analysis, probability theory, and signal/image processing. While its precise definition can vary slightly depending on the context, the core idea behind total variation is to quantify the \strong{"amount of oscillation"} or \strong{"roughness"} of a function or a signal.
+}
+

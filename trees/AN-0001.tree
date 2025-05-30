@@ -1,3 +1,15 @@
 \date{2025-05-27}
 \taxon{Definition}
 \title{Finite variation}
+
+\p{
+  A function of finite/bounded variation, also known as BV function, is a real-valued function whose \strong{[total variation](AN-0003)} is bounded (finite): the graph of a function having this property is well behaved in a precise sense
+}
+
+\p{
+  If #{ \Phi  } is of finite variation and #{ f } is a continuous function, we can define the integral
+  ##{
+    \int _0^T f d \Phi 
+  }
+  as a [Lebesgue-Stieltjes integral]()
+}
