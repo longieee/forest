@@ -21,13 +21,35 @@ jobs:
         uses: ocaml/setup-ocaml@v3
         with:
           ocaml-compiler: 'ocaml-base-compiler.5.2.0' # You can specify your desired OCaml version
-      - name: Load Opam environment
-        run: eval $(opam env) # <--- ADD THIS STEP
-      - name: Install Forester
-        run: opam install forester
+      - name: Install Forester and Build Site
+        # Combine these steps so that `eval $(opam env)` persists for the commands
+        run: |
+          # Exit immediately if a command exits with a non-zero status
+          # This helps catch errors early in the script
+          set -euxo pipefail
 
-      - name: Build with Forester
-        run: forester build
+          # Load Opam environment for this specific run block
+          # This sets up the PATH so `opam` and `forester` can be found
+          eval "$(opam env)"
+
+          echo "Current PATH after opam env:"
+          echo "$PATH" # Print the PATH to verify for debugging
+
+          # Install Forester
+          echo "Installing Forester..."
+          opam install forester
+
+          # Verify Forester installation by checking if the command exists
+          # `which` returns the path to the executable or fails if not found
+          echo "Verifying Forester command availability..."
+          which forester || { echo "ERROR: 'forester' command not found after opam install!"; exit 1; }
+
+          # You can also try running a simple forester command to confirm it works
+          # forester --version # Uncomment if you want to see its version during the run
+
+          # Build with Forester
+          echo "Building site with Forester..."
+          forester build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
