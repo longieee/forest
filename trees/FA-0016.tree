@@ -17,4 +17,4 @@
 \li{#{|z|^2 = z \cdot \bar{z} = a^2 + b^2}}
 }
 
-\p{In the context of [inner products](FA-0013) on complex vector spaces, the conjugate symmetry property states that #{\langle u, v \rangle = \overline{\langle v, u \rangle}} for all vectors #{u} and #{v}.}
+\p{In the context of [inner products](FA-002M) on complex vector spaces, the conjugate symmetry property states that #{\langle u, v \rangle = \overline{\langle v, u \rangle}} for all vectors #{u} and #{v}.}

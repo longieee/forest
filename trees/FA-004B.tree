@@ -1,0 +1,7 @@
+\date{2025-05-31}
+\taxon{Theorem}
+\title{Pointwise convergence of Fourier Series}
+
+\p{
+  The [Fourier Series](FA-004A) of a function #{ f \in L^2(\mathbb{T} ) } [converges pointwise](FA-0010) [almost everywhere](FA-001D) to #{ f }  
+}

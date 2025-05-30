@@ -1,0 +1,10 @@
+\date{2025-05-31}
+\taxon{Definition}
+\title{Fourier Series}
+
+\p{
+  The \strong{Fourier series} of #{ f } is the \em{formal series}
+  ##{
+    \sum_{n \in \mathbb{Z} } f(t)e^{-in x}
+  }
+}

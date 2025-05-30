@@ -1,0 +1,10 @@
+\date{2025-05-31}
+\title{Fourier Coefficient}
+\taxon{Definition}
+
+\p{
+  For a function #{ f \in L^2([-\pi ,\pi ]) } , the \strong{Fourier coefficient} #{ \hat{f}(n) }  of #{ f } is given by
+  ##{
+    \hat{f}(n) = \frac{1}{2\pi } \int _{-\pi }^[\pi ] f(t)e^{-in t}dt
+  }
+}

@@ -1,0 +1,7 @@
+\date{2025-05-31}
+\taxon{Theorem}
+\title{Trigonometric Polynomials are dense in #{ L^2 } }
+
+\p{
+  [Trigonometric polynomials](FA-0046) are [dense](FA-0002) in #{ L^2 (\mathbb{T} ) } 
+}

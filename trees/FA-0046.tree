@@ -1,0 +1,23 @@
+\date{2025-05-31}
+\title{Trigonometric Polynomials}
+\taxon{Definition}
+
+\p{
+  Denote the set of \em{all} finite linear combination of #{ e_{n}  }, the elements of [Fourier basis](FA-0045), by #{ \mathcal{P}  } 
+}
+
+\p{
+  Functions in #{ \mathcal{P} } are called \strong{trigonometric polynomials}
+}
+
+\transclude{FA-0047}
+
+\p{
+  This result, in combination with \transclude{FA-0048}
+  implies that \transclude{FA-0049}
+}
+
+\p{
+  Hence, the set #{ \mathbb{U} = \left\{ e_n : n \in \mathbb{Z} \right\}} spans the whole [Hilbert Space](FA-000U) #{ L^2(\mathbb{T} ) }.
+  This means that any function #{ f \in L^2(\mathbb{T} ) } can be expanded in a [Fourier series](FA-004A)
+}

@@ -1,0 +1,8 @@
+\date{2025-05-31}
+\taxon{Theorem}
+\title{Trigonometric Polynomials are dense in #{ C(\mathbb{T} ) } }
+
+\p{
+  The [trigonometric polynomials](FA-0046) are [\strong{dense}](FA-0002) in #{ C(\mathbb{T} ) }  
+  w.r.t. the [uniform norm](FA-003G)
+}

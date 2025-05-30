@@ -3,7 +3,7 @@
 \taxon{Definition}
 
 
-\p{An inner product space is a vector space #{V} over the field of real or complex numbers, equipped with an [inner product](FA-0013) #{\langle \cdot,\cdot\rangle : V \times V \rightarrow \mathbb{F}}.}
+\p{An inner product space is a vector space #{V} over the field of real or complex numbers, equipped with an [inner product](FA-002M) #{\langle \cdot,\cdot\rangle : V \times V \rightarrow \mathbb{F}}.}
 
 \p{The inner product satisfies the following axioms for all vectors #{u, v, w \in V} and all scalars #{a \in \mathbb{F}}:}
 

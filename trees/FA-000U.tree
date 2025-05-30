@@ -3,7 +3,7 @@
 \taxon{Definition}
 
 
-\p{A Hilbert space #{H} is a [complete](FA-000N) [inner product space](FA-0012). That is, a Hilbert space is a vector space #{H} with an [inner product](FA-0013) #{<\cdot,\cdot>} such that the norm defined by #{||x|| = \sqrt{<x,x>}} makes #{H} into a complete metric space.}
+\p{A Hilbert space #{H} is a [complete](FA-000N) [inner product space](FA-0012). That is, a Hilbert space is a vector space #{H} with an [inner product](FA-002M) #{<\cdot,\cdot>} such that the norm defined by #{||x|| = \sqrt{<x,x>}} makes #{H} into a complete metric space.}
 
 \p{Hilbert spaces extend the methods of linear algebra to infinite-dimensional settings, making them crucial for quantum mechanics, Fourier analysis, and partial differential equations.}
 

@@ -1,0 +1,7 @@
+\date{2025-05-31}
+\taxon{Theorem}
+\title{Density of Continuous functions in [#{ L^p } space](FA-002D)}
+
+\p{
+  The [space of continuous functions](FA-0006) with \strong{compact support} #{ C_{c} (X) } is \strong{dense} in [#{ L^p(X) }](FA-002D) for #{ 1\leq p \leq +\infty  } 
+}

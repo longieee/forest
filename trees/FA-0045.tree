@@ -1,0 +1,14 @@
+\date{2025-05-31}
+\title{Fourier Basis}
+\taxon{Definition}
+
+\p{
+  In the [Hilbert Space](FA-000U) #{ L^2 (\mathbb{T} ) } with the [inner product](FA-002M)
+  ##{
+    \left\langle f,g \right\rangle = \int _\mathbb{T} \overline{f(x)}g(x)dx
+  }
+  the Fourier basis elements are the functions
+  ##{
+    e_{n} (x) = \frac{1}{\sqrt{ 2 \pi }}e^{inx}
+  }
+}
