@@ -73,6 +73,89 @@
 :root {
   --content-gap: 15px;
   --radius: 5px;
+  /* Light theme colors */
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --text-secondary: #666666;
+    --text-tertiary: #888888;
+    --text-quaternary: #444444;
+    --link-color: #000000;
+    --border-color: #cccccc;
+    --hover-bg: rgba(0, 100, 255, 0.04);
+    --hover-bg-alt: rgba(0, 100, 255, 0.1);
+    --code-bg: rgba(0, 100, 100, 0.04);
+    --highlight-bg: rgba(255, 255, 140, 0.3);
+    --highlight-bg-hover: rgba(255, 255, 140, 0.6);
+    --highlight-border: #cccccc;
+    --highlight-border-hover: #aaaaaa;
+    --tooltip-bg: #000000;
+    --tooltip-text: #ffffff;
+    --mark-bg: rgb(255, 255, 151);
+    --hr-bg: gainsboro;
+    --error-bg: red;
+    --error-text: white;
+    --info-bg: #bbbbbb;
+    --info-text: white;
+    --nav-color: #555555;
+    --secondary: #666666;
+  }
+  
+  /* Dark theme colors */
+  [data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --text-tertiary: #909090;
+    --text-quaternary: #c0c0c0;
+    --link-color: #e0e0e0;
+    --border-color: #404040;
+    --hover-bg: rgba(100, 150, 255, 0.1);
+    --hover-bg-alt: rgba(100, 150, 255, 0.2);
+    --code-bg: rgba(100, 150, 200, 0.1);
+    --highlight-bg: rgba(255, 200, 100, 0.2);
+    --highlight-bg-hover: rgba(255, 200, 100, 0.3);
+    --highlight-border: #555555;
+    --highlight-border-hover: #777777;
+    --tooltip-bg: #333333;
+    --tooltip-text: #ffffff;
+    --mark-bg: rgb(200, 180, 100);
+    --hr-bg: #404040;
+    --error-bg: #cc4444;
+    --error-text: white;
+    --info-bg: #666666;
+    --info-text: white;
+    --nav-color: #b0b0b0;
+    --secondary: #b0b0b0;
+  }
+  
+  /* System preference detection */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+      --bg-color: #1a1a1a;
+      --text-color: #e0e0e0;
+      --text-secondary: #b0b0b0;
+      --text-tertiary: #909090;
+      --text-quaternary: #c0c0c0;
+      --link-color: #e0e0e0;
+      --border-color: #404040;
+      --hover-bg: rgba(100, 150, 255, 0.1);
+      --hover-bg-alt: rgba(100, 150, 255, 0.2);
+      --code-bg: rgba(100, 150, 200, 0.1);
+      --highlight-bg: rgba(255, 200, 100, 0.2);
+      --highlight-bg-hover: rgba(255, 200, 100, 0.3);
+      --highlight-border: #555555;
+      --highlight-border-hover: #777777;
+      --tooltip-bg: #333333;
+      --tooltip-text: #ffffff;
+      --mark-bg: rgb(200, 180, 100);
+      --hr-bg: #404040;
+      --error-bg: #cc4444;
+      --error-text: white;
+      --info-bg: #666666;
+      --info-text: white;
+      --nav-color: #b0b0b0;
+      --secondary: #b0b0b0;
+    }
 }
 
 h1,
@@ -108,7 +191,7 @@ center {
 
 pre {
   border-radius: var(--radius);
-  background-color: rgba(0, 100, 100, 0.04);
+  background-color: var(--code-bg);
   padding: .5em;
   font-size: 11pt;
   margin-top: 0em;
@@ -122,7 +205,7 @@ pre {
 
 code {
   border-radius: var(--radius);
-  background-color: rgba(0, 100, 100, 0.04);
+  background-color: var(--code-bg);
   padding: 0.2em;
   font-size: 0.9em;
 }
@@ -131,6 +214,9 @@ body {
   font-family: "Inria Sans";
   font-size: 12pt;
   line-height: 1.55;
+  background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 math {
@@ -138,7 +224,7 @@ math {
 }
 
 mrow:hover {
- background-color: rgba(0, 100, 255, 0.04);
+background-color: var(--hover-bg);
 }
 
 .logo {
@@ -147,12 +233,12 @@ mrow:hover {
 }
 
 .logo a {
-  color: #666;
+  color: var(--text-secondary);
   text-decoration: none;
 }
 
 .logo a:hover {
-  color: #aaa;
+  color: var(--text-tertiary);
 }
 
 .block.hide-metadata>details>summary>header>.metadata {
@@ -162,7 +248,7 @@ mrow:hover {
 article>section>details>summary>header>h1>.taxon {
   display: block;
   font-size: .9em;
-  color: #888;
+  color: var(--text-tertiary);
   padding-bottom: 5pt;
 }
 
@@ -242,7 +328,7 @@ section .block[data-taxon] details>summary>header>h1 {
 }
 
 span.taxon {
-  color: #444;
+  color: var(--text-quaternary);
   font-weight: bolder;
 }
 
@@ -295,7 +381,7 @@ nav#toc h1 {
 
 nav#toc,
 nav#toc a {
-  color: #555;
+  color: var(--nav-color);
 }
 
 nav#toc .link {
@@ -333,7 +419,7 @@ nav#toc li {
 }
 
 .block:hover {
-  background-color: rgba(0, 100, 255, 0.04);
+  background-color: var(--hover-bg);
 }
 
 .block.highlighted {
@@ -342,24 +428,24 @@ nav#toc li {
 }
 
 .highlighted {
-  background-color: rgba(255, 255, 140, .3);
-  border-color: #ccc;
+  background-color: var(--highlight-bg);
+    border-color: var(--highlight-border);
 }
 
 .highlighted:hover {
-  background-color: rgba(255, 255, 140, .6);
-  border-color: #aaa;
+  background-color: var(--highlight-bg-hover);
+    border-color: var(--highlight-border-hover);
 }
 
 .slug,
 .doi,
 .orcid {
-  color: gray;
+  color: var(--text-secondary);
   font-weight: 200;
 }
 
 .edit-button {
-  color: rgb(180, 180, 180);
+  color: var(--text-secondary);
   font-weight: 200;
 }
 
@@ -430,7 +516,7 @@ td.macro-doc {
 }
 
 .enclosing.macro-scope>.enclosing:hover {
-  background-color: rgba(0, 100, 255, 0.1);
+  background-color: var(--hover-bg-alt);
 }
 
 [aria-label][role~="tooltip"]::after {
@@ -456,8 +542,8 @@ td.macro-doc {
   visibility: hidden;
   white-space: nowrap;
   min-width: fit-content;
-  background-color: black;
-  color: #fff;
+  background-color: var(--tooltip-bg);
+    color: var(--tooltip-text);
   padding-left: 5px;
   padding-top: 5px;
   padding-right: 10px;
@@ -489,7 +575,7 @@ td.macro-doc {
 }
 
 .tooltiptext a {
-  color: white
+  color: var(--tooltip-text)
 }
 
 .macro-doc {
@@ -512,7 +598,7 @@ a.slug:hover,
 a.bullet:hover,
 .edit-button:hover,
 .link:hover {
-  background-color: rgba(0, 100, 255, .1);
+  background-color: var(--hover-bg-alt);
 }
 
 .link {
@@ -520,7 +606,7 @@ a.bullet:hover,
 }
 
 a {
-  color: black;
+  color: var(--link-color);
   text-decoration: inherit;
 }
 
@@ -575,13 +661,13 @@ figcaption {
 }
 
 mark {
-  background-color: rgb(255, 255, 151);
+  background-color: var(--mark-bg);
 }
 
 hr {
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: gainsboro;
+  background-color: var(--hr-bg);
   border: 0 none;
   width: 100%;
   height: 2px;
@@ -613,12 +699,49 @@ ol li ol li ol {
 }
 
 .error {
- background-color: red;
- color: white;
+background-color: var(--error-bg);
+  color: var(--error-text);
 }
 
 
 .info {
- background-color: #bbb;
- color: white;
+background-color: var(--info-bg);
+  color: var(--info-text);
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: var(--code-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text-color);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.theme-toggle:hover {
+  background-color: var(--hover-bg);
+  border-color: var(--text-secondary);
+}
+
+.theme-toggle-icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+/* Hide theme toggle on small screens to avoid interfering with mobile UI */
+@media only screen and (max-width: 600px) {
+  .theme-toggle {
+    display: none;
+  }
 }
