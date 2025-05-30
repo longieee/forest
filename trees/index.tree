@@ -1,11 +1,9 @@
+\title{Personal Zettelkasten}
+\author{Long Nguyen}
 
-\title{Functional Analysis Zettelkasten}
-\date{2025-05-26}
+\p{Welcome to my personal Zettelkasten. This is a collection of interconnected notes on various topics in mathematics, organized using unique identifiers in base-36 format to facilitate cross-referencing and exploration.}
 
-
-\p{Welcome to my Functional Analysis Zettelkasten. This is a collection of interconnected notes on topics in functional analysis, organized using unique identifiers (FA-XXXX) in base-36 format to facilitate cross-referencing and exploration.}
-
-\p{\strong{Core Concepts:}}
+\p{\strong{Functional Analysis:}}
 \ul{
   \li{[Weierstrass approximation theorem](FA-0001) - The fundamental theorem on polynomial approximation}
   \li{[Hilbert Space](FA-002J) - Complete inner product spaces}
@@ -13,7 +11,7 @@
   \li{[Bounded Linear Operator](FA-002G) - Key objects of study in functional analysis}
 }
 
-\p{\strong{Important Theorems:}}
+\p{\strong{Analysis & Topology:}}
 \ul{
   \li{[Arzelà-Ascoli Theorem](FA-000L) - Characterizes compact subsets in spaces of continuous functions}
   \li{[Projection Theorem](FA-002O) - Fundamental result for Hilbert spaces}
@@ -34,4 +32,27 @@
   \li{[Lp norm](FA-003B) - Important class of norms}
   \li{[Operator Norm](FA-003F) - Measures the "size" of linear operators}
   \li{[Metric Space](FA-002P) - Generalized notion of distance}
+}
+
+\p{\strong{Analysis:}}
+\ul{
+  \li{Browse [AN-series notes](AN-0001) for general analysis topics}
+}
+
+\p{\strong{Complex Analysis:}}
+\ul{
+  \li{Browse [CA-series notes](CA-0001) for categorical and algebraic structures}
+}
+
+\p{\strong{Stochastic Processes:}}
+\ul{
+  \li{Browse [SP-series notes](SP-0001) for specialized mathematical topics}
+}
+
+\p{\strong{Navigation:}}
+\ul{
+  \li{Use \strong{Ctrl + K} to search all notes}
+  \li{Use the search function to find specific topics}
+  \li{Follow cross-references between notes to explore connections}
+  \li{Note identifiers follow the pattern: [Area]-[Base36 ID]}
 }
