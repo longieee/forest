@@ -17,13 +17,24 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Setup OCaml and Opam
+        uses: ocaml/setup-ocaml@v2
+        with:
+          ocaml-compiler: '5.3.0' # You can specify your desired OCaml version
+
+      - name: Install Forester
+        run: opam install forester
+
+      - name: Build with Forester
+        run: forester build
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './output' 
+          path: './output'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
