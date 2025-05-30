@@ -20,7 +20,7 @@ jobs:
       - name: Setup OCaml and Opam
         uses: ocaml/setup-ocaml@v3
         with:
-          ocaml-compiler: 'ocaml-base-compiler.5.2.0' # You can specify your desired OCaml version
+          ocaml-compiler: '5.3.0' # You can specify your desired OCaml version
       - name: Install Forester and Build Site
         # Combine these steps so that `eval $(opam env)` persists for the commands
         run: |
