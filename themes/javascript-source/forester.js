@@ -4,6 +4,11 @@ import Fuse from 'fuse.js';
 
 import autoRenderMath from 'katex/contrib/auto-render';
 
+// Interactive Concept Graph
+let conceptGraph = null;
+let graphData = { nodes: [], links: [] };
+let currentNoteId = null; // Track the current note being viewed
+
 function partition(array, isValid) {
  return array.reduce(([pass, fail], elem) => {
   return isValid(elem) ? [[...pass, elem], fail] : [pass, [...fail, elem]];
@@ -127,7 +132,8 @@ let contentIndex = new Map(); // Cache for loaded content
 let contentLoadingPromises = new Map(); // Track ongoing loads
 
 // Try multiple possible paths for forest.json
-const forestJsonPaths = ["./forest.json", "/forest.json", "forest.json"];
+// Priority: 1) Same directory as HTML files (output dir), 2) Root of site, 3) Without ./ prefix
+const forestJsonPaths = ["./forest.json", "forest.json", "/forest.json"];
 
 async function fetchForestJson() {
   // Add cache-busting parameter to avoid stale data
@@ -253,6 +259,25 @@ fetchForestJson()
     hotkey: 'cmd+shift+f',
     icon: searchIcon,
     handler: () => openFuzzySearchModal()
+  })
+
+  // Concept graph command
+  const graphIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>'
+  items.push({
+    id: 'concept-graph',
+    title: 'Show Concept Graph',
+    section: 'Search',
+    hotkey: 'ctrl+g',
+    icon: graphIcon,
+    handler: () => {
+      loadD3().then(() => {
+        // Update current note ID before opening modal
+        currentNoteId = getCurrentNoteId();
+        openConceptGraphModal();
+      }).catch(error => {
+        console.error('Failed to load concept graph:', error);
+      });
+    }
   })
 
   if (window.sourcePath) {
@@ -681,6 +706,11 @@ function setupEnhancedSearch() {
       e.preventDefault();
       toggleTheme();
     }
+    // Add keyboard shortcut for concept graph
+    if (e.ctrlKey && (e.key === 'g' || e.key === 'G') && !e.shiftKey && !e.metaKey) {
+      e.preventDefault();
+      loadD3().then(openConceptGraphModal).catch(console.error);
+    }
   });
 }
 
@@ -831,6 +861,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize hover previews
   setupHoverPreviews();
   
+  // Initialize concept graph
+  setupConceptGraph();
+  
   // Add global debugging info
   window.forestDebug = {
     allNotes: () => allNotes,
@@ -854,3 +887,763 @@ document.addEventListener('DOMContentLoaded', () => {
   
   console.log('Forest features initialized. Use window.forestDebug for debugging.');
 });
+
+// Concept Graph functionality
+async function setupConceptGraph() {
+  try {
+    console.log('🎯 CONCEPT GRAPH: Starting setup...');
+    await loadD3();
+    console.log('🎯 CONCEPT GRAPH: D3.js loaded successfully');
+    addConceptGraphButton();
+    console.log('🎯 CONCEPT GRAPH: Button added to DOM');
+  } catch (error) {
+    console.error('🎯 CONCEPT GRAPH: Failed to load D3.js:', error);
+  }
+}
+
+function addConceptGraphButton() {
+  console.log('🎯 CONCEPT GRAPH: Creating button...');
+  const graphButton = document.createElement('button');
+  graphButton.className = 'concept-graph-toggle';
+  graphButton.innerHTML = `
+    <svg class="concept-graph-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+      <path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/>
+    </svg>
+    <span class="concept-graph-text">Graph</span>
+  `;
+  graphButton.title = 'Show concept graph (Ctrl+G)';
+  graphButton.addEventListener('click', openConceptGraphModal);
+  
+  document.body.appendChild(graphButton);
+  console.log('🎯 CONCEPT GRAPH: Button appended to body');
+  
+  // Verify button is in DOM
+  const buttonCheck = document.querySelector('.concept-graph-toggle');
+  if (buttonCheck) {
+    console.log('🎯 CONCEPT GRAPH: Button successfully found in DOM');
+  } else {
+    console.error('🎯 CONCEPT GRAPH: Button NOT found in DOM after adding');
+  }
+}
+
+function openConceptGraphModal() {
+  const existingModal = document.getElementById('concept-graph-overlay');
+  if (existingModal) {
+    existingModal.remove();
+  }
+
+  const overlay = document.createElement('div');
+  overlay.id = 'concept-graph-overlay';
+  overlay.className = 'concept-graph-overlay';
+  overlay.innerHTML = `
+    <div class="concept-graph-modal">
+      <div class="concept-graph-header">
+        <h3>Mathematical Concept Graph</h3>
+        <div class="concept-graph-controls">
+          <div class="control-group">
+            <label>Mode:</label>
+            <select id="graph-mode-filter">
+              <option value="contextual">Contextual (center on current note)</option>
+              <option value="topic">Topic Overview</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label>Topic:</label>
+            <select id="graph-topic-filter">
+              <option value="FA">Functional Analysis (default)</option>
+              <option value="SP">Stochastic Processes</option>
+              <option value="CA">Complex Analysis</option>
+              <option value="AN">Analysis</option>
+              <option value="all">All Topics</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label>Max nodes:</label>
+            <select id="graph-node-limit">
+              <option value="20">20 (fast)</option>
+              <option value="30" selected>30 (recommended)</option>
+              <option value="50">50 (detailed)</option>
+              <option value="100">100 (comprehensive)</option>
+            </select>
+          </div>
+          <button class="concept-graph-control update-btn" id="graph-update">Update</button>
+          <button class="concept-graph-close">×</button>
+        </div>
+      </div>
+      <div class="concept-graph-status" id="concept-graph-status">
+        Starting with Functional Analysis (30 nodes max)...
+      </div>
+      <div class="concept-graph-container" id="concept-graph-container">
+        <div class="concept-graph-loading">
+          <div>🌲 Building your mathematical forest...</div>
+          <div class="loading-progress"></div>
+        </div>
+      </div>
+      <div class="concept-graph-footer">
+        <div class="concept-graph-legend">
+          <div class="legend-item"><div class="node-legend definition"></div>Definition</div>
+          <div class="legend-item"><div class="node-legend theorem"></div>Theorem</div>
+          <div class="legend-item"><div class="node-legend lemma"></div>Lemma</div>
+          <div class="legend-item"><div class="node-legend proposition"></div>Proposition</div>
+        </div>
+        <div class="concept-graph-info">
+          Click nodes to navigate • Drag to rearrange • Scroll to zoom
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(overlay);
+
+  // Show modal with animation
+  setTimeout(() => {
+    overlay.classList.add('active');
+    
+    // Detect current note and set initial mode
+    const currentNote = getCurrentNoteId();
+    const modeSelect = document.getElementById('graph-mode-filter');
+    const topicSelect = document.getElementById('graph-topic-filter');
+    
+    if (currentNote) {
+      console.log(`🎯 CONCEPT GRAPH: Current note detected: ${currentNote}, using contextual mode`);
+      modeSelect.value = 'contextual';
+      // Disable topic selection in contextual mode initially
+      topicSelect.disabled = true;
+      initializeConceptGraph('contextual', 30, currentNote);
+    } else {
+      console.log('🎯 CONCEPT GRAPH: No current note detected, using topic overview mode');
+      modeSelect.value = 'topic';
+      topicSelect.disabled = false;
+      initializeConceptGraph('all', 30); // Start with ALL topics for overview
+    }
+  }, 10);
+
+  // Close handlers
+  const closeModal = () => {
+    overlay.classList.remove('active');
+    setTimeout(() => {
+      overlay.remove();
+      if (conceptGraph) {
+        conceptGraph.remove();
+        conceptGraph = null;
+      }
+    }, 300);
+  };
+
+  // Update handler for new controls
+  const updateGraph = async () => {
+    const mode = document.getElementById('graph-mode-filter').value;
+    const topicFilter = document.getElementById('graph-topic-filter').value;
+    const nodeLimit = parseInt(document.getElementById('graph-node-limit').value);
+    const topicSelect = document.getElementById('graph-topic-filter');
+    
+    // Update status and handle mode-specific logic
+    const statusDiv = document.getElementById('concept-graph-status');
+    let centerNoteId = null;
+    let displayMode = '';
+    
+    if (mode === 'contextual') {
+      centerNoteId = getCurrentNoteId();
+      if (centerNoteId) {
+        displayMode = `Contextual view centered on ${centerNoteId}`;
+        topicSelect.disabled = true; // Disable topic selection in contextual mode
+      } else {
+        // Fall back to topic mode if no current note
+        displayMode = 'No current note detected, showing topic overview';
+        topicSelect.disabled = false;
+      }
+    } else {
+      displayMode = {
+        'FA': 'Functional Analysis',
+        'SP': 'Stochastic Processes', 
+        'CA': 'Complex Analysis',
+        'AN': 'Analysis',
+        'all': 'All Topics'
+      }[topicFilter] || topicFilter;
+      topicSelect.disabled = false;
+    }
+    
+    statusDiv.textContent = `Loading ${displayMode} (${nodeLimit} nodes max)...`;
+    
+    // Show loading
+    const container = document.getElementById('concept-graph-container');
+    container.innerHTML = `
+      <div class="concept-graph-loading">
+        <div>🌲 Rebuilding graph for ${displayMode}...</div>
+        <div class="loading-progress"></div>
+      </div>
+    `;
+    
+    // Rebuild graph with new settings
+    const effectiveFilter = mode === 'contextual' ? 'contextual' : topicFilter;
+    await initializeConceptGraph(effectiveFilter, nodeLimit, centerNoteId);
+    
+    // Update status
+    if (graphData && graphData.nodes) {
+      statusDiv.innerHTML = `
+        Showing <strong>${graphData.showing}</strong> of <strong>${graphData.totalAvailable}</strong> ${displayMode} concepts
+        ${graphData.hasMore ? ' <span class="more-available">(more available)</span>' : ''}
+      `;
+    }
+  };
+
+  document.getElementById('graph-update').addEventListener('click', updateGraph);
+  document.getElementById('graph-mode-filter').addEventListener('change', (e) => {
+    const topicSelect = document.getElementById('graph-topic-filter');
+    if (e.target.value === 'contextual') {
+      topicSelect.disabled = true;
+    } else {
+      topicSelect.disabled = false;
+    }
+  });
+  document.querySelector('.concept-graph-close').addEventListener('click', closeModal);
+
+  // Click outside to close
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) {
+      closeModal();
+    }
+  });
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeModal();
+    }
+  });
+}
+
+async function initializeConceptGraph(filterTopic = 'FA', maxNodes = 30, centerNoteId = null) {
+  console.log('🎯 CONCEPT GRAPH: Initializing concept graph...');
+  console.log(`🎯 CONCEPT GRAPH: Starting with filter: ${filterTopic}, maxNodes: ${maxNodes}, centerNote: ${centerNoteId}`);
+  
+  // Always rebuild with current filter settings
+  await buildGraphData(filterTopic, maxNodes, centerNoteId);
+  console.log('🎯 CONCEPT GRAPH: graphData built:', graphData);
+  
+  // Check if graphData was properly created
+  if (!graphData) {
+    console.error('🎯 CONCEPT GRAPH: ERROR - graphData is null after buildGraphData');
+    return;
+  }
+  if (!graphData.nodes || graphData.nodes.length === 0) {
+    console.error('🎯 CONCEPT GRAPH: ERROR - No nodes in graphData after buildGraphData');
+    console.error('🎯 CONCEPT GRAPH: graphData content:', graphData);
+    return;
+  }
+  
+  createD3Graph();
+  console.log('🎯 CONCEPT GRAPH: D3 graph creation initiated.');
+}
+
+async function buildGraphData(filterTopic = null, maxNodes = 50, centerNoteId = null) {
+  console.log('🎯 CONCEPT GRAPH: Building graph data...');
+  console.log(`🎯 CONCEPT GRAPH: Filter topic: ${filterTopic}, Max nodes: ${maxNodes}, Center note: ${centerNoteId}`);
+  
+  // Reset graph data
+  const nodes = [];
+  const links = [];
+  const nodeMap = new Map();
+
+  // Check if we have notes to work with
+  console.log('🎯 CONCEPT GRAPH: Number of allNotes:', allNotes?.length || 0);
+  if (!allNotes || allNotes.length === 0) {
+    console.error('🎯 CONCEPT GRAPH: No notes available to build graph!');
+    return;
+  }
+
+  // Debug: Show first few note IDs to verify the data
+  console.log('🎯 CONCEPT GRAPH: Sample note IDs:', allNotes.slice(0, 5).map(n => n.id));
+
+  // Filter and limit notes
+  let filteredNotes = allNotes;
+  
+  // Contextual mode: center on a specific note
+  if (centerNoteId) {
+    console.log(`🎯 CONCEPT GRAPH: Using contextual mode centered on ${centerNoteId}`);
+    
+    // Find the center note
+    const centerNote = allNotes.find(note => note.id === centerNoteId);
+    if (!centerNote) {
+      console.warn(`🎯 CONCEPT GRAPH: Center note ${centerNoteId} not found, falling back to overview mode`);
+    } else {
+      // Start with the center note
+      filteredNotes = [centerNote];
+      
+      // Load content for center note to find its connections
+      if (!centerNote.contentLoaded) {
+        await loadNoteContent(centerNote);
+      }
+      
+      // Extract links from center note to find directly connected notes
+      const centerLinks = await extractLinksFromNote(centerNote);
+      console.log(`🎯 CONCEPT GRAPH: Found ${centerLinks.length} links from center note`);
+      
+      // Add directly connected notes
+      const connectedNotes = centerLinks
+        .map(linkId => allNotes.find(note => note.id === linkId))
+        .filter(note => note); // Remove null entries
+      
+      filteredNotes = filteredNotes.concat(connectedNotes);
+      console.log(`🎯 CONCEPT GRAPH: Added ${connectedNotes.length} directly connected notes`);
+      
+      // Optional: Add second-degree connections if we have room
+      if (filteredNotes.length < maxNodes * 0.7) {
+        const secondDegreePromises = connectedNotes.slice(0, 5).map(async note => {
+          if (!note.contentLoaded) {
+            await loadNoteContent(note);
+          }
+          return extractLinksFromNote(note);
+        });
+        
+        try {
+          const secondDegreeLinksArrays = await Promise.all(secondDegreePromises);
+          const secondDegreeLinks = secondDegreeLinksArrays.flat();
+          const secondDegreeNotes = secondDegreeLinks
+            .map(linkId => allNotes.find(note => note.id === linkId))
+            .filter(note => note && !filteredNotes.includes(note)); // Avoid duplicates
+          
+          const additionalNotes = secondDegreeNotes.slice(0, maxNodes - filteredNotes.length);
+          filteredNotes = filteredNotes.concat(additionalNotes);
+          console.log(`🎯 CONCEPT GRAPH: Added ${additionalNotes.length} second-degree connections`);
+        } catch (error) {
+          console.warn('🎯 CONCEPT GRAPH: Failed to load second-degree connections:', error);
+        }
+      }
+      
+      // Remove duplicates
+      filteredNotes = [...new Set(filteredNotes)];
+    }
+  } else {
+    // Topic filtering mode (existing behavior)
+    // Apply topic filter if specified
+    if (filterTopic && filterTopic !== 'all') {
+      console.log(`🎯 CONCEPT GRAPH: Applying filter for topic: ${filterTopic}`);
+      filteredNotes = allNotes.filter(note => {
+        const group = getTopicGroup(note.id);
+        const matches = group === filterTopic;
+        if (!matches && Math.random() < 0.1) { // Log some non-matches for debugging
+          console.log(`🎯 CONCEPT GRAPH: Note ${note.id} -> group ${group}, filter ${filterTopic}, matches: ${matches}`);
+        }
+        return matches;
+      });
+      console.log(`🎯 CONCEPT GRAPH: Filtered to ${filteredNotes.length} notes for topic ${filterTopic}`);
+      
+      // Debug: Show some filtered note IDs
+      if (filteredNotes.length > 0) {
+        console.log('🎯 CONCEPT GRAPH: Sample filtered note IDs:', filteredNotes.slice(0, 3).map(n => n.id));
+      }
+    } else {
+      console.log('🎯 CONCEPT GRAPH: No topic filter applied, using all notes');
+    }
+  }
+  
+  // Sort by importance (notes with more potential connections first)
+  filteredNotes.sort((a, b) => {
+    const aImportance = (a.fullTitle?.length || 0) + (a.id.includes('000') ? 10 : 0);
+    const bImportance = (b.fullTitle?.length || 0) + (b.id.includes('000') ? 10 : 0);
+    return bImportance - aImportance;
+  });
+  
+  // Limit number of nodes for performance
+  const limitedNotes = filteredNotes.slice(0, maxNodes);
+  console.log(`🎯 CONCEPT GRAPH: Limited to ${limitedNotes.length} nodes`);
+
+  // Create nodes from filtered notes
+  limitedNotes.forEach((note, index) => {
+    const node = {
+      id: note.id,
+      title: note.title || 'Untitled',
+      taxon: note.taxon || 'Definition',
+      route: note.route,
+      fullTitle: note.fullTitle,
+      group: getTopicGroup(note.id),
+      importance: (note.fullTitle?.length || 0) + (note.id.includes('000') ? 10 : 0),
+      x: Math.random() * 800,
+      y: Math.random() * 600,
+      isCenterNode: centerNoteId && note.id === centerNoteId // Mark the center node
+    };
+    nodes.push(node);
+    nodeMap.set(note.id, index);
+  });
+  console.log(`🎯 CONCEPT GRAPH: Created ${nodes.length} nodes`);
+
+  // Extract links from note content (only from filtered notes)
+  console.log('🎯 CONCEPT GRAPH: Extracting links from notes...');
+  const linkPromises = limitedNotes.map(async (note) => {
+    if (!note.contentLoaded) {
+      await loadNoteContent(note);
+    }
+    return extractLinksFromNote(note);
+  });
+
+  try {
+    const allExtractedLinks = await Promise.all(linkPromises);
+    console.log(`🎯 CONCEPT GRAPH: Extracted links from ${allExtractedLinks.length} notes`);
+    
+    // Build links array (only between nodes that exist in our filtered set)
+    let linkCount = 0;
+    allExtractedLinks.forEach((extractedLinks, sourceIndex) => {
+      if (extractedLinks && extractedLinks.length) {
+        const sourceNode = nodes[sourceIndex];
+        extractedLinks.forEach(targetId => {
+          const targetIndex = nodeMap.get(targetId);
+          if (targetIndex !== undefined && sourceIndex !== targetIndex) {
+            const targetNode = nodes[targetIndex];
+            links.push({
+              source: sourceNode.id,  // Use node ID instead of index
+              target: targetNode.id,  // Use node ID instead of index
+              strength: 1
+            });
+            linkCount++;
+          }
+        });
+      }
+    });
+    
+    console.log(`🎯 CONCEPT GRAPH: Created ${linkCount} links`);
+  } catch (error) {
+    console.error('🎯 CONCEPT GRAPH: Error extracting links:', error);
+  }
+
+  graphData = { 
+    nodes, 
+    links, 
+    totalAvailable: filteredNotes.length,
+    showing: limitedNotes.length,
+    hasMore: filteredNotes.length > maxNodes
+  };
+  console.log(`🎯 CONCEPT GRAPH: Final graph data:`, graphData);
+  console.log(`🎯 CONCEPT GRAPH: Graph built with ${nodes.length} nodes and ${links.length} links`);
+  console.log(`🎯 CONCEPT GRAPH: Showing ${limitedNotes.length} of ${filteredNotes.length} available nodes`);
+  
+  // Verify graphData is properly set
+  if (graphData.nodes.length === 0) {
+    console.error('🎯 CONCEPT GRAPH: WARNING - No nodes were created!');
+    console.error('🎯 CONCEPT GRAPH: filteredNotes:', filteredNotes.length);
+    console.error('🎯 CONCEPT GRAPH: limitedNotes:', limitedNotes.length);
+  }
+}
+
+function extractLinksFromNote(note) {
+  const links = [];
+  const route = note.route;
+  
+  console.log(`🎯 CONCEPT GRAPH: Extracting links from note ${note.id} at ${route}`);
+  
+  // Fetch the XML content and extract fr:link elements
+  return fetch(route)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error ${response.status} for ${route}`);
+      }
+      return response.text();
+    })
+    .then(xmlText => {
+      console.log(`🎯 CONCEPT GRAPH: Received XML for ${note.id}, length: ${xmlText.length}`);
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+      
+      // Find all fr:link elements
+      const linkElements = xmlDoc.querySelectorAll('fr\\:link[type="local"], link[type="local"]');
+      console.log(`🎯 CONCEPT GRAPH: Found ${linkElements.length} links in ${note.id}`);
+      
+      linkElements.forEach(link => {
+        const addr = link.getAttribute('addr');
+        if (addr && addr !== note.id) {
+          links.push(addr);
+        }
+      });
+      
+      console.log(`🎯 CONCEPT GRAPH: Extracted ${links.length} valid links from ${note.id}`);
+      return links;
+    })
+    .catch(error => {
+      console.error(`🎯 CONCEPT GRAPH: Failed to extract links from ${note.id}:`, error);
+      return [];
+    });
+}
+
+function getTopicGroup(noteId) {
+  if (noteId.startsWith('FA-')) return 'FA';
+  if (noteId.startsWith('SP-')) return 'SP';
+  if (noteId.startsWith('CA-')) return 'CA';
+  if (noteId.startsWith('AN-')) return 'AN';
+  return 'other';
+}
+
+// Function to detect the current note ID from the page URL
+function getCurrentNoteId() {
+  const url = window.location.href;
+  console.log('🎯 CONCEPT GRAPH: Current URL:', url);
+  
+  // Extract note ID from URL patterns like:
+  // file:///path/to/FA-0001.xml
+  // /path/to/FA-0001.xml
+  // FA-0001.xml
+  const match = url.match(/([A-Z]{2}-[0-9A-Z]{4})\.xml/);
+  const noteId = match ? match[1] : null;
+  
+  console.log('🎯 CONCEPT GRAPH: Detected current note ID:', noteId);
+  return noteId;
+}
+
+function createD3Graph() {
+  console.log('🎯 CONCEPT GRAPH: Creating D3 graph...');
+  
+  // Verify D3 is loaded
+  if (!window.d3) {
+    console.error('🎯 CONCEPT GRAPH: D3.js not loaded, cannot create graph');
+    return;
+  }
+
+  // Verify data with detailed logging
+  console.log('🎯 CONCEPT GRAPH: Checking graphData:', graphData);
+  if (!graphData) {
+    console.error('🎯 CONCEPT GRAPH: graphData is null/undefined');
+    return;
+  }
+  if (!graphData.nodes) {
+    console.error('🎯 CONCEPT GRAPH: graphData.nodes is null/undefined');
+    return;
+  }
+  if (!graphData.links) {
+    console.error('🎯 CONCEPT GRAPH: graphData.links is null/undefined');
+    return;
+  }
+  
+  console.log(`🎯 CONCEPT GRAPH: Graph data contains ${graphData.nodes.length} nodes and ${graphData.links.length} links`);
+  
+  // Debug: Log first few nodes and links
+  if (graphData.nodes.length > 0) {
+    console.log('🎯 CONCEPT GRAPH: Sample nodes:', graphData.nodes.slice(0, 3));
+  }
+  if (graphData.links.length > 0) {
+    console.log('🎯 CONCEPT GRAPH: Sample links:', graphData.links.slice(0, 3));
+  }
+  
+  const container = document.getElementById('concept-graph-container');
+  if (!container) {
+    console.error('🎯 CONCEPT GRAPH: Container element not found');
+    return;
+  }
+  
+  container.innerHTML = '';
+  console.log('🎯 CONCEPT GRAPH: Container cleared');
+
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+  console.log(`🎯 CONCEPT GRAPH: Container dimensions: ${width}x${height}`);
+
+  // Create SVG
+  const svg = d3.select('#concept-graph-container')
+    .append('svg')
+    .attr('width', width)
+    .attr('height', height)
+    .call(d3.zoom()
+      .scaleExtent([0.1, 4])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+      }));
+  console.log('🎯 CONCEPT GRAPH: SVG created with zoom behavior');
+
+  const g = svg.append('g');
+
+  // Create force simulation with optimized settings for smaller graphs
+  console.log('🎯 CONCEPT GRAPH: Creating force simulation');
+  const simulation = d3.forceSimulation(graphData.nodes)
+    .force('link', d3.forceLink(graphData.links)
+      .id(d => d.id)
+      .distance(100)  // Increased distance for better spacing
+      .strength(0.2)) // Increased strength for clearer connections
+    .force('charge', d3.forceManyBody()
+      .strength(-400) // More repulsion for better separation
+      .distanceMax(300)) // Limit interaction distance
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide()
+      .radius(d => {
+        const baseRadius = getTaxonRadius(d.taxon);
+        const importanceBonus = Math.min(d.importance / 10, 8);
+        return baseRadius + importanceBonus + 5; // Add padding
+      })
+      .strength(0.7))
+    .alphaDecay(0.02) // Slower cooling for better convergence
+    .velocityDecay(0.3); // More damping for stability
+
+  // Create links
+  console.log('🎯 CONCEPT GRAPH: Creating links');
+  const link = g.append('g')
+    .selectAll('line')
+    .data(graphData.links)
+    .join('line')
+    .attr('class', 'graph-link')
+    .attr('stroke', '#666')
+    .attr('stroke-opacity', 0.6)
+    .attr('stroke-width', 1);
+
+  // Create nodes with importance-based sizing
+  console.log('🎯 CONCEPT GRAPH: Creating nodes');
+  const node = g.append('g')
+    .selectAll('circle')
+    .data(graphData.nodes)
+    .join('circle')
+    .attr('class', d => `graph-node ${d.group} ${d.taxon.toLowerCase()} ${d.isCenterNode ? 'center-node' : ''}`)
+    .attr('r', d => {
+      const baseRadius = getTaxonRadius(d.taxon);
+      const importanceBonus = Math.min(d.importance / 10, 8); // Scale importance to reasonable size
+      const centerBonus = d.isCenterNode ? 5 : 0; // Make center node larger
+      return baseRadius + importanceBonus + centerBonus;
+    })
+    .attr('fill', d => getTaxonColor(d.taxon))
+    .attr('stroke', d => d.isCenterNode ? '#ff6b6b' : '#fff')
+    .attr('stroke-width', d => d.isCenterNode ? 4 : 2)
+    .style('cursor', 'pointer')
+    .call(d3.drag()
+      .on('start', dragstarted)
+      .on('drag', dragged)
+      .on('end', dragended));
+
+  // Add labels
+  console.log('🎯 CONCEPT GRAPH: Creating labels');
+  const label = g.append('g')
+    .selectAll('text')
+    .data(graphData.nodes)
+    .join('text')
+    .attr('class', 'graph-label')
+    .attr('text-anchor', 'middle')
+    .attr('dy', '.35em')
+    .attr('font-size', '10px')
+    .attr('fill', '#333')
+    .attr('pointer-events', 'none')
+    .text(d => d.title.length > 12 ? d.title.substring(0, 12) + '...' : d.title);
+
+  // Add tooltips and click handlers
+  console.log('🎯 CONCEPT GRAPH: Adding interaction handlers');
+  node
+    .on('mouseover', function(event, d) {
+      // Show tooltip
+      const tooltip = d3.select('body')
+        .append('div')
+        .attr('class', 'graph-tooltip')
+        .style('opacity', 0)
+        .style('position', 'absolute')
+        .style('background', 'rgba(0, 0, 0, 0.8)')
+        .style('color', 'white')
+        .style('padding', '8px')
+        .style('border-radius', '4px')
+        .style('font-size', '12px')
+        .style('pointer-events', 'none')
+        .style('z-index', '10000');
+
+      tooltip.transition()
+        .duration(200)
+        .style('opacity', .9);
+      
+      tooltip.html(`<strong>${d.title}</strong><br/>${d.taxon}<br/>ID: ${d.id}`)
+        .style('left', (event.pageX + 10) + 'px')
+        .style('top', (event.pageY - 10) + 'px');
+
+      // Highlight connected nodes
+      const connectedNodes = new Set();
+      graphData.links.forEach(link => {
+        if (link.source.id === d.id) connectedNodes.add(link.target.id);
+        if (link.target.id === d.id) connectedNodes.add(link.source.id);
+      });
+
+      node.style('opacity', n => connectedNodes.has(n.id) || n.id === d.id ? 1 : 0.3);
+      link.style('opacity', l => 
+        (l.source.id === d.id || l.target.id === d.id) ? 1 : 0.1);
+    })
+    .on('mouseout', function(event, d) {
+      // Remove tooltip
+      d3.selectAll('.graph-tooltip').remove();
+      
+      // Reset opacity
+      node.style('opacity', 1);
+      link.style('opacity', 0.6);
+    })
+    .on('click', function(event, d) {
+      window.location.href = d.route;
+    });
+
+  // Update positions on tick
+  simulation.on('tick', () => {
+    link
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y);
+
+    node
+      .attr('cx', d => d.x)
+      .attr('cy', d => d.y);
+
+    label
+      .attr('x', d => d.x)
+      .attr('y', d => d.y);
+  });
+
+  // Drag functions
+  function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+  }
+
+  function dragended(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+
+  conceptGraph = { svg, simulation, nodes: graphData.nodes, links: graphData.links };
+  console.log('🎯 CONCEPT GRAPH: Graph created successfully');
+}
+
+function getTaxonRadius(taxon) {
+  switch (taxon.toLowerCase()) {
+    case 'theorem': return 12;
+    case 'lemma': return 10;
+    case 'proposition': return 10;
+    case 'definition': return 8;
+    default: return 8;
+  }
+}
+
+function getTaxonColor(taxon) {
+  switch (taxon.toLowerCase()) {
+    case 'theorem': return '#ff6b6b';
+    case 'lemma': return '#4ecdc4';
+    case 'proposition': return '#45b7d1';
+    case 'definition': return '#96ceb4';
+    case 'notation': return '#feca57';
+    default: return '#b8b8b8';
+  }
+}
+
+// Load D3.js library
+function loadD3() {
+  return new Promise((resolve, reject) => {
+    if (window.d3) {
+      resolve();
+      return;
+    }
+    
+    const script = document.createElement('script');
+    script.src = 'https://d3js.org/d3.v7.min.js';
+    script.onload = resolve;
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+// Export functions to global window object for testing and external access
+window.getCurrentNoteId = getCurrentNoteId;
+window.buildGraphData = buildGraphData;
+window.showConceptGraph = showConceptGraph;
+window.createD3Graph = createD3Graph;

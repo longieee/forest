@@ -56,3 +56,13 @@
   \li{Follow cross-references between notes to explore connections}
   \li{Note identifiers follow the pattern: [Area]-[Base36 ID]}
 }
+
+\p{\strong{Interactive Concept Graph:}}
+\ul{
+  \li{Use \strong{Ctrl + G} to open the interactive concept graph}
+  \li{\strong{Contextual Mode}: Automatically centers the graph on your current note, showing its direct connections and related concepts}
+  \li{\strong{Topic Overview Mode}: Browse notes by topic area (FA, SP, CA, AN) with customizable node limits}
+  \li{Visual features: Center nodes are highlighted with larger size and red borders}
+  \li{Interactive controls: Click nodes to navigate, drag to rearrange, scroll to zoom}
+  \li{Mode switching: Use the dropdown to toggle between contextual and topic-based views}
+}
