@@ -9,7 +9,8 @@
   <xsl:template match="/">
     <html>
       <head>
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <meta name="format-detection" content="telephone=no" />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="katex.min.css" />
         <script type="text/javascript">
