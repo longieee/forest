@@ -1,0 +1,17 @@
+\date{2025-06-02}
+\taxon{Definition}
+\title{Poisson distribution}
+
+\p{
+  A \em{discrete random variable} X taking values in #{ \mathbb{N} = \{ 0,1,2,3 \dots \}  } is \strong{Poisson distributed} with parameter #{ \lambda  } , #{ X \sim \text{Poi}(\lambda ) } if 
+}
+##{
+  \mathbb{P} (X=k) = e^{-\lambda } \frac{\lambda ^k}{k!} \quad \forall k = 0,1,2 \dots
+}
+
+\p{
+  \ul{
+    \li{Mean: #{ \mathbb{E} [X] = \lambda  } }
+    \li{Variance: #{ \text{Var}(X) =\lambda  } }
+  }
+}

@@ -1,0 +1,11 @@
+\date{2025-06-02}
+\title{Strong Law of Large Numbers}
+\taxon{Theorem}
+
+\p{
+  For a sequence of i.i.d. random variables #{ X_1, X_2, \dots } with finite mean #{ \mathbb{E} [X_1] = \mu  }, their sample mean converges [almost surely](SP-0002) to #{ \mu  }: 
+}
+
+##{
+  \lim_{n \to \infty} \frac{1}{n} \sum_{k=1}^{n} X_{k} = \mu \quad \text{almost surely}  
+}

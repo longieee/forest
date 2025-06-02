@@ -1,0 +1,50 @@
+\date{2025-06-02}
+\title{Birth-and-Death Process}
+\taxon{Definition}
+
+\p{
+  A larger class of infinite state, continuous-time [Markov chains](SP-000O). The state space is #{ \mathbb{N} =\{ 0,1,2,3 \dots \}  } we assume that the process can only vary in time by either increasing or decreasing by a unit at each jump; namely, from #{ n }  one can only move to #{n + 1} or #{n-1}.
+}
+
+\p{
+  Let #{ X_{t}  } represents the number of individuals in a population at time t, which can increase by 1 whenever a new individual is born, or decreasing by 1 whenever one of the already existing individuals dies.
+}
+
+\p{
+  It suffies to provide, for each state #{ i \in \mathbb{N}  } , the birth rate #{ \beta _{i}  }  of going from i to i + 1 and the death rate #{ \nu _{i}  }  of going from i to i¡ 1 (with the convention that #{ \nu _0 = 0 } )
+}
+
+\p{
+  The corresponding [Q matrix](SP-000T) is
+  ##{
+    \begin{pmatrix}
+      -\beta _0 & \beta _0  & 0 & 0  & \dots  & 0 \\
+      \nu _1 & -\beta _1 - \nu _1 & \beta _1 & 0 & \dots & 0 \\
+      0 & \nu _2 & -\beta _2 - \nu _2 & \beta _@ & 0 & \dots \\
+      0 & 0 & \nu _3 & \beta _3 - \nu _3 & \beta _3 & \dots \\
+      \dots & \dots & \dots & \dots & \dots & \dots \\
+    \end{pmatrix}
+  }
+}
+
+\p{
+  In terms of infinitesimal transition probabilities, we get
+  ##{
+    \begin{dcases}
+      P_{i,i+1}(h) = \beta_{i} h + o(h) \\
+      P_{i,i-1}(h) = \nu _{i} (h) + o(h) \\
+      P_{i,i}(h) = 1 - (\beta _{i} +\nu _{i} )(h) + o(h), 
+    \end{dcases}
+  }
+}
+
+\p{
+  Several models are special cases of the birth-death process:
+  \ol{
+    \li{[Poisson process](SP-000J): #{ \beta _{i} =\lambda , \quad \nu _{i} =0 \quad \forall i \in \mathbb{N}  } }
+    \li{Pure death process: #{ \beta _{i} = 0 ,\quad \nu _{i} = \nu  \quad \forall i \in \mathbb{N}  } }
+    \li{Simple birth process: #{ \beta _{i} = \beta i , \quad \nu _{i} =0 \quad \forall i \in \mathbb{N}  }}
+    \li{Simple birth-and-death process: #{ \beta _{i} = \beta i , \quad \nu _{i} = \nu i \quad \forall i \in \mathbb{N}  }}
+    \li{Immigration-death process: #{ \beta _{i} =\lambda , \quad \nu _{i} =\nu i \quad \forall i \in \mathbb{N}  }}
+  }
+}

@@ -1,0 +1,21 @@
+\date{2025-06-02}
+\title{3 characterizations of [Poisson Process](SP-000J)}
+\taxon{Theorem}
+
+\p{
+  Let #{ (X_{t} )_{t \geq 0} } be an increasing (right continuous) process with #{ X_0 = 0, \lambda >0 }. The following are equivalent:
+}
+\p{
+  \ol{
+    \li{\strong{(jump chain/holding time definition)} #{ X }  is a [Markov process](SP-000O) on #{ \mathbb{N}  }  with [holding times](SP-000O) #{ S_1, S_2, \dots }  being independent random variables, #{ S_k \sim \text{Exp}(\lambda )  }, and [jump chain](SP-000M) #{ Y_n = n }}
+    \li{\strong{(infinitesimal definition)} #{ (X_{t} )_{t \geq 0} } has \em{independent increments} and, uniformly on #{ t } 
+    ##{
+      \mathbb{P} \left( X_{t+h} -X_{t} = 0 \right) = 1-\lambda h + o(h) \quad 
+      \mathbb{P} \left( X_{t+h} -X_{t} = 1 \right) = \lambda h + o(h)
+    }}
+    \li{\strong{(transition probability definition)} #{ (X_{t} )_{t \geq 0} } has \em{stationary independent increments} with [Poisson distribution](SP-000I) 
+    ##{
+      X_{t} \sim \text{Poi}(\lambda ) \quad \forall t \geq 0 
+    }}
+  }
+}

@@ -1,0 +1,32 @@
+\date{2025-05-31}
+\title{Jordan's Lemma}
+\taxon{Lemma}
+
+\p{
+  Let #{ R, \alpha  } be real, positive constants
+  and let #{ \gamma _R }  be the semicirculas contour #{ \theta \in [0, \pi ] \mapsto R e^{i \theta } } 
+}
+
+\p{
+  Suppose that #{ f } is a continuous function defined on #{ \gamma _{R} }, and is of the form #{ f(z) = e^{i \alpha z} g(z) \quad z \in \gamma _{R}  }
+}
+\p{
+  Then:
+  ##{
+    \left\vert \int _{\gamma _{R} } f(z)dz\right\vert \leq 
+    \frac{\pi}{\alpha } \sup _{z \in \gamma _{R} } \left\vert g(z) \right\vert 
+  }
+}
+
+\p{
+  \strong{Remarks:}
+}
+
+\p{
+  If #{ f } is continuous on the semi circular contour #{ \gamma _{R}  } for all large #{ R }  and 
+  ##{ \lim_{R \to \infty}  \sup _{z \in \gamma _{R} } \left\vert g(z) \right\vert = 0 } 
+  then
+  ##{
+    \lim_{R \to \infty} \int _{\gamma _{R} } f(z)dz = 0
+  } 
+}

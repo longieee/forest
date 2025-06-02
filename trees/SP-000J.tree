@@ -1,0 +1,7 @@
+\date{2025-06-02}
+\title{Poisson Process}
+\taxon{Definition}
+
+\p{
+  A (right continuous) process #{ (X_{t} )_{t \geq 0} } taking values in #{ \mathbb{N} = \{ 0,1,2,3 \dots \}  } is a \strong{Poisson process} of rate #{ \lambda >0 } if its [holding times](SP-000K) #{ S_1, S_2, \dots } are independent [\em{exponential random variables}](SP-000L) of parameter #{ \lambda  } and its [jump chain](SP-000M) is given by #{ Y_{n} =n } 
+}

@@ -1,0 +1,7 @@
+\date{2025-05-31}
+\title{Rouché's Theorem}
+\taxon{Theorem}
+
+\p{
+  If #{ f(z) } and #{ g(z) } are [holomorphic](CA-0004) inside and on a simple, closed loop #{ C }, and if #{ \left\vert f(z) \right\vert > \left\vert g(z) \right\vert  } on #{ C }, then #{ f(z) } and #{ f(z)+g(z) } has the same number of zeros inside #{ C }, \strong{counting multiplicities}. 
+}
