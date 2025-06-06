@@ -1,0 +1,21 @@
+\date{2025-06-05}
+\title{Martingale}
+\taxon{Definition}
+
+\p{
+  A [stochastic process](SP-0004) #{ \xi (t) } parameterized by #{ t \in T } is called a \strong{martingale} (submartingale, supermartingale) w.r.t. to a [filtration](SP-0012) #{ \mathcal{F} _{t}  } if
+  \ol{
+    \li{#{ \xi (t) } is [integrable](FA-001N) for each #{ t \in T } }
+    \li{#{ \xi (t) } is #{ \mathcal{F}  }-[measurable](FA-001B) for each #{ t \in T } (in which case we say that #{ \xi (t) } is [adapted](SP-0005) to #{ \mathcal{F} _{t}  } )}
+    \li{#{ \xi (s) = \mathbb{E} \left[ \xi (t) \vert \mathcal{F} _{s}  \right]  } (respectively, #{ \leq  } or #{ \geq  }  ) for every #{ s,t \in T } such that #{ s \leq t } }
+  } 
+}
+
+\p{
+  \strong{Examples}
+  \ul{
+    \li{Symmetric random walks are martingales in discrete time}
+    \li{[Poisson process](SP-000J) and [Brownian motions](SP-0001) are martingales in continuous time}
+  }
+
+}

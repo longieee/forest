@@ -2,7 +2,7 @@
 \taxon{Theorem}
 \title{Property of sample paths}
 \p{
-  Let #{(B_t)_{t \geq 0}} be a [Brownian Motion](SP-0001), then its sample path is \strong{not differentiable} at any point [almost surely](SP-0002)
+  Let #{(B_t)_{t \geq 0}} be a [Brownian Motion](SP-0001), then its [sample path](SP-0013) is \strong{not differentiable} at any point [almost surely](SP-0002)
 }
 
 \p{

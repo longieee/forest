@@ -1,0 +1,10 @@
+\date{2025-06-05}
+\title{Fatou's Lemma}
+\taxon{Lemma}
+
+\p{
+  If #{ \{ f_n \}  } is a sequence of \strong{non-negative}, [meaasurable functions](FA-001L), then
+  ##{
+    \int \liminf_{n \to \infty} f_{n} (x)dx \leq \liminf_{n \to \infty } \int f_{n} (x)dx
+  } 
+}

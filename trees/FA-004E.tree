@@ -1,0 +1,7 @@
+\date{2025-06-04}
+\title{Mollifier}
+\taxon{Definition}
+
+\p{
+  A \strong{mollifier} is a function #{ \varphi \in C^{\infty} _{c} (\mathbb{R}^n ) } such that #{ \text{ supp } \varphi \subseteq \overline{B_1(0)} }, #{ \varphi \geq  0 } and #{ \int \varphi = 1 }  
+}

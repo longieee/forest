@@ -1,0 +1,7 @@
+\date{2025-06-05}
+\title{Bounded linear operator is continuous}
+\taxon{Theorem}
+
+\p{
+  A [linear operator](FA-002H) is [bounded](FA-002G) \em{iff} it is continuous
+}

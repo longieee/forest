@@ -1,0 +1,10 @@
+\date{2025-06-04}
+\title{Convolution and [Fourier Transform](FA-004D)}
+\taxon{Theorem}
+
+\p{
+  Let #{ u,v \in L^1(\mathbb{R} ^n) }, then
+  ##{
+    \mathcal{F} (u*v) = \hat{u} \cdot \hat{v}
+  }
+}

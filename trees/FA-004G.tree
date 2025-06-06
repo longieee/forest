@@ -1,0 +1,14 @@
+\date{2025-06-04}
+\title{Riemann-Lebesgue Theorem}
+\taxon{Theorem}
+
+\p{
+  If #{ u \in L^1(\mathbb{R} ^n) }, then #{ \hat{u} \in L^{\infty} (\mathbb{R} ^n) } and
+  ##{
+    \lVert \hat{u} \rVert _{L^{\infty} } \leq  \lVert u \rVert _{L^1}
+  } 
+}
+
+\p{
+  Moreover, #{ \hat{u} } is continuous in #{ \mathbb{R} ^n } and #{ \left\vert \hat{u} (\xi ) \right\vert \to 0 } as #{ \lVert \xi  \rVert \to  +\infty  }   
+}

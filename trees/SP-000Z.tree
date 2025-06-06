@@ -1,0 +1,24 @@
+\date{2025-06-03}
+\title{Immigration-Death process}
+\taxon{Definition}
+
+\p{
+  A [birth-and-death process](SP-000S) with
+  ##{
+    \beta _{i} =\lambda \quad \nu _{i} =\nu i \quad \forall i \geq 0
+  }
+}
+
+\p{
+  The [Kolmogorov Forward Equations](SP-000Y) are
+  ##{
+    p^{\prime} _{i} (t) = \lambda p_{i+1} (t) - (\lambda +\nu i) p _{i} (t) + \nu (i+1)p _{i+1} (t) 
+  }
+}
+
+\p{
+  Using the [The Kolmogorov equations](SP-000Y), one has that the [invariant distribution](SP-0010) of the Immigration-Death process is a [Poisson distribution](SP-000I):
+  ##{
+    \pi _{i} = e^{-\rho } \frac{\rho^i }{i!} \quad \text{where} \quad \rho = \frac{\lambda }{\nu }
+  }
+}

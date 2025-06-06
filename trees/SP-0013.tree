@@ -1,0 +1,11 @@
+\date{2025-06-05}
+\title{Sample paths}
+\taxon{Definition}
+
+\p{
+  For every #{ \omega \in \Omega  } the function
+  ##{
+    T \ni t \mapsto \xi (t,\omega )
+  }
+  is called a \em{path} or \strong{sample path} of #{ \xi (t) } 
+}

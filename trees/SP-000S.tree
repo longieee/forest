@@ -45,6 +45,7 @@
     \li{Pure death process: #{ \beta _{i} = 0 ,\quad \nu _{i} = \nu  \quad \forall i \in \mathbb{N}  } }
     \li{Simple birth process: #{ \beta _{i} = \beta i , \quad \nu _{i} =0 \quad \forall i \in \mathbb{N}  }}
     \li{Simple birth-and-death process: #{ \beta _{i} = \beta i , \quad \nu _{i} = \nu i \quad \forall i \in \mathbb{N}  }}
-    \li{Immigration-death process: #{ \beta _{i} =\lambda , \quad \nu _{i} =\nu i \quad \forall i \in \mathbb{N}  }}
+    \li{[Immigration-death process](SP-000Z): #{ \beta _{i} =\lambda , \quad \nu _{i} =\nu i \quad \forall i \in \mathbb{N}  }}
+    \li{M/M/1 queue: #{ \beta _{i} = \lambda, \nu _{i} =\nu  \quad \forall i \geq 0, \quad \beta _0 = \beta , \nu_0 = 0\ } }
   }
 }

@@ -1,0 +1,14 @@
+\date{2025-06-03}
+\title{Memoryless property}
+\taxon{Theorem}
+
+\p{
+  If #{ Z \sim \text{Exp}(\lambda )}, then
+  ##{
+    \mathbb{P} \left( Z >{t+s} | Z >{t}  \right) = \mathbb{P} \left( Z > s \right) \quad \forall s,t \geq 0
+  }
+}
+
+\p{
+  Conversely, the e[xponential distributions](SP-000L) are the only positive random variables enjoying the loss of memory property
+}

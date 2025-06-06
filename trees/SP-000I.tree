@@ -10,8 +10,10 @@
 }
 
 \p{
+  Some properties:
   \ul{
     \li{Mean: #{ \mathbb{E} [X] = \lambda  } }
     \li{Variance: #{ \text{Var}(X) =\lambda  } }
+    \li{[p.g.f](SP-000W): #{ G_{X} (s) = e^{\lambda (s-1)}}}
   }
 }

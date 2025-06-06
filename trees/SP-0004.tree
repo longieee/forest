@@ -1,2 +1,15 @@
 \date{2025-05-26}
 \title{Stochastic Process}
+\taxon{Definitoin}
+
+\p{
+  A \strong{stochastic process} is a family of random variables #{ \xi (t) } parameterized by
+  #{ t \in T }, where #{ T \subset \mathbb{R}  }.
+}
+
+\p{
+  When #{ T = \left\{ 1,2,\dots \right\}}, we say that #{ \xi (t) } is a stochastic process in \strong{discrete time} (i.e. a sequence of random variables)
+}
+\p{
+  When #{ T } is an interval in #{ \mathbb{R}  }, we say that #{ \xi (t) } is a stochastic process in \strong{continuous time}.
+}

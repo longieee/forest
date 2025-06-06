@@ -1,0 +1,21 @@
+\date{2025-06-03}
+\title{Probability Generating Functions}
+\taxon{Definition}
+
+\p{
+  Let X be a random variable with values in #{[0; +\infty ]} then its \strong{probability generating function} (p.g.f.) #{ G_{X}  } is given by
+  ##{
+    G_{X} (s) = \mathbb{E} \left[ s^X \right] \quad \forall s \in (0,1)
+  }
+}
+
+\p{
+  \strong{Fact}: Prescribing #{ G_{X}  }  is the same as prescribing the distribution #{ \mathbb{P} _{X}  } 
+}
+
+\p{
+  In particular, #{ G_{X}  }  determines uniquenely all moments #{ \mathbb{E} \left[ X^m \right]  } (whenever they exist and are finite), for instance
+  ##{
+    \mathbb{E} [X] = G^{\prime} _{X} (1)
+  }
+}

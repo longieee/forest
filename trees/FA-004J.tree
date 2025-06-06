@@ -1,0 +1,24 @@
+\date{2025-06-04}
+\title{Plancherel theorem}
+\taxon{Theorem}
+
+\p{
+  Let #{ u,v \in L^1(\mathbb{R} ^n) \cap L^2(\mathbb{R} ^n) }, then
+  ##{
+    \int _{\mathbb{R} ^n} \overline{u} v dx = 
+    \frac{1}{{(2\pi )}^n} \int _{\mathbb{R} ^n} \overline{\hat{u}}\hat{v} d\xi  
+  } 
+}
+
+\p{
+  In particular,
+  ##{
+    \int {\left\vert u \right\vert}^{2}dx = 
+     \frac{1}{{(2\pi )}^n} \int _{\mathbb{R} ^n} {\left\vert \hat{u} \right\vert}^2  d\xi  
+  }
+  i.e.
+  ##{
+    {\lVert u \rVert}_{L^2(\mathbb{R}^n)} = 
+    \frac{1}{{(2\pi )}^{ n / 2}} {\lVert \hat{u} \rVert}_{L^2(\mathbb{R}^n)}
+  }
+}

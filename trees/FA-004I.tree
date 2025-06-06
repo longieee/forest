@@ -1,0 +1,10 @@
+\date{2025-06-04}
+\title{Convolution}
+\taxon{Definition}
+
+\p{
+  The \strong{convolution} of functions #{ f } and #{ g } is given by
+  ##{
+    (f*g)(x) = \int_{-\infty }^{+\infty } f(x-y)g(y)dy
+  }
+}

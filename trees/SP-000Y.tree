@@ -1,0 +1,11 @@
+\date{2025-06-03}
+\title{Kolmogorov Forward Equations}
+\taxon{Definition}
+
+\p{
+  The \strong{Kolmogorov equations} are a set of differential equations that describe the evolution of probabilities in a continuous-time [Markov chain](SP-000O). They tell us how the probability of being in any particular state changes over time.
+}
+
+\p{
+  These describe how the state probabilities #{p_i(t)=\mathbb{P} (X_t=i)} evolve forward in time. They are based on the principle that the rate of change of probability for a state equals the rate of probability flowing into that state minus the rate of probability flowing out of that state.
+}

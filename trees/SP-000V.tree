@@ -1,0 +1,11 @@
+\date{2025-06-03}
+\taxon{Lemma}
+\title{Sum of independent [Poisson distributions](SP-000I)}
+
+\p{
+  Let #{ X_1 \sim  \text{Poi}(\lambda _1)  } and #{ X_2 \sim  \text{Poi}(\lambda _2)  } be independent random variables. Then #{ X_1 + X_2 \sim  \text{Poi}(\lambda _1 + \lambda _2)  }
+}
+
+\p{
+  The proof is simply by calculating the [p.g.f](SP-000W)
+}

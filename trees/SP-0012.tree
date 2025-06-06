@@ -1,0 +1,11 @@
+\date{2025-06-05}
+\title{Filtration}
+\taxon{Definition}
+
+\p{
+  A family #{ \mathcal{F} _{t}  } of #{ \sigma  }-fields on #{ \Omega  } parameterized by #{ t \in T }, where #{ T \subset \mathbb{R}  }, is called a \strong{filtration} if
+  ##{
+    \mathcal{F} _{s} \subset \mathcal{F} _{t} \subset \mathcal{F} 
+  }
+  for any #{ s,t \in T } such that #{ s \leq t } 
+}

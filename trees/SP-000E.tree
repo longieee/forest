@@ -1,3 +1,18 @@
 \date{2025-05-29}
 \title{Stopping time}
 \taxon{Definition}
+
+\p{
+  We say that a \strong{random variable} #{ \tau \in [0,+\infty ] } is a stopping time for the [Brownian motion](SP-0001) if for each #{ t } the event #{ \left\{ \tau \leq t \right\}  } is [measurable](FA-001B) w.r.t. #{ \mathcal{F} _{t}  }.  
+}
+
+\p{
+  In words, this means that in order to know whether or not the process has stopped before time #{ t }, one only needs to look at the Brownian motion up to time #{ t }.
+}
+
+\p{
+  A typical example of the stopping time is
+  ##{
+    \tau _{x} \coloneqq \inf \left\{ t: X_t = x \right\} 
+  }
+}

@@ -1,0 +1,17 @@
+\date{2025-06-04}
+\title{Derivaties of the [Fourier coefficient](FA-004C)}
+\taxon{Proposition}
+
+\p{
+  Let #{ f \in C^1(\mathbb{T}) }, then
+  ##{
+    \hat{f^{\prime}_{n}}  = in \hat{f_{n} }
+  }
+}
+
+\p{
+  It follows from induction that if #{ f \in C^k(\mathbb{T}) }, then
+  ##{
+    \hat{f^{(k)}_{n}}  = {(in)}^k \hat{f_{n} }
+  }
+}

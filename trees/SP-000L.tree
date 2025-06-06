@@ -1,3 +1,24 @@
 \date{2025-06-02}
 \title{Exponential distribution}
 \taxon{Definition}
+
+\p{
+  We say that a random variable #{ Z } has \strong{exponential distribution} of rate #{ \lambda > 0 } , #{ Z \sim\text{Exp}(\lambda )  } if it has a probability density function given by
+  ##{
+    f_{Z} (t) = e^{-\lambda t} \mathbb{1}_{t\geq  0} 
+  } 
+}
+
+\p{
+  Some properties:
+  \ul{
+    \li{Mean: #{ \mathbb{E} [Z] = \frac{1}{\lambda } } }
+    \li{#{ \mathbb{P} (Z>t) = e^{-\lambda t} \quad \forall t \geq 0} }
+    \li{[p.g.f](SP-000W) #{ G_{Z} = \frac{\lambda }{\lambda -\log s} }  }
+  }
+}
+
+\p{
+  An important property:
+}
+\transclude{SP-000U}

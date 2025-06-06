@@ -1,3 +1,10 @@
 \date{2025-05-27}
-\title{Properties of Sample Paths}
+\title{Adaptation}
+\taxon{Definition}
+
+\p{
+  We say that a randomvariable #{ X_{t}  } is #{ \mathcal{F}  }-adapted if  
+  #{ X_{t}  } is measurable w.r.t. #{ \mathcal{F} _{t}  }.
+  Intuitively, this means that #{ X_{t}  } "does not look into the future" beuond time #{ t }  
+}
 

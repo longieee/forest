@@ -1,0 +1,7 @@
+\date{2025-06-05}
+\title{Compact Operator}
+\taxon{Definition}
+
+\p{
+  An [linear operator](FA-002H) #{ T \in \mathcal{L} (X,Y) } where #{ X,Y } are [Banach spaces](FA-000F) is \strong{compact} if #{ T\left( \overline{B_1}(0)  \right)  } is [precompact](FA-000I)
+}
