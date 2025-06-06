@@ -172,8 +172,8 @@ fetchForestJson()
 
   const editIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480-120v-71l216-216 71 71-216 216h-71ZM120-330v-60h300v60H120Zm690-49-71-71 29-29q8-8 21-8t21 8l29 29q8 8 8 21t-8 21l-29 29ZM120-495v-60h470v60H120Zm0-165v-60h470v60H120Z"/></svg>'
   const bookmarkIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M120-40v-700q0-24 18-42t42-18h480q24 0 42.5 18t18.5 42v700L420-167 120-40Zm60-91 240-103 240 103v-609H180v609Zm600 1v-730H233v-60h547q24 0 42 18t18 42v730h-60ZM180-740h480-480Z"/></svg>'
-  const themeIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>'
-  const searchIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>'
+  const themeIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="http://0 0 24 24" width="20"><path d="M12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9Z"/></svg>'
+  const searchIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="http://0 0 24 24" width="20"><path d="M10.5 3a7.5 7.5 0 0 1 5.196 12.696l3.354 3.354a1 1 0 0 1-1.414 1.414l-3.354-3.354A7.5 7.5 0 0 1 10.5 3ZM9 10.5A4.5 4.5 0 1 0 9 19a4.5 4.5 0 0 0 0-8.5Zm0 8.5A4.5 4.5 0 0 1 4.5 15H9v4Zm6.75-4.5A4.5 4.5 0 1 1 15 10.5V9h4.5a4.5 4.5 0 0 1 0 9H15v-1.5ZM9 6.75V9H4.5A4.5 4.5 0 0 1 9 6.75ZM15 6.75V9h4.5A4.5 4.5 0 0 1 15 6.75ZM9 3v1.5A7.5 7.5 0 0 0 3 10.5H1.5A9 9 0 0 1 9 3ZM15 3v1.5A7.5 7.5 0 0 1 21 10.5H22.5A9 9 0 0 0 15 3ZM9 19v-1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Zm6-1.5v1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Z"/></svg>'
 
   // Prepare data for fuzzy search
   allNotes = Object.keys(data).map(addr => ({
@@ -262,7 +262,7 @@ fetchForestJson()
   })
 
   // Concept graph command
-  const graphIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>'
+  const graphIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="http://-960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>'
   items.push({
     id: 'concept-graph',
     title: 'Show Concept Graph',
@@ -406,6 +406,22 @@ function openFuzzySearchModal() {
   // Click outside to close
   overlay.addEventListener('click', (e) => {
     if (e.target === overlay) {
+      closeModal();
+    }
+  });
+
+  // Touch support for mobile
+  let touchStartY = 0;
+  overlay.addEventListener('touchstart', (e) => {
+    touchStartY = e.touches[0].clientY;
+  });
+  
+  overlay.addEventListener('touchend', (e) => {
+    const touchEndY = e.changedTouches[0].clientY;
+    const deltaY = touchEndY - touchStartY;
+    
+    // Swipe down to close modal on mobile
+    if (deltaY > 100 && e.target === overlay) {
       closeModal();
     }
   });
@@ -864,6 +880,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize concept graph
   setupConceptGraph();
   
+  // Initialize mobile support
+  enhanceMobileSupport();
+  
   // Add global debugging info
   window.forestDebug = {
     allNotes: () => allNotes,
@@ -906,9 +925,7 @@ function addConceptGraphButton() {
   const graphButton = document.createElement('button');
   graphButton.className = 'concept-graph-toggle';
   graphButton.innerHTML = `
-    <svg class="concept-graph-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
-      <path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/>
-    </svg>
+    <svg class="concept-graph-icon" xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>
     <span class="concept-graph-text">Graph</span>
   `;
   graphButton.title = 'Show concept graph (Ctrl+G)';
@@ -1101,6 +1118,22 @@ function openConceptGraphModal() {
   // Click outside to close
   overlay.addEventListener('click', (e) => {
     if (e.target === overlay) {
+      closeModal();
+    }
+  });
+
+  // Touch support for mobile
+  let graphTouchStartY = 0;
+  overlay.addEventListener('touchstart', (e) => {
+    graphTouchStartY = e.touches[0].clientY;
+  });
+  
+  overlay.addEventListener('touchend', (e) => {
+    const touchEndY = e.changedTouches[0].clientY;
+    const deltaY = touchEndY - graphTouchStartY;
+    
+    // Swipe down to close modal on mobile
+    if (deltaY > 100 && e.target === overlay) {
       closeModal();
     }
   });
@@ -1647,3 +1680,151 @@ window.getCurrentNoteId = getCurrentNoteId;
 window.buildGraphData = buildGraphData;
 window.showConceptGraph = showConceptGraph;
 window.createD3Graph = createD3Graph;
+
+// Mobile-friendly search and navigation
+function addMobileToolbar() {
+  // Only add mobile toolbar on smaller screens
+  if (window.innerWidth <= 768) {
+    console.log('📱 Adding mobile toolbar...');
+    
+    // Create mobile toolbar
+    const mobileToolbar = document.createElement('div');
+    mobileToolbar.className = 'mobile-toolbar';
+    mobileToolbar.innerHTML = `
+      <button class="mobile-tool-btn mobile-search-btn" title="Search notes">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+        <span>Search</span>
+      </button>
+      <button class="mobile-tool-btn mobile-graph-btn" title="Concept graph">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0  17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/>
+        </svg>
+        <span>Graph</span>
+      </button>
+      <button class="mobile-tool-btn mobile-theme-btn" title="Toggle theme">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://0 0 24 24" width="20"><path d="M12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15 6.75V9h4.5A4.5 4.5 0 0 1 15 6.75ZM9 19v-1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Zm6-1.5v1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Z"/></svg>
+        <span>Theme</span>
+      </button>
+      <button class="mobile-tool-btn mobile-home-btn" title="Home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Z"/>
+        </svg>
+        <span>Home</span>
+      </button>
+    `;
+    
+    // Add event listeners
+    const searchBtn = mobileToolbar.querySelector('.mobile-search-btn');
+    const graphBtn = mobileToolbar.querySelector('.mobile-graph-btn');
+    const themeBtn = mobileToolbar.querySelector('.mobile-theme-btn');
+    const homeBtn = mobileToolbar.querySelector('.mobile-home-btn');
+    
+    searchBtn.addEventListener('click', () => openFuzzySearchModal());
+    graphBtn.addEventListener('click', () => loadD3().then(openConceptGraphModal).catch(console.error));
+    themeBtn.addEventListener('click', () => toggleTheme());
+    homeBtn.addEventListener('click', () => {
+      if (window.location.pathname !== '/index.xml' && window.location.pathname !== '/') {
+        window.location.href = 'index.xml';
+      }
+    });
+    
+    document.body.appendChild(mobileToolbar);
+    console.log('📱 Mobile toolbar added');
+  }
+}
+
+// Enhanced mobile support for existing features
+function enhanceMobileSupport() {
+  console.log('📱 Enhancing mobile support...');
+  
+  // Add mobile toolbar
+  addMobileToolbar();
+  
+  // Enhance existing concept graph button for mobile
+  const existingGraphBtn = document.querySelector('.concept-graph-toggle');
+  if (existingGraphBtn && window.innerWidth <= 768) {
+    // Make it more touch-friendly on mobile
+    existingGraphBtn.style.display = 'none'; // Hide desktop button, use mobile toolbar instead
+  }
+  
+  // Add touch support for search shortcuts
+  let touchStartTime = 0;
+  let touchCount = 0;
+  
+  document.addEventListener('touchstart', (e) => {
+    touchStartTime = Date.now();
+    touchCount++;
+    
+    // Double-tap to search (with 300ms window)
+    setTimeout(() => {
+      if (touchCount === 2) {
+        openFuzzySearchModal();
+        touchCount = 0;
+      } else {
+        touchCount = 0;
+      }
+    }, 300);
+  });
+  
+  // Add swipe gestures for navigation
+  let touchStartX = 0;
+  let touchStartY = 0;
+  
+  document.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  });
+  
+  document.addEventListener('touchend', (e) => {
+    if (!touchStartX || !touchStartY) return;
+    
+    const touchEndX = e.changedTouches[0].clientX;
+    const touchEndY = e.changedTouches[0].clientY;
+    
+    const deltaX = touchEndX - touchStartX;
+    const deltaY = touchEndY - touchStartY;
+    
+    // Only trigger if swipe is primarily horizontal and significant
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 100) {
+      // Swipe right to go back (if possible)
+      if (deltaX > 0 && window.history.length > 1) {
+        // Check if we're not on home page
+        if (window.location.pathname !== '/index.xml' && window.location.pathname !== '/') {
+          const homeLink = document.querySelector('a[href="index.xml"]');
+          if (homeLink) {
+            homeLink.click();
+          }
+        }
+      }
+    }
+    
+    touchStartX = 0;
+    touchStartY = 0;
+  });
+  
+  // Improve keyboard support on mobile devices with external keyboards
+  document.addEventListener('keydown', (e) => {
+    // Add Escape key support for modals
+    if (e.key === 'Escape') {
+      // Close search modal
+      const searchOverlay = document.querySelector('.fuzzy-search-overlay.active');
+      if (searchOverlay) {
+        searchOverlay.classList.remove('active');
+        setTimeout(() => searchOverlay.remove(), 300);
+        return;
+      }
+      
+      // Close graph modal
+      const graphOverlay = document.querySelector('.concept-graph-overlay.active');
+      if (graphOverlay) {
+        graphOverlay.classList.remove('active');
+        setTimeout(() => {
+          graphOverlay.remove();
+          if (conceptGraph) {
+            conceptGraph.remove();
+            conceptGraph = null;
+          }
+        }, 300);
+        return;
+      }
+    }
+  });
+}
