@@ -6,7 +6,7 @@
 \p{\strong{Navigation:}}
 \ul{
   \li{Use \strong{Ctrl + K} to search all notes}
-  \li{Use \strong{Cmd + Shift + K} to use fuzzy search for all notes}
+  \li{Use \strong{Cmd + Shift + F} to use fuzzy search for all notes}
   \li{Use the search function to find specific topics}
   \li{Follow cross-references between notes to explore connections}
   \li{Note identifiers follow the pattern: [Area]-[Base36 ID]}
