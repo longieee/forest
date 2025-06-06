@@ -172,8 +172,8 @@ fetchForestJson()
 
   const editIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480-120v-71l216-216 71 71-216 216h-71ZM120-330v-60h300v60H120Zm690-49-71-71 29-29q8-8 21-8t21 8l29 29q8 8 8 21t-8 21l-29 29ZM120-495v-60h470v60H120Zm0-165v-60h470v60H120Z"/></svg>'
   const bookmarkIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M120-40v-700q0-24 18-42t42-18h480q24 0 42.5 18t18.5 42v700L420-167 120-40Zm60-91 240-103 240 103v-609H180v609Zm600 1v-730H233v-60h547q24 0 42 18t18 42v730h-60ZM180-740h480-480Z"/></svg>'
-  const themeIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="http://0 0 24 24" width="20"><path d="M12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9Z"/></svg>'
-  const searchIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="http://0 0 24 24" width="20"><path d="M10.5 3a7.5 7.5 0 0 1 5.196 12.696l3.354 3.354a1 1 0 0 1-1.414 1.414l-3.354-3.354A7.5 7.5 0 0 1 10.5 3ZM9 10.5A4.5 4.5 0 1 0 9 19a4.5 4.5 0 0 0 0-8.5Zm0 8.5A4.5 4.5 0 0 1 4.5 15H9v4Zm6.75-4.5A4.5 4.5 0 1 1 15 10.5V9h4.5a4.5 4.5 0 0 1 0 9H15v-1.5ZM9 6.75V9H4.5A4.5 4.5 0 0 1 9 6.75ZM15 6.75V9h4.5A4.5 4.5 0 0 1 15 6.75ZM9 3v1.5A7.5 7.5 0 0 0 3 10.5H1.5A9 9 0 0 1 9 3ZM15 3v1.5A7.5 7.5 0 0 1 21 10.5H22.5A9 9 0 0 0 15 3ZM9 19v-1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Zm6-1.5v1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Z"/></svg>'
+  const themeIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20"><path d="M12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9Z"/></svg>'
+  const searchIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20"><path d="M10.5 3a7.5 7.5 0 0 1 5.196 12.696l3.354 3.354a1 1 0 0 1-1.414 1.414l-3.354-3.354A7.5 7.5 0 0 1 10.5 3ZM9 10.5A4.5 4.5 0 1 0 9 19a4.5 4.5 0 0 0 0-8.5Zm0 8.5A4.5 4.5 0 0 1 4.5 15H9v4Zm6.75-4.5A4.5 4.5 0 1 1 15 10.5V9h4.5a4.5 4.5 0 0 1 0 9H15v-1.5ZM9 6.75V9H4.5A4.5 4.5 0 0 1 9 6.75ZM15 6.75V9h4.5A4.5 4.5 0 0 1 15 6.75ZM9 3v1.5A7.5 7.5 0 0 0 3 10.5H1.5A9 9 0 0 1 9 3ZM15 3v1.5A7.5 7.5 0 0 1 21 10.5H22.5A9 9 0 0 0 15 3ZM9 19v-1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Zm6-1.5v1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Z"/></svg>'
 
   // Prepare data for fuzzy search
   allNotes = Object.keys(data).map(addr => ({
@@ -262,7 +262,7 @@ fetchForestJson()
   })
 
   // Concept graph command
-  const graphIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="http://-960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>'
+  const graphIcon = '<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="-960 -960 1920 1920" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>'
   items.push({
     id: 'concept-graph',
     title: 'Show Concept Graph',
@@ -869,7 +869,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Initialize theme system
   initializeTheme();
-  createThemeToggleButton();
+  addThemeToggleButton();
   
   // Initialize enhanced search
   setupEnhancedSearch();
@@ -925,7 +925,7 @@ function addConceptGraphButton() {
   const graphButton = document.createElement('button');
   graphButton.className = 'concept-graph-toggle';
   graphButton.innerHTML = `
-    <svg class="concept-graph-icon" xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>
+    <svg class="concept-graph-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-960 -960 1920 1920" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/></svg>
     <span class="concept-graph-text">Graph</span>
   `;
   graphButton.title = 'Show concept graph (Ctrl+G)';
@@ -1675,6 +1675,11 @@ function loadD3() {
   });
 }
 
+// Alias for backward compatibility
+function showConceptGraph() {
+  return openConceptGraphModal();
+}
+
 // Export functions to global window object for testing and external access
 window.getCurrentNoteId = getCurrentNoteId;
 window.buildGraphData = buildGraphData;
@@ -1683,8 +1688,25 @@ window.createD3Graph = createD3Graph;
 
 // Mobile-friendly search and navigation
 function addMobileToolbar() {
-  // Only add mobile toolbar on smaller screens
-  if (window.innerWidth <= 768) {
+  // Check if mobile toolbar already exists
+  if (document.querySelector('.mobile-toolbar')) {
+    console.log('📱 Mobile toolbar already exists, skipping...');
+    return;
+  }
+
+  // More comprehensive mobile detection
+  const isMobile = window.innerWidth <= 768 || 
+                   /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+                   (navigator.maxTouchPoints && navigator.maxTouchPoints > 0);
+
+  console.log('📱 Mobile detection:', {
+    viewport: window.innerWidth,
+    userAgent: navigator.userAgent.includes('Mobile'),
+    touchPoints: navigator.maxTouchPoints,
+    isMobile: isMobile
+  });
+
+  if (isMobile) {
     console.log('📱 Adding mobile toolbar...');
     
     // Create mobile toolbar
@@ -1692,21 +1714,19 @@ function addMobileToolbar() {
     mobileToolbar.className = 'mobile-toolbar';
     mobileToolbar.innerHTML = `
       <button class="mobile-tool-btn mobile-search-btn" title="Search notes">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
         <span>Search</span>
       </button>
       <button class="mobile-tool-btn mobile-graph-btn" title="Concept graph">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M240-40q-50 0-85-35t-35-85q0-50 35-85t85-35q11 0 21 2t19 6l64-64q-4-9-6-19t-2-21q0-50 35-85t85-35q50 0 85 35t35 85q0 11-2 21t-6 19l64 64q9-4 19-6t21-2q50 0 85 35t35 85q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-11 2-21t6-19l-64-64q-9 4-19 6t-21 2q-11 0-21-2t-19-6l-64 64q4 9 6 19t2 21q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-160q0-17-11.5-28.5T240-200q-17 0-28.5 11.5T200-160q0 17 11.5 28.5T240-120Zm240-320q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0  17 11.5 28.5T480-440Zm240 320q17 0 28.5-11.5T760-160q0-17-11.5-28.5T720-200q-17 0-28.5 11.5T680-160q0 17 11.5 28.5T720-120Z"/>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
         <span>Graph</span>
       </button>
       <button class="mobile-tool-btn mobile-theme-btn" title="Toggle theme">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://0 0 24 24" width="20"><path d="M12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15.75 9H12V6.75A3.75 3.75 0 0 1 15.75 9ZM12 3v1.5a7.5 7.5 0 0 1 0 15V21a9 9 0 0 0 0-18Zm0 15.75A3.75 3.75 0 0 1 8.25 15H12v3Zm3.75-3.75A3.75 3.75 0 0 1 12 18.75V15h3.75ZM12 6.75V9H8.25A3.75 3.75 0 0 1 12 6.75ZM15 6.75V9h4.5A4.5 4.5 0 0 1 15 6.75ZM9 19v-1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Zm6-1.5v1.5a7.5 7.5 0 0 0 0-15V3a9 9 0 0 1 0 18Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 3v1.5a7.5 7.5 0 0 1 0 15V21c4.97 0 9-4.03 9-9s-4.03-9-9-9z"/></svg>
         <span>Theme</span>
       </button>
       <button class="mobile-tool-btn mobile-home-btn" title="Home">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="http://-960 960 960" width="20"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Z"/>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
         <span>Home</span>
       </button>
     `;
@@ -1727,9 +1747,43 @@ function addMobileToolbar() {
     });
     
     document.body.appendChild(mobileToolbar);
-    console.log('📱 Mobile toolbar added');
+    console.log('📱 Mobile toolbar added successfully');
+    
+    // Force show with CSS override for mobile
+    mobileToolbar.style.display = 'grid';
+    mobileToolbar.style.position = 'fixed';
+    mobileToolbar.style.bottom = '0';
+    mobileToolbar.style.left = '0';
+    mobileToolbar.style.right = '0';
+    mobileToolbar.style.zIndex = '1001';
+    
+    // Add body padding to account for toolbar
+    document.body.style.paddingBottom = '64px';
+  } else {
+    console.log('📱 Not mobile viewport, skipping mobile toolbar');
   }
 }
+
+// Function to handle window resize for mobile toolbar
+function handleMobileToolbarResize() {
+  const toolbar = document.querySelector('.mobile-toolbar');
+  const isMobile = window.innerWidth <= 768;
+  
+  if (isMobile && !toolbar) {
+    // Add toolbar if we're now in mobile mode but don't have one
+    addMobileToolbar();
+  } else if (!isMobile && toolbar) {
+    // Remove toolbar if we're no longer in mobile mode
+    toolbar.remove();
+    document.body.style.paddingBottom = '';
+  }
+}
+
+// Initial check for mobile toolbar on page load
+handleMobileToolbarResize();
+
+// Re-check on window resize
+window.addEventListener('resize', handleMobileToolbarResize);
 
 // Enhanced mobile support for existing features
 function enhanceMobileSupport() {
@@ -1737,6 +1791,9 @@ function enhanceMobileSupport() {
   
   // Add mobile toolbar
   addMobileToolbar();
+  
+  // Add resize listener to handle orientation changes and window resizing
+  window.addEventListener('resize', handleMobileToolbarResize);
   
   // Enhance existing concept graph button for mobile
   const existingGraphBtn = document.querySelector('.concept-graph-toggle');
@@ -1786,6 +1843,10 @@ function enhanceMobileSupport() {
     if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 100) {
       // Swipe right to go back (if possible)
       if (deltaX > 0 && window.history.length > 1) {
+        window.history.back();
+      }
+      // Swipe left to go to home (if not already there)
+      else if (deltaX < 0) {
         // Check if we're not on home page
         if (window.location.pathname !== '/index.xml' && window.location.pathname !== '/') {
           const homeLink = document.querySelector('a[href="index.xml"]');
@@ -1827,4 +1888,6 @@ function enhanceMobileSupport() {
       }
     }
   });
+  
+  console.log('📱 Mobile support enhanced with toolbar, gestures, and responsive handling');
 }

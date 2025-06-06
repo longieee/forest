@@ -1955,167 +1955,72 @@ background-color: var(--info-bg);
 /* Show mobile toolbar on mobile devices */
 @media only screen and (max-width: 768px) {
   .mobile-toolbar {
-    display: grid;
+    display: grid !important;
+    background-color: var(--bg-color) !important;
+    border-top: 2px solid var(--link-color) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
   }
-
+  
   /* Hide desktop concept graph button on mobile */
   .concept-graph-toggle {
     display: none !important;
   }
-
+  
   /* Add bottom padding to body to account for mobile toolbar */
   body {
     padding-bottom: 64px;
   }
-
+  
   /* Adjust modal positioning for mobile toolbar */
   .fuzzy-search-overlay {
     padding-bottom: 64px;
   }
-
+  
   .concept-graph-overlay {
     padding-bottom: 64px;
   }
 }
 
-/* Enhanced touch targets for mobile */
-@media only screen and (max-width: 768px) {
-
-  /* Better touch targets for search results */
-  .fuzzy-search-result {
-    padding: 12px 16px;
-    min-height: 48px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  .fuzzy-search-result:hover,
-  .fuzzy-search-result.highlighted {
-    background-color: var(--hover-bg);
-  }
-
-  .fuzzy-search-result:active {
-    background-color: var(--mark-bg);
-  }
-
-  /* Improve search input */
-  .fuzzy-search-input {
-    font-size: 16px;
-    /* Prevent zoom on iOS */
-    padding: 12px 16px;
-    border: none;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  /* Better modal sizing */
-  .fuzzy-search-modal {
-    width: 96%;
-    max-width: none;
-    max-height: calc(100vh - 120px);
-    margin-bottom: 64px;
-  }
-
-  /* Improve concept graph modal for mobile */
-  .concept-graph-modal {
-    width: 98%;
-    height: calc(100vh - 80px);
-    max-height: none;
-    margin-bottom: 64px;
-  }
-}
-
-/* Touch gesture indicators */
-@media only screen and (max-width: 768px) and (hover: none) {
-
-  /* Add subtle animations to indicate touch responsiveness */
-  .mobile-tool-btn {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .mobile-tool-btn::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background: var(--link-color);
-    opacity: 0.1;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    transition: width 0.3s ease, height 0.3s ease;
-  }
-
-  .mobile-tool-btn:active::before {
-    width: 100px;
-    height: 100px;
-  }
-}
-
-/* Landscape mobile optimizations */
-@media only screen and (max-height: 500px) and (orientation: landscape) {
+/* Force show mobile toolbar for debugging on any screen size below 900px */
+@media only screen and (max-width: 900px) {
   .mobile-toolbar {
-    padding: 4px;
+    display: grid !important;
+    background-color: var(--bg-color) !important;
+    border-top: 2px solid var(--link-color) !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 1001 !important;
   }
+}
 
+/* Additional mobile debugging - force show toolbar on narrow screens */
+@media only screen and (max-width: 480px) {
+  .mobile-toolbar {
+    display: grid !important;
+    background-color: #ffffff !important;
+    border-top: 3px solid #ff0000 !important;
+    z-index: 9999 !important;
+  }
+  
   .mobile-tool-btn {
-    min-height: 40px;
-    padding: 4px 2px;
+    background-color: rgba(0, 120, 204, 0.1) !important;
+    border: 1px solid #007acc !important;
   }
+}
 
-  .mobile-tool-btn svg {
-    width: 16px;
-    height: 16px;
+/* Force visibility for very small screens - emergency override */
+@media only screen and (max-width: 600px) {
+  .mobile-toolbar {
+    display: grid !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
-
-  .mobile-tool-btn span {
-    font-size: 8px;
-  }
-
+  
+  /* Ensure body has space for toolbar */
   body {
-    padding-bottom: 48px;
-  }
-}
-
-/* Dark mode adjustments for mobile toolbar */
-@media (prefers-color-scheme: dark) {
-  .mobile-toolbar {
-    background-color: rgba(26, 32, 44, 0.95);
-    border-top-color: #4a5568;
-  }
-
-  .mobile-tool-btn:hover,
-  .mobile-tool-btn:focus {
-    background-color: rgba(74, 85, 104, 0.3);
-  }
-}
-
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-  .mobile-toolbar {
-    border-top: 2px solid var(--text-color);
-  }
-
-  .mobile-tool-btn {
-    border: 1px solid transparent;
-  }
-
-  .mobile-tool-btn:focus {
-    border-color: var(--text-color);
-  }
-}
-
-/* Reduce motion for accessibility */
-@media (prefers-reduced-motion: reduce) {
-
-  .mobile-tool-btn,
-  .mobile-tool-btn::before {
-    transition: none;
-  }
-
-  .mobile-tool-btn:active {
-    transform: none;
+    padding-bottom: 70px !important;
   }
 }
