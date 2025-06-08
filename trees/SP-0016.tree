@@ -1,0 +1,22 @@
+\date{2025-06-08}
+\title{Square Integrability}
+\taxon{Definition}
+
+\p{
+  We denote by #{ M^2 }  the class of [Stochastic processes](SP-0004) #{ Y_{t}} such that
+  ##{
+    \mathbb{E} \left[ 
+      \int _0^{+\infty } {\left\vert Y_{t}  \right\vert}^2 dt 
+       \right] < +\infty 
+  }
+  and there exists a sequence #{ (Y_{t} ^n)_{n\in \mathbb{N} } \subset M^2_{\text{step }} } of [simple processes](SP-0017) that \em{approximates} #{ Y }, in the sense that
+  ##{
+    \lim_{n \to \infty} \mathbb{E} \left[ 
+      \int _0^{+\infty } {
+        \left\vert 
+          Y_t - Y_t^n
+         \right\vert 
+      }^2 dt 
+       \right] =0
+  }
+}

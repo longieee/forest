@@ -6,7 +6,7 @@
   A [stochastic process](SP-0004) #{ \xi (t) } parameterized by #{ t \in T } is called a \strong{martingale} (submartingale, supermartingale) w.r.t. to a [filtration](SP-0012) #{ \mathcal{F} _{t}  } if
   \ol{
     \li{#{ \xi (t) } is [integrable](FA-001N) for each #{ t \in T } }
-    \li{#{ \xi (t) } is #{ \mathcal{F}  }-[measurable](FA-001B) for each #{ t \in T } (in which case we say that #{ \xi (t) } is [adapted](SP-0005) to #{ \mathcal{F} _{t}  } )}
+    \li{#{ \xi (t) } is #{ \mathcal{F}_{t}   }-[measurable](FA-001B) for each #{ t \in T } (in which case we say that #{ \xi (t) } is [adapted](SP-0005) to #{ \mathcal{F} _{t}  } )}
     \li{#{ \xi (s) = \mathbb{E} \left[ \xi (t) \vert \mathcal{F} _{s}  \right]  } (respectively, #{ \leq  } or #{ \geq  }  ) for every #{ s,t \in T } such that #{ s \leq t } }
   } 
 }
@@ -16,6 +16,10 @@
   \ul{
     \li{Symmetric random walks are martingales in discrete time}
     \li{[Poisson process](SP-000J) and [Brownian motions](SP-0001) are martingales in continuous time}
+    \li{An [Itô Integral](SP-000P) of the form #{ \int _0^t Y_{s} dB_{s}  } where #{ Y_{s}  } is a predictable process 
+    (meaning that #{ Y_{s}  } is #{ \mathcal{F} _{s}  }-[adapted](SP-0005) and [square integrable](SP-0016))
+    is always a martingale.
+    }
   }
 
 }
