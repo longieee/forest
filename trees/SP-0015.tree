@@ -17,7 +17,7 @@
   ##{
     df(t,b_{t} ) = \partial _{x} f(t,B_{t} )dB_{t} 
     + \left[ \partial _{t} f(t,B_{t} ) 
-    + \frac{1}{2} \partial _{t} ^2 f(t,B_{t} )
+    + \frac{1}{2} \partial _{x} ^2 f(t,B_{t} )
      \right] dt
   }
 }
