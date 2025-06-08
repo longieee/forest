@@ -1,3 +1,15 @@
 \date{2025-06-02}
-\title{Itô Isometry}
+\title{Itô Integral}
 \taxon{Theorem}
+
+\p{
+  let #{ Y \in M^2 }. Then there exists a unique element of #{ L^2(\Omega) }, which we denote by #{ I(Y) } or #{ \int _0^{+\infty } Y_{s} dB_{s}  } such that
+  ##{
+    \lim_{n \to \infty} \mathbb{E} \left[ {\left\vert I(Y) - I(Y^n) \right\vert}^2  \right] =0
+  }
+  for any sequence #{ \left\{ Y^n \right\}_{n \in \mathbb{N} } \subset M^2_{\text{step} }} which approximates #{ Y }. 
+}
+
+\p{
+  #{ Y(I) } does not depend on the chosen approximation sequence and is called the \strong{Itô integral} of #{ Y }.
+}

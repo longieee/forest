@@ -1,3 +1,8 @@
 \date{2025-06-02}
-\title{Itô Integral}
+\title{Itô Integral for the Brownian Motion}
 \taxon{Theorem}
+
+\p{
+  Let #{ (B_{s} )_{s \geq 0} } be a [Brownian motion](SP-0001). Then for any #{ t \geq  0 } the \strong{Itô integral} 
+  ##{ \int _0^t B _{s} dB_{s} = \frac{1}{2} B_{t} ^2 - \frac{1}{2}t } 
+}

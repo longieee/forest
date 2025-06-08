@@ -1,0 +1,21 @@
+\date{2025-06-08}
+\title{Itô Isometry}
+\taxon{Theorem}
+
+\p{
+  The [Itô integral](SP-000P) as defined by:
+}
+
+\transclude{SP-000P}
+
+\p{
+  satisfies the following
+  ##{
+    \mathbb{E} \left[ \int _0^{+\infty } Y_{s} dB_{s}  \right] =0
+  }
+  ##{
+    \mathbb{E} {\left\vert \left[ \int _0^{+\infty } Y_{s} dB_{s}  \right] \right\vert }^2 =
+    \int _0^{+\infty } \mathbb{E} \left[ \left\vert Y_{s} ^2 \right\vert  \right] ds
+  }
+  with the second equality being called the \strong{Itô isometry}
+}
