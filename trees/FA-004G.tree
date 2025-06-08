@@ -10,5 +10,5 @@
 }
 
 \p{
-  Moreover, #{ \hat{u} } is continuous in #{ \mathbb{R} ^n } and #{ \left\vert \hat{u} (\xi ) \right\vert \to 0 } as #{ \lVert \xi  \rVert \to  +\infty  }   
+  Moreover, [#{ \hat{u} }](FA-004C) is continuous in #{ \mathbb{R} ^n } and #{ \left\vert \hat{u} (\xi ) \right\vert \to 0 } as #{ \lVert \xi  \rVert \to  +\infty  }   
 }
