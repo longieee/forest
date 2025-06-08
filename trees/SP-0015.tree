@@ -1,0 +1,26 @@
+\date{2025-06-08}
+\title{Itô formula for the Brownian motion}
+\taxon{Theorem}
+
+\p{
+  let #{ f\colon [0,T] \times \mathbb{R} \to \mathbb{R}  } be a function such that
+  ##{
+    \partial _{t} f \quad \partial _{x} f \quad \partial _{x} ^2 f
+  }
+  are continuous and
+  ##{
+    \int _0^T \mathbb{E} \left[ 
+      {\left\vert \partial _{x} f(s, B_{s} ) \right\vert }^2
+       \right] ds < +\infty 
+  } 
+  then for any #{ t \in [0,T] }, it holds [a.s.](SP-0002) that 
+  ##{
+    df(t,b_{t} ) = \partial _{x} f(t,B_{t} )dB_{t} 
+    + \left[ \partial _{t} f(t,B_{t} ) 
+    + \frac{1}{2} \partial _{t} ^2 f(t,B_{t} )
+     \right] dt
+  }
+}
+\p{
+  (Note that the form above is the differential form)
+}
