@@ -3,5 +3,5 @@
 \taxon{Definition}
 
 \p{
-  An [linear operator](FA-002H) #{ T \in \mathcal{L} (X,Y) } where #{ X,Y } are [Banach spaces](FA-000F) is \strong{compact} if #{ T\left( \overline{B_1}(0)  \right)  } is [precompact](FA-000I)
+  An [linear operator](FA-002H) #{ T \in \mathcal{L} (X,Y) } where #{ X,Y } are [Banach spaces](FA-000F) is \strong{compact} if #{ T } maps [bounded](FA-000J) subsets of #{ X } to [precompact](FA-000I) subsets of #{ Y } 
 }
