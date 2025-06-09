@@ -30,7 +30,8 @@
        \right) dx &= 
       \int \left( \liminf_{n \to \infty } h_{n} (x) \right) dx  \\
       &\leq 
-      \liminf_{n \to  \infty } \int h_{n} (x)dx = 
+      \liminf_{n \to  \infty } \int h_{n} (x)dx \\
+      &= 
        \liminf_{n \to \infty} \int \left( 
         g(x) - f_{n} (x)
          \right) dx
@@ -56,7 +57,8 @@
        \right) dx &= 
       \int \left( \liminf_{n \to \infty } H_{n} (x) \right) dx  \\
       &\leq 
-      \liminf_{n \to  \infty } \int H_{n} (x)dx = 
+      \liminf_{n \to  \infty } \int H_{n} (x)dx \\
+      &= 
        \liminf_{n \to \infty} \int \left( 
         g(x) + f_{n} (x)
          \right) dx
