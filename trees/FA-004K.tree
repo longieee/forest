@@ -3,8 +3,41 @@
 \taxon{Lemma}
 
 \p{
-  If #{ \{ f_n \}  } is a sequence of \strong{non-negative}, [meaasurable functions](FA-001L), then
+  If #{ \{ f_n \}  } is a sequence of \strong{non-negative}, [meaasurable functions](FA-001L), #{ f_{k} \colon \mathbb{R} ^d \to \left[ 0, +\infty  \right]  } 
+}
+\p{
+  then
   ##{
     \int \liminf_{n \to \infty} f_{n} (x)dx \leq \liminf_{n \to \infty } \int f_{n} (x)dx
   } 
+}
+
+\p{
+   \strong{Proof}
+}
+
+\p{
+  We set #{ g_{n} (x) = \inf _{k\geq n}f_{k} (x) } for all #{ n \in \mathbb{N}  }.
+  Clearly, we have 
+  ##{
+    g_{n} (x) \leq g_{n+1}(x) \quad \text{for all } x \in \mathbb{R} ^d  
+  }  
+}
+
+\p{
+  Therefore, we can apply [Monotone convergence theorem](FA-001F) and get
+  ##{
+    \lim_{n \to \infty} \int g_{n} (x)dx = \int {\left( 
+      \lim_{n \to \infty} g_n(x)
+       \right) }dx
+  }
+  Since #{ g_{n} (x) \leq f_{n} (x) } for all #{ n \in \mathbb{N}  }, we get
+  ##{
+    \int \left( 
+      \lim_{n \to \infty} g_{n} (x)
+       \right) dx
+       \leq 
+       \liminf_{n \to \infty} \int f_{n} (x)dx
+  }
+  The integrand on the LHS above is #{ \liminf_{n \to \infty} f_{n} (x) } 
 }
