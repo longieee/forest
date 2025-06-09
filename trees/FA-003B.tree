@@ -1,9 +1,9 @@
-\title{Lp norm}
+\title{#{ L^p }-norm}
 \date{2025-05-26}
 \taxon{Definition}
 
 
-\p{Let #{p} be a positive integer, #{p < +\infty}, and let #{\ \Omega \subset \mathbb{R}^n} be a Lebesgue [measurable set](FA-003C). For a [measurable function](FA-003D) #{f: \Omega \to \mathbb{R}} we define the #{L^p} norm of #{f} on #{\ \Omega} as the (finite or infinite) number:}
+\p{Let #{p} be a positive integer, #{p < +\infty}, and let #{\ \Omega \subset \mathbb{R}^n} be a Lebesgue [measurable set](FA-001B). For a [measurable function](FA-001L) #{f: \Omega \to \mathbb{R}} we define the #{L^p} norm of #{f} on #{\ \Omega} as the (finite or infinite) number:}
 
 \p{#{{||f||_{L^p(\Omega)} \stackrel{\text{def}}{=} \left(\int_{\Omega} |f(x)|^p dx\right)^{1/p}}}}
 

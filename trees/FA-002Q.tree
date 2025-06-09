@@ -13,7 +13,7 @@
   \li{The complex numbers #{\ \mathbb{C}} with the standard metric}
   \li{Any [Banach space](FA-000F), by definition}
   \li{Any [Hilbert space](FA-000U), by definition}
-  \li{The space #{L^p} of functions with finite [Lp norm](FA-002A)}
+  \li{The space #{L^p} of functions with finite [Lp norm](FA-003B)}
 }
 
 \p{Non-examples of complete spaces:}

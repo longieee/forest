@@ -48,7 +48,7 @@
 \p{\strong{Norms and Metrics:}}
 \ul{
   \li{[Norm](FA-0018) - Way to measure vector magnitude}
-  \li{[Lp norm](FA-002A) - Important class of norms}
+  \li{[Lp norm](FA-003B) - Important class of norms}
   \li{[Operator Norm](FA-003F) - Measures the "size" of linear operators}
   \li{[Metric Space](FA-000G) - Generalized notion of distance}
 }
