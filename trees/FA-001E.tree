@@ -12,3 +12,76 @@
 
 \p{Then,}
 ##{{\int f(x)dx = \lim_{n \to +\infty} \int f_n(x)dx}}
+
+\p{
+  \strong{Proof}
+}
+
+\p{
+  For all #{ n \in \mathbb{N}  }, let
+  ##{
+    h_{n} (x) = g(x) - f(x)
+  }
+  Since #{ h_{n} \geq 0 } [almost everywhere](FA-001D), we can apply [Fatou's lemma](FA-004K) and get
+  ##{
+    \begin{align*}
+      \int \left( 
+      \liminf_{n \to \infty} g(x) - f_{n} (x)
+       \right) dx &= 
+      \int \left( \liminf_{n \to \infty } h_{n} (x) \right) dx  \\
+      &\leq 
+      \liminf_{n \to  \infty } \int h_{n} (x)dx = 
+       \liminf_{n \to \infty} \int \left( 
+        g(x) - f_{n} (x)
+         \right) dx
+    \end{align*}
+  }
+}
+
+\p{
+  And since #{ \int g(x)dx < +\infty  } we can use trivial properties of #{ \liminf  } and #{ \limsup  } and get
+  ##{
+    \begin{equation}
+      \int f(x)dx \geq \limsup_{n \to  \infty } \int f_{n} (x)dx
+    \end{equation}
+  } 
+}
+
+\p{
+  We now set #{ H_{n} (x) = g(x) + f_{n} (x) }, and since #{ H_{n} (x) \geq 0 } [almost everywhere](FA-001D) we get by [Fatou's lemma](FA-004K)
+  ##{
+    \begin{align*}
+      \int \left( 
+      \liminf_{n \to \infty} g(x) + f_{n} (x)
+       \right) dx &= 
+      \int \left( \liminf_{n \to \infty } H_{n} (x) \right) dx  \\
+      &\leq 
+      \liminf_{n \to  \infty } \int H_{n} (x)dx = 
+       \liminf_{n \to \infty} \int \left( 
+        g(x) + f_{n} (x)
+         \right) dx
+    \end{align*}
+  }
+  which implies
+  ##{
+    \begin{equation}
+      \int f(x)dx \leq \liminf_{n \to  \infty } \int f_{n} (x)dx
+    \end{equation}
+  }
+}
+
+\p{
+  (1) and (2) imply
+  ##{
+    \limsup_{n \to  \infty } \int f_{n} (x)dx
+    \leq \int f(x)dx \leq 
+    \liminf_{n \to  \infty } \int f_{n} (x)dx
+  }
+}
+
+\p{
+  The assertion is proven since
+  ##{
+    \liminf_{n \to  \infty } \int f_{n} (x)dx \leq \limsup_{n \to  \infty } \int f_{n} (x)dx 
+  }
+}
