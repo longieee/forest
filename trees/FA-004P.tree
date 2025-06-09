@@ -1,0 +1,7 @@
+\date{2025-06-09}
+\title{Uniform limit theorem}
+\taxon{Theorem}
+
+\p{
+  The [uniform limit](FA-001S) of \strong{any} sequence of [continuous functions](FA-0006) is continuous
+}
