@@ -1,0 +1,12 @@
+\date{2025-06-09}
+\title{#{ l^p }-norm}
+\taxon{Definition}
+
+\p{
+  ##{
+    \lVert x \rVert _{p} = {\left( 
+      \sum_{n=1}^{\infty} \left\vert x_{n}  \right\vert ^p
+       \right) }^\frac{1}{p}
+  }
+  in the [sequence space](FA-004O)
+}

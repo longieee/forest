@@ -1,0 +1,30 @@
+\date{2025-06-09}
+\title{#{ l^p }-space }
+\taxon{Definition}
+
+\p{
+  For #{ 1 \leq  p < +\infty  }, the \strong{sequence space} #{ l^p(\mathbb{N} ) } consists of all (real or complex valued) \em{infinite sequences} #{ \left( x_{n}  \right) _{n=1}^{+\infty }  } such that 
+  ##{
+    \sum_{n=1}^{\infty} \left\vert x_{n}  \right\vert ^p < +\infty 
+  }
+  with the norm
+}
+
+\transclude{FA-004N}
+
+\p{
+  For #{ p = +\infty  }, the sequence space #{ l^{\infty }(\mathbb{N} ) }  consists of all bounded sequences, with
+  ##{
+    \lVert x \rVert _\infty = \sup \left\{ 
+      \left\vert x_{n}  \right\vert \colon n = 1,2,3 \dots
+       \right\} 
+  }
+}
+
+\p{
+  Then #{ l^p(\mathbb{N} ) } is an infinite dimensional [Banach Space](FA-000F)
+}
+
+\p{
+  Clearly, the set of all bounded sequences is a \strong{linear subspace} of #{ l^{\infty} (\mathbb{N} ) } mentioned above 
+}
