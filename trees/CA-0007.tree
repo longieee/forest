@@ -1,0 +1,11 @@
+\date{2025-06-12}
+\title{Morera's Theorem}
+\taxon{Theorem}
+
+\p{
+  A continuous, complex-valued function #{ f } defined on an \strong{open} set #{ D } in the complex plane that satisfies 
+  ##{
+    \oint _\gamma f(z)dz = 0
+  }
+  for \strong{every} closed, piecewise #{ C^1 } curve in #{ D } is [holomorphic](CA-0004) in #{ D }   
+}

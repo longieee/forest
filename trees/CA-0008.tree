@@ -1,0 +1,10 @@
+\date{2025-06-12}
+\title{Cauchy's Integral Theorem}
+\taxon{Theorem}
+
+\p{
+  Let #{ D } be a simply-connected domain in #{ \mathbb{C}  } and #{ f } a [holomorphic function](CA-0004) on #{ D }, then
+  ##{
+    \oint _{\partial D} f(z)dz = 0
+  }
+}

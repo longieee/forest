@@ -1,1 +1,11 @@
 \date{2025-06-01}
+\title{Liouville's Theorem}
+\taxon{Theorem}
+
+\p{
+  Every [entire](CA-0009) function ([holomorphic](CA-0004) on the entire complex plane) for which there exists a positive number #{ M } such that
+  ##{
+    \left\vert f(z) \right\vert \leq M \quad \forall z \in \mathbb{C} 
+  }
+  is constant
+}

@@ -1,0 +1,7 @@
+\date{2025-06-12}
+\title{Entire functions}
+\taxon{Definition}
+
+\p{
+  An \strong{entire} function is a function that is [holomorphic](CA-0004) in #{ \mathbb{C}  } 
+}

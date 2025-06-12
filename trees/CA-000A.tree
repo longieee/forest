@@ -1,0 +1,23 @@
+\date{2025-06-12}
+\title{Maximum Modulus Theorem}
+\taxon{Theorem}
+
+\p{
+  Let #{ }  be open and #{ f }  [holomorphic](CA-0004) on #{ E } .
+  If #{ \vert f(z) \vert }  has a local maximum at #{ z_0 \in E }  then #{ f }  is constant in a neighborhood of #{ z_0 } 
+}
+
+\p{
+  Moreover, if #{ E \subset \mathbb{C} } is open, [bounded](FA-000J) and connected, and #{ f } is [holomorphic](CA-0004) on #{ E } and continuous on #{ \overline{E}  } with #{ M = \max _{\overline{E} } \left\vert f(z) \right\vert  }, then either
+  \ul{
+    \li{#{ \left\vert f(z) \right\vert < M \quad \forall z \in E } }
+    \li{If #{ \vert f(z) \vert  = M } for some #{ z \in E }, then #{ f } is constant }
+  }
+}
+\p{
+  In particular
+  ##{
+    \max _{\overline{E} } \left\vert f(z) \right\vert = 
+    \max _{\partial E } \left\vert f(z) \right\vert
+  }
+}

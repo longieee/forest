@@ -1,0 +1,23 @@
+\date{2025-06-12}
+\title{Inverse Fourier Transform}
+\taxon{Definition}
+
+\p{
+  We denote by #{ \mathcal{F} ^{-1} } the \strong{inverse} [Fourier transform](FA-004D)
+  ##{
+    \left(  \mathcal{F} ^{-1}v \right) (x) =
+    \check{v} =
+     (2\pi )^{-n} \int _{\mathbb{R} ^n} e^{i \xi \cdot x} v(\xi )d \xi  
+  }
+}
+ \p{
+   \strong{Note on coefficient}
+ }
+
+ \p{
+   If we define the [Fourier transform](FA-004D) as
+ }
+
+ \transclude{FA-004D}
+
+ 
