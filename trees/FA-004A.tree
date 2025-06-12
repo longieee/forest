@@ -3,8 +3,14 @@
 \title{Fourier Series}
 
 \p{
-  The \strong{Fourier series} of #{ f } is the \em{formal series}
+  Any function #{ f \in L^2(\mathbb{T} ) } maybe expanded in a \strong{Fourier series as}
   ##{
-    \sum_{n \in \mathbb{Z} } f(t)e^{-in x}
+    f(x) = \frac{1}{\sqrt{ 2 \pi }} \sum_{n=-\infty }^{+\infty} \hat{f}_{n} e^{inx} 
   }
 }
+
+\p{
+  where #{ \hat{f}_{n} } is the [Fourier coefficient](FA-004C) 
+}
+
+\transclude{FA-004C}
