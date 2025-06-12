@@ -20,4 +20,9 @@
 
  \transclude{FA-004D}
 
- 
+ \p{
+   Then the coefficient #{ \left( 2\pi  \right) ^{-n} } is needed to "make up" for the coefficient not included in the [Fourier transform](FA-004D). 
+ }
+ \p{
+   If in the Fourier transform, we are already multiplying with #{ e^{-2 \pi i \xi \cdot x} } then the coefficient is not needed in the inverse transform anymore.
+ }
