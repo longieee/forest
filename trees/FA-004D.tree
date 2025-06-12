@@ -5,11 +5,11 @@
 \p{
   If #{ u \in L^1(\mathbb{R} ) }, its \strong{Fourier Transform} is defined as
   ##{
-    \hat{u}(\xi ) = \int _{\mathbb{R} }  e^{-2 \pi i \xi \cdot x} u(x)dx
+    \hat{u}(\xi ) = \int _{\mathbb{R} }  e^{-i \xi \cdot x} u(x)dx
   }
   which is a [summable](FA-001M) function since
   ##{
-    \int \left\vert e^{-2 \pi i \xi \cdot x} u(x) \right\vert 
+    \int \left\vert e^{-i \xi \cdot x} u(x) \right\vert 
     = \int \left\vert u(X) \right\vert < +\infty 
   }
 }
@@ -17,7 +17,7 @@
 \p{
   Note that there are multiple equivalent definitions of the Fourier Transform, for example
   ##{
-    e^{ i \xi \cdot x} u(x) \quad \text{or} \quad \frac{1}{{(2 \pi )}^{\frac{N}{2}}} e^{-i \xi \cdot x}
+    e^{-2 \pi i \xi \cdot x} u(x) \quad \text{or} \quad \frac{1}{{(2 \pi )}^{\frac{N}{2}}} e^{-i \xi \cdot x}
   }
-  in the place of #{ e^{-2 \pi i \xi \cdot x} } 
+  in the place of #{ e^{-i \xi \cdot x} } 
 }
